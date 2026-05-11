@@ -1,0 +1,22 @@
+# Sensible Daten — niemals committen
+.env
+.env.local
+.env.*.local
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporäre Dateien
+tmp/
+temp/
