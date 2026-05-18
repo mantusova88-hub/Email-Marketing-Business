@@ -62,6 +62,8 @@ Email-Marketing-Business/
 | `/create-plan` | Durchdachten Implementierungsplan erstellen |
 | `/implement` | Plan Schritt für Schritt umsetzen |
 | `/task-audit` | Aufgaben-Interview + Automatisierungs-Scoring |
+| `/instagram-plan` | Wöchentlichen Instagram-Content-Plan mit starken Hooks erstellen |
+| `/newsletter-plan` | Wöchentlichen E-Mail-Newsletter-Plan mit Betreffzeilen & Inhalten erstellen |
 
 ---
 
