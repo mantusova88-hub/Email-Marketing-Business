@@ -40,6 +40,7 @@ Email-Marketing-Business/
 │   ├── business-info.md         # Services, Markt, Angebote
 │   ├── personal-info.md         # Wer du bist, deine Rolle
 │   ├── strategy.md              # Ziele, Fokus, Prioritäten
+│   ├── branding.md              # Farben, Typografie, Markengefühl
 │   ├── current-data.md          # Aktuelle KPIs und Zahlen
 │   └── import/                  # Bestehende Dokumente zum Einlesen
 ├── .claude/

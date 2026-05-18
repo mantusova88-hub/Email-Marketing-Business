@@ -37,6 +37,12 @@
 - Social Media: Instagram / Pinterest / etc.
 -->
 
+## Branding & Visuelles
+
+**Branding-Farben:** Burgundy (`#7B1A2E`) & Gold (`#C9A43A`)
+**Markengefühl:** Hochwertig, elegant, professionell, weiblich-stark
+→ Details: siehe `context/branding.md`
+
 ## Wichtige Links
 
 <!-- Deine Website, Social-Media-Profile, etc. -->
