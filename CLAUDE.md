@@ -64,6 +64,7 @@ Email-Marketing-Business/
 | `/task-audit` | Aufgaben-Interview + Automatisierungs-Scoring |
 | `/instagram-plan` | Wöchentlichen Instagram-Content-Plan mit starken Hooks erstellen |
 | `/newsletter-plan` | Wöchentlichen E-Mail-Newsletter-Plan mit Betreffzeilen & Inhalten erstellen |
+| `/tony-robbins` | Texte in Tony-Robbins-Energie schreiben — mit Simones Stimme & echten Zahlen |
 
 ---
 
