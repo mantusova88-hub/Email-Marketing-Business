@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wildmail-activecampaign": {
+      "type": "http",
+      "url": "https://monika25.activehosted.com/api/agents/mcp/http",
+      "headers": {
+        "Api-Token": "dd99eefbe8f3a7d76bd00e883de63ea8118d438cebfc0c71ee858c045c7986b6bf942e4d"
+      }
+    }
+  }
+}
