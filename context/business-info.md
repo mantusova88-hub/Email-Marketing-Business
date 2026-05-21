@@ -1,42 +1,38 @@
-# Business-Info
-
-> Fülle diese Datei mit Informationen über dein Business aus.
-> Je mehr Details du gibst, desto besser kann Claude dir helfen.
+# Business-Info — Monika Antusova
 
 ## Was macht mein Business?
-
-<!-- Beschreibe hier kurz, womit dein Business Geld verdient -->
+E-Mail-Marketing-Ausbildung und Beratung für selbständige Frauen/Mamas.
+Ich zeige, wie man mit E-Mail-Marketing ein Business aufbaut — ohne Technik-Angst.
 
 ## Zielgruppe
-
-<!-- Wer sind deine idealen Kunden? (z.B. selbständige Mamas, die E-Mail-Marketing nutzen wollen) -->
+Selbständige Frauen und Mamas, die:
+- Ihr Business online aufbauen wollen
+- Noch keine E-Mail-Liste haben oder eine wachsen lassen wollen
+- Keine technischen Vorkenntnisse haben
+- Wild Mail (ActiveCampaign) nutzen oder nutzen wollen
 
 ## Angebote & Services
 
-<!-- Welche Produkte oder Dienstleistungen bietest du an? -->
-<!-- Beispiel:
-- Kurs: "E-Mail-Marketing für Mamas" — Preis: XXX €
-- 1:1 Coaching — Preis: XXX €/Stunde
-- Template-Pakete — Preis: XXX €
--->
-
-## Preismodell
-
-<!-- Wie verdienst du Geld? (Einmalzahlungen, Abo, Kurse, etc.) -->
-
-## Markt & Positionierung
-
-<!-- In welchem Markt bist du unterwegs? Was macht dich besonders? -->
+### Hauptprodukt: E-Mail Marketing Kurs
+- Plattform: Systeme.io
+- 8 Module:
+  1. Hallo & Herzlich Willkommen
+  2. Schluss mit Technik-Angst
+  3. E-Mail Marketing Basics
+  4. Freebie-Erstellung
+  5. Wie du deine E-Mail Liste füllst
+  6. Wichtigsten E-Mail Marketing Begriffe
+  7. Wild Mail Registrierung + Einstellungen
+  8. Wild Mail Tutorials
 
 ## Aktuelle Tools & Plattformen
+- **E-Mail-Marketing:** Wild Mail (ActiveCampaign) — Account: monika25.activehosted.com
+- **Kurs & Website:** Systeme.io — Domain: mantusova88.systeme.io
+- **Planung & Notizen:** Notion
+- **Termine:** Calendly
+- **Design:** Canva
 
-<!-- Welche Tools nutzt du? (E-Mail-Provider, Website, CRM, etc.) -->
-<!-- Beispiel:
-- E-Mail-Provider: ActiveCampaign / Mailchimp / etc.
-- Website: WordPress / Squarespace / etc.
-- Social Media: Instagram / Pinterest / etc.
--->
-
-## Wichtige Links
-
-<!-- Deine Website, Social-Media-Profile, etc. -->
+## Kontakt
+- E-Mail: mantusova88@gmail.com
+- Name: Monika Antusova
+- Standort: Hamburg, Deutschland
