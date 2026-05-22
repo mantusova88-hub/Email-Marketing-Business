@@ -12,6 +12,7 @@ Komplettes Pinterest-Profil für Monika erstellen/optimieren.
 
 ## Bestätigt
 - Neues Pinterest-Konto wird erstellt (kein bestehendes nutzen)
+- Profilname: **emailsmitmonika**
 - Profil wird komplett neu aufgebaut
 
 ## Zielgruppe
