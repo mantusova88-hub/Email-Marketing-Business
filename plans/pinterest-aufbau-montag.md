@@ -10,9 +10,9 @@ Komplettes Pinterest-Profil für Monika erstellen/optimieren.
 - [ ] Angebote verlinken (Onlinekurs, 1:1 Coaching, E-Book)
 - [ ] Profil auf Zielgruppe ausrichten
 
-## Offene Fragen (vor Montag klären)
-- Bestehendes Pinterest-Konto oder neues Konto?
-- Profilname: "Emails mit Monika" oder anders?
+## Bestätigt
+- Neues Pinterest-Konto wird erstellt (kein bestehendes nutzen)
+- Profil wird komplett neu aufgebaut
 
 ## Zielgruppe
 Selbständige Frauen und Business-Mamas, die E-Mail Marketing lernen wollen.
