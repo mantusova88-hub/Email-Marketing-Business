@@ -1,42 +1,55 @@
-# Business-Info
+# Business-Info — Monika Antusova
 
-> Fülle diese Datei mit Informationen über dein Business aus.
-> Je mehr Details du gibst, desto besser kann Claude dir helfen.
+---
 
 ## Was macht mein Business?
 
-<!-- Beschreibe hier kurz, womit dein Business Geld verdient -->
+E-Mail-Marketing-Coaching für selbständige Mamas. Ich helfe ihnen, ein automatisiertes E-Mail-System aufzubauen, das ihr Business auch dann am Laufen hält, wenn das Kind krank ist oder das Leben dazwischenkommt.
 
 ## Zielgruppe
 
-<!-- Wer sind deine idealen Kunden? (z.B. selbständige Mamas, die E-Mail-Marketing nutzen wollen) -->
+**Selbständige Mamas** — zwischen 30 und 45 Jahren, die:
+- ein eigenes Business haben oder aufbauen wollen
+- keine Technik-Expertin sein wollen
+- keine Lust auf Kaltakquise haben
+- nicht jeden Tag aktiv posten wollen
+- sich wünschen, dass ihr Business auch ohne sie funktioniert
+
+## Kernbotschaft (überall gleich verwenden!)
+
+> 🚀 **"Automatisiert verkaufen — auch wenn das Kind krank ist"**
+> 💌 Ohne Technikstress · Ohne Kaltakquise
 
 ## Angebote & Services
 
-<!-- Welche Produkte oder Dienstleistungen bietest du an? -->
-<!-- Beispiel:
-- Kurs: "E-Mail-Marketing für Mamas" — Preis: XXX €
-- 1:1 Coaching — Preis: XXX €/Stunde
-- Template-Pakete — Preis: XXX €
--->
+- **Kostenloser Starter-Guide** — Einstiegsangebot, niedrigschwellig
+- Coaching / Kurse (in Aufbau)
 
-## Preismodell
+## Branding-Name — überall gleich!
 
-<!-- Wie verdienst du Geld? (Einmalzahlungen, Abo, Kurse, etc.) -->
+| Plattform | Name / Bezeichnung |
+|---|---|
+| Instagram | emailsmitmonika_ |
+| Pinterest | emailsmitmonika |
+| Website | emailsmitmonika.onepage.me |
+| Pinnwand Pinterest | **E-Mail Marketing für selbständige Mamas** |
+| Instagram Name | **Monika I E-Mail Marketing für selbständige Mamas** |
 
-## Markt & Positionierung
+## ⚠️ Wichtige Regel: Überall gleicher Name!
 
-<!-- In welchem Markt bist du unterwegs? Was macht dich besonders? -->
+**"E-Mail Marketing für selbständige Mamas"** — das ist die offizielle Bezeichnung.
+Nicht "für Mamas", nicht "für Frauen" — immer **"für selbständige Mamas"**.
 
 ## Aktuelle Tools & Plattformen
 
-<!-- Welche Tools nutzt du? (E-Mail-Provider, Website, CRM, etc.) -->
-<!-- Beispiel:
-- E-Mail-Provider: ActiveCampaign / Mailchimp / etc.
-- Website: WordPress / Squarespace / etc.
-- Social Media: Instagram / Pinterest / etc.
--->
+- **E-Mail-Provider:** Wild Mail
+- **Website:** emailsmitmonika.onepage.me (onepage.me)
+- **Social Media:** Instagram (@emailsmitmonika_), Pinterest (@emailsmitmonika)
+- **Design:** Canva
+- **Planung:** Notion
 
 ## Wichtige Links
 
-<!-- Deine Website, Social-Media-Profile, etc. -->
+- Website: https://emailsmitmonika.onepage.me
+- Instagram: https://instagram.com/emailsmitmonika_
+- Pinterest: https://pinterest.com/emailsmitmonika

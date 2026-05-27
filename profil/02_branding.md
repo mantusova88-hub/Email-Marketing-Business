@@ -44,11 +44,25 @@
 
 ---
 
+## 📛 Offizieller Name — überall gleich!
+
+> **"E-Mail Marketing für selbständige Mamas"**
+> ⚠️ IMMER so schreiben — auf Pinterest, Instagram, Notion, überall!
+
+| Plattform | Bezeichnung |
+|---|---|
+| Instagram Profilname | Monika I E-Mail Marketing für selbständige Mamas |
+| Pinterest Pinnwand | E-Mail Marketing für selbständige Mamas |
+| Alle Grafiken | E-Mail Marketing für selbständige Mamas |
+
+---
+
 ## 🌐 Kontakt & Links
 
 - Website: emailsmitmonika.onepage.me
 - Pinterest: pinterest.com/emailsmitmonika
-- Username: emailsmitmonika
+- Instagram: instagram.com/emailsmitmonika_
+- Username überall: emailsmitmonika
 
 ---
 
