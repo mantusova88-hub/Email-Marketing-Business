@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
 """
 Pinterest Pin Image Generator für E-Mails mit Monika
-Erstellt professionelle Pinterest Pins mit Branding-Farben
+Branding: Burgundy #800020 als Hauptfarbe, Gold #B59156 als Akzent
 """
 
 from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ═══════════════════════════════════════════════
-# BRAND FARBEN
+# BRAND FARBEN (Monika's offizielle Markenfarben)
 # ═══════════════════════════════════════════════
-BURGUNDY = (128, 0, 32)       # #800020
-GOLD = (181, 145, 86)          # #B59156
-GOLD_LIGHT = (220, 190, 130)   # Helles Gold für Akzente
-CREAM = (245, 238, 225)        # Crème für Hintergrundtext
-DARK_BG = (18, 8, 12)          # Fast schwarz mit Hauch Burgundy
-WHITE = (255, 255, 255)
+BURGUNDY      = (128, 0, 32)      # #800020 — Hauptfarbe
+BURGUNDY_DARK = (90, 0, 20)       # Dunkleres Burgundy für Tiefe
+GOLD          = (181, 145, 86)    # #B59156 — Akzentfarbe
+GOLD_LIGHT    = (220, 195, 140)   # Helles Gold für Highlights
+CREAM         = (252, 245, 232)   # Crème-Weiß für Text
+WHITE         = (255, 255, 255)
 
 # ═══════════════════════════════════════════════
 # CANVAS GRÖßE (Pinterest Standard)
 # ═══════════════════════════════════════════════
-WIDTH = 1000
+WIDTH  = 1000
 HEIGHT = 1500
 
 def wrap_text(text, font, draw, max_width):
@@ -28,7 +28,6 @@ def wrap_text(text, font, draw, max_width):
     words = text.split()
     lines = []
     current_line = ""
-
     for word in words:
         test_line = current_line + (" " if current_line else "") + word
         bbox = draw.textbbox((0, 0), test_line, font=font)
@@ -38,130 +37,129 @@ def wrap_text(text, font, draw, max_width):
             if current_line:
                 lines.append(current_line)
             current_line = word
-
     if current_line:
         lines.append(current_line)
-
     return lines
 
 def create_pin(pin_number, headline, subtext, website, output_path):
-    """Erstellt einen Pinterest Pin"""
+    """Erstellt einen Pinterest Pin mit Monika's Branding"""
 
-    # Bild erstellen
-    img = Image.new('RGB', (WIDTH, HEIGHT), DARK_BG)
+    img = Image.new('RGB', (WIDTH, HEIGHT), BURGUNDY)
     draw = ImageDraw.Draw(img)
 
-    # ─── HINTERGRUND DESIGN ───
-    # Eleganter dunkler Hintergrund mit Farbverlauf-Effekt
+    # ─── HINTERGRUND: Burgundy mit leichtem Verlauf ───
     for y in range(HEIGHT):
         ratio = y / HEIGHT
-        r = int(DARK_BG[0] + (BURGUNDY[0] - DARK_BG[0]) * ratio * 0.3)
-        g = int(DARK_BG[1] + (BURGUNDY[1] - DARK_BG[1]) * ratio * 0.3)
-        b = int(DARK_BG[2] + (BURGUNDY[2] - DARK_BG[2]) * ratio * 0.3)
+        r = int(BURGUNDY[0] * (1 - ratio * 0.25) + BURGUNDY_DARK[0] * ratio * 0.25)
+        g = int(BURGUNDY[1] * (1 - ratio * 0.25) + BURGUNDY_DARK[1] * ratio * 0.25)
+        b = int(BURGUNDY[2] * (1 - ratio * 0.25) + BURGUNDY_DARK[2] * ratio * 0.25)
         draw.line([(0, y), (WIDTH, y)], fill=(r, g, b))
 
-    # Gold-Linie oben
-    draw.rectangle([(0, 0), (WIDTH, 8)], fill=GOLD)
+    # ─── GOLD-RAHMEN (oben & unten) ───
+    draw.rectangle([(0, 0),       (WIDTH, 10)],        fill=GOLD)
+    draw.rectangle([(0, 10),      (WIDTH, 14)],        fill=GOLD_LIGHT)
+    draw.rectangle([(0, HEIGHT-14),(WIDTH, HEIGHT-10)], fill=GOLD_LIGHT)
+    draw.rectangle([(0, HEIGHT-10),(WIDTH, HEIGHT)],    fill=GOLD)
 
-    # Dekorative Gold-Linien
-    draw.rectangle([(60, 140), (WIDTH-60, 144)], fill=GOLD)
-    draw.rectangle([(60, 148), (WIDTH-60, 150)], fill=GOLD_LIGHT)
+    # ─── GOLD SEITENLINIEN ───
+    draw.rectangle([(0, 0), (10, HEIGHT)],       fill=GOLD)
+    draw.rectangle([(WIDTH-10, 0), (WIDTH, HEIGHT)], fill=GOLD)
 
-    # Gold-Linie unten
-    draw.rectangle([(60, HEIGHT-200), (WIDTH-60, HEIGHT-196)], fill=GOLD)
-    draw.rectangle([(60, HEIGHT-204), (WIDTH-60, HEIGHT-202)], fill=GOLD_LIGHT)
-
-    # Gold-Linie ganz unten
-    draw.rectangle([(0, HEIGHT-8), (WIDTH, HEIGHT)], fill=GOLD)
+    # ─── DEKORATIVER GOLD-RAHMEN INNEN ───
+    pad = 40
+    line_w = 2
+    draw.rectangle([(pad, pad), (WIDTH-pad, pad+line_w)],             fill=GOLD)
+    draw.rectangle([(pad, HEIGHT-pad-line_w), (WIDTH-pad, HEIGHT-pad)], fill=GOLD)
+    draw.rectangle([(pad, pad), (pad+line_w, HEIGHT-pad)],             fill=GOLD)
+    draw.rectangle([(WIDTH-pad-line_w, pad), (WIDTH-pad, HEIGHT-pad)], fill=GOLD)
 
     # ─── FONTS LADEN ───
-    font_path = "PlayfairDisplay.ttf"
-    fallback_bold = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
-    fallback = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf"
-    fallback_sans = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
+    font_path    = "PlayfairDisplay.ttf"
+    font_sans    = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
+    font_sans_b  = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
+    font_serif_b = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 
     try:
-        font_headline = ImageFont.truetype(font_path, 82)
-        font_subtext = ImageFont.truetype(font_path, 46)
-        font_small = ImageFont.truetype(fallback_sans, 32)
-        font_website = ImageFont.truetype(fallback_sans, 28)
-        font_pin_num = ImageFont.truetype(fallback_sans, 24)
+        font_headline = ImageFont.truetype(font_path, 88)
+        font_sub      = ImageFont.truetype(font_path, 48)
+        font_label    = ImageFont.truetype(font_sans, 30)
+        font_website  = ImageFont.truetype(font_sans, 28)
     except:
-        font_headline = ImageFont.truetype(fallback_bold, 82)
-        font_subtext = ImageFont.truetype(fallback_bold, 46)
-        font_small = ImageFont.truetype(fallback_sans, 32)
-        font_website = ImageFont.truetype(fallback_sans, 28)
-        font_pin_num = ImageFont.truetype(fallback_sans, 24)
+        font_headline = ImageFont.truetype(font_serif_b, 88)
+        font_sub      = ImageFont.truetype(font_serif_b, 48)
+        font_label    = ImageFont.truetype(font_sans, 30)
+        font_website  = ImageFont.truetype(font_sans, 28)
 
-    # ─── KLEINES GOLD-LABEL OBEN ───
-    label = "E-Mail Marketing"
-    bbox = draw.textbbox((0, 0), label, font=font_pin_num)
-    label_w = bbox[2] - bbox[0]
-    draw.text(((WIDTH - label_w) // 2, 60), label, fill=GOLD, font=font_pin_num)
-
-    # Kleine Sternchen links und rechts
-    star_text = "✦"
+    # ─── LABEL OBEN (Gold-Text) ───
+    label = "✦  E-Mail Marketing mit Monika  ✦"
     try:
-        draw.text(((WIDTH - label_w) // 2 - 40, 58), star_text, fill=GOLD, font=font_pin_num)
-        draw.text(((WIDTH + label_w) // 2 + 16, 58), star_text, fill=GOLD, font=font_pin_num)
+        bbox = draw.textbbox((0, 0), label, font=font_label)
+        lw = bbox[2] - bbox[0]
+        draw.text(((WIDTH - lw) // 2, 70), label, fill=GOLD, font=font_label)
     except:
-        pass
+        label = "E-Mail Marketing mit Monika"
+        bbox = draw.textbbox((0, 0), label, font=font_label)
+        lw = bbox[2] - bbox[0]
+        draw.text(((WIDTH - lw) // 2, 70), label, fill=GOLD, font=font_label)
 
-    # ─── HAUPT-HEADLINE ───
-    margin = 80
-    max_text_width = WIDTH - (margin * 2)
+    # ─── TRENNLINIE NACH LABEL ───
+    draw.rectangle([(80, 118), (WIDTH-80, 121)], fill=GOLD)
 
-    lines = wrap_text(headline, font_headline, draw, max_text_width)
-
-    # Headline Startposition (vertikal zentriert leicht oben)
-    total_headline_height = len(lines) * 100
-    start_y = 220
+    # ─── HAUPT-HEADLINE (Crème-Text auf Burgundy) ───
+    margin       = 85
+    max_text_w   = WIDTH - margin * 2
+    lines        = wrap_text(headline, font_headline, draw, max_text_w)
+    line_height  = 108
+    total_h      = len(lines) * line_height
+    start_y      = 180
 
     for i, line in enumerate(lines):
-        bbox = draw.textbbox((0, 0), line, font=font_headline)
+        bbox   = draw.textbbox((0, 0), line, font=font_headline)
         line_w = bbox[2] - bbox[0]
         x = (WIDTH - line_w) // 2
-        y = start_y + i * 100
-
-        # Schatten-Effekt
-        draw.text((x+3, y+3), line, fill=(0, 0, 0, 180), font=font_headline)
-        # Haupttext in Crème
+        y = start_y + i * line_height
+        # Leichter Schatten
+        draw.text((x+2, y+2), line, fill=(60, 0, 10), font=font_headline)
+        # Haupttext Crème
         draw.text((x, y), line, fill=CREAM, font=font_headline)
 
-    # ─── GOLD TRENN-ORNAMENT ───
-    headline_end_y = start_y + len(lines) * 100 + 30
-    ornament = "— ✦ —"
+    # ─── GOLD ORNAMENT ───
+    ornament_y = start_y + len(lines) * line_height + 30
+    orn = "— ✦ —"
     try:
-        bbox = draw.textbbox((0, 0), ornament, font=font_subtext)
-        orn_w = bbox[2] - bbox[0]
-        draw.text(((WIDTH - orn_w) // 2, headline_end_y), ornament, fill=GOLD, font=font_subtext)
+        bbox = draw.textbbox((0, 0), orn, font=font_sub)
+        ow   = bbox[2] - bbox[0]
+        draw.text(((WIDTH - ow) // 2, ornament_y), orn, fill=GOLD, font=font_sub)
     except:
-        draw.rectangle([(WIDTH//2 - 60, headline_end_y + 20), (WIDTH//2 + 60, headline_end_y + 24)], fill=GOLD)
+        draw.rectangle([(WIDTH//2-80, ornament_y+20), (WIDTH//2+80, ornament_y+24)], fill=GOLD)
 
-    # ─── SUBTEXT ───
-    sub_y = headline_end_y + 90
-    sub_lines = wrap_text(subtext, font_subtext, draw, max_text_width)
+    # ─── SUBTEXT (Gold-Text) ───
+    sub_y      = ornament_y + 80
+    sub_lines  = wrap_text(subtext, font_sub, draw, max_text_w)
+    sub_lh     = 68
 
     for i, line in enumerate(sub_lines):
-        bbox = draw.textbbox((0, 0), line, font=font_subtext)
+        bbox   = draw.textbbox((0, 0), line, font=font_sub)
         line_w = bbox[2] - bbox[0]
         x = (WIDTH - line_w) // 2
-        y = sub_y + i * 64
-        draw.text((x, y), line, fill=GOLD_LIGHT, font=font_subtext)
+        y = sub_y + i * sub_lh
+        draw.text((x, y), line, fill=GOLD_LIGHT, font=font_sub)
 
-    # ─── WEBSITE / CTA ───
-    # Box für Website
-    box_y = HEIGHT - 170
-    draw.rectangle([(80, box_y), (WIDTH-80, box_y+70)], fill=BURGUNDY, outline=GOLD, width=2)
+    # ─── WEBSITE BOX (Gold-Rahmen, Crème-Text) ───
+    box_top = HEIGHT - 155
+    box_bot = HEIGHT - 75
+    draw.rectangle([(70, box_top), (WIDTH-70, box_bot)],
+                   fill=BURGUNDY_DARK, outline=GOLD, width=3)
 
-    bbox = draw.textbbox((0, 0), website, font=font_website)
+    bbox  = draw.textbbox((0, 0), website, font=font_website)
     web_w = bbox[2] - bbox[0]
-    draw.text(((WIDTH - web_w) // 2, box_y + 18), website, fill=GOLD_LIGHT, font=font_website)
+    web_y = box_top + (box_bot - box_top - (bbox[3] - bbox[1])) // 2
+    draw.text(((WIDTH - web_w) // 2, web_y), website, fill=GOLD_LIGHT, font=font_website)
 
     # ─── SPEICHERN ───
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     img.save(output_path, 'PNG', quality=95)
-    print(f"✅ Pin erstellt: {output_path}")
+    print(f"✅ Pin #{pin_number:02d} erstellt: {output_path}")
     return output_path
 
 
@@ -177,7 +175,7 @@ pins = [
     },
     {
         "number": 2,
-        "headline": "Warum du keine Social-Media-Followerin brauchst, um online zu verkaufen.",
+        "headline": "Warum du keine Follower brauchst, um online zu verkaufen.",
         "subtext": "E-Mail-Marketing für Mamas ohne Stress",
         "website": "emailsmitmonika.onepage.me"
     },
@@ -189,7 +187,7 @@ pins = [
     },
     {
         "number": 4,
-        "headline": "5 Fehler, die Mamas beim E-Mail-Marketing machen — und wie du sie vermeidest.",
+        "headline": "5 Fehler beim E-Mail-Marketing — und wie du sie vermeidest.",
         "subtext": "Kostenloser Starter-Guide wartet auf dich",
         "website": "emailsmitmonika.onepage.me"
     },
@@ -201,7 +199,7 @@ pins = [
     },
     {
         "number": 6,
-        "headline": "Kein Technik-Stress. Kein Kaltakquise. Nur ein System, das arbeitet.",
+        "headline": "Kein Technik-Stress. Keine Kaltakquise. Nur ein System, das arbeitet.",
         "subtext": "E-Mail-Marketing einfach gemacht für selbständige Frauen",
         "website": "emailsmitmonika.onepage.me"
     },
@@ -216,13 +214,12 @@ pins = [
 output_dir = "/home/user/Email-Marketing-Business/outputs/pinterest-pins/"
 
 for pin in pins:
-    output_file = f"{output_dir}pin-{pin['number']:02d}.png"
     create_pin(
         pin_number=pin["number"],
         headline=pin["headline"],
         subtext=pin["subtext"],
         website=pin["website"],
-        output_path=output_file
+        output_path=f"{output_dir}pin-{pin['number']:02d}.png"
     )
 
-print("\n🎉 Alle 7 Pinterest Pins erstellt!")
+print("\n🎉 Alle 7 Pinterest Pins mit Burgundy #800020 + Gold #B59156 erstellt!")
