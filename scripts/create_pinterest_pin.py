@@ -74,21 +74,28 @@ def create_pin(pin_number, headline, subtext, website, output_path):
     draw.rectangle([(WIDTH-pad-line_w, pad), (WIDTH-pad, HEIGHT-pad)], fill=GOLD)
 
     # ─── FONTS LADEN ───
-    font_path    = "PlayfairDisplay.ttf"
-    font_sans    = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
-    font_sans_b  = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
-    font_serif_b = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+    # Überschrift: Bugaki (falls vorhanden) → sonst Playfair Display (ähnlicher Stil)
+    # Normaler Text: Arial → Liberation Sans (identische Metriken zu Arial)
+    bugaki_path      = "Bugaki.ttf"          # Falls Monika die Datei hinterlegt
+    playfair_path    = "PlayfairDisplay.ttf"  # Fallback Überschrift
+    arial_regular    = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
+    arial_bold       = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
 
-    try:
-        font_headline = ImageFont.truetype(font_path, 88)
-        font_sub      = ImageFont.truetype(font_path, 48)
-        font_label    = ImageFont.truetype(font_sans, 30)
-        font_website  = ImageFont.truetype(font_sans, 28)
-    except:
-        font_headline = ImageFont.truetype(font_serif_b, 88)
-        font_sub      = ImageFont.truetype(font_serif_b, 48)
-        font_label    = ImageFont.truetype(font_sans, 30)
-        font_website  = ImageFont.truetype(font_sans, 28)
+    # Überschrift-Font (Bugaki oder Playfair Display)
+    for headline_font_path in [bugaki_path, playfair_path]:
+        try:
+            font_headline = ImageFont.truetype(headline_font_path, 88)
+            font_sub      = ImageFont.truetype(headline_font_path, 48)
+            break
+        except:
+            continue
+    else:
+        font_headline = ImageFont.truetype(arial_bold, 88)
+        font_sub      = ImageFont.truetype(arial_bold, 48)
+
+    # Normaler Text: Arial (Liberation Sans)
+    font_label   = ImageFont.truetype(arial_regular, 30)
+    font_website = ImageFont.truetype(arial_regular, 28)
 
     # ─── LABEL OBEN (Gold-Text) ───
     label = "✦  E-Mail Marketing mit Monika  ✦"
