@@ -39,3 +39,19 @@
 ## Canva-Coaching Stichworte
 - Übergänge: Herausziehen, Einblenden, Springen, Zufallsblenden
 - Fonts in Canva: Bugaki (Titel), Arial (Fließtext)
+
+## ⚠️ PFLICHT-REGEL: Call to Action — IMMER!
+
+**Jede Caption — egal ob Reel, Feed-Post oder Karussell — muss IMMER einen Call to Action am Ende haben.**
+
+Ohne CTA wird die Caption NICHT fertiggestellt.
+
+**Beispiele für CTAs:**
+- „Was denkst du? Schreib es mir in die Kommentare 👇"
+- „Wie ist das bei dir? Ich lese wirklich alles! ❤️"
+- „Speichere diesen Post, wenn du das auch kennst! 🔖"
+- „Schick das einer Frau, die das gerade braucht 💛"
+- „Wie tankst du auf? Schreib es mir unten 👇"
+- „Welcher Satz trifft dich gerade am meisten? Kommentiere! ✨"
+
+**Ziel:** Likes, Kommentare, Saves — echte Aufmerksamkeit und Reichweite erzeugen.
