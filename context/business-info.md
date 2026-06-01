@@ -37,6 +37,11 @@
 - Social Media: Instagram / Pinterest / etc.
 -->
 
+## Branding
+
+- **Burgund:** `#800220`
+- **Gold:** `#B59156`
+
 ## Wichtige Links
 
 <!-- Deine Website, Social-Media-Profile, etc. -->
