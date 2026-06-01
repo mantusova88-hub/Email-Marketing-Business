@@ -779,24 +779,15 @@ Mögliche Werte für marktpotenzial: "Hoch", "Mittel", "Niedrig"
 Mögliche Werte für passung: "Sehr gut", "Gut", "Möglich"`;
 
       try {
-        const res = await fetch('https://api.anthropic.com/v1/messages', {
+        const res = await fetch('/.netlify/functions/generate', {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-api-key': key,
-            'anthropic-version': '2023-06-01',
-            'anthropic-dangerous-direct-browser-calls': 'true'
-          },
-          body: JSON.stringify({
-            model: 'claude-opus-4-5',
-            max_tokens: 2500,
-            messages: [{ role: 'user', content: prompt }]
-          })
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt, apiKey: key })
         });
 
         if (!res.ok) {
           const err = await res.json().catch(() => ({}));
-          throw new Error(err.error?.message || 'API-Fehler ' + res.status);
+          throw new Error(err.error || 'API-Fehler ' + res.status);
         }
 
         const data = await res.json();
