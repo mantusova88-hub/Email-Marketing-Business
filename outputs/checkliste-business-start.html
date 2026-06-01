@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business-Start Checkliste für Mamas ✨</title>
+  <style>
+    :root {
+      --burgundy: #800220;
+      --burgundy-dark: #5c0118;
+      --gold: #B59156;
+      --gold-light: #d4a96a;
+      --cream: #fdf8f3;
+      --white: #ffffff;
+      --text-dark: #2c1810;
+      --text-mid: #5a3a2a;
+      --text-light: #9a7a6a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: var(--cream);
+      color: var(--text-dark);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -30%; right: -10%;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(181,145,86,0.2) 0%, transparent 60%);
+    }
+    .header-inner { position: relative; z-index: 1; }
+    .header-badge {
+      display: inline-block;
+      background: rgba(181,145,86,0.25);
+      border: 1px solid rgba(181,145,86,0.5);
+      color: var(--gold-light);
+      font-size: 0.75rem;
+      font-family: Arial, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 0.3rem 1rem;
+      border-radius: 30px;
+      margin-bottom: 1rem;
+    }
+    .header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; line-height: 1.2; }
+    .header h1 span { color: var(--gold-light); }
+    .header p { font-family: Arial, sans-serif; font-size: 0.95rem; opacity: 0.85; }
+
+    /* ── Progress ── */
+    .progress-wrap {
+      background: white;
+      border-bottom: 1px solid rgba(181,145,86,0.2);
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    .progress-text {
+      font-family: Arial, sans-serif;
+      font-size: 0.9rem;
+      color: var(--text-mid);
+    }
+    .progress-text strong { color: var(--burgundy); }
+    .progress-bar-wrap {
+      flex: 1;
+      max-width: 300px;
+      height: 8px;
+      background: #f0e0d0;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 0 1rem;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--burgundy), var(--gold));
+      border-radius: 10px;
+      transition: width 0.4s ease;
+      width: 0%;
+    }
+    .print-btn {
+      background: transparent;
+      border: 1.5px solid var(--gold);
+      color: var(--gold);
+      padding: 0.5rem 1.2rem;
+      border-radius: 20px;
+      font-family: Arial, sans-serif;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .print-btn:hover { background: var(--gold); color: white; }
+
+    /* ── Container ── */
+    .container {
+      max-width: 720px;
+      margin: 2rem auto;
+      padding: 0 1.2rem 4rem;
+    }
+
+    /* ── Intro ── */
+    .intro {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 20px rgba(128,2,32,0.07);
+      border: 1px solid rgba(181,145,86,0.15);
+    }
+    .intro h2 { color: var(--burgundy); font-size: 1.4rem; margin-bottom: 0.8rem; }
+    .intro p { font-family: Arial, sans-serif; color: var(--text-mid); line-height: 1.7; font-size: 0.95rem; }
+
+    /* ── Phase ── */
+    .phase {
+      margin-bottom: 2rem;
+    }
+    .phase-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .phase-num {
+      width: 44px; height: 44px;
+      min-width: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--burgundy), var(--burgundy-dark));
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 3px 12px rgba(128,2,32,0.25);
+    }
+    .phase-title { font-size: 1.3rem; color: var(--burgundy); }
+    .phase-subtitle { font-family: Arial, sans-serif; font-size: 0.85rem; color: var(--gold); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+
+    /* ── Checklist ── */
+    .checklist { display: flex; flex-direction: column; gap: 0.7rem; }
+
+    .check-item {
+      background: white;
+      border: 1.5px solid rgba(181,145,86,0.2);
+      border-radius: 14px;
+      padding: 1.1rem 1.3rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      cursor: pointer;
+      transition: all 0.25s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .check-item:hover { border-color: var(--gold); box-shadow: 0 4px 16px rgba(128,2,32,0.08); }
+    .check-item.done {
+      background: linear-gradient(135deg, #f8f0e8, #fff);
+      border-color: var(--gold);
+    }
+    .check-item.done .check-box { background: var(--gold); border-color: var(--gold); }
+    .check-item.done .check-box::after { opacity: 1; }
+    .check-item.done .check-label { color: var(--text-light); text-decoration: line-through; text-decoration-color: var(--gold); }
+
+    .check-box {
+      width: 26px; height: 26px;
+      min-width: 26px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.25s;
+      position: relative;
+      background: white;
+      margin-top: 1px;
+    }
+    .check-box::after {
+      content: '✓';
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 700;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .check-content { flex: 1; }
+    .check-label {
+      font-weight: 700;
+      color: var(--text-dark);
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+      margin-bottom: 0.25rem;
+      transition: all 0.25s;
+    }
+    .check-desc {
+      font-family: Arial, sans-serif;
+      font-size: 0.83rem;
+      color: var(--text-light);
+      line-height: 1.5;
+    }
+    .check-tip {
+      display: inline-block;
+      background: rgba(181,145,86,0.12);
+      color: #7a5c20;
+      font-family: Arial, sans-serif;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 10px;
+      margin-top: 0.4rem;
+      font-weight: 600;
+    }
+
+    /* ── Completion Banner ── */
+    .completion {
+      display: none;
+      background: linear-gradient(135deg, var(--burgundy), var(--burgundy-dark));
+      color: white;
+      border-radius: 20px;
+      padding: 2.5rem;
+      text-align: center;
+      margin-top: 2rem;
+      box-shadow: 0 8px 32px rgba(128,2,32,0.25);
+    }
+    .completion.show { display: block; }
+    .completion h2 { font-size: 1.8rem; margin-bottom: 0.8rem; }
+    .completion h2 span { color: var(--gold-light); }
+    .completion p { font-family: Arial, sans-serif; opacity: 0.9; font-size: 0.95rem; line-height: 1.6; }
+
+    /* ── Footer ── */
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--text-light);
+      font-family: Arial, sans-serif;
+      font-size: 0.82rem;
+    }
+
+    /* ── Print ── */
+    @media print {
+      .progress-wrap, .print-btn { display: none !important; }
+      body { background: white; }
+      .check-item { break-inside: avoid; }
+    }
+
+    @media (max-width: 580px) {
+      .header h1 { font-size: 1.6rem; }
+      .progress-bar-wrap { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-inner">
+      <div class="header-badge">Die Mama-Begleiterin</div>
+      <h1>✨ Business-Start <span>Checkliste</span><br>für Mamas</h1>
+      <p>Dein Schritt-für-Schritt Fahrplan zum eigenen Online-Business</p>
+    </div>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-text">Fortschritt: <strong id="doneCount">0</strong> von <strong id="totalCount">0</strong> erledigt</div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progressFill"></div>
+    </div>
+    <button class="print-btn" onclick="window.print()">🖨️ Drucken</button>
+  </div>
+
+  <div class="container">
+
+    <div class="intro">
+      <h2>Willkommen, liebe Mama! 🌸</h2>
+      <p>
+        Diese Checkliste begleitet dich Schritt für Schritt beim Aufbau deines Online-Business.
+        Du musst nicht alles auf einmal machen — arbeite in deinem Tempo.
+        Hake einfach ab was du erledigt hast und feiere jeden Schritt! 🎉
+      </p>
+    </div>
+
+    <!-- PHASE 1 -->
+    <div class="phase">
+      <div class="phase-header">
+        <div class="phase-num">1</div>
+        <div>
+          <div class="phase-subtitle">Woche 1-2</div>
+          <div class="phase-title">Fundament legen 🏗️</div>
+        </div>
+      </div>
+      <div class="checklist">
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Meine Nische festlegen</div>
+            <div class="check-desc">Entscheide womit du anderen Mamas helfen möchtest. Was kannst du besonders gut?</div>
+            <span class="check-tip">💡 Tipp: Womit fragst du dich täglich? Das ist oft deine Nische!</span>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Meine Zielgruppe definieren</div>
+            <div class="check-desc">Wer genau ist meine ideale Kundin? Welche Probleme hat sie? Was wünscht sie sich?</div>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Business-Name überlegen</div>
+            <div class="check-desc">Ein einfacher, merkbarer Name der zeigt wem du hilfst.</div>
+            <span class="check-tip">💡 Tipp: Halte es einfach — z.B. "Mit [Name] zu [Ergebnis]"</span>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Branding-Farben & Stil festlegen</div>
+            <div class="check-desc">2-3 Farben die zu dir passen. Diese nutzt du überall konsistent.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHASE 2 -->
+    <div class="phase">
+      <div class="phase-header">
+        <div class="phase-num">2</div>
+        <div>
+          <div class="phase-subtitle">Woche 2-3</div>
+          <div class="phase-title">Online sichtbar werden 📱</div>
+        </div>
+      </div>
+      <div class="checklist">
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Instagram Business-Profil erstellen</div>
+            <div class="check-desc">Profil-Foto, Bio und Link einrichten. Klar zeigen wem du hilfst.</div>
+            <span class="check-tip">💡 Bio-Formel: "Ich helfe [Zielgruppe] dabei [Ergebnis] zu erreichen"</span>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Erste 9 Instagram-Posts planen</div>
+            <div class="check-desc">Zeige wer du bist, was du machst und wie du hilfst. Authentisch und ehrlich.</div>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">E-Mail-Anbieter einrichten</div>
+            <div class="check-desc">Systeme.io, Mailchimp oder ähnliches. Kostenlose Version reicht zum Start.</div>
+            <span class="check-tip">💡 Tipp: Systeme.io ist kostenlos bis 2.000 Kontakte</span>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">E-Mail-Liste aufbauen starten</div>
+            <div class="check-desc">Ein kostenloses Freebie erstellen das Abonnenten anzieht.</div>
+            <span class="check-tip">💡 Idee: Checkliste, Mini-Guide, 5-Tipps-PDF</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHASE 3 -->
+    <div class="phase">
+      <div class="phase-header">
+        <div class="phase-num">3</div>
+        <div>
+          <div class="phase-subtitle">Woche 3-4</div>
+          <div class="phase-title">Erstes Produkt erstellen 💰</div>
+        </div>
+      </div>
+      <div class="checklist">
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Mini-Produkt Thema festlegen</div>
+            <div class="check-desc">Was ist das dringendste Problem deiner Zielgruppe? Das löst dein erstes Produkt.</div>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Mini-Produkt erstellen</div>
+            <div class="check-desc">PDF, Checkliste, kurzes Video oder kleines Tool. Maximal 1-2 Stunden Arbeit.</div>
+            <span class="check-tip">💡 Preis-Tipp: 7 € — 17 € ist perfekt für den Start</span>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Verkaufsseite einrichten</div>
+            <div class="check-desc">Einfache Seite in Systeme.io mit Beschreibung, Preis und Kaufbutton.</div>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Zahlungsabwicklung testen</div>
+            <div class="check-desc">Einmal selbst einen Testkauf machen — alles muss reibungslos laufen.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHASE 4 -->
+    <div class="phase">
+      <div class="phase-header">
+        <div class="phase-num">4</div>
+        <div>
+          <div class="phase-subtitle">Ab Woche 4</div>
+          <div class="phase-title">Launchen & Wachsen 🚀</div>
+        </div>
+      </div>
+      <div class="checklist">
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Ersten Launch ankündigen</div>
+            <div class="check-desc">Auf Instagram ankündigen, E-Mail an deine Liste schicken.</div>
+            <span class="check-tip">💡 Tipp: Starte mit Countdown — 3 Tage vorher anfangen</span>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Wöchentlich E-Mails versenden</div>
+            <div class="check-desc">Mindestens 1x pro Woche wertvolle Inhalte an deine Liste. Aufbau von Vertrauen!</div>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Kundenfeedback einholen</div>
+            <div class="check-desc">Frag deine ersten Kunden was sie gut fanden und was besser sein könnte.</div>
+          </div>
+        </div>
+        <div class="check-item" onclick="toggle(this)">
+          <div class="check-box"></div>
+          <div class="check-content">
+            <div class="check-label">Zweites Produkt planen</div>
+            <div class="check-desc">Basierend auf Feedback das nächste Produkt entwickeln. Schritt für Schritt!</div>
+            <span class="check-tip">🎉 Du bist auf dem Weg!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Completion -->
+    <div class="completion" id="completion">
+      <h2>🎉 Herzlichen <span>Glückwunsch!</span></h2>
+      <p>Du hast alle Schritte abgehakt — du bist jetzt eine echte Unternehmerin!<br>
+      Feiere diesen Moment und geh direkt zum nächsten Level. Du schaffst das! 💪</p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    Erstellt mit ❤️ für selbstständige Mamas · Die Mama-Begleiterin
+  </div>
+
+  <script>
+    const items = document.querySelectorAll('.check-item');
+    document.getElementById('totalCount').textContent = items.length;
+
+    function toggle(el) {
+      el.classList.toggle('done');
+      update();
+    }
+
+    function update() {
+      const done = document.querySelectorAll('.check-item.done').length;
+      const total = items.length;
+      document.getElementById('doneCount').textContent = done;
+      document.getElementById('progressFill').style.width = (done / total * 100) + '%';
+      document.getElementById('completion').classList.toggle('show', done === total);
+    }
+
+    update();
+  </script>
+</body>
+</html>
