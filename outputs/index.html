@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✨ Nischengenerator — E-Mail-Marketing für selbstständige Mamas</title>
+  <style>
+    :root {
+      --burgundy: #800220;
+      --burgundy-dark: #5c0118;
+      --burgundy-hover: #a0032a;
+      --gold: #B59156;
+      --gold-light: #d4a96a;
+      --cream: #fdf8f3;
+      --white: #ffffff;
+      --text-dark: #2c1810;
+      --text-mid: #5a3a2a;
+      --text-light: #9a7a6a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--cream);
+      min-height: 100vh;
+      color: var(--text-dark);
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -40%;
+      right: -20%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(181,145,86,0.18) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: -40%;
+      left: -10%;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(181,145,86,0.10) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .header-inner { position: relative; z-index: 1; }
+    .header-badge {
+      display: inline-block;
+      background: rgba(181,145,86,0.25);
+      border: 1px solid rgba(181,145,86,0.5);
+      color: var(--gold-light);
+      font-size: 0.78rem;
+      font-family: Arial, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 0.35rem 1rem;
+      border-radius: 30px;
+      margin-bottom: 1rem;
+    }
+    .header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.6rem;
+      line-height: 1.2;
+    }
+    .header h1 .gold { color: var(--gold-light); }
+    .header p { font-size: 1rem; opacity: 0.85; font-family: Arial, sans-serif; }
+
+    /* ── Container ── */
+    .container {
+      max-width: 700px;
+      margin: 2.5rem auto;
+      padding: 0 1.2rem;
+    }
+
+    /* ── Progress ── */
+    .progress-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      margin-bottom: 2rem;
+    }
+    .p-dot {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 2px solid #ddd;
+      background: white;
+      color: #bbb;
+      font-size: 0.8rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+      flex-shrink: 0;
+    }
+    .p-dot.active  { border-color: var(--burgundy); background: var(--burgundy); color: white; }
+    .p-dot.done    { border-color: var(--gold); background: var(--gold); color: white; }
+    .p-line {
+      height: 2px;
+      width: 48px;
+      background: #ddd;
+      transition: background 0.3s;
+      flex-shrink: 0;
+    }
+    .p-line.done { background: var(--gold); }
+
+    /* ── Card ── */
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 2.8rem;
+      box-shadow: 0 8px 40px rgba(128, 2, 32, 0.09);
+      border: 1px solid rgba(181, 145, 86, 0.18);
+    }
+
+    .step { display: none; }
+    .step.active { display: block; }
+
+    .step-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+    }
+    .step-title {
+      font-size: 1.75rem;
+      color: var(--burgundy);
+      margin-bottom: 0.6rem;
+      line-height: 1.25;
+    }
+    .step-desc {
+      color: var(--text-mid);
+      font-family: Arial, sans-serif;
+      font-size: 0.97rem;
+      line-height: 1.65;
+      margin-bottom: 2rem;
+    }
+
+    /* ── Info Box ── */
+    .info-box {
+      background: linear-gradient(135deg, rgba(181,145,86,0.08), rgba(128,2,32,0.04));
+      border: 1px solid rgba(181,145,86,0.25);
+      border-radius: 14px;
+      padding: 1.3rem 1.5rem;
+      margin-bottom: 2rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.93rem;
+      color: var(--text-mid);
+      line-height: 1.6;
+    }
+    .info-box strong { color: var(--text-dark); }
+
+    /* ── Form ── */
+    .form-group { margin-bottom: 1.6rem; }
+
+    label {
+      display: block;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 0.4rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.93rem;
+    }
+    .hint {
+      display: block;
+      font-weight: 400;
+      color: var(--text-light);
+      font-size: 0.82rem;
+      margin-bottom: 0.5rem;
+    }
+
+    input[type="text"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 0.9rem 1.1rem;
+      border: 2px solid #e8d5c0;
+      border-radius: 12px;
+      font-size: 0.97rem;
+      font-family: Arial, sans-serif;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      background: #fdfaf7;
+      color: var(--text-dark);
+      appearance: none;
+    }
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 4px rgba(181, 145, 86, 0.12);
+    }
+    textarea { resize: vertical; min-height: 90px; }
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23B59156' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      padding-right: 2.5rem;
+    }
+
+    /* ── Buttons ── */
+    .btn {
+      padding: 0.95rem 1.8rem;
+      border: none;
+      border-radius: 12px;
+      font-size: 0.97rem;
+      font-family: Arial, sans-serif;
+      cursor: pointer;
+      font-weight: 700;
+      transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+      letter-spacing: 0.3px;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn:active { transform: translateY(0); }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      box-shadow: 0 4px 18px rgba(128, 2, 32, 0.28);
+      width: 100%;
+      padding: 1.1rem;
+      font-size: 1.02rem;
+    }
+    .btn-primary:hover { box-shadow: 0 6px 22px rgba(128, 2, 32, 0.38); }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--burgundy);
+      border: 2px solid rgba(128, 2, 32, 0.3);
+      padding: 0.95rem 1.4rem;
+    }
+    .btn-ghost:hover { border-color: var(--burgundy); background: rgba(128, 2, 32, 0.04); }
+
+    .btn-row {
+      display: flex;
+      gap: 0.9rem;
+      margin-top: 1.8rem;
+      align-items: center;
+    }
+    .btn-row .btn-ghost { flex-shrink: 0; }
+    .btn-row .btn-primary { flex: 1; }
+
+    /* ── Loading ── */
+    .loading { text-align: center; padding: 3.5rem 1rem; }
+    .spinner {
+      width: 64px;
+      height: 64px;
+      border: 5px solid rgba(181, 145, 86, 0.2);
+      border-top-color: var(--burgundy);
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+      margin: 0 auto 1.6rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading h3 { color: var(--burgundy); font-size: 1.35rem; margin-bottom: 0.5rem; }
+    .loading p { color: var(--text-mid); font-family: Arial, sans-serif; font-size: 0.95rem; }
+    .loading-dots span {
+      display: inline-block;
+      animation: blink 1.4s infinite;
+      font-size: 1.4rem;
+    }
+    .loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+    .loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes blink { 0%,80%,100%{opacity:0} 40%{opacity:1} }
+
+    /* ── Results ── */
+    .results-header { text-align: center; margin-bottom: 2.2rem; }
+    .results-header h2 { color: var(--burgundy); font-size: 1.9rem; margin-bottom: 0.5rem; }
+    .results-header p { color: var(--text-mid); font-family: Arial, sans-serif; font-size: 0.95rem; }
+
+    .niche-card {
+      background: linear-gradient(160deg, #fff9f5 0%, #ffffff 100%);
+      border: 1.5px solid rgba(181, 145, 86, 0.28);
+      border-radius: 18px;
+      padding: 2rem;
+      margin-bottom: 1.6rem;
+      position: relative;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+    .niche-card:hover { box-shadow: 0 6px 28px rgba(128, 2, 32, 0.1); }
+    .niche-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 5px; height: 100%;
+      background: linear-gradient(180deg, var(--burgundy) 0%, var(--gold) 100%);
+      border-radius: 4px 0 0 4px;
+    }
+
+    .niche-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.1rem;
+    }
+    .niche-num {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 2px 10px rgba(128,2,32,0.25);
+    }
+    .niche-title-wrap { flex: 1; }
+    .niche-title {
+      font-size: 1.25rem;
+      color: var(--burgundy);
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    .niche-tagline {
+      color: var(--text-light);
+      font-style: italic;
+      font-size: 0.9rem;
+      font-family: Arial, sans-serif;
+    }
+
+    .badge-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+    .badge {
+      padding: 0.3rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+    .badge-hoch   { background: #e8f5e9; color: #2e7d32; }
+    .badge-mittel { background: #fff8e1; color: #f57f17; }
+    .badge-niedrig{ background: #fce4ec; color: #c62828; }
+    .badge-sehr   { background: #e8f5e9; color: #2e7d32; }
+    .badge-gut    { background: #fff8e1; color: #f57f17; }
+    .badge-moegl  { background: #f3f3f3; color: #666; }
+
+    .niche-sections { display: grid; gap: 0.9rem; }
+    .ns { }
+    .ns-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--gold);
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    .ns-text {
+      color: var(--text-mid);
+      font-family: Arial, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+
+    .first-step-box {
+      background: linear-gradient(135deg, rgba(128,2,32,0.05), rgba(181,145,86,0.06));
+      border: 1px solid rgba(181,145,86,0.25);
+      border-radius: 12px;
+      padding: 1.1rem 1.3rem;
+      margin-top: 1.3rem;
+    }
+    .first-step-box .ns-label { color: var(--burgundy); }
+    .first-step-box .ns-text { font-weight: 600; color: var(--text-dark); }
+
+    .restart-area { text-align: center; margin-top: 2rem; }
+    .btn-restart {
+      background: transparent;
+      border: 2px solid rgba(128,2,32,0.25);
+      color: var(--burgundy);
+      padding: 0.8rem 2rem;
+      border-radius: 12px;
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-restart:hover { border-color: var(--burgundy); background: rgba(128,2,32,0.04); }
+
+    /* ── API Key Button & Modal ── */
+    .api-fab {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background: white;
+      border: 2px solid var(--gold);
+      color: var(--gold);
+      padding: 0.55rem 1.1rem;
+      border-radius: 30px;
+      font-size: 0.82rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 3px 14px rgba(0,0,0,0.12);
+      transition: all 0.2s;
+      z-index: 50;
+    }
+    .api-fab:hover { background: var(--gold); color: white; }
+
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(44, 24, 16, 0.55);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .overlay.open { display: flex; }
+    .modal {
+      background: white;
+      border-radius: 20px;
+      padding: 2.2rem;
+      max-width: 460px;
+      width: 100%;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.22);
+    }
+    .modal h3 { color: var(--burgundy); font-size: 1.3rem; margin-bottom: 0.5rem; }
+    .modal p { color: var(--text-mid); font-family: Arial, sans-serif; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem; }
+    .modal .btn-row { margin-top: 1.2rem; }
+
+    /* ── Error ── */
+    .error-box {
+      background: #fff0f3;
+      border: 1.5px solid #ffb3c1;
+      color: #a00228;
+      padding: 1rem 1.2rem;
+      border-radius: 12px;
+      margin-top: 1.2rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--text-light);
+      font-family: Arial, sans-serif;
+      font-size: 0.82rem;
+    }
+
+    @media (max-width: 580px) {
+      .header h1 { font-size: 1.7rem; }
+      .card { padding: 1.6rem; }
+      .btn-row { flex-direction: column; }
+      .btn-row .btn-ghost { width: 100%; text-align: center; }
+      .p-line { width: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-inner">
+      <div class="header-badge">E-Mail-Marketing für selbstständige Mamas</div>
+      <h1>✨ <span class="gold">Nischengenerator</span></h1>
+      <p>Finde deine perfekte Nische — basierend auf deinen Stärken &amp; dem was am Markt funktioniert</p>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- PROGRESS -->
+    <div class="progress-wrap" id="progressWrap">
+      <div class="p-dot active" id="pd0">1</div>
+      <div class="p-line" id="pl0"></div>
+      <div class="p-dot" id="pd1">2</div>
+      <div class="p-line" id="pl1"></div>
+      <div class="p-dot" id="pd2">3</div>
+      <div class="p-line" id="pl2"></div>
+      <div class="p-dot" id="pd3">4</div>
+      <div class="p-line" id="pl3"></div>
+      <div class="p-dot" id="pd4">✓</div>
+    </div>
+
+    <div class="card">
+
+      <!-- STEP 0: WILLKOMMEN -->
+      <div class="step active" id="step0">
+        <div class="step-label">Willkommen</div>
+        <div class="step-title">Lass uns deine Nische finden 🌸</div>
+        <p class="step-desc">In nur wenigen Minuten bekommst du 3 maßgeschneiderte Nischen-Vorschläge — basierend auf deinen Stärken, Leidenschaften und dem was am Markt wirklich Geld bringt.</p>
+        <div class="info-box">
+          💡 <strong>Was dich erwartet:</strong><br>
+          3 konkrete Nischen-Ideen mit Marktpotenzial-Einschätzung, Zielgruppen-Analyse, Produkt-Ideen und deinem ersten Schritt — alles 100% auf dich zugeschnitten.
+        </div>
+        <button class="btn btn-primary" onclick="goTo(1)">Jetzt starten →</button>
+      </div>
+
+      <!-- STEP 1: HOBBYS & LEIDENSCHAFTEN -->
+      <div class="step" id="step1">
+        <div class="step-label">Schritt 1 von 4</div>
+        <div class="step-title">Deine Hobbys &amp; Leidenschaften 🎨</div>
+        <p class="step-desc">Was liebst du? Womit verbringst du gerne Zeit — auch ohne Bezahlung?</p>
+
+        <div class="form-group">
+          <label>Deine Hobbys &amp; Leidenschaften
+            <span class="hint">z.B. Kochen, Yoga, Fotografie, Mode, Lesen, Reisen, Basteln...</span>
+          </label>
+          <textarea id="hobbies" placeholder="Schreib einfach alles auf, was dir einfällt..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Worum bitten dich Freunde &amp; Familie oft um Rat?
+            <span class="hint">z.B. Einrichten, Ernährung, Organisation, Erziehung, Finanzen...</span>
+          </label>
+          <textarea id="advice" placeholder="Was fragst du, wenn jemand Hilfe braucht?"></textarea>
+        </div>
+
+        <div class="btn-row">
+          <button class="btn btn-ghost" onclick="goTo(0)">← Zurück</button>
+          <button class="btn btn-primary" onclick="goTo(2)">Weiter →</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: ERFAHRUNG -->
+      <div class="step" id="step2">
+        <div class="step-label">Schritt 2 von 4</div>
+        <div class="step-title">Deine Erfahrung &amp; Fähigkeiten 💼</div>
+        <p class="step-desc">Dein Background ist wertvoller als du denkst — auch wenn er sich erstmal komisch anfühlt!</p>
+
+        <div class="form-group">
+          <label>Deine Berufserfahrung
+            <span class="hint">Was hast du früher gemacht? Welche Jobs, Ausbildungen oder Studium?</span>
+          </label>
+          <textarea id="experience" placeholder="z.B. 10 Jahre Lehrerin, früher im Marketing, Krankenschwester, Buchhalterin..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Was kannst du besonders gut?
+            <span class="hint">Fähigkeiten, für die andere dich loben oder die dir leicht fallen</span>
+          </label>
+          <textarea id="skills" placeholder="z.B. organisieren, erklären, motivieren, kreativ sein, strukturieren..."></textarea>
+        </div>
+
+        <div class="btn-row">
+          <button class="btn btn-ghost" onclick="goTo(1)">← Zurück</button>
+          <button class="btn btn-primary" onclick="goTo(3)">Weiter →</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: RAHMEN -->
+      <div class="step" id="step3">
+        <div class="step-label">Schritt 3 von 4</div>
+        <div class="step-title">Deine Wünsche &amp; Rahmenbedingungen ⏰</div>
+        <p class="step-desc">Diese Infos helfen, realistische und wirklich zu dir passende Nischen zu finden.</p>
+
+        <div class="form-group">
+          <label>Wie viel Zeit hast du pro Woche für dein Business?</label>
+          <select id="time">
+            <option value="">Bitte auswählen...</option>
+            <option value="1-5 Stunden pro Woche">1–5 Stunden (Nebenher-Business)</option>
+            <option value="5-10 Stunden pro Woche">5–10 Stunden (Teilzeit)</option>
+            <option value="10-20 Stunden pro Woche">10–20 Stunden (Halbzeit)</option>
+            <option value="mehr als 20 Stunden pro Woche">20+ Stunden (Vollzeit)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Welches monatliche Einkommen wünschst du dir?</label>
+          <select id="income">
+            <option value="">Bitte auswählen...</option>
+            <option value="500–1.000 € monatlich">500–1.000 € (Nebeneinkommen)</option>
+            <option value="1.000–3.000 € monatlich">1.000–3.000 € (Teilzeit-Einkommen)</option>
+            <option value="3.000–5.000 € monatlich">3.000–5.000 € (Vollzeit-Einkommen)</option>
+            <option value="5.000+ € monatlich">5.000+ € (Skaliertes Business)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Was ist dir bei deinem Business besonders wichtig?
+            <span class="hint">z.B. Flexibilität, Sinnhaftigkeit, kreative Arbeit, Kontakt mit Menschen...</span>
+          </label>
+          <textarea id="values" placeholder="Schreib auf, was dir wichtig ist..." style="min-height:75px;"></textarea>
+        </div>
+
+        <div class="btn-row">
+          <button class="btn btn-ghost" onclick="goTo(2)">← Zurück</button>
+          <button class="btn btn-primary" onclick="generate()">Meine Nischen finden ✨</button>
+        </div>
+      </div>
+
+      <!-- STEP 4: LOADING -->
+      <div class="step" id="step4">
+        <div class="loading">
+          <div class="spinner"></div>
+          <h3>Deine Nischen werden analysiert…</h3>
+          <p>Ich prüfe Marktpotenzial, Passung und Möglichkeiten für dich</p>
+          <div class="loading-dots" style="margin-top:0.8rem;">
+            <span>✨</span><span>✨</span><span>✨</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 5: ERGEBNISSE -->
+      <div class="step" id="step5">
+        <div class="results-header">
+          <h2>🎉 Deine 3 perfekten Nischen</h2>
+          <p>Basierend auf deinen Antworten habe ich diese Nischen speziell für dich gefunden:</p>
+        </div>
+        <div id="results"></div>
+        <div class="restart-area">
+          <button class="btn-restart" onclick="restart()">↺ Nochmal neu starten</button>
+        </div>
+      </div>
+
+    </div><!-- /card -->
+  </div><!-- /container -->
+
+  <div class="footer">
+    Erstellt mit ❤️ für selbstständige Mamas · Powered by Claude AI
+  </div>
+
+  <!-- API Key FAB -->
+  <button class="api-fab" onclick="openModal()">⚙️ API-Key</button>
+
+  <!-- API Key Modal -->
+  <div class="overlay" id="overlay">
+    <div class="modal">
+      <h3>🔑 Claude API-Key eingeben</h3>
+      <p>
+        Damit das Tool funktioniert, brauchst du einen Claude API-Key von Anthropic.<br>
+        Dieser wird <strong>nur in deinem Browser</strong> gespeichert und nirgendwo übertragen.
+      </p>
+      <div class="form-group">
+        <label>Dein API-Key</label>
+        <input type="text" id="apiInput" placeholder="sk-ant-api03-..." />
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" onclick="closeModal()">Abbrechen</button>
+        <button class="btn btn-primary" onclick="saveKey()" style="flex:1">Speichern ✓</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ─── State ─── */
+    let step = 0;
+
+    /* ─── Navigation ─── */
+    function goTo(n) {
+      document.getElementById('step' + step).classList.remove('active');
+      step = n;
+      document.getElementById('step' + step).classList.add('active');
+      updateProgress();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function updateProgress() {
+      for (let i = 0; i < 5; i++) {
+        const dot  = document.getElementById('pd' + i);
+        const line = document.getElementById('pl' + i);
+        if (i < step)       { dot.className  = 'p-dot done'; }
+        else if (i === step){ dot.className  = 'p-dot active'; }
+        else                { dot.className  = 'p-dot'; }
+        if (line) line.className = i < step ? 'p-line done' : 'p-line';
+      }
+    }
+
+    function restart() {
+      ['hobbies','advice','experience','skills','values'].forEach(id => {
+        document.getElementById(id).value = '';
+      });
+      document.getElementById('time').value = '';
+      document.getElementById('income').value = '';
+      removeError();
+      goTo(0);
+    }
+
+    /* ─── API Key ─── */
+    function openModal() {
+      document.getElementById('apiInput').value = localStorage.getItem('claudeKey') || '';
+      document.getElementById('overlay').classList.add('open');
+    }
+    function closeModal() { document.getElementById('overlay').classList.remove('open'); }
+    function saveKey() {
+      const k = document.getElementById('apiInput').value.trim();
+      if (k) { localStorage.setItem('claudeKey', k); closeModal(); showSuccess('API-Key gespeichert! ✅'); }
+    }
+
+    /* ─── Error / Success ─── */
+    function removeError() { document.querySelectorAll('.error-box').forEach(e => e.remove()); }
+    function showError(msg) {
+      removeError();
+      const el = document.createElement('div');
+      el.className = 'error-box';
+      el.innerHTML = '⚠️ ' + msg;
+      const active = document.querySelector('.step.active');
+      if (active) active.appendChild(el);
+    }
+    function showSuccess(msg) {
+      const el = document.createElement('div');
+      el.style.cssText = 'position:fixed;top:1.2rem;right:1.2rem;background:#e8f5e9;border:1.5px solid #a5d6a7;color:#2e7d32;padding:0.8rem 1.3rem;border-radius:12px;font-family:Arial,sans-serif;font-size:0.9rem;font-weight:700;z-index:200;box-shadow:0 4px 16px rgba(0,0,0,0.12);';
+      el.textContent = msg;
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 3000);
+    }
+
+    /* ─── Generate ─── */
+    async function generate() {
+      const key = localStorage.getItem('claudeKey');
+      if (!key) { openModal(); showError('Bitte gib zuerst deinen Claude API-Key ein (⚙️ unten rechts).'); return; }
+
+      const hobbies    = document.getElementById('hobbies').value.trim();
+      const advice     = document.getElementById('advice').value.trim();
+      const experience = document.getElementById('experience').value.trim();
+      const skills     = document.getElementById('skills').value.trim();
+      const time       = document.getElementById('time').value;
+      const income     = document.getElementById('income').value;
+      const values     = document.getElementById('values').value.trim();
+
+      if (!time || !income) { showError('Bitte wähle Zeitaufwand und Wunscheinkommen aus.'); return; }
+
+      goTo(4);
+
+      const prompt = `Du bist ein erfahrener Business-Coach spezialisiert auf Online-Businesses und E-Mail-Marketing für Mamas in Deutschland/Österreich/Schweiz.
+
+Analysiere diese Angaben und erstelle genau 3 maßgeschneiderte Nischen-Vorschläge:
+
+ANGABEN:
+- Hobbys & Leidenschaften: ${hobbies || 'nicht angegeben'}
+- Worum sie um Rat gefragt wird: ${advice || 'nicht angegeben'}
+- Berufserfahrung: ${experience || 'nicht angegeben'}
+- Stärken & Fähigkeiten: ${skills || 'nicht angegeben'}
+- Verfügbare Zeit: ${time}
+- Gewünschtes Einkommen: ${income}
+- Wichtige Werte: ${values || 'nicht angegeben'}
+
+WICHTIG:
+- Antworte NUR mit einem validen JSON-Array, ohne Markdown-Code-Blöcke, ohne Text davor oder danach
+- Alle Nischen müssen im DACH-Markt funktionieren
+- Nischen müssen realistisch mit der verfügbaren Zeit und dem Einkomensziel umsetzbar sein
+- Kombiniere Leidenschaften clever mit Berufserfahrung, auch wenn es ungewöhnlich klingt
+
+JSON-Format:
+[
+  {
+    "nummer": 1,
+    "titel": "Kurzer, ansprechender Nischen-Name (max 6 Wörter)",
+    "tagline": "Ein Satz der die Nische perfekt beschreibt",
+    "beschreibung": "2-3 Sätze: Was genau machst du? Für wen? Welches konkrete Problem löst du?",
+    "zielgruppe": "Wer sind die idealen Kunden? (konkret und spezifisch)",
+    "angebote": "3 konkrete Produkt- oder Service-Ideen, kommagetrennt",
+    "marktpotenzial": "Hoch",
+    "marktbegruendung": "1-2 Sätze warum dieser Markt im DACH-Raum funktioniert",
+    "passung": "Sehr gut",
+    "passung_begruendung": "1 Satz warum diese Nische besonders gut zu der Person passt",
+    "erster_schritt": "Der eine konkrete, sofort umsetzbare nächste Schritt"
+  }
+]
+
+Mögliche Werte für marktpotenzial: "Hoch", "Mittel", "Niedrig"
+Mögliche Werte für passung: "Sehr gut", "Gut", "Möglich"`;
+
+      try {
+        const res = await fetch('https://api.anthropic.com/v1/messages', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': key,
+            'anthropic-version': '2023-06-01',
+            'anthropic-dangerous-direct-browser-calls': 'true'
+          },
+          body: JSON.stringify({
+            model: 'claude-opus-4-5',
+            max_tokens: 2500,
+            messages: [{ role: 'user', content: prompt }]
+          })
+        });
+
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          throw new Error(err.error?.message || 'API-Fehler ' + res.status);
+        }
+
+        const data = await res.json();
+        const text = data.content[0].text.trim();
+
+        let niches;
+        try {
+          niches = JSON.parse(text);
+        } catch {
+          const m = text.match(/\[[\s\S]*\]/);
+          if (m) niches = JSON.parse(m[0]);
+          else throw new Error('Antwort konnte nicht verarbeitet werden. Bitte nochmal versuchen.');
+        }
+
+        renderResults(niches);
+        goTo(5);
+
+      } catch (err) {
+        goTo(3);
+        showError(err.message || 'Unbekannter Fehler. Bitte API-Key prüfen und nochmal versuchen.');
+      }
+    }
+
+    /* ─── Render Results ─── */
+    function renderResults(niches) {
+      const marketBadge = {
+        'Hoch':    'badge-hoch',
+        'Mittel':  'badge-mittel',
+        'Niedrig': 'badge-niedrig'
+      };
+      const fitBadge = {
+        'Sehr gut': 'badge-sehr',
+        'Gut':      'badge-gut',
+        'Möglich':  'badge-moegl'
+      };
+
+      document.getElementById('results').innerHTML = niches.map((n, i) => `
+        <div class="niche-card">
+          <div class="niche-top">
+            <div class="niche-num">${n.nummer || i + 1}</div>
+            <div class="niche-title-wrap">
+              <div class="niche-title">${n.titel}</div>
+              <div class="niche-tagline">"${n.tagline}"</div>
+            </div>
+          </div>
+
+          <div class="badge-row">
+            <span class="badge ${marketBadge[n.marktpotenzial] || 'badge-mittel'}">
+              📈 Markt: ${n.marktpotenzial}
+            </span>
+            <span class="badge ${fitBadge[n.passung] || 'badge-gut'}">
+              ✨ Passung: ${n.passung}
+            </span>
+          </div>
+
+          <div class="niche-sections">
+            <div class="ns">
+              <div class="ns-label">Was ist das?</div>
+              <div class="ns-text">${n.beschreibung}</div>
+            </div>
+            <div class="ns">
+              <div class="ns-label">Deine Zielgruppe</div>
+              <div class="ns-text">${n.zielgruppe}</div>
+            </div>
+            <div class="ns">
+              <div class="ns-label">Mögliche Angebote</div>
+              <div class="ns-text">${n.angebote}</div>
+            </div>
+            <div class="ns">
+              <div class="ns-label">Warum der Markt funktioniert</div>
+              <div class="ns-text">${n.marktbegruendung}</div>
+            </div>
+            ${n.passung_begruendung ? `
+            <div class="ns">
+              <div class="ns-label">Warum es zu dir passt</div>
+              <div class="ns-text">${n.passung_begruendung}</div>
+            </div>` : ''}
+          </div>
+
+          <div class="first-step-box">
+            <div class="ns-label">🚀 Dein erster Schritt</div>
+            <div class="ns-text">${n.erster_schritt}</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    /* ─── Init ─── */
+    window.addEventListener('load', () => {
+      if (!localStorage.getItem('claudeKey')) {
+        setTimeout(() => {
+          const hint = document.createElement('div');
+          hint.style.cssText = 'text-align:center;color:var(--text-light);font-family:Arial,sans-serif;font-size:0.83rem;margin-top:1.2rem;';
+          hint.innerHTML = '⚙️ Tipp: Gib deinen <strong style="color:var(--gold)">Claude API-Key</strong> ein — Button unten rechts';
+          const active = document.querySelector('.step.active');
+          if (active) active.appendChild(hint);
+        }, 600);
+      }
+    });
+  </script>
+</body>
+</html>
