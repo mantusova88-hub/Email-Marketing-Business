@@ -1,3 +1,5 @@
+const https = require('https');
+
 exports.handler = async (event) => {
   const headers = {
     'Access-Control-Allow-Origin': '*',
@@ -17,35 +19,53 @@ exports.handler = async (event) => {
   try {
     const { prompt, apiKey } = JSON.parse(event.body);
 
-    if (!apiKey || !prompt) {
-      return { statusCode: 400, headers, body: JSON.stringify({ error: 'API-Key oder Prompt fehlt' }) };
-    }
-
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01'
-      },
-      body: JSON.stringify({
-        model: 'claude-opus-4-5',
-        max_tokens: 2500,
-        messages: [{ role: 'user', content: prompt }]
-      })
+    const requestBody = JSON.stringify({
+      model: 'claude-opus-4-5',
+      max_tokens: 2500,
+      messages: [{ role: 'user', content: prompt }]
     });
 
-    const data = await response.json();
-
-    if (!response.ok) {
-      return {
-        statusCode: response.status,
-        headers,
-        body: JSON.stringify({ error: data.error?.message || 'API-Fehler' })
+    return new Promise((resolve) => {
+      const options = {
+        hostname: 'api.anthropic.com',
+        path: '/v1/messages',
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+          'Content-Length': Buffer.byteLength(requestBody)
+        }
       };
-    }
 
-    return { statusCode: 200, headers, body: JSON.stringify(data) };
+      const req = https.request(options, (res) => {
+        let data = '';
+        res.on('data', (chunk) => { data += chunk; });
+        res.on('end', () => {
+          try {
+            const parsed = JSON.parse(data);
+            if (res.statusCode !== 200) {
+              resolve({
+                statusCode: res.statusCode,
+                headers,
+                body: JSON.stringify({ error: parsed.error?.message || 'API Fehler' })
+              });
+            } else {
+              resolve({ statusCode: 200, headers, body: data });
+            }
+          } catch (e) {
+            resolve({ statusCode: 500, headers, body: JSON.stringify({ error: 'Parse error' }) });
+          }
+        });
+      });
+
+      req.on('error', (err) => {
+        resolve({ statusCode: 500, headers, body: JSON.stringify({ error: err.message }) });
+      });
+
+      req.write(requestBody);
+      req.end();
+    });
 
   } catch (err) {
     return { statusCode: 500, headers, body: JSON.stringify({ error: err.message }) };
