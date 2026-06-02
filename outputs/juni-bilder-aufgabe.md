@@ -12,7 +12,7 @@
 | Do | 05.06. | Du hast mehr geschafft als du denkst | KI-Bild fehlt noch | ⏳ Morgen erstellen |
 | Fr | 06.06. | Endlich Freitag — du hast es dir verdient | KI-Bild fehlt noch | ⏳ Morgen erstellen |
 | Sa | 07.06. | Die Frau die du sein möchtest | KI-Bild fehlt noch | ⏳ Morgen erstellen |
-| So | 08.06. | Innere Klarheit (Karussell) | Monika's eigene 4 Bilder | ✅ Erledigt |
+| So | 08.06. | Innere Klarheit / neuer Anfang | KI-Bild fehlt noch | ⏳ Morgen erstellen |
 
 ## Nächste Woche (09.06.–15.06.)
 
@@ -22,11 +22,14 @@
 
 ## Was morgen früh zu tun ist (03.06. — Kontingent reset)
 
-Mit `/prime` starten, dann sofort 4 KI-Bilder generieren und DIREKT speichern:
-1. Mi 04.06. — Aufgehört mich zu erklären (Natur, Nebel, Loslassen)
-2. Do 05.06. — Du hast mehr geschafft (Goldene Stunde, Sonnenuntergang)
-3. Fr 06.06. — Endlich Freitag (Champagner, Feier, Glitzer)
+Mit `/prime` starten, dann sofort 5 KI-Bilder generieren und DIREKT speichern:
+1. Mi 04.06. — Aufgehört mich zu erklären (Natur, Nebel, Loslassen, ruhige Atmosphäre)
+2. Do 05.06. — Du hast mehr geschafft (Goldene Stunde, Sonnenuntergang, warm)
+3. Fr 06.06. — Endlich Freitag (Champagner, Feier, Glitzer, Freude)
 4. Sa 07.06. — Die Frau die du sein möchtest (Rosen, Rose Gold, Selbstliebe)
+5. So 08.06. — Innere Klarheit (Kaffee, Sonntagsruhe, Fenster, Morgenlicht)
+
+⚠️ WICHTIG: Die 4 Bilder die Monika als Muster geschickt hat NICHT verwenden — komplett neue Bilder erstellen!
 
 ## Wichtig
 - SOFORT nach generate-design → create-design-from-candidate aufrufen (nicht warten!)
