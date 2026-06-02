@@ -55,3 +55,23 @@ Ohne CTA wird die Caption NICHT fertiggestellt.
 - „Welcher Satz trifft dich gerade am meisten? Kommentiere! ✨"
 
 **Ziel:** Likes, Kommentare, Saves — echte Aufmerksamkeit und Reichweite erzeugen.
+
+## ⚠️ PFLICHT-REGEL: Instagram Stories — Struktur IMMER!
+
+**Jeder Story-Tag hat genau 2 Stories:**
+
+**Story 1 — Abstimmung-Sticker:**
+1. Kleiner Einleitungstext oben auf dem Bild (1 Satz, zum Thema des Tages passend)
+2. Abstimmung-Sticker mit Titel: „ICH BIN NEUGIERIG 🤍"
+3. 3 kurze Fragen im Sticker (max. 5-6 Wörter pro Frage)
+
+**Story 2 — Link-Story:**
+1. Hintergrund: Reel-Bild oder Canva-Design
+2. Text auf dem Bild: Kurzer Satz zum Thema + „sieh dir mein neues Reel an!"
+3. Link-Sticker: nach dem Posten des Reels einfügen
+
+**Beispiel Einleitungstexte:**
+- „Darf ich dich heute etwas fragen? 🤍"
+- „Ich bin neugierig auf dich heute... 🌿"
+- „3 ehrliche Fragen für dich ✨"
+- „Heute stelle ich dir 3 Fragen 👇"
