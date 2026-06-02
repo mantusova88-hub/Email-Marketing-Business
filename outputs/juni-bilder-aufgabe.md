@@ -1,30 +1,35 @@
-# Aufgabe: Neue Canva-Bilder für Juni 1-7
+# Aufgabe: Canva-Bilder Juni — Status
 
-**Datum:** 1. Juni 2026 (Montag)
-**Status:** Wartet auf Canva-KI-Kontingent (reset am 01.06.)
+**Aktualisiert:** 2. Juni 2026 (Dienstag)
 
-## Was zu tun ist
+## Status dieser Woche (02.06.–08.06.)
 
-Am 1. Juni mit `/prime` starten, dann für jeden Tag ein komplett neues KI-generiertes Bild erstellen.
+| Tag | Datum | Titel | Bild | Status |
+|-----|-------|-------|------|--------|
+| Mo | 02.06. | Neue Woche neues Kapitel | Canva gespeichert (DAHLb_Ntw2w) | ✅ Erledigt |
+| Di | 03.06. | Pause ist keine Schwäche | Monika's eigenes Bild (Frau auf Steg) | ✅ Erledigt |
+| Mi | 04.06. | Aufgehört mich zu erklären | KI-Bild fehlt noch | ⏳ Morgen erstellen |
+| Do | 05.06. | Du hast mehr geschafft als du denkst | KI-Bild fehlt noch | ⏳ Morgen erstellen |
+| Fr | 06.06. | Endlich Freitag — du hast es dir verdient | KI-Bild fehlt noch | ⏳ Morgen erstellen |
+| Sa | 07.06. | Die Frau die du sein möchtest | KI-Bild fehlt noch | ⏳ Morgen erstellen |
+| So | 08.06. | Innere Klarheit (Karussell) | Monika's eigene 4 Bilder | ✅ Erledigt |
 
-## 7 neue Bilder generieren
+## Nächste Woche (09.06.–15.06.)
 
 | Tag | Datum | Titel | Bildthema |
 |-----|-------|-------|-----------|
-| Mo | 02.06. | Neue Woche neues Kapitel | Motivational, Burgundy #800020 auf dunklem Hintergrund, Gold-Ornamente |
-| Di | 03.06. | Die stärksten Frauen fangen trotzdem an | Starke Frau, emotional, Empowerment |
-| Mi | 04.06. | Aufgehört mich zu erklären | Loslassen, Klarheit, ruhige Atmosphäre |
-| Do | 05.06. | Du hast mehr geschafft als du denkst | Goldene Stunde, Anerkennung, warm |
-| Fr | 06.06. | Endlich Freitag — du hast es dir verdient | Feierabend, Champagner-Stimmung, Freude |
-| Sa | 07.06. | Die Frau die du sein möchtest | Aspiration, Selbstliebe, Rose/Gold |
-| So | 08.06. | Was wäre wenn diese Woche alles ändert? | Sonntagsruhe, neuer Anfang, Kaffee |
+| Di | 09.06. | Die stärksten Frauen fangen trotzdem an | Starke Frau, Empowerment, Sonnenaufgang, warm |
 
-## Branding
-- **Titel:** Burgundy `#800020`, fett
-- **Untertitel:** Gold `#B59156`
-- **Schrift:** Bugaki (Titel), Arial (Text) — manuell in Canva einstellen
+## Was morgen früh zu tun ist (03.06. — Kontingent reset)
+
+Mit `/prime` starten, dann sofort 4 KI-Bilder generieren und DIREKT speichern:
+1. Mi 04.06. — Aufgehört mich zu erklären (Natur, Nebel, Loslassen)
+2. Do 05.06. — Du hast mehr geschafft (Goldene Stunde, Sonnenuntergang)
+3. Fr 06.06. — Endlich Freitag (Champagner, Feier, Glitzer)
+4. Sa 07.06. — Die Frau die du sein möchtest (Rosen, Rose Gold, Selbstliebe)
 
 ## Wichtig
-- KEINE Vorlagen nehmen die Monika geschickt hat
-- Komplett neue KI-generierte Designs
-- Jedes Bild muss anders aussehen (andere Hintergründe, andere Stile)
+- SOFORT nach generate-design → create-design-from-candidate aufrufen (nicht warten!)
+- Komplett neue KI-generierte Designs, KEINE Vorlagen von Monika
+- Jedes Bild muss anders aussehen
+- Branding: Burgundy #800020 (Titel), Gold #B59156 (Akzente)
