@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deine erste E-Mail-Liste in 5 Tagen – Guide für Mamas</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Georgia', serif; background: #faf8f5; color: #333; min-height: 100vh; }
+
+  .header {
+    background: linear-gradient(135deg, #800220 0%, #a0042a 100%);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .header .badge {
+    background: #B59156;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 4px 14px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .header h1 { font-size: clamp(22px, 4vw, 34px); line-height: 1.3; margin-bottom: 12px; }
+  .header p { font-size: 16px; opacity: 0.9; max-width: 500px; margin: 0 auto; font-style: italic; }
+
+  .progress-section {
+    background: white;
+    border-bottom: 2px solid #f0ebe3;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  .progress-label { font-family: sans-serif; font-size: 13px; color: #666; margin-bottom: 8px; }
+  .progress-bar { background: #f0ebe3; border-radius: 20px; height: 12px; max-width: 400px; margin: 0 auto 6px; overflow: hidden; }
+  .progress-fill { background: linear-gradient(90deg, #800220, #B59156); height: 100%; border-radius: 20px; transition: width 0.5s ease; width: 0%; }
+  .progress-count { font-family: sans-serif; font-size: 14px; font-weight: bold; color: #800220; }
+
+  .container { max-width: 680px; margin: 0 auto; padding: 30px 20px 60px; }
+
+  .intro-box {
+    background: white;
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 30px;
+    border-left: 5px solid #B59156;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .intro-box h2 { color: #800220; font-size: 18px; margin-bottom: 12px; }
+  .intro-box p { color: #555; line-height: 1.7; font-size: 15px; }
+
+  .day-card {
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  .day-card:hover { transform: translateY(-2px); }
+
+  .day-header {
+    background: linear-gradient(135deg, #800220, #a0042a);
+    color: white;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .day-number {
+    background: #B59156;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    flex-shrink: 0;
+    font-family: sans-serif;
+  }
+  .day-title { font-size: 18px; font-weight: bold; }
+  .day-subtitle { font-size: 13px; opacity: 0.85; margin-top: 2px; font-style: italic; }
+
+  .day-body { padding: 20px 24px; }
+
+  .step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid #f5f0ea;
+    cursor: pointer;
+  }
+  .step-item:last-child { border-bottom: none; }
+
+  .checkbox {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #B59156;
+    border-radius: 6px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    margin-top: 2px;
+  }
+  .checkbox.checked {
+    background: #800220;
+    border-color: #800220;
+  }
+  .checkbox.checked::after {
+    content: '✓';
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .step-content { flex: 1; }
+  .step-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+    transition: color 0.2s;
+  }
+  .step-item.done .step-title { color: #999; text-decoration: line-through; }
+  .step-desc { font-size: 13px; color: #666; line-height: 1.5; }
+  .step-tip {
+    background: #fdf8f0;
+    border: 1px solid #B59156;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #8a6b3a;
+    margin-top: 8px;
+    font-style: italic;
+  }
+  .step-tip::before { content: '💡 '; }
+
+  .time-badge {
+    background: #f0ebe3;
+    color: #800220;
+    font-size: 11px;
+    font-family: sans-serif;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 6px;
+    font-weight: bold;
+  }
+
+  .celebration {
+    display: none;
+    background: linear-gradient(135deg, #800220, #B59156);
+    color: white;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .celebration h2 { font-size: 26px; margin-bottom: 12px; }
+  .celebration p { font-size: 16px; opacity: 0.9; line-height: 1.6; }
+
+  .print-btn {
+    background: #B59156;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  .print-btn:hover { background: #a07d45; }
+
+  @media print {
+    .progress-section, .print-btn { display: none; }
+    .day-card { break-inside: avoid; box-shadow: none; border: 1px solid #ddd; }
+    body { background: white; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="badge">E-Mail-Marketing Guide für Mamas</div>
+  <h1>Deine erste E-Mail-Liste<br>in 5 Tagen</h1>
+  <p>Schritt für Schritt – auch wenn du noch nie E-Mail-Marketing gemacht hast</p>
+</div>
+
+<div class="progress-section">
+  <div class="progress-label">Dein Fortschritt</div>
+  <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="progress-count" id="progressCount">0 von 20 Schritten abgehakt</div>
+</div>
+
+<div class="container">
+
+  <div class="intro-box">
+    <h2>So funktioniert dieser Guide</h2>
+    <p>Du bekommst 5 Tage × 4 Schritte = 20 konkrete Aufgaben, die dich von "Ich weiß nicht, wo ich anfangen soll" zu "Meine erste E-Mail-Liste steht!" bringen. Hak jeden Schritt ab, wenn du fertig bist. Du schaffst das!</p>
+  </div>
+
+  <!-- TAG 1 -->
+  <div class="day-card">
+    <div class="day-header">
+      <div class="day-number">1</div>
+      <div>
+        <div class="day-title">Account erstellen</div>
+        <div class="day-subtitle">Das Fundament für deine E-Mail-Liste</div>
+      </div>
+    </div>
+    <div class="day-body">
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">MailerLite.com aufrufen und kostenlosen Account anlegen</div>
+          <div class="step-desc">Gehe zu mailerlite.com und klicke auf "Sign up free". Du kannst bis zu 1.000 Kontakte kostenlos verwalten.</div>
+          <div class="step-tip">Nutze deine Business-E-Mail-Adresse, nicht die private.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Profil ausfüllen: Name, Business-Name, Website</div>
+          <div class="step-desc">MailerLite fragt dich nach deinem Business. Fülle alles aus – das hilft später beim Versand.</div>
+          <div class="step-tip">Du brauchst noch keine fertige Website – eine Instagram-Seite reicht als Platzhalter.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">E-Mail-Adresse bestätigen (Bestätigungs-Mail öffnen)</div>
+          <div class="step-desc">MailerLite schickt dir eine E-Mail zur Bestätigung. Klicke auf den Link darin.</div>
+          <div class="step-tip">Schau auch in deinen Spam-Ordner, falls die Mail nicht ankommt.</div>
+          <span class="time-badge">⏱ 2 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Dashboard erkunden – kurz umschauen</div>
+          <div class="step-desc">Schau dir das Dashboard kurz an. Du wirst die Bereiche "Subscribers", "Campaigns" und "Forms" sehen.</div>
+          <div class="step-tip">Keine Angst vor den vielen Optionen – wir brauchen heute nur einen kleinen Teil davon.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAG 2 -->
+  <div class="day-card">
+    <div class="day-header">
+      <div class="day-number">2</div>
+      <div>
+        <div class="day-title">Erste Gruppe anlegen</div>
+        <div class="day-subtitle">Deine Kontakte organisieren</div>
+      </div>
+    </div>
+    <div class="day-body">
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Unter "Subscribers" → "Groups" eine neue Gruppe erstellen</div>
+          <div class="step-desc">Klicke auf "Subscribers" im Menü, dann auf "Groups", dann auf "+ Add group". Nenne sie z.B. "Meine Interessentinnen".</div>
+          <div class="step-tip">Gruppen helfen dir später, verschiedene Kontakte unterschiedlich anzuschreiben.</div>
+          <span class="time-badge">⏱ 3 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Erste Kontaktperson manuell hinzufügen (dich selbst!)</div>
+          <div class="step-desc">Klicke auf "+ Add subscriber" und trage deine eigene E-Mail-Adresse ein. So kannst du alles testen.</div>
+          <div class="step-tip">Nutze eine zweite E-Mail-Adresse (z.B. Gmail) zum Testen – so siehst du, wie deine E-Mails bei Empfängerinnen aussehen.</div>
+          <span class="time-badge">⏱ 3 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Kontakt-Felder anschauen (Name, E-Mail sind Standard)</div>
+          <div class="step-desc">Schau unter "Subscribers" → "Fields" was es gibt. Du kannst später eigene Felder hinzufügen, z.B. "Kinder" oder "Business-Ziel".</div>
+          <div class="step-tip">Am Anfang reichen Name und E-Mail komplett aus.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Überlegen: Was schenkst du neuen Abonnentinnen? (Freebies)</div>
+          <div class="step-desc">Schreibe auf, was du als kostenloses Geschenk anbieten könntest. Ideen: Checkliste, Mini-Guide, Vorlage, kurze Video-Anleitung.</div>
+          <div class="step-tip">Das muss noch nicht fertig sein – nur eine Idee notieren reicht für heute.</div>
+          <span class="time-badge">⏱ 10 Minuten</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAG 3 -->
+  <div class="day-card">
+    <div class="day-header">
+      <div class="day-number">3</div>
+      <div>
+        <div class="day-title">Anmeldeformular bauen</div>
+        <div class="day-subtitle">So kommen Leute in deine Liste</div>
+      </div>
+    </div>
+    <div class="day-body">
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Unter "Forms" ein neues eingebettetes Formular erstellen</div>
+          <div class="step-desc">Klicke auf "Forms" im Menü, dann "Create form". Wähle "Embedded form" (eingebettetes Formular).</div>
+          <div class="step-tip">Starte mit dem einfachsten Typ – du kannst später noch Popup-Formulare probieren.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Formular gestalten: Überschrift, Beschreibung, Button-Text</div>
+          <div class="step-desc">Schreibe eine Überschrift die Lust macht, z.B. "Hol dir deinen kostenlosen Business-Start Guide!" und einen Button wie "Ja, ich will!"</div>
+          <div class="step-tip">Der Button-Text "Ja, ich will!" funktioniert besser als "Abonnieren" oder "Anmelden".</div>
+          <span class="time-badge">⏱ 10 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Formular mit deiner Gruppe verknüpfen</div>
+          <div class="step-desc">Stelle sicher, dass neue Anmeldungen automatisch in deine Gruppe "Meine Interessentinnen" landen.</div>
+          <div class="step-tip">Das findest du in den Formular-Einstellungen unter "Subscribers".</div>
+          <span class="time-badge">⏱ 3 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Formular speichern und den Link kopieren</div>
+          <div class="step-desc">Speichere das Formular und kopiere den Link. Diesen Link kannst du sofort auf Instagram, in deiner Bio oder per WhatsApp teilen.</div>
+          <div class="step-tip">Teile den Link mit 3 Personen die du kennst – erste Tests bringen echte Erkenntnisse.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAG 4 -->
+  <div class="day-card">
+    <div class="day-header">
+      <div class="day-number">4</div>
+      <div>
+        <div class="day-title">Willkommens-E-Mail schreiben</div>
+        <div class="day-subtitle">Dein erster Eindruck bei neuen Abonnentinnen</div>
+      </div>
+    </div>
+    <div class="day-body">
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Unter "Automations" eine neue Automation erstellen</div>
+          <div class="step-desc">Klicke auf "Automations" → "Create automation". Trigger: "When subscriber joins a group" → deine Gruppe auswählen.</div>
+          <div class="step-tip">Automationen laufen automatisch – du schreibst die E-Mail einmal und sie geht an alle neuen Abonnentinnen.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Willkommens-E-Mail schreiben: Wer bist du? Was können sie erwarten?</div>
+          <div class="step-desc">Schreibe kurz: wer du bist, was du machst, was sie in Zukunft von dir bekommen. Betreff: "Willkommen – ich bin so froh, dass du da bist!"</div>
+          <div class="step-tip">Schreib wie zu einer Freundin – nicht steif und formell. Persönlichkeit zieht Menschen an.</div>
+          <span class="time-badge">⏱ 20 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Absender-Name und Absender-Adresse einstellen</div>
+          <div class="step-desc">Stelle sicher, dass die E-Mails von "Monika" (oder deinem Namen) kommen, nicht von einer kryptischen Adresse.</div>
+          <div class="step-tip">Persönliche Absender-Namen haben höhere Öffnungsraten als Firmen-Namen.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Automation aktivieren und speichern</div>
+          <div class="step-desc">Klicke auf "Save & Close" und dann "Enable" (Aktivieren). Ab sofort geht die Willkommens-E-Mail automatisch raus.</div>
+          <div class="step-tip">Teste es selbst: trage dich mit deiner zweiten E-Mail-Adresse ein und schau ob die Willkommens-Mail ankommt.</div>
+          <span class="time-badge">⏱ 3 Minuten</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAG 5 -->
+  <div class="day-card">
+    <div class="day-header">
+      <div class="day-number">5</div>
+      <div>
+        <div class="day-title">Testen & Veröffentlichen</div>
+        <div class="day-subtitle">Deine Liste geht live!</div>
+      </div>
+    </div>
+    <div class="day-body">
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Alles mit eigener Adresse testen (Formular ausfüllen)</div>
+          <div class="step-desc">Öffne deinen Formular-Link in einem neuen Browser-Fenster und trage deine Test-E-Mail ein. Läuft alles?</div>
+          <div class="step-tip">Teste auf dem Handy UND auf dem Computer – viele besuchen Seiten nur mit dem Handy.</div>
+          <span class="time-badge">⏱ 10 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Formular-Link in Instagram-Bio eintragen</div>
+          <div class="step-desc">Gehe zu Instagram → Profil bearbeiten → "Link in Bio" → trage deinen Formular-Link ein.</div>
+          <div class="step-tip">Du kannst auch Linktree.com nutzen wenn du mehrere Links in der Bio haben willst.</div>
+          <span class="time-badge">⏱ 5 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">Ersten Instagram-Post über deine Liste schreiben</div>
+          <div class="step-desc">Erzähle warum du eine E-Mail-Liste aufbaust und was Followerinnen davon haben, wenn sie sich anmelden. Ehrlich und persönlich!</div>
+          <div class="step-tip">Beispiel: "Ich baue gerade meine E-Mail-Liste auf – wer sich jetzt einträgt, bekommt [Freebie] gratis. Link in Bio!"</div>
+          <span class="time-badge">⏱ 15 Minuten</span>
+        </div>
+      </div>
+      <div class="step-item" onclick="toggle(this)">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <div class="step-title">5 Menschen persönlich einladen, sich einzutragen</div>
+          <div class="step-desc">Schreibe 5 Freundinnen, Bekannten oder Followerinnen persönlich an (WhatsApp, DM) und lade sie ein. Persönliche Einladungen haben 80% Erfolgsquote.</div>
+          <div class="step-tip">Nicht: "Kannst du dich eintragen?" Sondern: "Ich habe was Neues gestartet und dachte sofort an dich – hättest du Interesse?"</div>
+          <span class="time-badge">⏱ 15 Minuten</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="celebration" id="celebration">
+    <div style="font-size:48px;margin-bottom:16px;">🎉</div>
+    <h2>Du hast es geschafft!</h2>
+    <p>Deine erste E-Mail-Liste steht. Du bist jetzt offiziell E-Mail-Marketing-Unternehmerin. Das ist riesig – gib dir einen Moment um das zu feiern!</p>
+    <p style="margin-top:16px;font-style:italic;">"Jede Expertin war einmal Anfängerin."</p>
+  </div>
+
+  <button class="print-btn" onclick="window.print()">🖨️ Als PDF drucken</button>
+
+</div>
+
+<script>
+  const TOTAL = 20;
+
+  function toggle(item) {
+    item.classList.toggle('done');
+    const cb = item.querySelector('.checkbox');
+    cb.classList.toggle('checked');
+    updateProgress();
+  }
+
+  function updateProgress() {
+    const done = document.querySelectorAll('.step-item.done').length;
+    const pct = Math.round((done / TOTAL) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressCount').textContent = done + ' von ' + TOTAL + ' Schritten abgehakt';
+    document.getElementById('celebration').style.display = done === TOTAL ? 'block' : 'none';
+  }
+
+  updateProgress();
+</script>
+</body>
+</html>

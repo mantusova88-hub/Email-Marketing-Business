@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meal Prep Wochenplaner für Selbstständige Mamas</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Georgia', serif; background: #faf8f5; color: #333; min-height: 100vh; }
+
+  .header {
+    background: linear-gradient(135deg, #800220 0%, #a0042a 100%);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .header .badge {
+    background: #B59156;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 4px 14px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .header h1 { font-size: clamp(22px, 4vw, 34px); line-height: 1.3; margin-bottom: 12px; }
+  .header p { font-size: 16px; opacity: 0.9; max-width: 500px; margin: 0 auto; font-style: italic; }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 30px 20px 60px; }
+
+  .week-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: white;
+    border-radius: 16px;
+    padding: 16px 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .week-nav button {
+    background: #800220;
+    color: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .week-nav button:hover { background: #a0042a; }
+  .week-label { font-family: sans-serif; font-size: 15px; font-weight: bold; color: #800220; }
+
+  .planner-grid {
+    display: grid;
+    grid-template-columns: 100px repeat(7, 1fr);
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+
+  .grid-header {
+    background: #800220;
+    color: white;
+    text-align: center;
+    padding: 10px 4px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .grid-header:first-child { background: transparent; }
+
+  .meal-label {
+    background: #B59156;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 6px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  .meal-cell {
+    background: white;
+    border: 2px solid #f0ebe3;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+    min-height: 70px;
+  }
+  .meal-cell:focus-within { border-color: #B59156; }
+  .meal-cell textarea {
+    width: 100%;
+    height: 100%;
+    min-height: 70px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 8px;
+    font-size: 12px;
+    font-family: Georgia, serif;
+    color: #444;
+    background: transparent;
+    line-height: 1.4;
+  }
+  .meal-cell textarea::placeholder { color: #ccc; font-style: italic; }
+
+  .tips-section {
+    background: white;
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .tips-section h2 {
+    color: #800220;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .tip-card {
+    border-left: 4px solid #B59156;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    background: #fdf8f0;
+    border-radius: 0 10px 10px 0;
+  }
+  .tip-card h3 { color: #800220; font-size: 14px; margin-bottom: 6px; font-family: sans-serif; }
+  .tip-card p { color: #555; font-size: 13px; line-height: 1.6; }
+
+  .shopping-section {
+    background: white;
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .shopping-section h2 {
+    color: #800220;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .shopping-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .shopping-col h3 {
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #B59156;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  .shopping-col textarea {
+    width: 100%;
+    height: 160px;
+    border: 2px solid #f0ebe3;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 13px;
+    font-family: Georgia, serif;
+    color: #444;
+    resize: none;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .shopping-col textarea:focus { border-color: #B59156; }
+
+  .btn-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .btn {
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.2s;
+  }
+  .btn-primary { background: #800220; color: white; }
+  .btn-primary:hover { background: #a0042a; }
+  .btn-secondary { background: #B59156; color: white; }
+  .btn-secondary:hover { background: #a07d45; }
+
+  @media (max-width: 600px) {
+    .planner-grid {
+      grid-template-columns: 70px repeat(7, 1fr);
+      font-size: 11px;
+    }
+    .shopping-columns { grid-template-columns: 1fr; }
+    .grid-header, .meal-label { font-size: 11px; padding: 8px 2px; }
+    .meal-cell textarea { font-size: 11px; }
+  }
+
+  @media print {
+    .btn-row { display: none; }
+    body { background: white; }
+    .tips-section, .shopping-section { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="badge">Meal Prep für Mamas</div>
+  <h1>Dein Wochenplaner –<br>gesund essen trotz Business-Chaos</h1>
+  <p>Plan deine Woche in 30 Minuten und spare täglich Zeit am Herd</p>
+</div>
+
+<div class="container">
+
+  <div class="week-nav">
+    <button onclick="changeWeek(-1)">‹</button>
+    <div class="week-label" id="weekLabel">Woche 1</div>
+    <button onclick="changeWeek(1)">›</button>
+  </div>
+
+  <div class="planner-grid" id="plannerGrid">
+    <!-- JS fills this -->
+  </div>
+
+  <div class="shopping-section">
+    <h2>🛒 Einkaufsliste für diese Woche</h2>
+    <div class="shopping-columns">
+      <div class="shopping-col">
+        <h3>Frisch & Obst & Gemüse</h3>
+        <textarea placeholder="z.B.&#10;Bananen&#10;Spinat&#10;Tomaten&#10;Zucchini&#10;..."></textarea>
+      </div>
+      <div class="shopping-col">
+        <h3>Kühlregal & Proteine</h3>
+        <textarea placeholder="z.B.&#10;Hühnerbrust&#10;Eier&#10;Joghurt&#10;Feta&#10;..."></textarea>
+      </div>
+      <div class="shopping-col">
+        <h3>Vorräte & Trockenwaren</h3>
+        <textarea placeholder="z.B.&#10;Haferflocken&#10;Reis&#10;Linsen&#10;Pasta&#10;..."></textarea>
+      </div>
+      <div class="shopping-col">
+        <h3>Sonstiges</h3>
+        <textarea placeholder="z.B.&#10;Olivenöl&#10;Gewürze&#10;Backpapier&#10;..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="tips-section">
+    <h2>🌟 Deine Meal Prep Tipps</h2>
+
+    <div class="tip-card">
+      <h3>Der Sonntags-Plan (30 Minuten reichen!)</h3>
+      <p>Koche am Sonntag Grundzutaten vor: Ein Topf Reis, ein Topf Hülsenfrüchte, geröstetes Gemüse im Ofen. Diese 3 Dinge ergeben 5 verschiedene Mahlzeiten für die Woche.</p>
+    </div>
+
+    <div class="tip-card">
+      <h3>Die Mama-Regel: Doppelt kochen</h3>
+      <p>Kochst du Abendessen? Koche immer doppelt. Die zweite Portion ist das Mittagessen von morgen. Spart 15-20 Minuten täglich – das macht über 2 Stunden pro Woche!</p>
+    </div>
+
+    <div class="tip-card">
+      <h3>Die 5-Zutaten-Regel für stressige Tage</h3>
+      <p>Halte immer diese 5 Dinge vorrätig: Eier, Haferflocken, gefrorenes Gemüse, Hülsenfrüchte (Dose), eine Nut-Butter. Damit kannst du in 10 Minuten immer etwas Gesundes zaubern.</p>
+    </div>
+
+    <div class="tip-card">
+      <h3>Frühstück vorbereiten in 5 Minuten</h3>
+      <p>Overnight Oats für 3 Tage gleichzeitig vorbereiten: Je 3 Gläser befüllen mit Haferflocken, Milch/Joghurt, Früchten. 3 Minuten Arbeit → 3 fertige Frühstücke im Kühlschrank.</p>
+    </div>
+
+    <div class="tip-card">
+      <h3>Snacks die dein Business-Hirn liebt</h3>
+      <p>Für konzentriertes Arbeiten: Nüsse, Obst, Hummus mit Gemüsesticks, Naturjoghurt. Vorbereitet in kleinen Dosen → keine Entscheidungsermüdung wenn du hungrig bist.</p>
+    </div>
+  </div>
+
+  <div class="btn-row">
+    <button class="btn btn-secondary" onclick="clearWeek()">🗑️ Woche löschen</button>
+    <button class="btn btn-primary" onclick="window.print()">🖨️ Als PDF drucken</button>
+  </div>
+
+</div>
+
+<script>
+  const DAYS = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+  const MEALS = [
+    { key: 'fruehstueck', label: 'Früh­stück' },
+    { key: 'mittagessen', label: 'Mittag­essen' },
+    { key: 'abendessen', label: 'Abend­essen' },
+    { key: 'snack', label: 'Snack' }
+  ];
+
+  let currentWeek = 1;
+
+  function weekKey(w) { return 'mealprep_week_' + w; }
+
+  function getData() {
+    return JSON.parse(localStorage.getItem(weekKey(currentWeek)) || '{}');
+  }
+
+  function saveCell(day, meal, value) {
+    const d = getData();
+    if (!d[day]) d[day] = {};
+    d[day][meal] = value;
+    localStorage.setItem(weekKey(currentWeek), JSON.stringify(d));
+  }
+
+  function renderGrid() {
+    const grid = document.getElementById('plannerGrid');
+    const data = getData();
+    grid.innerHTML = '';
+
+    // Header row
+    const empty = document.createElement('div');
+    empty.className = 'grid-header';
+    grid.appendChild(empty);
+
+    DAYS.forEach(day => {
+      const h = document.createElement('div');
+      h.className = 'grid-header';
+      h.textContent = day;
+      grid.appendChild(h);
+    });
+
+    // Meal rows
+    MEALS.forEach(meal => {
+      const label = document.createElement('div');
+      label.className = 'meal-label';
+      label.innerHTML = meal.label;
+      grid.appendChild(label);
+
+      DAYS.forEach(day => {
+        const cell = document.createElement('div');
+        cell.className = 'meal-cell';
+        const ta = document.createElement('textarea');
+        ta.placeholder = '...';
+        ta.value = (data[day] && data[day][meal.key]) || '';
+        ta.addEventListener('input', () => saveCell(day, meal.key, ta.value));
+        cell.appendChild(ta);
+        grid.appendChild(cell);
+      });
+    });
+  }
+
+  function changeWeek(dir) {
+    currentWeek = Math.max(1, Math.min(52, currentWeek + dir));
+    document.getElementById('weekLabel').textContent = 'Woche ' + currentWeek;
+    renderGrid();
+  }
+
+  function clearWeek() {
+    if (confirm('Alle Einträge dieser Woche löschen?')) {
+      localStorage.removeItem(weekKey(currentWeek));
+      renderGrid();
+    }
+  }
+
+  renderGrid();
+</script>
+</body>
+</html>
