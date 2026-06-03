@@ -40,6 +40,19 @@
 - Übergänge: Herausziehen, Einblenden, Springen, Zufallsblenden
 - Fonts in Canva: Bugaki (Titel), Arial (Fließtext)
 
+## ⚠️ PFLICHT-REGEL: @emailsmitmonika_ auf JEDER Slide — IMMER!
+
+**Jede einzelne Slide in jedem Karussell-Post muss IMMER @emailsmitmonika_ enthalten.**
+
+- Unten auf der Slide (klein, aber sichtbar)
+- JEDE Slide — nicht nur die erste oder letzte
+- Wird in JEDEN Canva-Prompt mit eingebaut
+- Ohne @emailsmitmonika_ ist die Slide NICHT fertig
+
+**Ziel:** Wiedererkennung, Branding, jede Slide ist eigenständig teilbar.
+
+---
+
 ## ⚠️ PFLICHT-REGEL: Call to Action — IMMER!
 
 **Jede Caption — egal ob Reel, Feed-Post oder Karussell — muss IMMER einen Call to Action am Ende haben.**
