@@ -7,12 +7,19 @@
 | Burgundy | `#800020` | Hauptfarbe (Primär) — Überschriften, Elemente |
 | Gold     | `#B59156` | Akzentfarbe — Untertitel, Dekorationselemente |
 
-## Schriftarten
+## Schriftarten & Größen — Karussell-Slides
 
-| Verwendung         | Schrift    |
-|--------------------|------------|
-| Titel / Überschrift | **Bugaki** |
-| Normaler Text / Untertitel / Unterschrift | **Arial** |
+| Element | Schrift | Größe | Farbe |
+|---|---|---|---|
+| Hook / Titel (Haupttext) | **Bugaki** | **50** | Burgunder auf Gold / Gold auf Burgunder |
+| Normaler Text (Fließtext) | **Arial** | **50** | Burgunder auf Gold / Gold auf Burgunder |
+| @emailsmitmonika_ (unten) | **Arial** | **30** | passend zur Folie |
+
+**WICHTIG:**
+- Hook/Hauptsatz → Bugaki, Größe 50
+- Fließtext / Untertitel → Arial, Größe 50
+- Handle unten → Arial, Größe 30
+- Diese Größen IMMER verwenden — nie abweichen!
 
 ## Hervorhebungen
 
