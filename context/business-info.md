@@ -51,3 +51,7 @@ Ohne Technikstress · Ohne Kaltakquise
 ## Wichtige Links
 
 <!-- Deine Website, Social-Media-Profile, etc. -->
+
+## Mitgliedschaften & Plattformen
+
+- **Sisterhood Academy** — "The Art of Business" Kurs/Community (Plattform für Profil-Ausfüllung)
