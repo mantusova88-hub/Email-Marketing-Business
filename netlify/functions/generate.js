@@ -17,11 +17,22 @@ exports.handler = async (event) => {
   }
 
   try {
-    const { prompt, apiKey } = JSON.parse(event.body);
+    const { prompt, systemPrompt, apiKey } = JSON.parse(event.body);
+
+    // API key: env variable (secure, production) or client fallback (dev/legacy)
+    const key = process.env.ANTHROPIC_API_KEY || apiKey;
+    if (!key) {
+      return {
+        statusCode: 401,
+        headers,
+        body: JSON.stringify({ error: 'Kein API-Key konfiguriert. Bitte ANTHROPIC_API_KEY in den Netlify-Umgebungsvariablen hinterlegen.' })
+      };
+    }
 
     const requestBody = JSON.stringify({
-      model: 'claude-opus-4-5',
+      model: 'claude-sonnet-4-6',
       max_tokens: 2500,
+      ...(systemPrompt ? { system: systemPrompt } : {}),
       messages: [{ role: 'user', content: prompt }]
     });
 
@@ -32,7 +43,7 @@ exports.handler = async (event) => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': apiKey,
+          'x-api-key': key,
           'anthropic-version': '2023-06-01',
           'Content-Length': Buffer.byteLength(requestBody)
         }

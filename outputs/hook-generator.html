@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Hook Generator ✨ — Für selbständige Mamas</title>
+  <style>
+    :root {
+      --burgundy: #800220;
+      --burgundy-dark: #5c0118;
+      --gold: #B59156;
+      --gold-light: #d4a96a;
+      --cream: #fdf8f3;
+      --white: #ffffff;
+      --text-dark: #2c1810;
+      --text-mid: #5a3a2a;
+      --text-light: #9a7a6a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--cream);
+      min-height: 100vh;
+      color: var(--text-dark);
+    }
+
+    /* ── Nav ── */
+    .nav {
+      background: white;
+      border-bottom: 1px solid rgba(181,145,86,0.2);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .nav-brand {
+      font-size: 0.8rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      color: var(--burgundy);
+      text-decoration: none;
+      letter-spacing: 0.5px;
+    }
+    .nav-links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .nav-link {
+      font-size: 0.78rem;
+      font-family: Arial, sans-serif;
+      color: var(--text-mid);
+      text-decoration: none;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      border: 1px solid rgba(181,145,86,0.3);
+      transition: all 0.2s;
+    }
+    .nav-link:hover, .nav-link.active {
+      background: var(--burgundy);
+      color: white;
+      border-color: var(--burgundy);
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -40%; right: -20%;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(181,145,86,0.18) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: -40%; left: -10%;
+      width: 350px; height: 350px;
+      background: radial-gradient(circle, rgba(181,145,86,0.10) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .header-inner { position: relative; z-index: 1; }
+    .header-badge {
+      display: inline-block;
+      background: rgba(181,145,86,0.25);
+      border: 1px solid rgba(181,145,86,0.5);
+      color: var(--gold-light);
+      font-size: 0.78rem;
+      font-family: Arial, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 0.35rem 1rem;
+      border-radius: 30px;
+      margin-bottom: 1rem;
+    }
+    .header h1 { font-size: 2.4rem; margin-bottom: 0.6rem; line-height: 1.2; }
+    .header h1 .gold { color: var(--gold-light); }
+    .header p { font-size: 1rem; opacity: 0.85; font-family: Arial, sans-serif; }
+    .header-types {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 1.2rem;
+    }
+    .header-type-tag {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.85);
+      font-size: 0.72rem;
+      font-family: Arial, sans-serif;
+      padding: 0.25rem 0.7rem;
+      border-radius: 20px;
+    }
+
+    /* ── Container ── */
+    .container { max-width: 720px; margin: 2.5rem auto; padding: 0 1.2rem; }
+
+    /* ── Card ── */
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 2.8rem;
+      box-shadow: 0 8px 40px rgba(128, 2, 32, 0.09);
+      border: 1px solid rgba(181, 145, 86, 0.18);
+    }
+
+    .step-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+    }
+    .step-title { font-size: 1.75rem; color: var(--burgundy); margin-bottom: 0.6rem; line-height: 1.25; }
+    .step-desc {
+      color: var(--text-mid);
+      font-family: Arial, sans-serif;
+      font-size: 0.97rem;
+      line-height: 1.65;
+      margin-bottom: 2rem;
+    }
+
+    /* ── Form ── */
+    .form-group { margin-bottom: 1.6rem; }
+
+    label {
+      display: block;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 0.4rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.93rem;
+    }
+    .hint {
+      display: block;
+      font-weight: 400;
+      color: var(--text-light);
+      font-size: 0.82rem;
+      margin-bottom: 0.5rem;
+    }
+
+    input[type="text"], textarea, select {
+      width: 100%;
+      padding: 0.9rem 1.1rem;
+      border: 2px solid #e8d5c0;
+      border-radius: 12px;
+      font-size: 0.97rem;
+      font-family: Arial, sans-serif;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      background: #fdfaf7;
+      color: var(--text-dark);
+      appearance: none;
+    }
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 4px rgba(181, 145, 86, 0.12);
+    }
+    textarea { resize: vertical; min-height: 80px; }
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23B59156' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      padding-right: 2.5rem;
+      cursor: pointer;
+    }
+
+    /* ── Buttons ── */
+    .btn {
+      padding: 0.95rem 1.8rem;
+      border: none;
+      border-radius: 12px;
+      font-size: 0.97rem;
+      font-family: Arial, sans-serif;
+      cursor: pointer;
+      font-weight: 700;
+      transition: transform 0.15s, box-shadow 0.15s;
+      letter-spacing: 0.3px;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn:active { transform: translateY(0); }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      box-shadow: 0 4px 18px rgba(128, 2, 32, 0.28);
+      width: 100%;
+      padding: 1.1rem;
+      font-size: 1.05rem;
+      margin-top: 0.5rem;
+    }
+    .btn-primary:hover { box-shadow: 0 6px 22px rgba(128, 2, 32, 0.38); }
+    .btn-primary:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
+    /* ── Error ── */
+    .error-box {
+      background: #fff0f3;
+      border: 1.5px solid #ffb3c1;
+      color: #a00228;
+      padding: 1rem 1.2rem;
+      border-radius: 12px;
+      margin-top: 1.2rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      display: none;
+    }
+
+    /* ── Loading ── */
+    .loading { text-align: center; padding: 3.5rem 1rem; }
+    .spinner {
+      width: 64px; height: 64px;
+      border: 5px solid rgba(181, 145, 86, 0.2);
+      border-top-color: var(--burgundy);
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+      margin: 0 auto 1.6rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading h3 { color: var(--burgundy); font-size: 1.35rem; margin-bottom: 0.5rem; }
+    .loading p { color: var(--text-mid); font-family: Arial, sans-serif; font-size: 0.95rem; }
+    .loading-dots span {
+      display: inline-block;
+      animation: blink 1.4s infinite;
+      font-size: 1.4rem;
+    }
+    .loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+    .loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes blink { 0%,80%,100%{opacity:0} 40%{opacity:1} }
+
+    /* ── Results ── */
+    .results-header { text-align: center; margin-bottom: 2rem; }
+    .results-header h2 { color: var(--burgundy); font-size: 1.9rem; margin-bottom: 0.4rem; }
+    .results-header p { color: var(--text-mid); font-family: Arial, sans-serif; font-size: 0.95rem; }
+
+    /* ── Hook Card ── */
+    .hook-card {
+      background: white;
+      border-radius: 18px;
+      padding: 0;
+      margin-bottom: 1.4rem;
+      box-shadow: 0 4px 24px rgba(128, 2, 32, 0.08);
+      border: 1.5px solid rgba(181, 145, 86, 0.2);
+      overflow: hidden;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .hook-card:hover {
+      box-shadow: 0 8px 32px rgba(128, 2, 32, 0.13);
+      transform: translateY(-2px);
+    }
+
+    .hook-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.5rem 0.8rem;
+      border-bottom: 1px solid rgba(181,145,86,0.15);
+    }
+
+    .type-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.3rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+    .type-zahlen   { background: #e8f5e9; color: #2e7d32; }
+    .type-kontrast { background: #e3f2fd; color: #1565c0; }
+    .type-story    { background: #f3e5f5; color: #7b1fa2; }
+    .type-provokant{ background: #fff3e0; color: #e65100; }
+    .type-kurz     { background: #fce4ec; color: #c62828; }
+    .type-default  { background: #f5f5f5; color: #555; }
+
+    .hook-num {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--burgundy), var(--burgundy-dark));
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .hook-text-area { padding: 1.4rem 1.5rem 1rem; }
+
+    .hook-text {
+      font-size: 1.2rem;
+      color: var(--text-dark);
+      line-height: 1.55;
+      font-style: italic;
+      font-weight: 600;
+    }
+
+    .hook-divider {
+      height: 1px;
+      background: rgba(181,145,86,0.15);
+      margin: 1rem 1.5rem;
+    }
+
+    .hook-bottom {
+      padding: 0 1.5rem 1.3rem;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .hook-why {
+      flex: 1;
+      font-size: 0.85rem;
+      font-family: Arial, sans-serif;
+      color: var(--text-light);
+      line-height: 1.5;
+    }
+    .hook-why-label {
+      font-weight: 700;
+      color: var(--gold);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 0.25rem;
+      display: block;
+    }
+
+    .copy-btn {
+      background: transparent;
+      border: 1.5px solid rgba(181,145,86,0.4);
+      color: var(--gold);
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      font-family: Arial, sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .copy-btn:hover { background: var(--gold); color: white; border-color: var(--gold); }
+    .copy-btn.copied { background: #e8f5e9; color: #2e7d32; border-color: #a5d6a7; }
+
+    /* ── Restart ── */
+    .restart-area { text-align: center; margin-top: 1.8rem; margin-bottom: 2rem; }
+    .btn-restart {
+      background: transparent;
+      border: 2px solid rgba(128,2,32,0.25);
+      color: var(--burgundy);
+      padding: 0.85rem 2.2rem;
+      border-radius: 12px;
+      font-family: Arial, sans-serif;
+      font-size: 0.97rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-restart:hover { border-color: var(--burgundy); background: rgba(128,2,32,0.04); }
+
+    /* ── Info Box ── */
+    .info-box {
+      background: linear-gradient(135deg, rgba(181,145,86,0.08), rgba(128,2,32,0.04));
+      border: 1px solid rgba(181,145,86,0.25);
+      border-radius: 14px;
+      padding: 1.1rem 1.4rem;
+      margin-bottom: 1.8rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.9rem;
+      color: var(--text-mid);
+      line-height: 1.6;
+    }
+    .info-box strong { color: var(--text-dark); }
+
+    /* ── Footer ── */
+    .footer {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--text-light);
+      font-family: Arial, sans-serif;
+      font-size: 0.82rem;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 580px) {
+      .header h1 { font-size: 1.75rem; }
+      .card { padding: 1.6rem; }
+      .hook-bottom { flex-direction: column; }
+      .copy-btn { width: 100%; text-align: center; }
+      .hook-text { font-size: 1.05rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a class="nav-brand" href="index.html">✨ KI-Tools für Mamas</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Nischenfinder</a>
+      <a class="nav-link active" href="hook-generator.html">Hook Generator</a>
+      <a class="nav-link" href="email-betreff-generator.html">E-Mail-Betreff</a>
+      <a class="nav-link" href="email-sequenz-generator.html">E-Mail-Sequenz</a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-inner">
+      <div class="header-badge">KI-Tool · Instagram</div>
+      <h1><span class="gold">Instagram Hook</span> Generator</h1>
+      <p>5 kraftvolle Hooks in Sekunden — direkt kopieren &amp; posten</p>
+      <div class="header-types">
+        <span class="header-type-tag">🔢 Zahlen-Hook</span>
+        <span class="header-type-tag">⚡ Kontrast-Hook</span>
+        <span class="header-type-tag">📖 Story-Hook</span>
+        <span class="header-type-tag">🔥 Provokant-Hook</span>
+        <span class="header-type-tag">✂️ Kurz-Hook</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- FORM SECTION -->
+    <div id="formSection">
+      <div class="card">
+        <div class="step-label">3 Angaben reichen</div>
+        <div class="step-title">Was ist dein Post über?</div>
+        <p class="step-desc">Gib dein Thema ein — und du bekommst 5 verschiedene Hook-Typen, die in den ersten 3 Sekunden stoppen und zum Weiterlesen zwingen.</p>
+
+        <div class="info-box">
+          💡 <strong>Was ist ein Hook?</strong><br>
+          Der erste Satz deines Instagram-Posts. Er entscheidet, ob jemand "mehr lesen" klickt oder weiterscrollt. Ein starker Hook = mehr Reichweite, mehr Engagement.
+        </div>
+
+        <div class="form-group">
+          <label for="nische">Deine Nische
+            <span class="hint">Welches Thema behandelst du auf Instagram?</span>
+          </label>
+          <select id="nische">
+            <option value="">Bitte auswählen…</option>
+            <option value="Ernährung und gesunde Rezepte für Mamas und Familien">Ernährung &amp; gesunde Rezepte</option>
+            <option value="Fitness und Bewegung speziell für Mamas">Fitness &amp; Bewegung für Mamas</option>
+            <option value="Online-Business und Geldverdienen von zu Hause">Online-Business &amp; Geldverdienen</option>
+            <option value="Persönlichkeitsentwicklung und Mindset für Mamas">Persönlichkeitsentwicklung &amp; Mindset</option>
+            <option value="Familie, Erziehung und das Leben als Mama">Familie &amp; Erziehung</option>
+            <option value="Kreativität, DIY und Handwerk">Kreativität &amp; DIY</option>
+            <option value="Finanzen, Sparen und Geldanlage für Familien">Finanzen &amp; Geldanlage</option>
+            <option value="Mode und Stil für Mamas">Mode &amp; Stil für Mamas</option>
+            <option value="Produktivität, Organisation und Zeitmanagement">Produktivität &amp; Organisation</option>
+            <option value="Gesundheit und ganzheitliches Wohlbefinden">Gesundheit &amp; Wohlbefinden</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="thema">Thema deines Posts
+            <span class="hint">Worüber genau schreibst du? Je konkreter, desto besser der Hook.</span>
+          </label>
+          <input type="text" id="thema" placeholder="z.B. Wie Meal Prep mir 5 Stunden pro Woche spart">
+        </div>
+
+        <div class="form-group">
+          <label for="erfahrung">Deine persönliche Erfahrung <span style="font-weight:400;color:var(--text-light)">(optional, aber gold wert)</span>
+            <span class="hint">Was hast du selbst erlebt? Zahlen machen Hooks stärker.</span>
+          </label>
+          <textarea id="erfahrung" placeholder="z.B. Ich habe damit in 3 Monaten 2.000€ Nebeneinkommen aufgebaut. Oder: Ich habe 8kg abgenommen ohne zu hungern."></textarea>
+        </div>
+
+        <button class="btn btn-primary" id="generateBtn" onclick="generateHooks()">5 Hooks generieren ✨</button>
+
+        <div class="error-box" id="errorBox"></div>
+      </div>
+    </div>
+
+    <!-- LOADING SECTION -->
+    <div id="loadingSection" style="display:none;">
+      <div class="card">
+        <div class="loading">
+          <div class="spinner"></div>
+          <h3>Deine Hooks werden erstellt…</h3>
+          <p>Ich analysiere dein Thema und erstelle alle 5 Hook-Typen für dich</p>
+          <div class="loading-dots" style="margin-top:0.8rem;">
+            <span>✨</span><span>✨</span><span>✨</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTS SECTION -->
+    <div id="resultsSection" style="display:none;">
+      <div class="results-header">
+        <h2>🎉 Deine 5 Instagram-Hooks</h2>
+        <p>Kopiere deinen Lieblings-Hook direkt in deinen Post</p>
+      </div>
+
+      <div id="hooksContainer"></div>
+
+      <div class="restart-area">
+        <button class="btn-restart" onclick="restart()">↺ Neue Hooks generieren</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    Erstellt mit ❤️ für selbständige Mamas · Powered by Claude AI
+  </div>
+
+  <script>
+    const SYSTEM_PROMPT = `Du bist ein Content-Experte, spezialisiert auf Instagram-Hooks für selbständige Mamas und Online-Unternehmerinnen im deutschsprachigen Raum (DACH).
+
+DEINE AUFGABE:
+Erstelle exakt 5 verschiedene, sofort verwendbare Instagram-Hooks — einen pro Hook-Typ, in genau dieser Reihenfolge.
+
+WICHTIGE REGELN FÜR JEDEN HOOK:
+- Muss in den ersten 3 Sekunden zum Stoppen bringen
+- Maximal 2 Sätze pro Hook
+- Verwende konkrete Zahlen wann immer möglich
+- NIEMALS mit einer Frage anfangen
+- NIEMALS "Hier ist..." oder "Warum ich..." verwenden
+- Sprache: direkt, selbstbewusst, kein Weichspüler
+- Immer auf Deutsch schreiben
+- Auf die Zielgruppe (selbständige Mamas) zugeschnitten
+
+DIE 5 HOOK-TYPEN (genau in dieser Reihenfolge):
+
+1. Zahlen-Hook (type: "Zahlen-Hook")
+Starte mit einer konkreten Zahl + überraschendem Ergebnis.
+GUTES BEISPIEL: "1.000 Menschen kaufen jeden Monat meinen 100€-Kurs. Das sind 100.000€. Automatisch."
+SCHLECHTES BEISPIEL: "Hier sind meine besten Tipps für Online-Marketing" → Zu generisch.
+
+2. Kontrast-Hook (type: "Kontrast-Hook")
+Erzeugt Spannung durch einen klaren Gegensatz.
+Muster: "[Alle/Die meisten/Jeder sagt] [X]. Ich [mache Y stattdessen]."
+
+3. Story-Hook (type: "Story-Hook")
+Beginnt mittendrin in einer persönlichen Geschichte.
+Direkt ins Geschehen, Vergangenheitsform. Macht neugierig auf die Fortsetzung.
+
+4. Provokant-Hook (type: "Provokant-Hook")
+Ein gewagtes, überraschendes Statement das Widerspruch oder starkes Nicken auslöst.
+Beispiel: "Dein Online-Kurs bringt kein Geld? Hier ist der wahre Grund."
+
+5. Kurz-Hook (type: "Kurz-Hook")
+Maximal 8 Wörter. Wie eine Schlagzeile. Knallt sofort.
+
+AUSGABEFORMAT:
+Antworte NUR mit einem validen JSON-Objekt, ohne Markdown-Code-Blöcke, ohne Text davor oder danach:
+{"hooks":[{"text":"Der komplette Hook-Text","type":"Zahlen-Hook","why":"Ein Satz: Warum dieser Hook funktioniert"},...]}`;
+
+    const TYPE_STYLES = {
+      'Zahlen-Hook':    { css: 'type-zahlen',    icon: '🔢' },
+      'Kontrast-Hook':  { css: 'type-kontrast',  icon: '⚡' },
+      'Story-Hook':     { css: 'type-story',      icon: '📖' },
+      'Provokant-Hook': { css: 'type-provokant',  icon: '🔥' },
+      'Kurz-Hook':      { css: 'type-kurz',       icon: '✂️' }
+    };
+
+    async function generateHooks() {
+      const nische   = document.getElementById('nische').value.trim();
+      const thema    = document.getElementById('thema').value.trim();
+      const erfahrung = document.getElementById('erfahrung').value.trim();
+
+      if (!nische) { showError('Bitte wähle deine Nische aus.'); return; }
+      if (!thema)  { showError('Bitte gib das Thema deines Posts ein.'); return; }
+
+      hideError();
+      show('loadingSection');
+      hide('formSection');
+      hide('resultsSection');
+
+      const userPrompt = `Erstelle 5 Instagram-Hooks für folgende Angaben:
+
+NISCHE: ${nische}
+THEMA DES POSTS: ${thema}
+${erfahrung ? `PERSÖNLICHE ERFAHRUNG: ${erfahrung}` : ''}
+
+Nutze die persönliche Erfahrung für den Zahlen-Hook und Story-Hook wenn vorhanden.`;
+
+      try {
+        const res = await fetch('/.netlify/functions/generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            prompt: userPrompt,
+            systemPrompt: SYSTEM_PROMPT
+          })
+        });
+
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          throw new Error(err.error || 'API-Fehler ' + res.status);
+        }
+
+        const data = await res.json();
+        const text = data.content[0].text.trim();
+
+        let parsed;
+        try {
+          parsed = JSON.parse(text);
+        } catch {
+          const m = text.match(/\{[\s\S]*\}/);
+          if (m) parsed = JSON.parse(m[0]);
+          else throw new Error('Antwort konnte nicht verarbeitet werden. Bitte nochmal versuchen.');
+        }
+
+        renderHooks(parsed.hooks || []);
+        hide('loadingSection');
+        show('resultsSection');
+
+      } catch (err) {
+        hide('loadingSection');
+        show('formSection');
+        showError(err.message || 'Unbekannter Fehler. Bitte nochmal versuchen.');
+      }
+    }
+
+    function renderHooks(hooks) {
+      const container = document.getElementById('hooksContainer');
+      container.innerHTML = hooks.map((hook, i) => {
+        const style = TYPE_STYLES[hook.type] || { css: 'type-default', icon: '💡' };
+        return `
+          <div class="hook-card">
+            <div class="hook-card-top">
+              <span class="type-badge ${style.css}">${style.icon} ${hook.type}</span>
+              <div class="hook-num">${i + 1}</div>
+            </div>
+            <div class="hook-text-area">
+              <div class="hook-text">"${hook.text}"</div>
+            </div>
+            <div class="hook-divider"></div>
+            <div class="hook-bottom">
+              <div class="hook-why">
+                <span class="hook-why-label">Warum es funktioniert</span>
+                ${hook.why}
+              </div>
+              <button class="copy-btn" onclick="copyHook('${encodeURIComponent(hook.text)}', this)">
+                📋 Kopieren
+              </button>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    function copyHook(encodedText, btn) {
+      const text = decodeURIComponent(encodedText);
+      navigator.clipboard.writeText(text).then(() => {
+        btn.textContent = '✅ Kopiert!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = '📋 Kopieren';
+          btn.classList.remove('copied');
+        }, 2000);
+      }).catch(() => {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        btn.textContent = '✅ Kopiert!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = '📋 Kopieren';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+
+    function restart() {
+      hide('resultsSection');
+      show('formSection');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function show(id) { document.getElementById(id).style.display = 'block'; }
+    function hide(id) { document.getElementById(id).style.display = 'none'; }
+
+    function showError(msg) {
+      const box = document.getElementById('errorBox');
+      box.innerHTML = '⚠️ ' + msg;
+      box.style.display = 'block';
+    }
+    function hideError() {
+      document.getElementById('errorBox').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
