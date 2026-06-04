@@ -24,6 +24,12 @@
 
 <!-- Wie verdienst du Geld? (Einmalzahlungen, Abo, Kurse, etc.) -->
 
+## Instagram Bio (offizielle Positionierung)
+
+E-Mail Marketing für selbständige Mamas
+Automatisiert verkaufen auch wenn das Kind krank ist
+Ohne Technikstress · Ohne Kaltakquise
+
 ## Markt & Positionierung
 
 <!-- In welchem Markt bist du unterwegs? Was macht dich besonders? -->

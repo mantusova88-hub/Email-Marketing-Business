@@ -5,7 +5,8 @@
 
 ## Wer bin ich?
 
-<!-- Kurze Vorstellung: Name, Hintergrund, was dich ausmacht -->
+Name: Monika Antusova
+E-Mail: mantusova88@gmail.com
 
 ## Meine Rolle im Business
 
