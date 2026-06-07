@@ -4,3 +4,13 @@
 
 [functions]
   node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/optin"
+  to = "/optin.html"
+  status = 200
+
+[[redirects]]
+  from = "/danke"
+  to = "/danke.html"
+  status = 200

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5 E-Mail-Vorlagen für selbständige Mamas — Kostenlos</title>
+  <meta name="description" content="Hol dir 5 fertige E-Mail-Vorlagen, mit denen du sofort loslegen kannst — ohne leeres Blatt, ohne Stress.">
+  <style>
+    :root {
+      --burgundy: #800220;
+      --burgundy-dark: #5c0118;
+      --burgundy-hover: #a0032a;
+      --gold: #B59156;
+      --gold-light: #d4a96a;
+      --cream: #fdf8f3;
+      --white: #ffffff;
+      --text-dark: #2c1810;
+      --text-mid: #5a3a2a;
+      --text-light: #9a7a6a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--cream);
+      color: var(--text-dark);
+      min-height: 100vh;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -40%;
+      right: -20%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(181,145,86,0.18) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: rgba(181,145,86,0.25);
+      border: 1px solid rgba(181,145,86,0.5);
+      color: var(--gold-light);
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+      font-weight: normal;
+    }
+    .hero h1 em {
+      color: var(--gold-light);
+      font-style: normal;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.85);
+      max-width: 560px;
+      margin: 0 auto 2rem;
+      line-height: 1.7;
+    }
+
+    /* ── Main Card ── */
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 40px rgba(128,2,32,0.12);
+      padding: 2.5rem 2.5rem;
+      margin-top: -2rem;
+      position: relative;
+    }
+
+    /* ── Benefits ── */
+    .benefits {
+      margin-bottom: 2rem;
+    }
+    .benefits h2 {
+      font-size: 1.15rem;
+      color: var(--text-mid);
+      font-weight: normal;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .benefit-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+    .benefit-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      font-size: 0.98rem;
+      color: var(--text-mid);
+      line-height: 1.5;
+    }
+    .benefit-list li::before {
+      content: '✓';
+      color: var(--gold);
+      font-weight: bold;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      border: none;
+      border-top: 1px solid rgba(181,145,86,0.25);
+      margin: 1.8rem 0;
+    }
+
+    /* ── Form ── */
+    .form-title {
+      text-align: center;
+      font-size: 1.1rem;
+      color: var(--text-dark);
+      margin-bottom: 1.2rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+    }
+    .form-group label {
+      font-size: 0.88rem;
+      color: var(--text-mid);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+    .form-group input {
+      padding: 0.85rem 1rem;
+      border: 1.5px solid rgba(181,145,86,0.35);
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: 'Georgia', serif;
+      color: var(--text-dark);
+      background: var(--cream);
+      transition: border-color 0.2s;
+      outline: none;
+    }
+    .form-group input:focus {
+      border-color: var(--burgundy);
+      background: white;
+    }
+    .form-group input::placeholder {
+      color: var(--text-light);
+    }
+
+    .btn-submit {
+      width: 100%;
+      padding: 1rem;
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.05rem;
+      font-family: 'Georgia', serif;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.15s;
+      margin-top: 0.5rem;
+    }
+    .btn-submit:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+    .btn-submit:active {
+      transform: translateY(0);
+    }
+
+    .privacy-note {
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--text-light);
+      margin-top: 0.9rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    /* ── Social Proof ── */
+    .social-proof {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      margin-top: 1.5rem;
+      color: var(--text-light);
+      font-size: 0.85rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+    .social-proof .avatars {
+      display: flex;
+    }
+    .avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: 2px solid white;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--burgundy) 100%);
+      margin-left: -6px;
+      font-size: 0.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .avatar:first-child { margin-left: 0; }
+
+    /* ── Footer ── */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-light);
+      font-size: 0.82rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    /* ── Success Page ── */
+    .success-page {
+      display: none;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    .success-icon {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+    .success-page h2 {
+      font-size: 1.6rem;
+      color: var(--burgundy);
+      margin-bottom: 0.8rem;
+    }
+    .success-page p {
+      color: var(--text-mid);
+      line-height: 1.7;
+      font-size: 0.98rem;
+    }
+
+    @media (max-width: 480px) {
+      .card { padding: 1.8rem 1.4rem; }
+      .hero { padding: 3rem 1.5rem 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-badge">Kostenlos · Sofort-Download</div>
+    <h1>5 E-Mail-Vorlagen,<br>die <em>wirklich</em> funktionieren</h1>
+    <p>Für selbständige Mamas, die keine Zeit für leere Blätter haben — einfach ausfüllen, anpassen, abschicken.</p>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="card">
+
+      <!-- Benefits -->
+      <div class="benefits">
+        <h2>Was du bekommst:</h2>
+        <ul class="benefit-list">
+          <li>Willkommens-E-Mail, die sofort Vertrauen aufbaut</li>
+          <li>Freebie-Lieferungs-Mail mit professioneller Wirkung</li>
+          <li>Storytelling-Vorlage, die deine Persönlichkeit zeigt</li>
+          <li>Angebots-E-Mail ohne Verkaufsdruck</li>
+          <li>Re-Engagement-Mail für inaktive Subscriber</li>
+        </ul>
+      </div>
+
+      <hr class="divider">
+
+      <!-- Form -->
+      <p class="form-title">Wohin soll ich die Vorlagen schicken?</p>
+
+      <form name="optin-vorlagen" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/danke">
+        <input type="hidden" name="form-name" value="optin-vorlagen">
+        <p style="display:none">
+          <input name="bot-field">
+        </p>
+
+        <div class="form-group">
+          <label for="vorname">Dein Vorname</label>
+          <input type="text" id="vorname" name="vorname" placeholder="z.B. Laura" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Deine E-Mail-Adresse</label>
+          <input type="email" id="email" name="email" placeholder="deine@email.de" required>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          Vorlagen jetzt kostenlos anfordern →
+        </button>
+      </form>
+
+      <p class="privacy-note">
+        Kein Spam. Abmeldung jederzeit möglich.<br>
+        Deine Daten werden vertraulich behandelt.
+      </p>
+
+      <!-- Social Proof -->
+      <div class="social-proof">
+        <div class="avatars">
+          <div class="avatar">L</div>
+          <div class="avatar">M</div>
+          <div class="avatar">S</div>
+          <div class="avatar">K</div>
+        </div>
+        <span>Bereits von über 200 Mamas genutzt</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Fragen? Schreib mir an <a href="mailto:mantusova88@gmail.com" style="color:var(--gold);">mantusova88@gmail.com</a></p>
+    <p style="margin-top:0.5rem;">© 2026 · E-Mail-Marketing für selbständige Mamas</p>
+  </footer>
+
+</body>
+</html>
