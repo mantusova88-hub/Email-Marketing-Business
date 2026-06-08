@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danke! Deine Vorlagen sind unterwegs ✨</title>
+  <style>
+    :root {
+      --burgundy: #800220;
+      --burgundy-dark: #5c0118;
+      --gold: #B59156;
+      --gold-light: #d4a96a;
+      --cream: #fdf8f3;
+      --white: #ffffff;
+      --text-dark: #2c1810;
+      --text-mid: #5a3a2a;
+      --text-light: #9a7a6a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--cream);
+      color: var(--text-dark);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 40px rgba(128,2,32,0.12);
+      padding: 3rem 2.5rem;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .icon {
+      font-size: 3.5rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .gold-line {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+      border-radius: 2px;
+      margin: 1.2rem auto;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      color: var(--burgundy);
+      font-weight: normal;
+      line-height: 1.3;
+    }
+
+    p {
+      color: var(--text-mid);
+      line-height: 1.7;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+
+    .steps {
+      margin: 1.8rem 0;
+      text-align: left;
+      background: var(--cream);
+      border-radius: 10px;
+      padding: 1.2rem 1.4rem;
+    }
+    .steps p {
+      font-size: 0.88rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text-light);
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .steps ol {
+      padding-left: 1.2rem;
+      color: var(--text-mid);
+      font-size: 0.97rem;
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.85rem 2rem;
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-dark) 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.97rem;
+      font-family: 'Georgia', serif;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.9; }
+
+    @media (max-width: 480px) {
+      .card { padding: 2rem 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">✉️</div>
+    <h1>Deine Vorlagen<br>sind unterwegs!</h1>
+    <div class="gold-line"></div>
+    <p>Schau gleich in dein Postfach — du bekommst die 5 Vorlagen direkt per E-Mail zugeschickt.</p>
+
+    <div class="steps">
+      <p>Nächste Schritte:</p>
+      <ol>
+        <li>E-Mail in deinem Postfach öffnen</li>
+        <li>Bestätige ggf. deine Anmeldung (Double Opt-in)</li>
+        <li>Vorlagen herunterladen und sofort nutzen</li>
+      </ol>
+    </div>
+
+    <p style="font-size:0.88rem; color:var(--text-light);">Keine E-Mail erhalten? Schau auch in Spam/Promo-Ordner.</p>
+
+    <a href="/" class="btn">Zurück zur Startseite</a>
+  </div>
+</body>
+</html>
