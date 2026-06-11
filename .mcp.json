@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "blotato": {
+      "type": "url",
+      "url": "https://mcp.blotato.com/mcp"
+    }
+  }
+}
