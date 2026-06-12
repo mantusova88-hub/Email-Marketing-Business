@@ -12,6 +12,15 @@
 - Keine leeren Phrasen — jeder Satz muss etwas sagen
 - Echter Mehrwert auf jeder Folie
 
+## Inhalt-Anforderungen (WICHTIG)
+- **Mindestens 3-5 Sätze pro Folie** — nie nur 1-2 Sätze, das ist zu wenig
+- **Jede Folie muss eine vollständige Idee vermitteln** — mit Erklärung, Begründung und persönlichem Bezug
+- **Persönliche Einblicke** — schreibe als würdest du mit einer Freundin sprechen, nicht wie ein Lehrbuch
+- **Tiefe statt Kürze** — lieber 8 inhaltsreiche Folien als 5 leere
+- **Karussell: 8-10 Folien** — Folie 1 Hook, Folien 2-7 Inhalt mit je 3-5 Sätzen, letzte Folie CTA
+- **Story: Mindestens 2-3 Sätze** + eine konkrete Handlungsaufforderung oder Frage
+- **Nie einen Post mit weniger als 3 Sätzen Gesamtinhalt pro Folie erstellen**
+
 ## Kernbotschaft
 Du bist selbständige Mama — und du darfst beides sein: präsent für deine Familie UND erfolgreich in deinem Business. Du brauchst kein schlechtes Gewissen. Du brauchst Systeme die für dich arbeiten.
 
