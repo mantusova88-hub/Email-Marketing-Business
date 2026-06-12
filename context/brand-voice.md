@@ -37,5 +37,12 @@ Aber du darfst es dir selbst zugeben."
 "Du musst nicht immer stark aussehen.
 Es ist okay, erschöpft zu sein. Das macht dich nicht schwach — es macht dich menschlich."
 
+## Design-Stil (WICHTIG für Canva)
+- **Text groß und dominant** — füllt mindestens 60% der Fläche
+- Wenig Bild, viel Text im Vordergrund
+- Dunkle Schrift (dunkelrot #8B0000) auf hellem Hintergrund (creme/beige)
+- Minimalistisch — kein Rahmen, keine Goldränder
+- Wie Julia's Stil: Text steht im Mittelpunkt
+
 ## Hashtags (10-15 pro Post)
 #selbständigemama #mamaunternehmerin #businessmama #emailmarketing #onlinebusiness #selbständig #mamabusiness #worklifebalance #momprenuer #digitalmarketing #femaleentrepreneur #businesstipps #mamastartup #freiheitimberuf #onlinemarketing
