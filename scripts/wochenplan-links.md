@@ -28,6 +28,7 @@
 |---|---|---|
 | Mo 15.06 — Innere Stärke | https://www.canva.com/d/1Q2Sxm0NPHkvC_Y | DAHMo7Qmlvo |
 | Di 16.06 — Innere Stärke | https://www.canva.com/d/EFEu-sDVADMLE-_ | DAHMo4JW0xI |
+| Mi 17.06 — Innere Stärke | https://www.canva.com/d/P1NP8Pq7NeFQFNX | DAHMpAz3Aoc |
 | Do 18.06 — Innere Stärke | https://www.canva.com/d/4IRLXICLAmG0_Fl | DAHMo6I2E3U |
 | Fr 19.06 — Innere Stärke | https://www.canva.com/d/m0tLQV1n1ZT1CNS | DAHMo0yDBtU |
 | Sa 20.06 — Innere Stärke | https://www.canva.com/d/oY6UvZL680dryGB | DAHMo4CnqmY |
