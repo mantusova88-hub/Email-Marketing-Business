@@ -9,15 +9,15 @@
 
 ---
 
-## Karussells (Feed-Post, 9 Folien — MAXimales Template)
+## Karussells (Feed-Post, 7 Folien — ORIGINAL)
 
 | Tag | Canva-Link | Design-ID |
 |---|---|---|
-| Mo 15.06 — „Du hast schon so viel geschafft" | https://www.canva.com/d/LloK6vCOV2SkXWY | DAHMqr2zk94 |
-| Di 16.06 — „Du bist nicht zu viel" | https://www.canva.com/d/uxOxfYKPnZ_uBnQ | DAHMqp20nEo |
-| Mi 17.06 — „Hör auf, dich zu vergleichen" | https://www.canva.com/d/vlayRlLI6ojzKj7 | DAHMqgW28eY |
-| Do 18.06 — „Du darfst auch mal müde sein" | https://www.canva.com/d/iK4DGlMnXlevsGV | DAHMqkwZyNo |
-| Fr 19.06 — „Vertrau dir selbst" | https://www.canva.com/d/zc2LFEOm6C0LwNI | DAHMqltdWzU |
+| Mo 15.06 — „Du hast schon so viel geschafft" | https://www.canva.com/d/a5O7JyLK0TiCVae | DAHMkqNEzLo |
+| Di 16.06 — „Du bist nicht zu viel" | https://www.canva.com/d/CEfyhYlUNria8dF | DAHMpKkiI7A |
+| Mi 17.06 — „Hör auf, dich zu vergleichen" | https://www.canva.com/d/JDOC1ax0JjS3LBk | DAHMpAofaH8 |
+| Do 18.06 — „Du darfst auch mal müde sein" | https://www.canva.com/d/HfhgMfHfflXhqc- | DAHMpBrfArI |
+| Fr 19.06 — „Vertrau dir selbst" | https://www.canva.com/d/gbDu0pGGvh6NwZq | DAHMpBbpjzY |
 | Sa 20.06 — „Heute darfst du einfach sein" | https://www.canva.com/d/RnX_W-X03EolyzU | DAHMki9K890 |
 
 ---
