@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tool-Ideen Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      background-color: #e98b9e;
+      background-image:
+        radial-gradient(circle at 15% 15%, rgba(149,0,50,0.18) 0%, transparent 55%),
+        radial-gradient(circle at 85% 85%, rgba(30,0,12,0.22) 0%, transparent 55%);
+      font-family: 'DM Sans', sans-serif;
+      color: #1e000c;
+      padding: 48px 20px 60px;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      text-align: center;
+      margin-bottom: 44px;
+    }
+
+    .header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 2.9rem);
+      font-weight: 700;
+      color: #1e000c;
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+
+    .header .subtitle {
+      font-size: 1.05rem;
+      color: rgba(30,0,12,0.72);
+      max-width: 580px;
+      margin: 0 auto;
+      line-height: 1.55;
+    }
+
+    /* ── INPUT SECTION ── */
+    .input-section {
+      background: rgba(30,0,12,0.55);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 20px;
+      padding: 36px 40px 40px;
+      margin-bottom: 36px;
+    }
+
+    .field-label {
+      display: block;
+      color: rgba(255,255,255,0.9);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      margin-bottom: 8px;
+    }
+
+    .field-hint {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.48);
+      margin-top: -4px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.22);
+      border-radius: 12px;
+      padding: 15px 18px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.97rem;
+      color: #fff;
+      outline: none;
+      transition: border-color 0.25s, background 0.25s;
+      margin-bottom: 18px;
+    }
+
+    input[type="text"]::placeholder,
+    input[type="password"]::placeholder {
+      color: rgba(255,255,255,0.38);
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      border-color: rgba(255,255,255,0.55);
+      background: rgba(255,255,255,0.14);
+    }
+
+    .btn-generate {
+      width: 100%;
+      background: #950032;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 17px 24px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      letter-spacing: 0.3px;
+      transition: background 0.25s, transform 0.2s, box-shadow 0.25s;
+    }
+
+    .btn-generate:hover:not(:disabled) {
+      background: #7a0029;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(149,0,50,0.38);
+    }
+
+    .btn-generate:active:not(:disabled) { transform: translateY(0); }
+
+    .btn-generate:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    /* ── ERROR BOX ── */
+    .error-box {
+      display: none;
+      background: rgba(239,68,68,0.14);
+      border: 1px solid rgba(239,68,68,0.32);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-top: 16px;
+      color: #fecaca;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    /* ── LOADING ── */
+    .loading {
+      display: none;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .spinner {
+      width: 52px;
+      height: 52px;
+      border: 3px solid rgba(149,0,50,0.2);
+      border-top-color: #950032;
+      border-radius: 50%;
+      animation: spin 0.85s linear infinite;
+      margin: 0 auto 22px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .loading-text {
+      font-size: 0.98rem;
+      color: rgba(30,0,12,0.78);
+      font-weight: 500;
+    }
+
+    /* ── RESULTS ── */
+    .results { display: none; }
+
+    .results-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.4rem, 3.5vw, 1.85rem);
+      font-weight: 700;
+      color: #1e000c;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .results-grid {
+      display: grid;
+      gap: 18px;
+      margin-bottom: 32px;
+    }
+
+    /* ── CARDS ── */
+    .card {
+      background: rgba(255,255,255,0.26);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.42);
+      border-radius: 18px;
+      padding: 28px 30px;
+      opacity: 0;
+      transform: translateY(24px);
+      animation: fadeUp 0.5s ease forwards;
+    }
+
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card:nth-child(1) { animation-delay: 0.05s; }
+    .card:nth-child(2) { animation-delay: 0.18s; }
+    .card:nth-child(3) { animation-delay: 0.31s; }
+    .card:nth-child(4) { animation-delay: 0.44s; }
+    .card:nth-child(5) { animation-delay: 0.57s; }
+
+    .card-counter {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #950032;
+      text-transform: uppercase;
+      letter-spacing: 1.6px;
+      margin-bottom: 7px;
+    }
+
+    .card-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.28rem;
+      font-weight: 700;
+      color: #1e000c;
+      margin-bottom: 11px;
+    }
+
+    .card-beschreibung {
+      font-size: 0.93rem;
+      color: rgba(30,0,12,0.78);
+      line-height: 1.62;
+      margin-bottom: 20px;
+    }
+
+    .card-meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .meta-item {
+      background: rgba(30,0,12,0.07);
+      border-radius: 10px;
+      padding: 11px 14px;
+    }
+
+    .meta-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: #950032;
+      text-transform: uppercase;
+      letter-spacing: 1.1px;
+      margin-bottom: 4px;
+    }
+
+    .meta-value {
+      font-size: 0.86rem;
+      color: #1e000c;
+      line-height: 1.42;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 11px;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    .badge-leicht       { background: rgba(34,197,94,0.18);  color: #15803d; }
+    .badge-mittel       { background: rgba(251,191,36,0.22); color: #92400e; }
+    .badge-fortgeschritten { background: rgba(249,115,22,0.18); color: #c2410c; }
+    .badge-komplex      { background: rgba(239,68,68,0.18);  color: #b91c1c; }
+
+    /* ── BACK BUTTON ── */
+    .btn-back {
+      display: block;
+      width: 100%;
+      background: rgba(30,0,12,0.55);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 12px;
+      padding: 16px 24px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.97rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.25s, transform 0.2s;
+      text-align: center;
+    }
+
+    .btn-back:hover {
+      background: rgba(30,0,12,0.72);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 560px) {
+      .input-section { padding: 24px 18px 28px; }
+      .card { padding: 22px 18px; }
+      .card-meta { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>✨ Tool-Ideen Generator</h1>
+    <p class="subtitle">Gib deine Branche ein – und erhalte 5 maßgeschneiderte digitale Tool-Ideen, die du für deine Kunden entwickeln kannst.</p>
+  </div>
+
+  <!-- INPUT SECTION -->
+  <div class="input-section" id="inputSection">
+
+    <label class="field-label" for="apiKeyInput">Anthropic API Key</label>
+    <input type="password" id="apiKeyInput" placeholder="sk-ant-api03-…" />
+    <p class="field-hint">Nur für den Standalone-Einsatz nötig. Im Claude.ai Artifact-Kontext leer lassen.</p>
+
+    <label class="field-label" for="brancheInput">Welche Branche möchtest du analysieren?</label>
+    <input
+      type="text"
+      id="brancheInput"
+      placeholder="z.B. Physiotherapie, Online-Coaching, Immobilien, Hochzeitsfotografie …"
+    />
+
+    <button class="btn-generate" id="generateBtn" onclick="generate()">
+      5 Tool-Ideen generieren →
+    </button>
+
+    <div class="error-box" id="errorBox"></div>
+  </div>
+
+  <!-- LOADING -->
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+    <p class="loading-text" id="loadingText">Ideen werden generiert …</p>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="results" id="results">
+    <h2 class="results-title" id="resultsTitle"></h2>
+    <div class="results-grid" id="resultsGrid"></div>
+    <button class="btn-back" onclick="reset()">← Zurück &amp; neue Branche eingeben</button>
+  </div>
+
+</div>
+<script>
+  /* ── Enter Key ── */
+  document.getElementById('brancheInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') generate();
+  });
+  document.getElementById('apiKeyInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') document.getElementById('brancheInput').focus();
+  });
+
+  /* ── API Call ── */
+  async function callClaude(apiKey, branche) {
+    const headers = {
+      'Content-Type': 'application/json',
+      'anthropic-version': '2023-06-01',
+      'anthropic-dangerous-direct-browser-access': 'true'
+    };
+    if (apiKey) headers['x-api-key'] = apiKey;
+
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 3000,
+        system:
+          'Du bist ein Experte für digitale Produkte und Tool-Entwicklung. ' +
+          'Antworte AUSSCHLIESSLICH mit einem validen JSON-Array. ' +
+          'KEIN Markdown, KEINE Backticks, KEIN Text vor oder nach dem Array. ' +
+          'Nur das rohe JSON-Array.',
+        messages: [{
+          role: 'user',
+          content:
+            `Erstelle 5 innovative digitale Tool-Ideen für die Branche: "${branche}".\n` +
+            'Diese Tools sollen Selbständige oder Unternehmen in dieser Branche für ihre Kunden entwickeln können.\n\n' +
+            'Antworte NUR mit diesem JSON-Array:\n' +
+            '[\n' +
+            '  {\n' +
+            '    "name": "Tool-Name",\n' +
+            '    "beschreibung": "Was das Tool macht und welches Problem es löst (2-3 Sätze)",\n' +
+            '    "zielgruppe": "Wer das Tool nutzt",\n' +
+            '    "marktpotenzial": "Marktgröße und Wachstumschance",\n' +
+            '    "monetarisierung": "Wie damit Geld verdient werden kann",\n' +
+            '    "schwierigkeit": "Leicht / Mittel / Fortgeschritten / Komplex"\n' +
+            '  }\n' +
+            ']'
+        }]
+      })
+    });
+
+    const status = res.status;
+    if (status === 529 || status === 503) {
+      const err = new Error('overloaded');
+      err.status = status;
+      throw err;
+    }
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      const msg = body?.error?.message || `HTTP ${status}`;
+      throw new Error(msg);
+    }
+    return res.json();
+  }
+
+  /* ── Main ── */
+  async function generate() {
+    const apiKey = document.getElementById('apiKeyInput').value.trim();
+    const branche = document.getElementById('brancheInput').value.trim();
+    const errorBox = document.getElementById('errorBox');
+
+    errorBox.style.display = 'none';
+    errorBox.textContent = '';
+
+    if (!branche) {
+      showError('Bitte gib eine Branche ein, um Tool-Ideen zu generieren.');
+      return;
+    }
+
+    setUI('loading');
+
+    const MAX = 3;
+    let data = null;
+
+    for (let attempt = 1; attempt <= MAX; attempt++) {
+      const loadingText = document.getElementById('loadingText');
+      loadingText.textContent = attempt === 1
+        ? 'Tool-Ideen werden generiert …'
+        : `Versuch ${attempt}/${MAX} – API kurz ausgelastet, bitte warten …`;
+
+      try {
+        data = await callClaude(apiKey, branche);
+        break;
+      } catch (err) {
+        if ((err.status === 529 || err.status === 503) && attempt < MAX) {
+          await sleep(2500);
+          continue;
+        }
+        setUI('input');
+        if (err.message === 'Failed to fetch') {
+          showError('Verbindung fehlgeschlagen. Bitte prüfe deine Internetverbindung oder ob der API-Key korrekt ist.');
+        } else if (err.message.toLowerCase().includes('invalid_api_key') || err.message.includes('401')) {
+          showError('Ungültiger API-Key. Bitte prüfe deinen Anthropic API-Key.');
+        } else if (err.message === 'overloaded') {
+          showError('Die API ist momentan überlastet. Bitte versuche es in einigen Sekunden erneut.');
+        } else {
+          showError(`Fehler beim Generieren: ${err.message}`);
+        }
+        return;
+      }
+    }
+
+    if (!data) {
+      setUI('input');
+      showError('Die API ist momentan überlastet. Bitte versuche es in einigen Sekunden erneut.');
+      return;
+    }
+
+    /* Parse JSON */
+    let tools = [];
+    try {
+      const raw = data.content[0].text;
+      const match = raw.match(/\[[\s\S]*\]/);
+      if (!match) throw new Error('Kein JSON-Array gefunden');
+      tools = JSON.parse(match[0]);
+    } catch {
+      setUI('input');
+      showError('Die Antwort konnte nicht verarbeitet werden. Bitte versuche es erneut.');
+      return;
+    }
+
+    renderResults(branche, tools);
+    setUI('results');
+  }
+
+  function renderResults(branche, tools) {
+    document.getElementById('resultsTitle').textContent =
+      `5 Tool-Ideen für: ${branche}`;
+
+    const grid = document.getElementById('resultsGrid');
+    grid.innerHTML = '';
+
+    tools.forEach((t, i) => {
+      const badgeClass = getBadgeClass(t.schwierigkeit);
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <div class="card-counter">Idee ${i + 1} von ${tools.length}</div>
+        <div class="card-name">${esc(t.name)}</div>
+        <div class="card-beschreibung">${esc(t.beschreibung)}</div>
+        <div class="card-meta">
+          <div class="meta-item">
+            <div class="meta-label">Zielgruppe</div>
+            <div class="meta-value">${esc(t.zielgruppe)}</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Marktpotenzial</div>
+            <div class="meta-value">${esc(t.marktpotenzial)}</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Monetarisierung</div>
+            <div class="meta-value">${esc(t.monetarisierung)}</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Schwierigkeit</div>
+            <div class="meta-value">
+              <span class="badge ${badgeClass}">${esc(t.schwierigkeit)}</span>
+            </div>
+          </div>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  function reset() {
+    setUI('input');
+    document.getElementById('brancheInput').value = '';
+    document.getElementById('resultsGrid').innerHTML = '';
+    document.getElementById('errorBox').style.display = 'none';
+  }
+
+  /* ── Helpers ── */
+  function setUI(state) {
+    document.getElementById('inputSection').style.display = state === 'input'  ? 'block' : 'none';
+    document.getElementById('loading').style.display      = state === 'loading' ? 'block' : 'none';
+    document.getElementById('results').style.display      = state === 'results' ? 'block' : 'none';
+    document.getElementById('generateBtn').disabled       = state !== 'input';
+  }
+
+  function showError(msg) {
+    const box = document.getElementById('errorBox');
+    box.textContent = msg;
+    box.style.display = 'block';
+  }
+
+  function getBadgeClass(s) {
+    const v = (s || '').toLowerCase();
+    if (v.includes('leicht'))          return 'badge-leicht';
+    if (v.includes('komplex'))         return 'badge-komplex';
+    if (v.includes('fortgeschritten')) return 'badge-fortgeschritten';
+    return 'badge-mittel';
+  }
+
+  function esc(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+</script>
+</body>
+</html>
