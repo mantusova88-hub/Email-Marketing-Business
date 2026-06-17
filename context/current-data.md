@@ -1,9 +1,6 @@
 # Aktuelle Daten & KPIs
 
-> Halte hier deine wichtigsten Kennzahlen aktuell.
-> Aktualisiere diese Datei regelmäßig (mindestens monatlich).
-
-## Stand: [Datum eintragen]
+> Stand: 27.05.2026
 
 ---
 
@@ -38,14 +35,19 @@
 
 | Kennzahl | Wert |
 |---|---|
-| Website-Besucher/Monat | — |
-| Instagram Follower | — |
-| Sonstige Plattformen | — |
+| Website | emailsmitmonika.onepage.me |
+| Instagram Follower | 682 |
+| Instagram Beiträge | 97 |
+| Instagram Aufrufe (letzte 30 Tage) | 590 |
+| Pinterest Follower | — (neu erstellt) |
+| Pinterest Pins veröffentlicht | 0 → 1 (27.05.2026) |
 
 ## Aktive Kampagnen
 
-<!-- Liste deine aktuell laufenden E-Mail-Sequenzen und Kampagnen auf -->
+- Pinterest: 7 Pins geplant, Pin #1 veröffentlicht am 27.05.2026
 
 ## Wichtige Beobachtungen
 
-<!-- Was fällt dir bei den Zahlen auf? Was läuft besser/schlechter als erwartet? -->
+- Instagram läuft bereits mit 682 Followern und 590 Aufrufen/Monat
+- Pinterest Business-Account frisch erstellt (27.05.2026)
+- Erster Pinterest Pin veröffentlicht: "Automatisch verkaufen — auch wenn das Kind krank ist"
