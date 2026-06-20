@@ -1,0 +1,75 @@
+{
+  "name": "Monika",
+
+  "quick_tipps": [
+    "Montag = Strategie-Tag: Plane die Woche, bevor der Alltag startet.",
+    "Dienstag = Content-Tag: Newsletter-Entwurf heute fertigstellen.",
+    "Mittwoch = Community-Tag: Eine persönliche Antwort schreiben macht mehr als 10 Posts.",
+    "Donnerstag = Analyse-Tag: Schaue auf deine Öffnungsraten der letzten Kampagne.",
+    "Freitag = Abschluss-Tag: Was ist diese Woche fertig geworden? Feiern!",
+    "Samstag = Freizeit — dein Business läuft auch ohne dich.",
+    "Sonntag = Vorbereitung: 15 Minuten Planung für die neue Woche reichen."
+  ],
+
+  "automatisch_erledigt": [
+    "Willkommens-Sequenz läuft automatisch für neue Subscriber",
+    "Wild Mail hat Inbox gecheckt (Team-Adresse)",
+    "Automatische Tagging-Regeln laufen"
+  ],
+
+  "heute_noch": {
+    "monday": [
+      { "zeit": "09:00", "aufgabe": "Wochenplan durchgehen & Prioritäten setzen" },
+      { "zeit": "10:00", "aufgabe": "Newsletter-Thema für diese Woche festlegen" }
+    ],
+    "tuesday": [
+      { "zeit": "09:00", "aufgabe": "Newsletter-Entwurf schreiben" },
+      { "zeit": "14:00", "aufgabe": "Betreffzeile A/B-Test vorbereiten" }
+    ],
+    "wednesday": [
+      { "zeit": "10:00", "aufgabe": "Newsletter final prüfen & planen" },
+      { "zeit": "11:00", "aufgabe": "Community-Fragen beantworten" }
+    ],
+    "thursday": [
+      { "zeit": "09:00", "aufgabe": "Kampagnen-Statistiken auswerten" },
+      { "zeit": "13:00", "aufgabe": "Neues Freebie-Konzept skizzieren" }
+    ],
+    "friday": [
+      { "zeit": "09:00", "aufgabe": "Wochenrückblick erstellen" },
+      { "zeit": "10:00", "aufgabe": "Content-Ideen für nächste Woche sammeln" }
+    ],
+    "saturday": [],
+    "sunday": [
+      { "zeit": "15:00", "aufgabe": "Wochenplanung nächste Woche — 15 Minuten" }
+    ]
+  },
+
+  "pruefen_freigeben": [
+    "Newsletter-Entwurf diese Woche — Betreffzeile prüfen",
+    "Starter-Guide Landing Page — Opt-in-Formular testen",
+    "Wild Mail Automation — Schritt 3 der Willkommens-Sequenz prüfen"
+  ],
+
+  "offene_loops": [
+    {
+      "titel": "Testimonials von Kundinnen anfragen — noch 3 ausstehend",
+      "seit": "2026-05-01"
+    },
+    {
+      "titel": "FAQ-Seite auf Website aktualisieren",
+      "seit": "2026-05-10"
+    },
+    {
+      "titel": "Kooperation mit [Name] besprechen",
+      "seit": "2026-05-12"
+    }
+  ],
+
+  "diese_woche_fokus": [
+    "Subscriber-Wachstum: Freebie auf Instagram bewerben",
+    "Öffnungsrate verbessern: 3 neue Betreffzeilen testen",
+    "Erste Kunden-Fallstudie fertigschreiben"
+  ],
+
+  "fokus_taeglich": false
+}
