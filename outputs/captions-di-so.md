@@ -19,7 +19,7 @@ Heute fängst du an, freundlicher mit deinen Gedanken zu sein. 💛
 
 .
 .
-#selbständigemama #mamamindset #persönlicheentwicklung #mindsetmama #mamaleben #gedankenkraft #mutmachen #selbstliebe #achtsamkeit #dubistgenug #mamasein #innerestärke
+#selbständigemama #mamamindset #persönlicheentwicklung #mamaleben #dubistgenug
 
 ---
 
@@ -37,7 +37,7 @@ Wenn ich das geschafft habe, schaffst du das auch. 💛
 
 .
 .
-#selbständigemama #mamamindset #persönlicheentwicklung #veränderung #neuanfang #mamaleben #wachstum #selbstfindung #mutmachen #mamasein #dubistnichtallein #innerestärke
+#selbständigemama #mamamindset #veränderung #neuanfang #dubistnichtallein
 
 ---
 
@@ -55,7 +55,7 @@ Das klingt nach wenig. Aber 10 Minuten am Tag sind über 60 Stunden im Jahr. Du 
 
 .
 .
-#selbständigemama #mamamindset #kleineschritte #persönlicheentwicklung #routine #mamaalltag #fokus #dranbleiben #mamaleben #schrittfürschritt #achtsamkeit #mamasein
+#selbständigemama #mamamindset #kleineschritte #mamaalltag #dranbleiben
 
 ---
 
@@ -73,7 +73,7 @@ Dein Moment ist nicht irgendwann. Dein Moment ist jetzt. 💛
 
 .
 .
-#selbständigemama #mamamindset #jetztodernie #persönlicheentwicklung #mutmachen #anfangen #mamaleben #rausausderkomfortzone #dubistgenug #mamasein #motivation #einfachmachen
+#selbständigemama #mamamindset #jetztodernie #mutmachen #einfachmachen
 
 ---
 
@@ -91,7 +91,7 @@ Dein Zweifel ist kein Beweis, dass du falsch liegst. Er zeigt, dass du wächst. 
 
 .
 .
-#selbständigemama #mamamindset #zweifel #wachstum #persönlicheentwicklung #mutmachen #komfortzone #selbstvertrauen #mamaleben #dubistnichtallein #mamasein #innerestärke
+#selbständigemama #mamamindset #zweifel #wachstum #selbstvertrauen
 
 ---
 
@@ -109,7 +109,7 @@ Eine neue Woche beginnt. Wer willst du diese Woche sein? 💛
 
 .
 .
-#selbständigemama #mamamindset #zukunftsich #persönlicheentwicklung #neuewoche #vision #selbstentwicklung #mamaleben #motivation #dubistgenug #mamasein #wachstum
+#selbständigemama #mamamindset #zukunftsich #neuewoche #motivation
 
 ---
 
