@@ -5,30 +5,28 @@
 
 ## Wer bin ich?
 
-<!-- Kurze Vorstellung: Name, Hintergrund, was dich ausmacht -->
+Monika Antusova. E-Mail-Marketing-Coach für selbständige Frauen und Mamas (siehe `profil/01_wer-bin-ich.md`). Selbst Mama — kennt den Alltag ihrer Zielgruppe aus eigener Erfahrung, nicht aus der Theorie.
 
 ## Meine Rolle im Business
 
-<!-- Bist du Solopreneur, hast du ein Team? Was ist deine Hauptaufgabe? -->
+Solopreneurin. Baut und vermarktet ihr Angebot rund um automatisiertes E-Mail-Marketing (Plattform "Wild Mail") selbst — von Positionierung über Tool-Bau (Nischengenerator) bis Verkaufsseite (Systeme.io).
 
 ## Meine Stärken
 
-<!-- Worin bist du wirklich gut? Was fällt dir leicht? -->
+<!-- z.B. Authentizität/eigene Erfahrung als Verkaufsargument, Bereitschaft neue Tools (Claude Code, Netlify, Systeme.io) selbst in die Hand zu nehmen — bitte ergänzen/bestätigen -->
 
 ## Meine Herausforderungen
 
-<!-- Womit kämpfst du gerade? Was kostet dich am meisten Energie? -->
+<!-- Noch nicht dokumentiert — was kostet dich aktuell am meisten Zeit/Energie? -->
 
 ## Meine verfügbare Zeit
 
-<!-- Wie viele Stunden pro Woche kannst du in dein Business investieren? -->
+<!-- Noch nicht dokumentiert — wie viele Stunden/Woche fürs Business? -->
 
 ## Mein Tech-Level
 
-<!-- Wie vertraut bist du mit Technik, Tools und Automatisierung?
-Skala 1-10, wobei 1 = "Ich brauche Schritt-für-Schritt-Anleitung für alles"
-und 10 = "Ich kann Code lesen und selbst Dinge bauen" -->
+Praktisch schon fortgeschritten: arbeitet aktiv mit Claude Code, hat selbst ein KI-Tool gebaut und deployed (Nischengenerator, Netlify), nutzt MCP-Server (Canva, Blotato, Google Drive u.a.). Braucht aber laut Julia-Kurs-Anleitungen weiterhin Schritt-für-Schritt-Begleitung bei neuen technischen Themen — bitte selbst einschätzen (1-10).
 
 ## Was mir wichtig ist
 
-<!-- Deine Werte, Work-Life-Balance-Vorstellungen, was dir an deinem Business wichtig ist -->
+Business, das auch läuft, wenn die Familie dazwischenfunkt — Kernversprechen: "Automatisiert verkaufen — auch wenn das Kind krank ist." Wichtig: kein Technikstress, keine Kaltakquise, kein Zwang zum ständigen Online-sein.
