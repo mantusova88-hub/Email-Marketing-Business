@@ -1,15 +1,15 @@
 # Woche 13.07 bis 19.07 — Lebendige Titelbilder (Canva)
 
-Neuer Stil: echtes, warmes Lifestyle-Foto mit Menschen + Burgundy-Text. Kein Business, keine Bindestriche, keine Anfuehrungszeichen, echte Umlaute.
+Neuer lebendiger Stil: helle, warme Lifestyle-Fotos mit froehlichen Menschen in Bewegung + Burgundy-Hook. Kein Business, keine Bindestriche, keine Anfuehrungszeichen, echte Umlaute.
 
-Fotos: A = ruhige Frau (cream, 1080x1350), B = Mama mit Kind im Sonnenuntergang (1080x1080).
-
-| Tag | Datum | Foto | Hook | Design ID | Link |
+| Tag | Datum | Motiv | Hook | Design ID | Link |
 |---|---|---|---|---|---|
-| Montag | 13.07 | A | Ein ruhiger Kopf macht dich freier als mehr Zeit | DAHPK2ldiSY | canva.com/d/G04jJNY3qFEtBU5 |
-| Dienstag | 14.07 | B | Sei sanft mit dir | DAHPLufAt-k | canva.com/d/WEb2crSeC5XzTy4 |
-| Mittwoch | 15.07 | A | Deine Geschichte beginnt mit einem leisen Schritt | DAHPLvAz2yU | canva.com/d/XnFSO1QDiQOTt9G |
-| Donnerstag | 16.07 | B | Wenn alles zu viel wird | DAHPLj14nfA | canva.com/d/2q5hov4Xtm8rRa5 |
-| Freitag | 17.07 | A | Du wirkst stark und darfst trotzdem muede sein | DAHPLicDzsY | canva.com/d/WGA9MY5l8ydeB44 |
-| Samstag | 18.07 | B | Waehle dich zuerst | DAHPLjvORoE | canva.com/d/SJSp632rTmTgZsb |
-| Sonntag | 19.07 | A | Wer willst du sein wenn dieses Jahr zu Ende geht | DAHPLpOPg7Q | canva.com/d/_MBoaPdGeHB-k1i |
+| Montag | 13.07 | Frau lacht im Kornfeld | Ein ruhiger Kopf macht dich freier | DAHPL4lQx5Y | canva.com/d/i52oVLUNMxNWY6Y |
+| Dienstag | 14.07 | Frau mit Kaffee am Fenster | Sei sanft mit dir | DAHPL8Qn-mI | canva.com/d/ZvjAMCljxfcJq5p |
+| Mittwoch | 15.07 | Frau lacht im Feld | Deine Geschichte beginnt leise | DAHPL_01y6o | canva.com/d/35WEcwSF_kiZpqZ |
+| Donnerstag | 16.07 | Frau tanzt am Strand | Wenn alles zu viel wird | DAHPL_WmoNY | canva.com/d/CCKt-u6BwmNKbFn |
+| Freitag | 17.07 | Mama mit Baby im Feld | Du darfst stark und muede sein | DAHPL-1gOlA | canva.com/d/ROkpLd8bTIiwr2U |
+| Samstag | 18.07 | Frau in Rot im Feld | Waehle dich zuerst | DAHPL7sjE9I | canva.com/d/rg_BcuN_Xh7u5xt |
+| Sonntag | 19.07 | Frau am Strand | Wer willst du sein | DAHPLxCXcnw | canva.com/d/fV9hwY9zIapw0u6 |
+
+Innenfolien (3 pro Tag) + Storys + Captions liegen im Repo unter assets/instagram/w13 und outputs/captions-woche-13-07.md.
