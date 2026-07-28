@@ -39,8 +39,11 @@
 
 ## Branding
 
-- **Burgund:** `#800220`
+- **Burgund:** `#800020`
 - **Gold:** `#B59156`
+- **Titelbild-Schrift (Überschriften/Kicker):** Fontref YAEqenDlk44 (Canva-Schriftname noch zu bestätigen)
+- **Fließtext-Schrift (Body/CTA/Handle):** Fontref YAGyDvJ_4Ts, fett — vermutlich Arial
+- **Branding-Handle:** @emailsmitmonika_ — immer auf der letzten Seite, unten zentriert
 
 ## Wichtige Links
 
