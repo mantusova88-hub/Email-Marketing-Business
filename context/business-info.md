@@ -9,7 +9,11 @@
 
 ## Zielgruppe
 
-<!-- Wer sind deine idealen Kunden? (z.B. selbständige Mamas, die E-Mail-Marketing nutzen wollen) -->
+- **Alter:** 30–45 Jahre
+- **Situation:** Mamas mit kleinen Kindern, oft mit eigenem Business/Selbständigkeit nebenbei
+- **Probleme:** Erschöpfung, schwierige Grenzen setzen, Schuldgefühle
+- **Wünsche:** Mehr innere Ruhe, eigenes Business aufbauen, sich selbst wieder wichtig nehmen
+- **Zentrale Transformation:** Von einer erschöpften Mama, die sich ständig verausgabt und schlecht abgrenzt, zu einer Frau, die klare Grenzen setzt, sich selbst wieder wichtig nimmt und ihr Business mit innerer Ruhe statt Überforderung führt.
 
 ## Angebote & Services
 
