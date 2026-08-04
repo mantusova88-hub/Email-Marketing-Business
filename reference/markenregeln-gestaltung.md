@@ -82,14 +82,26 @@ Unten bleibt Luft — dort liegt der Kreis.
 | Rand ringsum | `96 px` |
 | Kreis | `540 px`, unten rechts halb aus dem Rand |
 
-### Schriftgrößen
+### Schriftgrößen — verbindlich seit 4. August 2026
 
-| Element | Größe |
-|---|---|
-| Deckblatt-Überschrift | `132 px` |
-| Tipp-Überschrift | `88 px` |
-| Erklärtext | `44 px` |
-| Label und Absender | `32–36 px` |
+Monika hat die Größen bewusst vereinfacht. **Unterhalb des Deckblatts gibt es nur
+noch zwei Größen: 53 und 40.** Nichts dazwischen, nichts darüber.
+
+| Element | Größe | Schnitt |
+|---|---|---|
+| **Deckblatt-Überschrift** (Bugaki) | `76 px` | normal |
+| **Überschrift** auf Inhaltsfolien | `53 px` | fett |
+| **Alle Fließtexte** | `40 px` | fett oder normal |
+| **Label** oben links | `36 px` | fett |
+| **Absender** und WISCHEN | `32 px` | fett |
+
+**Nicht größer machen.** Frühere Entwürfe hatten 132 / 88 / 44 — das war zu groß
+und wurde von ihr durchgehend zurückgesetzt.
+
+### Ausrichtung
+
+Überschriften immer zentriert. Fließtexte überwiegend zentriert, auf einzelnen
+Folien linksbündig — das entscheidet sie pro Folie, hier gibt es keine feste Regel.
 
 ---
 
@@ -122,3 +134,20 @@ Nie zwei gleiche Hintergründe nebeneinander. Bewährte Folge über sechs Folien
 - [ ] Überschriften zentriert, Erklärtexte linksbündig
 - [ ] `@emailsmitmonika_` auf jeder Folie
 - [ ] Kreis auf jeder Folie, gleiche Stelle, Gegenfarbe
+- [ ] Deckblatt `76`, Überschriften `53`, Fließtexte `40` — keine anderen Größen
+
+---
+
+## 9. Bilder auf Folie 1 und Folie 6
+
+Seit 4. August: Deckblatt und Dank-Folie bekommen ein **Foto als Hintergrund**,
+passend zum Thema. Die Folien 2 bis 5 bleiben reine Farbflächen.
+
+Damit die Schrift lesbar bleibt: über das Foto ein Rechteck in Burgund oder Gold
+mit etwa **60 % Transparenz**, dahinter das Foto, darüber der Text.
+
+Ruhige, dunkle Fotos wählen — auf hellen wird die Schrift unruhig.
+
+**Hinweis:** Die Canva-Bilddatenbank ist über die Schnittstelle nicht durchsuchbar.
+Die Fotos setzt Monika selbst ein (Elemente → Fotos → Rechtsklick → „Bild als
+Hintergrund festlegen"). Alles andere kommt fertig aus der Vorlage.
