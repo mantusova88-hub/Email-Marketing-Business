@@ -43,24 +43,30 @@ Die vollständige Zuordnung:
 | Element | Schrift | Schnitt |
 |---|---|---|
 | Überschrift auf dem **Deckblatt** (Folie 1) | **Bugaki** | fett |
-| Alles andere | **Arial** | fett |
+| Überschriften auf allen anderen Folien | **Arial** | fett |
+| Erklärtexte | **Arial** | normal |
+| Label und Absender | **Arial** | fett |
 
 Groß- und Kleinschreibung wie im normalen Text.
 Nur die kleinen Labels oben (ERSCHÖPFUNG, TIPP 01, DANKE) und der Absender stehen in Großbuchstaben.
 
-**Fett ist der Normalfall.** Auch die Erklärtexte sind fett — nicht normal.
+**Fett ist nur die Überschrift.** Der Erklärtext darunter bleibt normal — der Unterschied
+zwischen fett und normal ersetzt einen zweiten Größensprung.
 
 ---
 
 ## 4. Aufbau einer Folie
 
 ```
-oben links      Label in Großbuchstaben, klein
-obere Hälfte    Überschrift  →  mittig zentriert
-darunter        Erklärtext   →  linksbündig
+oben links      Label in Großbuchstaben, klein, fett
+obere Hälfte    Überschrift  →  fett, mittig zentriert
+darunter        Erklärtext   →  normal, linksbündig
 unten links     @emailsmitmonika_
 unten rechts    Kreis, halb über den Rand hinaus
 ```
+
+**Ausnahme Dank-Folie:** Dort ist auch der Fließtext zentriert — sie hat keine
+Überschrift, der Text ist die Aussage.
 
 Der Text sitzt in der **oberen Hälfte** der Folie, nicht unten.
 Unten bleibt Luft — dort liegt der Kreis.
