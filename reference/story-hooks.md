@@ -1,8 +1,48 @@
 # Story-Hooks — wenn du ein Reel verlinkst
 
 > Damit nicht jedes Mal „Neues Reel" dasteht.
-> Nimm jeden Tag einen anderen. Nach zwei Wochen fängst du wieder von vorn an —
-> bis dahin hat es niemand gemerkt.
+
+---
+
+## Diese Woche — fertig zugeordnet
+
+Kein Aussuchen. Für jeden Tag steht hier ein Hook, der zum Karussell des Tages passt.
+
+### Mittwoch
+Karussell: *Nein sagen — ohne schlechtes Gewissen*
+
+> **Sagst du zu oft Ja?**
+> Tipp drauf →
+
+### Donnerstag
+Karussell: *Warum du müde bist, obwohl du nichts gemacht hast*
+
+> **Müde. Und keiner sieht warum.**
+> Ansehen →
+
+### Freitag
+Karussell: *Selbstfürsorge ohne Zeit, Geld und Babysitter*
+
+> **Keine Zeit für dich? Doch.**
+> Mehr im Beitrag →
+
+### Samstag
+Karussell: *Warum du dich nach Instagram schlechter fühlst*
+
+> **Nach dem Scrollen: leer?**
+> Hier lang →
+
+### Sonntag
+Karussell: *Die drei Fragen, die deinen Sonntag retten*
+
+> **Drei Fragen. Zehn Minuten.**
+> Tipp drauf →
+
+---
+
+## Falls du mal einen anderen brauchst
+
+Alles Folgende ist Vorrat — nicht nötig, wenn du die Zuordnung oben nimmst.
 
 ---
 
