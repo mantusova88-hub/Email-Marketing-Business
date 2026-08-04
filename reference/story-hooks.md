@@ -8,6 +8,12 @@
 
 Kein Aussuchen. Für jeden Tag steht hier ein Hook, der zum Karussell des Tages passt.
 
+### Dienstag
+Karussell: *Du bist nicht faul. Du bist leer.*
+
+> **Du hast heute nichts geschafft?**
+> Tipp drauf →
+
 ### Mittwoch
 Karussell: *Nein sagen — ohne schlechtes Gewissen*
 
