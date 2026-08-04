@@ -68,6 +68,12 @@ unten rechts    Kreis, halb über den Rand hinaus
 **Ausnahme Dank-Folie:** Dort ist auch der Fließtext zentriert — sie hat keine
 Überschrift, der Text ist die Aussage.
 
+**Folie 1 ist immer ein Hook, nie ein Thema.** Wie die Formeln funktionieren,
+steht in `hooks-deckblatt.md`. Ohne starken Hook wird der Rest nicht gelesen.
+
+**Folie 6 hat immer drei Teile:** Danke · „Abspeichern nicht vergessen!" · Frage
+für die Kommentare. Speicherungen zählen für Instagram mehr als Likes.
+
 Der Text sitzt in der **oberen Hälfte** der Folie, nicht unten.
 Unten bleibt Luft — dort liegt der Kreis.
 
