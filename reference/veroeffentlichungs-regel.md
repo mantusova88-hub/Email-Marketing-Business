@@ -1,0 +1,76 @@
+# Was jeden Tag rausgeht
+
+> Festgelegt von Monika am 5. August 2026.
+> **Diese Regel gilt für jeden Tag, ohne Nachfrage. Nichts davon ist optional.**
+
+---
+
+## Die vier Sachen
+
+Jeden Tag, sieben Tage die Woche:
+
+1. **Karussell auf Instagram** — sechs Folien
+2. **Karussell auf Facebook** — dieselben sechs Folien, längerer Text
+3. **Story auf Instagram** — zwei Folien
+4. **Story auf Facebook** — dieselben zwei Folien
+
+Wenn eins davon fehlt, ist der Tag nicht fertig.
+
+---
+
+## Die Uhrzeiten
+
+| Was | Wann |
+|---|---|
+| Karussell Instagram und Facebook | **21:00** |
+| Story Folie 1, Instagram und Facebook | **21:15** |
+| Story Folie 2, Instagram und Facebook | **21:18** |
+
+Alles deutsche Zeit. In Blotato ist das im Sommer `19:00`, `19:15`, `19:18` UTC.
+Im Winter eine Stunde später eintragen, also `20:00` UTC.
+
+---
+
+## Die Konten in Blotato
+
+| Kanal | Konto-ID | Seiten-ID |
+|---|---|---|
+| Instagram `@emailsmitmonika_` | `52837` | — |
+| Facebook `e-mails mit Monika` | `36536` | `1142132035656393` |
+
+Für Facebook-Stories: `platform: facebook`, `mediaType: story`, dazu die Seiten-ID.
+
+---
+
+## Beim Ändern eines Designs
+
+Wenn ein Design nach dem Einplanen noch geändert wird:
+
+1. Neu exportieren
+2. **Alte Termine löschen**
+3. Neu anlegen
+
+Blotato lädt das Bild beim Anlegen herunter. Ein späterer Wechsel in Canva
+kommt dort nicht mehr an. Wer nur in Canva ändert und den Termin stehen lässt,
+veröffentlicht die alte Fassung.
+
+---
+
+## Was Blotato nicht kann
+
+**Link-Sticker in der Story.** Den setzt Instagram nur in der App. Wenn eine
+Story auf den Beitrag verlinken soll, muss Monika sie selbst posten.
+
+Deshalb steht auf der zweiten Story-Folie der Inhalt selbst und kein
+„Tipp drauf". Die Story trägt allein, auch ohne Sticker.
+
+---
+
+## Checkliste vor dem Feierabend
+
+- [ ] Karussell Instagram geplant
+- [ ] Karussell Facebook geplant
+- [ ] Story Folie 1 auf Instagram **und** Facebook
+- [ ] Story Folie 2 auf Instagram **und** Facebook
+- [ ] Alle sechs Termine auf 21:00 / 21:15 / 21:18
+- [ ] Bei geänderten Designs: alter Termin gelöscht, neuer angelegt
