@@ -15,34 +15,34 @@ Karussell: *Du bist nicht faul. Du bist leer.*
 > Tipp drauf →
 
 ### Mittwoch
-Karussell: *Nein sagen — ohne schlechtes Gewissen*
+Karussell: *Nein sagen ohne schlechtes Gewissen*
 
 > **Sagst du zu oft Ja?**
-> Tipp drauf →
+> Zweite Folie: *Drei Sätze für dein Nein.*
 
 ### Donnerstag
 Karussell: *Warum du müde bist, obwohl du nichts gemacht hast*
 
 > **Müde. Und keiner sieht warum.**
-> Ansehen →
+> Zweite Folie: *Drei Dinge, die den Kopf leeren.*
 
 ### Freitag
 Karussell: *Selbstfürsorge ohne Zeit, Geld und Babysitter*
 
 > **Keine Zeit für dich? Doch.**
-> Mehr im Beitrag →
+> Zweite Folie: *Drei Wege ohne Aufwand.*
 
 ### Samstag
 Karussell: *Warum du dich nach Instagram schlechter fühlst*
 
 > **Nach dem Scrollen: leer?**
-> Hier lang →
+> Zweite Folie: *Drei Dinge für deinen Feed.*
 
 ### Sonntag
 Karussell: *Die drei Fragen, die deinen Sonntag retten*
 
 > **Drei Fragen. Zehn Minuten.**
-> Tipp drauf →
+> Zweite Folie: *Die drei Fragen.*
 
 ---
 

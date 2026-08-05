@@ -95,7 +95,7 @@ Ein gespeicherter Beitrag wird weiter ausgespielt — oft noch Wochen später.
 
 | Tag | Thema | Hook auf Folie 1 |
 |---|---|---|
-| Mittwoch | Grenzen | Nein sagen — ohne schlechtes Gewissen |
+| Mittwoch | Grenzen | Nein sagen ohne schlechtes Gewissen |
 | Donnerstag | Mental Load | Warum du müde bist, obwohl du nichts gemacht hast |
 | Freitag | Selbstfürsorge | Selbstfürsorge ohne Zeit, Geld und Babysitter |
 | Samstag | Vergleich | Warum du dich nach Instagram schlechter fühlst |
