@@ -119,6 +119,27 @@ Nie zwei gleiche Hintergründe nebeneinander. Bewährte Folge über sechs Folien
 
 ---
 
+## 6b. Zeichensetzung auf den Folien
+
+**Keine Gedankenstriche. Keine Anführungszeichen.** Beide nicht, nirgends.
+
+| Falsch | Richtig |
+|---|---|
+| `Nein sagen — ohne schlechtes Gewissen` | `Nein sagen ohne schlechtes Gewissen` |
+| `Das ist der Unterschied — und der Grund` | `Das ist der Unterschied. Und der Grund` |
+| `„Ich melde mich später" ist eine Antwort` | `Ich melde mich später ist eine Antwort` |
+
+Statt Gedankenstrich: Punkt, Komma oder einfach weglassen.
+Statt Anführungszeichen: der Satz steht für sich.
+
+Grund: Auf dem Handy wirken beide unruhig und brechen die Zeile an der falschen
+Stelle um. Monika entfernt sie konsequent — also gar nicht erst hineinschreiben.
+
+**Gilt für Folien, nicht für die Bildunterschrift.** Im Instagram-Text darunter
+sind Gedankenstriche in Ordnung.
+
+---
+
 ## 7. Was nie vorkommt
 
 - Creme als Schriftfarbe
@@ -141,6 +162,9 @@ Nie zwei gleiche Hintergründe nebeneinander. Bewährte Folge über sechs Folien
 - [ ] `@emailsmitmonika_` auf jeder Folie
 - [ ] Kreis auf jeder Folie, gleiche Stelle, Gegenfarbe
 - [ ] Deckblatt `76`, Überschriften `53`, Fließtexte `40` — keine anderen Größen
+- [ ] Kein Gedankenstrich und kein Anführungszeichen auf irgendeiner Folie
+- [ ] Markenfarbe nie transparent über einem Foto — Farbe und Foto getrennt
+- [ ] Jeder Tag hat sein eigenes Foto
 
 ---
 
