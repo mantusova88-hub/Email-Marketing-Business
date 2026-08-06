@@ -32,28 +32,28 @@ Karussell: *Warum du müde bist, obwohl du nichts gemacht hast*
 
 > Folie 1: **Müde. Und keiner sieht warum.**
 > Folie 2: *Drei Dinge, die den Kopf leeren.*
-> **Link-Sticker: `Warum du müde bist →`**
+> **Link-Sticker: `Dein Kopf macht Überstunden →`**
 
 ### Freitag
 Karussell: *Selbstfürsorge ohne Zeit, Geld und Babysitter*
 
 > Folie 1: **Keine Zeit für dich? Doch.**
 > Folie 2: *Drei Wege ohne Aufwand.*
-> **Link-Sticker: `Ohne Zeit und ohne Geld →`**
+> **Link-Sticker: `Ohne Kerzen und Schaumbad →`**
 
 ### Samstag
 Karussell: *Warum du dich nach Instagram schlechter fühlst*
 
 > Folie 1: **Nach dem Scrollen: leer?**
 > Folie 2: *Drei Dinge für deinen Feed.*
-> **Link-Sticker: `Es liegt nicht an dir →`**
+> **Link-Sticker: `Ihr bester Tag, dein Dienstag →`**
 
 ### Sonntag
 Karussell: *Die drei Fragen, die deinen Sonntag retten*
 
 > Folie 1: **Drei Fragen. Zehn Minuten.**
 > Folie 2: *Die drei Fragen.*
-> **Link-Sticker: `Zehn Minuten heute Abend →`**
+> **Link-Sticker: `Gegen das Sonntagabend-Loch →`**
 
 ---
 
@@ -141,26 +141,32 @@ Verspricht etwas Konkretes und Kleines.
 
 ## Der Text unter dem Link-Sticker
 
+**Ton: mit Augenzwinkern.** Monika mag es humorvoll, nicht brav. Erst
+schmunzelt sie, dann tippt sie.
+
 **Die wichtigste Regel: Er sagt, was drinsteht. Nicht, dass es existiert.**
 
 | Langweilig | Zieht |
 |---|---|
-| Neues Reel | Die drei Sätze → |
-| Neuer Beitrag | Warum du müde bist → |
-| Schau mal rein | Es liegt nicht an dir → |
-| Link in Bio | Zehn Minuten heute Abend → |
+| Neues Reel | Dein Kopf macht Überstunden → |
+| Neuer Beitrag | Ohne Kerzen und Schaumbad → |
+| Schau mal rein | Ihr bester Tag, dein Dienstag → |
+| Link in Bio | Gegen das Sonntagabend-Loch → |
 
-`Neues Reel` sagt nur, dass etwas da ist. Das ist kein Grund zu tippen.
-Wer schon in deiner Story ist, weiß, dass du etwas gepostet hast.
+Sie steht schon in der Story. Sie weiß, dass etwas gepostet wurde — sie
+schaut ja gerade drauf. `Neues Reel` ist ungefähr so spannend wie
+„Achtung, hier ist ein Text".
 
-**Drei bis fünf Wörter, dann ein Pfeil.** Nimm den stärksten Satz aus dem
-Beitrag oder das Versprechen von Folie 1. Nie zweimal denselben in einer Woche.
+**Drei bis fünf Wörter, dann ein Pfeil.** Wie ein Filmtrailer: genug verraten,
+dass sie neugierig wird, nicht so viel, dass sie es schon weiß. Nie zweimal
+denselben in einer Woche.
 
 Falls du improvisieren musst, diese gehen immer:
 
 `Der ganze Beitrag →` · `Hier steht wie →` · `Die drei Punkte →` · `Mehr dazu →`
 
-Aber besser ist immer der Satz, der zum Thema des Tages gehört.
+Aber besser ist immer der Satz, der zum Thema des Tages gehört — und der
+ein bisschen zwinkert.
 
 ---
 
