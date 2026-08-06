@@ -61,8 +61,12 @@ veröffentlicht die alte Fassung.
 **Link-Sticker in der Story.** Den setzt Instagram nur in der App. Wenn eine
 Story auf den Beitrag verlinken soll, muss Monika sie selbst posten.
 
-Deshalb steht auf der zweiten Story-Folie der Inhalt selbst und kein
-„Tipp drauf". Die Story trägt allein, auch ohne Sticker.
+Deshalb steht auf der zweiten Story-Folie der Inhalt selbst. Die Story trägt
+allein, auch ohne Sticker.
+
+**Der Text unter dem Sticker steht trotzdem bereit** — pro Tag einer, in
+`story-hooks.md`. Nie „Neues Reel" oder „Neuer Beitrag". Der Text sagt, was
+drinsteht, nicht dass es existiert.
 
 ---
 

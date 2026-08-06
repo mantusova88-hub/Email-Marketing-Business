@@ -14,35 +14,46 @@ Karussell: *Du bist nicht faul. Du bist leer.*
 > **Du hast heute nichts geschafft?**
 > Tipp drauf →
 
+Jeder Tag hat drei Texte:
+
+- **Story Folie 1** — der große Hook
+- **Story Folie 2** — der Inhalt, damit die Story auch ohne Sticker trägt
+- **Link-Sticker** — der kleine Text unter dem Link, wenn du ihn selbst setzt
+
 ### Mittwoch
 Karussell: *Nein sagen ohne schlechtes Gewissen*
 
-> **Sagst du zu oft Ja?**
-> Zweite Folie: *Drei Sätze für dein Nein.*
+> Folie 1: **Sagst du zu oft Ja?**
+> Folie 2: *Drei Sätze für dein Nein.*
+> **Link-Sticker: `Die drei Sätze →`**
 
 ### Donnerstag
 Karussell: *Warum du müde bist, obwohl du nichts gemacht hast*
 
-> **Müde. Und keiner sieht warum.**
-> Zweite Folie: *Drei Dinge, die den Kopf leeren.*
+> Folie 1: **Müde. Und keiner sieht warum.**
+> Folie 2: *Drei Dinge, die den Kopf leeren.*
+> **Link-Sticker: `Warum du müde bist →`**
 
 ### Freitag
 Karussell: *Selbstfürsorge ohne Zeit, Geld und Babysitter*
 
-> **Keine Zeit für dich? Doch.**
-> Zweite Folie: *Drei Wege ohne Aufwand.*
+> Folie 1: **Keine Zeit für dich? Doch.**
+> Folie 2: *Drei Wege ohne Aufwand.*
+> **Link-Sticker: `Ohne Zeit und ohne Geld →`**
 
 ### Samstag
 Karussell: *Warum du dich nach Instagram schlechter fühlst*
 
-> **Nach dem Scrollen: leer?**
-> Zweite Folie: *Drei Dinge für deinen Feed.*
+> Folie 1: **Nach dem Scrollen: leer?**
+> Folie 2: *Drei Dinge für deinen Feed.*
+> **Link-Sticker: `Es liegt nicht an dir →`**
 
 ### Sonntag
 Karussell: *Die drei Fragen, die deinen Sonntag retten*
 
-> **Drei Fragen. Zehn Minuten.**
-> Zweite Folie: *Die drei Fragen.*
+> Folie 1: **Drei Fragen. Zehn Minuten.**
+> Folie 2: *Die drei Fragen.*
+> **Link-Sticker: `Zehn Minuten heute Abend →`**
 
 ---
 
@@ -128,13 +139,28 @@ Verspricht etwas Konkretes und Kleines.
 
 ---
 
-## Der Tipp-Hinweis
+## Der Text unter dem Link-Sticker
 
-Auch den wechseln, damit es lebendig bleibt:
+**Die wichtigste Regel: Er sagt, was drinsteht. Nicht, dass es existiert.**
 
-`Tipp drauf →` · `Ansehen →` · `Ganzes Reel oben →` · `Mehr im Reel →` · `Hier lang →`
+| Langweilig | Zieht |
+|---|---|
+| Neues Reel | Die drei Sätze → |
+| Neuer Beitrag | Warum du müde bist → |
+| Schau mal rein | Es liegt nicht an dir → |
+| Link in Bio | Zehn Minuten heute Abend → |
 
-Oder nur ein Pfeil: `→`
+`Neues Reel` sagt nur, dass etwas da ist. Das ist kein Grund zu tippen.
+Wer schon in deiner Story ist, weiß, dass du etwas gepostet hast.
+
+**Drei bis fünf Wörter, dann ein Pfeil.** Nimm den stärksten Satz aus dem
+Beitrag oder das Versprechen von Folie 1. Nie zweimal denselben in einer Woche.
+
+Falls du improvisieren musst, diese gehen immer:
+
+`Der ganze Beitrag →` · `Hier steht wie →` · `Die drei Punkte →` · `Mehr dazu →`
+
+Aber besser ist immer der Satz, der zum Thema des Tages gehört.
 
 ---
 
