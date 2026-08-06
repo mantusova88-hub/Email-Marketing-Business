@@ -88,26 +88,38 @@ Unten bleibt Luft — dort liegt der Kreis.
 | Rand ringsum | `96 px` |
 | Kreis | `540 px`, unten rechts halb aus dem Rand |
 
-### Schriftgrößen — verbindlich seit 5. August 2026
+### Schriftgrößen — verbindlich seit 6. August 2026
 
-Monika hat die Größen zweimal nach unten korrigiert. **Das hier ist der Stand,
-der gilt.** Referenz ist das Samstags-Karussell `DAHRcQxtk-4`, das sie selbst
-eingestellt hat.
+**Referenz ist das Freitags-Karussell `DAHRcBvy2nY`.** Monika hat es selbst
+eingestellt und mir per Link geschickt. Diese Zahlen sind gemessen, nicht
+geschätzt. Bei jedem neuen Karussell werden genau diese gesetzt.
 
 | Element | Größe | Schnitt |
 |---|---|---|
-| **Deckblatt-Überschrift** (Bugaki) | `53 px` | normal |
-| **Überschrift** auf Inhaltsfolien | `47 px` | fett |
-| **Alle Fließtexte** | `40 px` | fett oder normal |
+| **Deckblatt-Überschrift** (Bugaki, Folie 1) | `54 px` | normal |
+| **Überschrift** auf Inhaltsfolien | `40 px` | fett |
+| **Alle Fließtexte** | `33 px` | fett oder normal |
 | **Label** oben links | `36 px` | fett |
-| **Absender** und WISCHEN | `32 px` | fett |
+| **Absender** `@EMAILSMITMONIKA_` | `27 px` | fett |
+| **WISCHEN** auf Folie 1 | `32 px` | fett |
 
-Der Abstand zwischen Deckblatt und Überschrift ist klein (53 zu 47) und das ist
-Absicht. Die Folie soll ruhig wirken, nicht laut.
+Das Label mit `36` ist absichtlich größer als der Fließtext mit `33`. Nicht
+angleichen. Sie hat das Label bei jeder Korrektur unverändert gelassen.
 
-**Nicht größer machen.** Die Korrekturkette war 132 → 76 → 53 auf dem Deckblatt
-und 88 → 53 → 47 bei den Überschriften. Jedes Mal hat sie verkleinert. Wenn du
-unsicher bist, nimm die kleinere Zahl.
+**Nicht größer machen.** Drei Korrekturrunden, jedes Mal nach unten:
+
+| Element | anfangs | dann | dann | **jetzt** |
+|---|---|---|---|---|
+| Deckblatt | 132 | 76 | 53 | **54** |
+| Überschrift | 88 | 53 | 47 | **40** |
+| Fließtext | 44 | 40 | 40 | **33** |
+| Absender | 32 | 32 | 32 | **27** |
+
+Wenn du unsicher bist, nimm die kleinere Zahl. Sie hat noch nie vergrößert.
+
+**Wenn sie einen Canva-Link schickt: erst auslesen, dann bauen.** Nicht aus
+dem Gedächtnis arbeiten und nicht schätzen. Die Zahlen aus ihrem Design sind
+die Wahrheit, diese Tabelle ist nur die Kopie davon.
 
 **Bei Stories gelten eigene Größen** — dort ist die Fläche höher:
 Hook `54`, Unterzeile `48`, Aufzählung `47`, Label `40`, Absender `34`.
@@ -169,8 +181,9 @@ sind Gedankenstriche in Ordnung.
 - [ ] Überschriften zentriert, Erklärtexte linksbündig
 - [ ] `@emailsmitmonika_` auf jeder Folie
 - [ ] Kreis auf jeder Folie, gleiche Stelle, Gegenfarbe
-- [ ] Deckblatt `53`, Überschriften `47`, Fließtexte `40` — keine anderen Größen
+- [ ] Deckblatt `54`, Überschriften `40`, Fließtexte `33`, Absender `27`, Label `36`
 - [ ] Alle sechs Folien auf dieselben Größen geprüft, nicht nur die erste
+- [ ] Bei einem Canva-Link von Monika: Größen ausgelesen statt geschätzt
 - [ ] Kein Gedankenstrich und kein Anführungszeichen auf irgendeiner Folie
 - [ ] Markenfarbe nie transparent über einem Foto — Farbe und Foto getrennt
 - [ ] Jeder Tag hat sein eigenes Foto
