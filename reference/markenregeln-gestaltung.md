@@ -90,36 +90,51 @@ Unten bleibt Luft — dort liegt der Kreis.
 
 ### Schriftgrößen — verbindlich seit 6. August 2026
 
-**Referenz ist das Freitags-Karussell `DAHRcBvy2nY`.** Monika hat es selbst
-eingestellt und mir per Link geschickt. Diese Zahlen sind gemessen, nicht
-geschätzt. Bei jedem neuen Karussell werden genau diese gesetzt.
+## ⚠️ Canva zeigt andere Zahlen an als die Schnittstelle
 
-| Element | Größe | Schnitt |
+**Das ist die Ursache aller bisherigen Größen-Fehler.** Was Monika im
+Canva-Editor abliest, ist **drei Viertel** von dem, was die Schnittstelle
+meldet. Der Faktor ist `4/3`.
+
+> Sie sagt 30 → ich setze 40.
+> Ich messe 54 → bei ihr steht 40.
+
+Wenn sie eine Zahl nennt, ist es **immer** die Canva-Zahl. Nie ungefragt
+übernehmen, immer mit `4/3` umrechnen.
+
+### Die Tabelle in beiden Spalten
+
+| Element | **Monika sieht in Canva** | **Ich setze über die Schnittstelle** |
 |---|---|---|
-| **Deckblatt-Überschrift** (Bugaki, Folie 1) | `54 px` | normal |
-| **Überschrift** auf Inhaltsfolien | `40 px` | fett |
-| **Alle Fließtexte** | `33 px` | fett oder normal |
-| **Label** oben links | `36 px` | fett |
-| **Absender** `@EMAILSMITMONIKA_` | `27 px` | fett |
-| **WISCHEN** auf Folie 1 | `32 px` | fett |
+| Deckblatt-Überschrift (Bugaki, Folie 1) | `40` | `53` |
+| Überschrift auf Inhaltsfolien | `30` | `40` |
+| Alle Fließtexte | `25` | `33` |
+| Label oben links | `30` | `40` |
+| Absender `@EMAILSMITMONIKA_` | `20` | `27` |
+| WISCHEN auf Folie 1 | `25` | `33` |
 
-Das Label mit `36` ist absichtlich größer als der Fließtext mit `33`. Nicht
-angleichen. Sie hat das Label bei jeder Korrektur unverändert gelassen.
+Die Schnittstelle nimmt nur ganze Zahlen. `53` statt `53,33` und `33` statt
+`33,33` sind gerundet — der Unterschied ist mit bloßem Auge nicht zu sehen.
 
-**Nicht größer machen.** Drei Korrekturrunden, jedes Mal nach unten:
+**Nicht größer machen.** Vier Korrekturrunden, jedes Mal nach unten
+(hier in Canva-Zahlen):
 
 | Element | anfangs | dann | dann | **jetzt** |
 |---|---|---|---|---|
-| Deckblatt | 132 | 76 | 53 | **54** |
-| Überschrift | 88 | 53 | 47 | **40** |
-| Fließtext | 44 | 40 | 40 | **33** |
-| Absender | 32 | 32 | 32 | **27** |
+| Deckblatt | 99 | 57 | 40 | **40** |
+| Überschrift | 66 | 40 | 35 | **30** |
+| Fließtext | 33 | 30 | 30 | **25** |
+| Absender | 24 | 24 | 24 | **20** |
 
 Wenn du unsicher bist, nimm die kleinere Zahl. Sie hat noch nie vergrößert.
 
 **Wenn sie einen Canva-Link schickt: erst auslesen, dann bauen.** Nicht aus
 dem Gedächtnis arbeiten und nicht schätzen. Die Zahlen aus ihrem Design sind
 die Wahrheit, diese Tabelle ist nur die Kopie davon.
+
+**Wenn sie sagt, sie habe die Größen schon geändert:** nicht nachbessern.
+Aber prüfen, ob die geplanten Beiträge noch das alte Bild tragen — siehe
+`veroeffentlichungs-regel.md`, Abschnitt „Beim Ändern eines Designs".
 
 **Bei Stories gelten eigene Größen** — dort ist die Fläche höher:
 Hook `54`, Unterzeile `48`, Aufzählung `47`, Label `40`, Absender `34`.
@@ -181,7 +196,8 @@ sind Gedankenstriche in Ordnung.
 - [ ] Überschriften zentriert, Erklärtexte linksbündig
 - [ ] `@emailsmitmonika_` auf jeder Folie
 - [ ] Kreis auf jeder Folie, gleiche Stelle, Gegenfarbe
-- [ ] Deckblatt `54`, Überschriften `40`, Fließtexte `33`, Absender `27`, Label `36`
+- [ ] Größen in Canva-Zahlen: Deckblatt `40`, Überschrift `30`, Fließtext `25`, Label `30`, Absender `20`, WISCHEN `25`
+- [ ] Beim Setzen mit `4/3` umgerechnet: `53` · `40` · `33` · `40` · `27` · `33`
 - [ ] Alle sechs Folien auf dieselben Größen geprüft, nicht nur die erste
 - [ ] Bei einem Canva-Link von Monika: Größen ausgelesen statt geschätzt
 - [ ] Kein Gedankenstrich und kein Anführungszeichen auf irgendeiner Folie
