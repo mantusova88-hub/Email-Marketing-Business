@@ -44,8 +44,9 @@
 
 ## Aktive Kampagnen
 
-<!-- Liste deine aktuell laufenden E-Mail-Sequenzen und Kampagnen auf -->
+- Business-Start Checkliste für Mamas (€7, Systeme.io-Funnel + Netlify-Auslieferung) — laut `reference/systeme-io-verkaufsseite.md` vorbereitet, Live-Status noch offen
+- Nischengenerator-Tool — gebaut, noch nicht deployed/verkauft (siehe `strategy.md`)
 
 ## Wichtige Beobachtungen
 
-<!-- Was fällt dir bei den Zahlen auf? Was läuft besser/schlechter als erwartet? -->
+<!-- Noch keine echten Zahlen dokumentiert. Die Tabellen oben (Subscriber, Öffnungsrate, Umsatz) bitte mit echten Werten aus Wild Mail / Systeme.io befüllen, sobald verfügbar — hier nichts erfinden. -->

@@ -1,5 +1,5 @@
 [build]
-  publish = "outputs"
+  publish = "08-resources"
   functions = "netlify/functions"
 
 [functions]

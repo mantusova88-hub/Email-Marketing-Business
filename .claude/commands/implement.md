@@ -4,7 +4,7 @@ Setze einen bestehenden Plan Schritt für Schritt um.
 
 ## Ablauf
 
-1. Frage: "Welchen Plan möchtest du umsetzen? Soll ich die vorhandenen Pläne in `plans/` auflisten?"
+1. Frage: "Welchen Plan möchtest du umsetzen? Soll ich die vorhandenen Pläne in `04-projects/` auflisten?"
 
 2. Lies den angegebenen Plan vollständig.
 
@@ -26,6 +26,6 @@ Setze einen bestehenden Plan Schritt für Schritt um.
    - Zeige den aktualisierten Fortschritt
    - Frage: "Weiter mit der nächsten Aufgabe?"
 
-8. Speichere den aktualisierten Plan zurück in `plans/`.
+8. Speichere den aktualisierten Plan zurück in `04-projects/`.
 
 Starte mit: "Lass uns deinen Plan in die Tat umsetzen! Welchen Plan nehmen wir uns vor?"

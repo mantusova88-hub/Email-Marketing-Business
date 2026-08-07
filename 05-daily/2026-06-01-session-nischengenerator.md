@@ -9,10 +9,10 @@
 ### 1. Branding-Farben festgelegt
 - **Burgund:** `#800220`
 - **Gold:** `#B59156`
-- Gespeichert in `context/business-info.md`
+- Gespeichert in `01-context/business-info.md`
 
 ### 2. Nischengenerator Tool gebaut
-**Datei:** `outputs/nischengenerator.html`
+**Datei:** `08-resources/nischengenerator.html`
 
 Das Tool ist fertig und hat folgende Features:
 - 4-Schritt-Formular (Hobbys, Erfahrung, Rahmenbedingungen)
@@ -26,14 +26,14 @@ Das Tool ist fertig und hat folgende Features:
 ### 3. Deployment-Plan festgelegt
 - **Hosting:** Netlify (kostenlos)
 - **Verkauf:** Systeme.io als Verkaufsseite
-- Anleitungen dafür: `reference/anleitungen-deployment.md`
+- Anleitungen dafür: `09-reference/anleitungen-deployment.md`
 
 ---
 
 ## Nächste Schritte
 
 - [ ] Claude API-Key besorgen (console.anthropic.com)
-- [ ] Tool auf Netlify deployen (Anleitung in `reference/`)
+- [ ] Tool auf Netlify deployen (Anleitung in `09-reference/`)
 - [ ] Verkaufsseite in Systeme.io aufbauen
 - [ ] Tool testen und ggf. anpassen
 - [ ] Preis festlegen (Empfehlung: 7–17 €)
