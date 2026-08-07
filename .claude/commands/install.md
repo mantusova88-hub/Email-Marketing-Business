@@ -4,7 +4,7 @@ Installiere eine neue Schicht/ein neues Modul in meinen Workspace.
 
 ## Schritte
 
-1. Frage mich: "Welche Schicht möchtest du installieren? Bitte nenne den Ordnernamen im `module-installs/`-Verzeichnis."
+1. Frage mich: "Welche Schicht möchtest du installieren? Bitte nenne den Ordnernamen im `09-reference/module-installs/`-Verzeichnis."
 
 2. Lies den angegebenen Ordner und alle darin enthaltenen Dateien.
 
@@ -18,7 +18,7 @@ Installiere eine neue Schicht/ein neues Modul in meinen Workspace.
 
 5. Führe die Installation durch:
    - Kopiere Commands in `.claude/commands/`
-   - Kopiere Skripte in `scripts/`
+   - Kopiere Skripte in `07-intelligence/`
    - Aktualisiere `CLAUDE.md` mit neuen Commands
    - Erstelle notwendige Kontext-Dateien
 

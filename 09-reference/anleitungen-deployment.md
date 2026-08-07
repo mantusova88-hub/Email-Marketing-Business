@@ -5,7 +5,7 @@
 ## TEIL 1: Tool auf Netlify deployen (kostenlos, 5 Minuten)
 
 ### Was du brauchst
-- Die Datei `outputs/nischengenerator.html`
+- Die Datei `08-resources/nischengenerator.html`
 - Einen kostenlosen Netlify-Account
 
 ### Schritt-für-Schritt
@@ -18,7 +18,7 @@
 **Schritt 2 — Tool hochladen (Drag & Drop!)**
 1. Nach dem Login siehst du das Netlify-Dashboard
 2. Scrolle nach unten bis du siehst: *"Want to deploy a new site without connecting to Git? Drag and drop your site output folder here"*
-3. Öffne den Ordner `outputs/` auf deinem Computer
+3. Öffne den Ordner `08-resources/` auf deinem Computer
 4. Ziehe die Datei `nischengenerator.html` in dieses Feld
 5. Netlify deployt automatisch — dauert 10 Sekunden!
 

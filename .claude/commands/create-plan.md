@@ -11,7 +11,7 @@ Erstelle einen detaillierten, umsetzbaren Plan für eine neue Aufgabe oder ein n
    - "Was hast du bereits dazu gemacht oder recherchiert?"
    - "Welche Ressourcen stehen dir zur Verfügung? (Zeit, Budget, Tools)"
 
-2. Analysiere die Antworten im Kontext meines Businesses (nutze `context/`-Dateien).
+2. Analysiere die Antworten im Kontext meines Businesses (nutze `01-context/`-Dateien).
 
 3. Erstelle einen strukturierten Plan mit:
    - **Ziel** — Was wird am Ende erreicht sein?
@@ -22,7 +22,7 @@ Erstelle einen detaillierten, umsetzbaren Plan für eine neue Aufgabe oder ein n
    - **Potenzielle Hindernisse** — Was könnte schiefgehen?
    - **Erfolgsmessung** — Woran erkenne ich, dass es funktioniert hat?
 
-4. Speichere den Plan als Datei in `plans/plan-[datum]-[thema].md`.
+4. Speichere den Plan als Datei in `04-projects/plan-[datum]-[thema].md`.
 
 5. Frage: "Soll ich direkt mit der Umsetzung beginnen? Dann nutze /implement."
 

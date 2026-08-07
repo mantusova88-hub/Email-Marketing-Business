@@ -36,7 +36,7 @@ Bewerte jede Aufgabe nach diesem Schema:
 
 ## Phase 3: Ausgabe
 
-Erstelle einen Report in `outputs/task-audit-[datum].md` mit:
+Erstelle einen Report in `08-resources/task-audit-[datum].md` mit:
 - Vollständige Aufgabenliste mit Scores
 - Top 3 Sofort-Automatisierungen mit konkreten Tool-Empfehlungen
 - 90-Tage-Automatisierungsplan
