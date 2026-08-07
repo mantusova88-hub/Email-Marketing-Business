@@ -55,7 +55,8 @@ Email-Marketing-Business/
 ├── 07-intelligence/             # Automatisierungs-Skripte & Prozesse
 ├── 08-resources/                # Fertige Arbeitsergebnisse & Reports (Netlify-Deploy-Ordner)
 └── 09-reference/                # Templates, Anleitungen, Patterns
-    └── module-installs/         # Heruntergeladene Schichten (ZIPs)
+    ├── module-installs/         # Heruntergeladene Schichten (ZIPs)
+    └── julia-kurs/               # Sortierte Kurs-Unterlagen von Julia Trost
 ```
 
 ---
