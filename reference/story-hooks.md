@@ -32,28 +32,28 @@ Karussell: *Warum du müde bist, obwohl du nichts gemacht hast*
 
 > Folie 1: **Müde. Und keiner sieht warum.**
 > Folie 2: *Drei Dinge, die den Kopf leeren.*
-> **Link-Sticker: `Dein Kopf macht Überstunden →`**
+> **Link-Sticker: `Du hast 47 Tabs offen →`**
 
 ### Freitag
 Karussell: *Selbstfürsorge ohne Zeit, Geld und Babysitter*
 
 > Folie 1: **Keine Zeit für dich? Doch.**
 > Folie 2: *Drei Wege ohne Aufwand.*
-> **Link-Sticker: `Ohne Kerzen und Schaumbad →`**
+> **Link-Sticker: `Ohne Yogamatte und Chiasamen →`**
 
 ### Samstag
 Karussell: *Warum du dich nach Instagram schlechter fühlst*
 
 > Folie 1: **Nach dem Scrollen: leer?**
 > Folie 2: *Drei Dinge für deinen Feed.*
-> **Link-Sticker: `Ihr bester Tag, dein Dienstag →`**
+> **Link-Sticker: `Sie hat auch Wäscheberge →`**
 
 ### Sonntag
 Karussell: *Die drei Fragen, die deinen Sonntag retten*
 
 > Folie 1: **Drei Fragen. Zehn Minuten.**
 > Folie 2: *Die drei Fragen.*
-> **Link-Sticker: `Gegen das Sonntagabend-Loch →`**
+> **Link-Sticker: `Sonntagabend ohne Bauchgrummeln →`**
 
 ---
 
@@ -148,10 +148,10 @@ schmunzelt sie, dann tippt sie.
 
 | Langweilig | Zieht |
 |---|---|
-| Neues Reel | Dein Kopf macht Überstunden → |
-| Neuer Beitrag | Ohne Kerzen und Schaumbad → |
-| Schau mal rein | Ihr bester Tag, dein Dienstag → |
-| Link in Bio | Gegen das Sonntagabend-Loch → |
+| Neues Reel | Du hast 47 Tabs offen → |
+| Neuer Beitrag | Ohne Yogamatte und Chiasamen → |
+| Schau mal rein | Sie hat auch Wäscheberge → |
+| Link in Bio | Sonntagabend ohne Bauchgrummeln → |
 
 Sie steht schon in der Story. Sie weiß, dass etwas gepostet wurde — sie
 schaut ja gerade drauf. `Neues Reel` ist ungefähr so spannend wie
