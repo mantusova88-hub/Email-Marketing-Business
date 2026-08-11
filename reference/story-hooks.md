@@ -54,6 +54,13 @@ Karussell: *Warum Stille dir unangenehm ist*
 > Folie 2: *Was Stille auslöst.*
 > **Link-Sticker: `Wenn es still wird, wird es laut →`**
 
+### Sonntag 16.08.
+Karussell: *Warum der Sonntagabend so schwer ist*
+
+> Folie 1: **Warum es sonntags kippt.**
+> Folie 2: *Was heute Abend hilft.*
+> **Link-Sticker: `Immer um dieselbe Uhrzeit →`**
+
 ---
 
 ## Woche 4. bis 9. August — erledigt
