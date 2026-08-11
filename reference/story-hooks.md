@@ -4,56 +4,66 @@
 
 ---
 
-## Diese Woche — fertig zugeordnet
+## Die Regel
 
-Kein Aussuchen. Für jeden Tag steht hier ein Hook, der zum Karussell des Tages passt.
-
-### Dienstag
-Karussell: *Du bist nicht faul. Du bist leer.*
-
-> **Du hast heute nichts geschafft?**
-> Tipp drauf →
+**Zu jedem Karussell gehört ein eigener Link-Sticker-Text.** Kein Karussell
+ohne. Er wird gebaut, wenn das Karussell gebaut wird, nicht später.
 
 Jeder Tag hat drei Texte:
 
 - **Story Folie 1** — der große Hook
 - **Story Folie 2** — der Inhalt, damit die Story auch ohne Sticker trägt
-- **Link-Sticker** — der kleine Text unter dem Link, wenn du ihn selbst setzt
+- **Link-Sticker** — der kleine Text unter dem Link, den Monika selbst setzt
 
-### Mittwoch
-Karussell: *Nein sagen ohne schlechtes Gewissen*
+---
 
-> Folie 1: **Sagst du zu oft Ja?**
-> Folie 2: *Drei Sätze für dein Nein.*
-> **Link-Sticker: `Die drei Sätze →`**
+## Woche 11. bis 16. August
 
-### Donnerstag
-Karussell: *Warum du müde bist, obwohl du nichts gemacht hast*
+### Dienstag 11.08.
+Karussell: *Warum du abends nicht abschalten kannst*
 
-> Folie 1: **Müde. Und keiner sieht warum.**
-> Folie 2: *Drei Dinge, die den Kopf leeren.*
+> Folie 1: **Kopf aus? Geht nicht.**
+> Folie 2: *Was abends wirklich passiert.*
 > **Link-Sticker: `Du hast 47 Tabs offen →`**
 
-### Freitag
-Karussell: *Selbstfürsorge ohne Zeit, Geld und Babysitter*
+### Mittwoch 12.08.
+Karussell: *Drei Dinge, die heute liegen bleiben dürfen*
 
-> Folie 1: **Keine Zeit für dich? Doch.**
-> Folie 2: *Drei Wege ohne Aufwand.*
-> **Link-Sticker: `Ohne Yogamatte und Chiasamen →`**
+> Folie 1: **Was heute liegen bleiben darf.**
+> Folie 2: *Die drei Dinge.*
+> **Link-Sticker: `Die Wäsche kann warten →`**
 
-### Samstag
-Karussell: *Warum du dich nach Instagram schlechter fühlst*
+### Donnerstag 13.08.
+Karussell: *Warum du dich für die Gefühle anderer verantwortlich fühlst*
 
-> Folie 1: **Nach dem Scrollen: leer?**
-> Folie 2: *Drei Dinge für deinen Feed.*
-> **Link-Sticker: `Sie hat auch Wäscheberge →`**
+> Folie 1: **Ihre Laune ist nicht dein Job.**
+> Folie 2: *Woran du es merkst.*
+> **Link-Sticker: `Nicht dein Gefühl, nicht dein Job →`**
 
-### Sonntag
-Karussell: *Die drei Fragen, die deinen Sonntag retten*
+### Freitag 14.08.
+Karussell: *Wenn du abends nicht ins Bett kommst, liegt es nicht an Disziplin*
 
-> Folie 1: **Drei Fragen. Zehn Minuten.**
-> Folie 2: *Die drei Fragen.*
-> **Link-Sticker: `Sonntagabend ohne Bauchgrummeln →`**
+> Folie 1: **Es liegt nicht an Disziplin.**
+> Folie 2: *Was wirklich dahintersteckt.*
+> **Link-Sticker: `23:40 Uhr und immer noch wach →`**
+
+### Samstag 15.08.
+Karussell: *Warum Stille dir unangenehm ist*
+
+> Folie 1: **Stille macht dich nervös?**
+> Folie 2: *Was Stille auslöst.*
+> **Link-Sticker: `Wenn es still wird, wird es laut →`**
+
+---
+
+## Woche 4. bis 9. August — erledigt
+
+| Tag | Karussell | Link-Sticker |
+|---|---|---|
+| Donnerstag | Warum du müde bist, obwohl du nichts gemacht hast | `Du hast 47 Tabs offen →` |
+| Freitag | Selbstfürsorge ohne Zeit, Geld und Babysitter | `Ohne Yogamatte und Chiasamen →` |
+| Samstag | Warum du dich nach Instagram schlechter fühlst | `Sie hat auch Wäscheberge →` |
+| Sonntag | Die drei Fragen, die deinen Sonntag retten | `Sonntagabend ohne Bauchgrummeln →` |
 
 ---
 
@@ -151,7 +161,7 @@ schmunzelt sie, dann tippt sie.
 | Neues Reel | Du hast 47 Tabs offen → |
 | Neuer Beitrag | Ohne Yogamatte und Chiasamen → |
 | Schau mal rein | Sie hat auch Wäscheberge → |
-| Link in Bio | Sonntagabend ohne Bauchgrummeln → |
+| Link in Bio | 23:40 Uhr und immer noch wach → |
 
 Sie steht schon in der Story. Sie weiß, dass etwas gepostet wurde — sie
 schaut ja gerade drauf. `Neues Reel` ist ungefähr so spannend wie

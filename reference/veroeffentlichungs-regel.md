@@ -42,6 +42,34 @@ Für Facebook-Stories: `platform: facebook`, `mediaType: story`, dazu die Seiten
 
 ---
 
+## Zu jedem Karussell gehört ein Link-Sticker-Text
+
+**Feste Regel seit 11. August 2026. Kein Karussell ohne eigenen Text.**
+
+Wenn Monika ihr Karussell in der Story verlinkt, steht unter dem Link ein
+kurzer Satz. Der entscheidet, ob getippt wird oder nicht.
+
+Deshalb: **Wer ein Karussell baut, schreibt im selben Zug den Text dazu.**
+Nicht später, nicht auf Nachfrage. Er gehört zum Karussell wie die Folien.
+
+**Was der Text leisten muss:**
+
+| Regel | |
+|---|---|
+| Länge | drei bis fünf Wörter, dann ein Pfeil |
+| Inhalt | sagt, **was drinsteht** — nicht, dass etwas existiert |
+| Ton | mit Augenzwinkern, gern frech, nie brav |
+| Bezug | passt zum Thema genau dieses Tages |
+| Wiederholung | nie zweimal derselbe in einer Woche |
+
+**Verboten:** `Neues Reel` · `Neuer Beitrag` · `Hier klicken` · `Schau mal rein`
+· `Link in Bio`. Sie steht schon in der Story, sie weiß, dass du etwas gepostet
+hast. Diese Sätze geben ihr keinen Grund zu tippen.
+
+Die Texte der laufenden Woche stehen in `story-hooks.md`.
+
+---
+
 ## Beim Ändern eines Designs
 
 Wenn ein Design nach dem Einplanen noch geändert wird:
