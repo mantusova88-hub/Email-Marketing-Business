@@ -50,8 +50,12 @@ Die vollständige Zuordnung:
 Groß- und Kleinschreibung wie im normalen Text.
 Nur die kleinen Labels oben (ERSCHÖPFUNG, TIPP 01, DANKE) und der Absender stehen in Großbuchstaben.
 
-**Fett ist nur die Überschrift.** Der Erklärtext darunter bleibt normal — der Unterschied
-zwischen fett und normal ersetzt einen zweiten Größensprung.
+**Alles ist fett. Auch der Fließtext.** Festgelegt von Monika am 11. August 2026
+am Beispiel des Donnerstag-Karussells: der zentrierte Arial-Text in Größe `25`
+steht ebenfalls fett. Ihre Begründung: es sieht besser aus.
+
+Der Unterschied zwischen Überschrift und Fließtext läuft damit allein über die
+Größe (`30` gegen `25`), nicht mehr über den Schnitt.
 
 ---
 
@@ -192,7 +196,7 @@ sind Gedankenstriche in Ordnung.
 - [ ] Kein einziger Text in Creme
 - [ ] Auf Burgund alles in Gold
 - [ ] Folie 1 in Bugaki, alles andere Arial
-- [ ] Alle Texte fett
+- [ ] Alle Texte fett, **auch die Fließtexte** (seit 11.08.2026)
 - [ ] Überschriften zentriert, Erklärtexte linksbündig
 - [ ] `@emailsmitmonika_` auf jeder Folie
 - [ ] Kreis auf jeder Folie, gleiche Stelle, Gegenfarbe
