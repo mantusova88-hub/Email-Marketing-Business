@@ -43,7 +43,8 @@ Email-Marketing-Business/
 │   ├── current-data.md          # Aktuelle KPIs und Zahlen
 │   └── import/                  # Bestehende Dokumente zum Einlesen
 ├── .claude/
-│   └── commands/                # Deine persönlichen Slash Commands
+│   ├── commands/                # Deine persönlichen Slash Commands
+│   └── skills/                  # Projekt-Skills (z.B. instagram-planung)
 ├── module-installs/             # Heruntergeladene Schichten (ZIPs)
 ├── plans/                       # Implementierungspläne
 ├── outputs/                     # Fertige Arbeitsergebnisse & Reports
@@ -62,6 +63,7 @@ Email-Marketing-Business/
 | `/create-plan` | Durchdachten Implementierungsplan erstellen |
 | `/implement` | Plan Schritt für Schritt umsetzen |
 | `/task-audit` | Aufgaben-Interview + Automatisierungs-Scoring |
+| `/instagram-woche` | Social-Media-Woche für Instagram & Facebook planen und terminieren |
 
 ---
 
