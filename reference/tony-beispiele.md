@@ -21,7 +21,28 @@ inklusive Betreffzeile.
 
 Das zweite ist fast wichtiger als das erste.
 
-### 3. Deine roten Linien
+### 3. Wofür du den Skill einsetzen willst
+Nur für E-Mails? Oder auch für Verkaufsseiten, Instagram-Captions,
+Webinar-Hooks? Danach richtet sich, welche Techniken im Skill Vorrang haben.
+
+**Deine Antwort:** ✅ **Alle vier** — E-Mails & Sequenzen, Verkaufsseiten,
+Instagram-Captions, Webinar-Hooks & Pitch.
+(Im Skill unter Abschnitt 4 nach Format aufgeschlüsselt.)
+
+### 4. Wie deutsch soll es klingen?
+Robbins' Stil hat stark US-typische Elemente — z. B. *„Your life is happening
+FOR you, not TO you"* oder *„Where focus goes, energy flows"*.
+
+Drei Möglichkeiten:
+- **Direkt übersetzt** — die Wendungen bleiben erkennbar amerikanisch
+- **Eingedeutscht** — dieselbe Denkfigur, aber in natürlichem Deutsch
+- **Gemischt** — die Struktur eingedeutscht, einzelne starke Bilder wörtlich
+
+**Deine Antwort:** ✅ **Eingedeutscht** — Denkfigur übernehmen, Wortlaut neu
+bauen. Nichts darf nach Übersetzung klingen.
+(Im Skill unter Abschnitt 3 mit Beispieltabelle.)
+
+### 5. Deine roten Linien
 Gibt es etwas, das du auf keinen Fall willst?
 (Beispiel: „Keine Ausrufezeichen", „nie Großbuchstaben", „kein Pathos")
 

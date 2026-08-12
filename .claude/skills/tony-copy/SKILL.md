@@ -90,7 +90,52 @@ Robbins endet immer mit Handlung. Aber:
 
 ---
 
-## 3. Die Übersetzungsregel — das Wichtigste
+## 3. Die Eindeutschungs-Regel
+
+**Monikas Entscheidung: eingedeutscht.**
+
+Robbins' Wendungen sind stark, aber wörtlich übersetzt klingen sie nach
+US-Coaching-Seminar. Sabine merkt das sofort — und Übersetztes wirkt bei ihr
+unecht, nicht inspirierend.
+
+**Die Regel:** Die **Denkfigur** übernehmen, den **Wortlaut** neu bauen —
+aus Monikas Welt, mit ihren Bildern.
+
+| Original-Denkfigur | ❌ Wörtlich | ✅ Eingedeutscht (Monika) |
+|---|---|---|
+| *Life happens FOR you, not TO you* | „Dein Leben passiert FÜR dich, nicht MIT dir." | „Was, wenn das letzte Jahr dir nichts weggenommen hat — sondern dir gezeigt hat, wo dein Business zu sehr an dir hängt?" |
+| *Where focus goes, energy flows* | „Wo der Fokus hingeht, fließt die Energie." | „Das, worauf du morgens als Erstes schaust, wächst. Alles andere nicht." |
+| *The past does not equal the future* | „Die Vergangenheit ist nicht gleich die Zukunft." | „Dass es zwei Jahre nicht funktioniert hat, sagt nichts darüber, wie es in drei Monaten aussieht." |
+| *Massive action* | „Massives Handeln" | „Nicht alles. Nur das Eine. Heute Abend." |
+
+**Nie benutzen:** „Peak State", „Breakthrough", „Empowerment", „Mindset-Shift",
+„Level Up", „unleash". Diese Wörter stehen bereits auf der Verbotsliste in
+`context/stimme.md`.
+
+**Test:** Würde Monika diesen Satz beim Sprechen so sagen?
+Wenn nein — noch nicht eingedeutscht genug.
+
+---
+
+## 4. Wo der Skill eingesetzt wird
+
+Monika nutzt ihn für **alle vier Formate**. Pro Format haben andere
+Techniken Vorrang:
+
+| Format | Vorrangige Techniken | Besonderheit |
+|---|---|---|
+| **E-Mails & Sequenzen** | Kontrast (2), Identitäts-Reframe (3), innere Fragen (6) | Betreff bleibt leise — die Kraft kommt im Text. Max. 1 Technik pro Mail. |
+| **Verkaufsseiten** | Kontrast (2), Reframe (3), sinnliche Sprache (5) | Reframe gehört in die Problem-Sektion, Kontrast direkt vor den Preis. |
+| **Instagram-Captions** | Dreier-Rhythmus (4), Entscheidungs-Frage (1) | Nur die erste Zeile trägt die Technik. Danach normale Stimme. |
+| **Webinar-Hooks & Pitch** | Innere Fragen (6), Kontrast (2), Handlungs-Abschluss (7) | Stärkster Einsatzort — Phase 1 (Framing) und der Übergang zum Pitch. |
+
+> 💡 **Webinare vertragen am meisten davon.** Live ist Energie erlaubt, die in
+> einer E-Mail aufdringlich wirken würde. Umgekehrt gilt: In einer normalen
+> Newsletter-Mail reicht **eine** Technik — mehr kippt ins Motivationale.
+
+---
+
+## 5. Die Übersetzungsregel — das Wichtigste
 
 Robbins' Stil hat eine **hohe Intensität**: Ausrufezeichen, Großbuchstaben,
 Bühnen-Energie, große Versprechen.
@@ -119,14 +164,14 @@ nicht aus der Lautstärke.
 
 ---
 
-## 4. Ablauf
+## 6. Ablauf
 
 1. `context/stimme.md` und Skill `zielgruppe` laden
-2. Klären: Welcher Text? (E-Mail / Verkaufsseite / Post)
+2. Format bestimmen und die vorrangigen Techniken aus Abschnitt 4 nehmen
 3. **Eine oder zwei** Techniken auswählen — nicht alle sieben.
    Sieben Techniken in einer Mail wirken wie eine Motivationsrede.
-4. Text schreiben
-5. Gegen die Übersetzungsregel prüfen
+4. Text schreiben — **immer eingedeutscht** (Abschnitt 3)
+5. Gegen die Übersetzungsregel prüfen (Abschnitt 5)
 6. **Immer beide Versionen liefern**, damit Monika vergleichen kann
 
 ### Ausgabeformat
@@ -149,7 +194,7 @@ nicht aus der Lautstärke.
 
 ---
 
-## 5. Wann dieser Stil passt — und wann nicht
+## 7. Wann dieser Stil passt — und wann nicht
 
 | ✅ Gut geeignet | ❌ Lieber normal |
 |---|---|
@@ -164,9 +209,10 @@ nicht aus der Lautstärke.
 
 ---
 
-## 6. Check vor der Ausgabe
+## 8. Check vor der Ausgabe
 
-- [ ] Max. 2 Techniken eingesetzt?
+- [ ] Max. 2 Techniken eingesetzt — und die für dieses Format passenden?
+- [ ] **Eingedeutscht?** Kein Satz, der nach Übersetzung klingt?
 - [ ] Kein Wort aus der Verbotsliste in `context/stimme.md`?
 - [ ] Kein Druck, keine Scham, keine künstliche Dringlichkeit?
 - [ ] Kein Satz wörtlich von Robbins übernommen?
@@ -179,14 +225,21 @@ nicht aus der Lautstärke.
 
 ---
 
-## 7. Diesen Skill verbessern
+## 9. Diesen Skill verbessern
 
-Dieser Skill basiert auf allgemein bekannten Merkmalen von Robbins'
-Marketing-Sprache — **nicht auf Monikas eigenen Beispielen.**
+**Bereits von Monika entschieden:**
+- ✅ Einsatz: E-Mails, Verkaufsseiten, Instagram-Captions, Webinare (alle vier)
+- ✅ Sprachfarbe: eingedeutscht
 
-Um ihn wirklich treffsicher zu machen, gehören hierher:
-`reference/tony-beispiele.md` mit 3–5 echten Mails, die Monika gut fand,
-und der Notiz, **was genau** ihr daran gefallen hat.
+**Noch offen** — das macht aus dem Skill echtes Muster statt Allgemeinwissen:
+Die Techniken oben stammen aus allgemein bekannten Merkmalen von Robbins'
+Marketing-Sprache, **nicht aus den Mails, die Monika tatsächlich bekommt.**
 
-Sobald diese Datei existiert: Muster daraus ableiten und diesen Skill
+In `reference/tony-beispiele.md` gehören deshalb noch:
+1. 3–5 echte Mails, die sie stark fand (kompletter Text mit Betreff)
+2. Pro Mail: was sie gepackt hat — und was sie bei sich weglassen würde
+3. Ihre roten Linien
+
+Sobald das drinsteht: Satzlängen-Rhythmus, wiederkehrende Hook-Formeln,
+Story-Strukturen und CTA-Muster daraus ableiten und diesen Skill
 mit konkreten Beispielen überarbeiten.
