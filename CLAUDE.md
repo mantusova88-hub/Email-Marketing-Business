@@ -81,15 +81,27 @@ auch direkt aufrufen (`/emails`, `/start`, …).
 | `content` | Instagram-Captions, Karussells, Reel-Hooks |
 | `werbeanzeigentext` | 5 Meta-Ads-Varianten + Headlines + Descriptions |
 | `zielgruppe` | Sprache, Schmerzpunkte & Kauf-Trigger deiner Kundinnen |
+| `tony-copy` | Copy nach Tony-Robbins-Techniken — **nur auf expliziten Wunsch** |
+| `thumbnail` | Thumbnails, Reel-Cover, Pinterest-Pins (via Canva) |
 
-### Verkauf & System
+### Verkauf & Webinare
 
 | Skill | Beschreibung |
 |---|---|
 | `landingpage` | Opt-in- & Verkaufsseiten — Struktur, Texte, fertiges HTML |
 | `funnel` | Funnel-Architektur, Value Ladder, Evergreen, Upsells |
+| `webinar` | Webinar-Skripte mit 3-Phasen-Architektur (Framing/Methode/Pitch) |
+| `direktverkauf` | Der Verkaufsteil im Live-Format — Pitch & Einwände |
 | `mini-produkt` | Mini-Produkt von der Idee bis live (Netlify + Systeme.io) |
+
+### Ads & System
+
+| Skill | Beschreibung |
+|---|---|
+| `meta-ads-master` | Komplette Kampagnen-Strategie: Targeting, Budget, Audit |
+| `pixel` | Meta Pixel einbauen, Events einrichten, testen |
 | `wildmail` | Wild Mail / ActiveCampaign — Tags, Automationen, Kampagnen |
+| `postfach` | Gmail sortieren, kategorisieren, Antwortentwürfe |
 | `setup` | Kontext-Dateien füllen & neue Skills anlegen |
 
 ### Slash Commands (bestehend)
