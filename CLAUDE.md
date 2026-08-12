@@ -77,6 +77,7 @@ auch direkt aufrufen (`/emails`, `/start`, …).
 
 | Skill | Beschreibung |
 |---|---|
+| `hooks` | Betreffzeilen, Headlines, erste Zeilen — für **alle** Formate |
 | `emails` | Newsletter & Sequenzen in deiner Stimme — dein Kerngeschäft |
 | `content` | Instagram-Captions, Karussells, Reel-Hooks |
 | `werbeanzeigentext` | 5 Meta-Ads-Varianten + Headlines + Descriptions |

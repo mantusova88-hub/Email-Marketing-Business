@@ -41,6 +41,8 @@ Nur diese drei. Wenn die Antworten aus dem Kontext hervorgehen: nicht fragen, lo
 
 **Immer 3 Varianten anbieten**, damit Monika wählen kann.
 
+→ Formeln und bewährte Muster: Skill `hooks` + `reference/hooks-bibliothek.md`
+
 ### Vorschautext (Preheader)
 35–90 Zeichen. **Ergänzt** die Betreffzeile, wiederholt sie nicht.
 Wird oft vergessen — hier nie.

@@ -30,6 +30,9 @@ Meta blendet nach ca. 125 Zeichen „Mehr ansehen" ein.
 
 Der Haken muss ein Problem so benennen, dass Sabine im Scrollen hängen bleibt.
 
+→ Formeln: Skill `hooks`. Bei Ads zusätzlich die Meta-Richtlinien in
+Abschnitt 5 beachten — nie über die Person, immer über die Situation.
+
 ### Der Körper
 - Problem vertiefen (Wiedererkennung)
 - Andeuten, dass es anders geht

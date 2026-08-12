@@ -48,7 +48,7 @@ In dieser Reihenfolge:
 
 | # | Sektion | Inhalt |
 |---|---|---|
-| 1 | **Headline** | Das Ergebnis, konkret. Nicht der Produktname. |
+| 1 | **Headline** | Das Ergebnis, konkret. Nicht der Produktname. → Skill `hooks` |
 | 2 | **Subheadline** | Für wen + in welcher Zeit + ohne was |
 | 3 | **Problem** | So beschreiben, dass sie denkt „das bin ich" |
 | 4 | **Wendepunkt** | „Es liegt nicht an dir. Es liegt daran, dass…" |

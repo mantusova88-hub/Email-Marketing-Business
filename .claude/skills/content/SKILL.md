@@ -43,6 +43,8 @@ Nur die erste Zeile ist sichtbar, bevor „mehr" geklickt wird.
 
 **Nie:** „Hallo ihr Lieben ❤️" / „Heute möchte ich mit euch über… sprechen"
 
+→ Alle 8 Formeln und was bei Monika schon funktioniert hat: Skill `hooks`
+
 ### Mittelteil
 - Kurze Absätze, Leerzeile dazwischen
 - Ein Gedanke, sauber zu Ende gebracht

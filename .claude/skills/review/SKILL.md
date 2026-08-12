@@ -81,7 +81,23 @@ Jeden Eintrag aus `inbox.md` durchgehen und einsortieren:
 
 Danach `inbox.md` leeren (Struktur behalten, Einträge raus).
 
-### 5. Erfolge festhalten
+### 5. Hooks in die Bibliothek übernehmen
+
+**Der wichtigste Lernschritt.** Für jede Kampagne und jeden Post dieser Woche:
+
+- Betreffzeile + Öffnungsrate → `reference/hooks-bibliothek.md`
+- Instagram-Zeile 1 + Saves/Reichweite → dieselbe Datei
+- Anzeigen-Haken + CTR → dieselbe Datei
+
+Einsortieren nach **🏆 Gewinner** (über dem Durchschnitt) oder
+**📉 Flop** (darunter) — beim Flop immer eine Vermutung notieren, warum.
+
+> 💡 Das ist der Kreislauf, der den Skill `hooks` mit der Zeit trainiert.
+> Ohne diesen Schritt bleibt er bei allgemeinen Formeln stehen.
+
+Ab ~10 Einträgen: Muster auswerten und den Skill `hooks` überarbeiten.
+
+### 6. Erfolge festhalten
 
 Was funktioniert hat, kommt in `context/strategy.md` unter „Was gut läuft".
 Das ist Prinzip 5 aus CLAUDE.md: **Feiern was funktioniert.**
@@ -89,7 +105,7 @@ Das ist Prinzip 5 aus CLAUDE.md: **Feiern was funktioniert.**
 Und: Bei echten Meilensteinen (erste 100 Subscriber, erster Verkauf,
 bester Monat) das auch wirklich benennen. Nicht abhaken — feiern.
 
-### 6. Speichern
+### 7. Speichern
 
 `outputs/review-[datum].md`
 
