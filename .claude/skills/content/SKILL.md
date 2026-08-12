@@ -5,13 +5,15 @@ description: Instagram-Captions, Posts, Karussells und Reel-Hooks in Monikas Sti
 
 # content — Social Content in Monikas Stimme
 
-**Immer zuerst lesen:** `context/stimme.md` und Skill `zielgruppe`.
+**Immer zuerst lesen:** `context/aktueller-fokus.md` (Thema & Zielgruppe
+dieser Phase), `context/stimme.md` und Skill `zielgruppe`.
 
 ---
 
 ## 1. Die Grundregel
 
-Instagram ist **nicht** das Ziel. Die E-Mail-Liste ist das Ziel.
+`context/aktueller-fokus.md` bestimmt **Thema, Zielgruppe und Ziel**.
+Diese Datei bestimmt **Handwerk und Form**. Bei Widerspruch gewinnt der Fokus.
 
 Jeder Post muss eine dieser drei Aufgaben erfüllen:
 1. **Vertrauen aufbauen** (Story, Einblick, Haltung)
@@ -20,8 +22,12 @@ Jeder Post muss eine dieser drei Aufgaben erfüllen:
 
 Wenn ein Post keine dieser Aufgaben hat: nicht posten.
 
-> Das ist auch inhaltlich Monikas Position: „Deine Liste gehört dir — Instagram nicht."
-> Ihr eigener Content muss das vorleben.
+> ⚠️ **Wie stark Aufgabe 3 gewichtet wird, steht im aktuellen Fokus.**
+> In einer Aufbau-Phase ohne fertiges Angebot zählen 1 und 2 —
+> dann ist ein Post ohne Liste-Ziel richtig, nicht falsch.
+>
+> Sobald ein Freebie steht, gilt wieder: Instagram ist nicht das Ziel,
+> die E-Mail-Liste ist das Ziel.
 
 ---
 
@@ -100,18 +106,29 @@ Die ersten 2 Sekunden entscheiden. Text-Overlay + gesprochener Satz.
 
 ---
 
-## 5. Content-Themen für Monika
+## 5. Content-Themen
 
-**Immer wieder tragfähig:**
+**Themen richten sich nach `context/aktueller-fokus.md`.**
+
+### Phase 1 — Persönliche Entwicklung & Energie für Mamas (aktuell)
+1. Erschöpfung, die auch nach dem Schlafen bleibt
+2. Schuldgefühle in beide Richtungen (Arbeit ↔ Kinder)
+3. Kleine Routinen, die im echten Alltag funktionieren — nicht im Idealtag
+4. Warum Selbstfürsorge-Tipps an Mamas vorbeigehen
+5. Sich selbst wiederfinden, ohne alles umzukrempeln
+6. Eigene ehrliche Momente — auch die unschönen
+7. Grenzen setzen, ohne schlechtes Gewissen
+
+### Phase 2 — E-Mail-Marketing (später)
 1. Mama-Business-Realität (Kind krank, Kita zu, arbeiten in Fragmenten)
 2. E-Mail vs. Social Media (Liste gehört dir)
 3. Technik entzaubern (Automation Schritt für Schritt erklärt)
 4. Eigene Fehler & Learnings
 5. Kundinnen-Ergebnisse (mit Erlaubnis!)
-6. Hinter den Kulissen — wie ihr Tag wirklich aussieht
-7. Mythen entkräften („man braucht eine große Liste")
+6. Mythen entkräften („man braucht eine große Liste")
 
-**Vermeiden:** generische Motivationssprüche, fremde Zitate, reine Trend-Posts
+**Immer vermeiden:** generische Motivationssprüche, fremde Zitate,
+reine Trend-Posts, Ratschläge die einen ungestörten Tag voraussetzen
 
 ---
 

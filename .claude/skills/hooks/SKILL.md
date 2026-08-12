@@ -12,8 +12,13 @@ Deshalb liegen die Formeln hier — und nicht verteilt über fünf Skills.
 `emails`, `content`, `werbeanzeigentext`, `landingpage` und `webinar`
 holen sich ihre Einstiege von hier.
 
-**Immer zuerst lesen:** `context/stimme.md`, Skill `zielgruppe`
-und `reference/hooks-bibliothek.md` (was bei Monika wirklich funktioniert hat).
+**Immer zuerst lesen:** `context/aktueller-fokus.md` (worüber gerade
+geschrieben wird), `context/stimme.md`, Skill `zielgruppe` und
+`reference/hooks-bibliothek.md` (was bei Monika wirklich funktioniert hat).
+
+> Die 8 Formeln gelten themenunabhängig. Nur die **Beispiele** unten stammen
+> aus dem E-Mail-Marketing-Thema — beim Schreiben immer auf das aktuelle
+> Thema übertragen.
 
 ---
 
