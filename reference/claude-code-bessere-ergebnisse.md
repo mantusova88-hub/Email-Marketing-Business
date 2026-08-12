@@ -2,8 +2,10 @@
 
 > **Quelle:** Kursmodul „3 Regeln für beste Ergebnisse" (Fehlermanagement, allgemeiner Teil)
 > — Transkript + To-Do-Liste des Moduls.
-> **Hinweis zur Transkription:** „Nord Code", „Thought Coach", „Frau Code" sind
-> Transkriptionsfehler und meinen immer **Claude Code**.
+> **Hinweis zur Transkription:** „Nord Code", „Thought Coach", „Frau Code",
+> „Claude Coke" sind Transkriptionsfehler und meinen immer **Claude Code**.
+> „rationiert" im Transkript meint sehr wahrscheinlich **„halluziniert"** — der
+> Fachbegriff dafür, dass sich ein KI-Modell etwas dazudenkt.
 
 ---
 
@@ -162,7 +164,8 @@ vage Verbesserungen:
 
 | ❌ So nicht | ✅ Sondern so |
 |---|---|
-| „Gefällt mir nicht." | „Die Überschrift ist zu sachlich — mach sie warm und persönlich, mit du-Anrede." |
+| „Die Website gefällt mir nicht." | „Die Farbgestaltung gefällt mir, aber das Wording nicht — schreib die Texte wärmer und persönlicher, mit du-Anrede." |
+| „Die Bilder passen nicht." | „Bild A gefällt mir, Bild B nicht. Tausch Bild B bitte gegen Bild C aus." |
 | „Mach's besser." | „Der Preis fehlt. Setz €7 direkt unter den Button." |
 | „Sieht komisch aus." | „Die Schrift auf dem Handy ist zu klein. Mindestens 18px im Fließtext." |
 | „Zu lang." | „Kürze Abschnitt 2 auf maximal drei Sätze, der Rest bleibt." |
@@ -170,6 +173,42 @@ vage Verbesserungen:
 **Die Regel dahinter:** Sag *was genau*, *wo genau* und *wie es stattdessen sein
 soll*. Je konkreter dein Wunsch, desto genauer das Ergebnis — und desto weniger
 Runden brauchst du.
+
+### Wichtig: Spezifisch sein ist selbst wieder Kontext
+
+Das ist der Punkt, an dem Regel 3 und Regel 1 zusammenkommen — man könnte es
+**Regel 3.1** nennen. Denn wenn du etwas überarbeiten lässt, gibst du damit
+**erneut Kontext**. Die beiden Regeln sind keine getrennten Dinge, sondern
+verknüpft: Auch das Feedback braucht Kontext.
+
+Nur weil du sagst „die Website gefällt mir nicht" oder „die Salespage gefällt mir
+nicht", weiß Claude Code noch nicht, **wie** er das Ganze optimieren soll. Er weiß
+nur: irgendwas stimmt nicht. Was — das musst du liefern.
+
+Deshalb: Auch beim Überarbeiten wieder aufteilen und benennen —
+
+> „Die **Farbgestaltung** gefällt mir, aber das **Wording** nicht."
+> „**Bild A** gefällt mir, **Bild B** nicht — tausch das bitte gegen **Bild C** aus."
+
+### Die Copywriting-Parallele
+
+Das ist genau dasselbe Prinzip wie im Marketing und Copywriting:
+
+> Wenn wir nicht in der Lage sind, unsere Produkte und unseren Content **so
+> spezifisch wie möglich** zu kommunizieren, dann verstehen unsere Kunden nicht,
+> was wir sagen wollen und worum es überhaupt geht.
+
+Und an dieser Stelle ist es genauso: **Wenn du unspezifisch bist, versteht Claude
+Code dich nicht — oder falsch.**
+
+Dann kann es passieren, dass er **halluziniert** (so nennt man das) und sich einfach
+seinen Teil dazudenkt. Er füllt die Lücken, die du gelassen hast, mit eigenen
+Annahmen. Und das willst du nicht.
+
+> **Also: Liefere so viel spezifischen Input wie nur möglich.**
+
+Die gute Nachricht für dich: Wenn du im Copywriting versiert bist, hast du diese
+Fähigkeit schon. Du musst sie nur auf die Zusammenarbeit mit Claude anwenden.
 
 ### Extra-Tipp für die Praxis
 
@@ -234,7 +273,22 @@ Was bleibt:      [damit nicht versehentlich Gutes überschrieben wird]
 
 ---
 
-## 8. Die Kurs-To-Do-Liste
+## 8. Wenn deine Outputs noch nicht gut sind
+
+Der Rat aus dem Kurs: Schau dir das Video nochmal an und **geh die drei Regeln
+einzeln durch**. Frag dich bei jeder ehrlich, ob du sie wirklich anwendest:
+
+1. **Kontext** — Hat Claude wirklich alles, was er wissen müsste? Oder habe ich
+   vorausgesetzt, dass er etwas „weiß", was nur in meinem Kopf steht?
+2. **Output-Ziel** — Habe ich gesagt, in welcher Form ich das Ergebnis brauche?
+3. **Iteration** — Rechne ich mit mehreren Runden? Und ist mein Feedback konkret
+   genug, dass jemand anders damit arbeiten könnte?
+
+In der Praxis liegt der Fehler fast immer bei **1** oder **3** — nicht bei Claude.
+
+---
+
+## 9. Die Kurs-To-Do-Liste
 
 - [ ] Vor jeder Aufgabe vollen Kontext über `.md`-Dateien geben
 - [ ] Immer das Output-Ziel nennen (HTML oder online stellen)
