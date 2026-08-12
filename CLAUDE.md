@@ -39,11 +39,16 @@ Email-Marketing-Business/
 ├── context/                     # Business-Wissen für Claude
 │   ├── business-info.md         # Services, Markt, Angebote
 │   ├── personal-info.md         # Wer du bist, deine Rolle
+│   ├── stimme.md                # Deine Schreibstimme — Basis aller Texte
 │   ├── strategy.md              # Ziele, Fokus, Prioritäten
 │   ├── current-data.md          # Aktuelle KPIs und Zahlen
+│   ├── zielgruppe-otoene.md     # Echte Zitate deiner Kundinnen
 │   └── import/                  # Bestehende Dokumente zum Einlesen
+├── profil/                      # Wer bin ich, Positionierung
+├── inbox.md                     # Schnell-Notizen (via `capture`)
 ├── .claude/
-│   └── commands/                # Deine persönlichen Slash Commands
+│   ├── commands/                # Deine persönlichen Slash Commands
+│   └── skills/                  # Deine Skills (siehe Abschnitt 4)
 ├── module-installs/             # Heruntergeladene Schichten (ZIPs)
 ├── plans/                       # Implementierungspläne
 ├── outputs/                     # Fertige Arbeitsergebnisse & Reports
@@ -53,7 +58,54 @@ Email-Marketing-Business/
 
 ---
 
-## 4. Verfügbare Commands
+## 4. Verfügbare Skills
+
+Skills starten von selbst, sobald das Thema passt — du kannst sie aber
+auch direkt aufrufen (`/emails`, `/start`, …).
+
+### Daily-Workflow
+
+| Skill | Beschreibung |
+|---|---|
+| `start` | Session starten — Kontext laden, Fokus für heute vorschlagen |
+| `capture` | Idee oder Aufgabe blitzschnell in `inbox.md` festhalten |
+| `plan` | Tages- oder Wochenplanung — realistisch, mit Puffer |
+| `review` | Rückblick mit Zahlen, Erfolgen und Inbox-Aufräumen |
+| `shutdown` | Feierabend — Fortschritt sichern, Startpunkt für morgen setzen |
+
+### Content & Copy
+
+| Skill | Beschreibung |
+|---|---|
+| `hooks` | Betreffzeilen, Headlines, erste Zeilen — für **alle** Formate |
+| `emails` | Newsletter & Sequenzen in deiner Stimme — dein Kerngeschäft |
+| `content` | Instagram-Captions, Karussells, Reel-Hooks |
+| `werbeanzeigentext` | 5 Meta-Ads-Varianten + Headlines + Descriptions |
+| `zielgruppe` | Sprache, Schmerzpunkte & Kauf-Trigger deiner Kundinnen |
+| `tony-copy` | Copy nach Tony-Robbins-Techniken — **nur auf expliziten Wunsch** |
+| `thumbnail` | Thumbnails, Reel-Cover, Pinterest-Pins (via Canva) |
+
+### Verkauf & Webinare
+
+| Skill | Beschreibung |
+|---|---|
+| `landingpage` | Opt-in- & Verkaufsseiten — Struktur, Texte, fertiges HTML |
+| `funnel` | Funnel-Architektur, Value Ladder, Evergreen, Upsells |
+| `webinar` | Webinar-Skripte mit 3-Phasen-Architektur (Framing/Methode/Pitch) |
+| `direktverkauf` | Der Verkaufsteil im Live-Format — Pitch & Einwände |
+| `mini-produkt` | Mini-Produkt von der Idee bis live (Netlify + Systeme.io) |
+
+### Ads & System
+
+| Skill | Beschreibung |
+|---|---|
+| `meta-ads-master` | Komplette Kampagnen-Strategie: Targeting, Budget, Audit |
+| `pixel` | Meta Pixel einbauen, Events einrichten, testen |
+| `wildmail` | Wild Mail / ActiveCampaign — Tags, Automationen, Kampagnen |
+| `postfach` | Gmail sortieren, kategorisieren, Antwortentwürfe |
+| `setup` | Kontext-Dateien füllen & neue Skills anlegen |
+
+### Slash Commands (bestehend)
 
 | Command | Beschreibung |
 |---|---|
@@ -73,3 +125,5 @@ Email-Marketing-Business/
 - **Proaktiv** — Weise auf Optimierungspotenziale hin, bevor sie zu Problemen werden
 - **Kontextbewusst** — Lade immer zuerst alle Kontext-Dateien, bevor du mit Aufgaben beginnst
 - **Auf Deutsch** — Kommuniziere standardmäßig auf Deutsch, es sei denn, ich wechsle die Sprache
+- **In meiner Stimme** — Bei allen Texten (E-Mails, Posts, Anzeigen, Verkaufsseiten)
+  gilt immer `context/stimme.md` und der Skill `zielgruppe`. Keine Ausnahme.
