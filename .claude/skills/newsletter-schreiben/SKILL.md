@@ -76,7 +76,9 @@ kurzen Hinweis, welche Angabe den Newsletter besser machen würde.
 
 ---
 
-## Aufbau — die 7 Bausteine
+## Newsletter-Struktur
+
+Jeder Newsletter folgt diesem Aufbau:
 
 | # | Baustein | Länge | Zweck |
 |---|---|---|---|
@@ -87,6 +89,39 @@ kurzen Hinweis, welche Angabe den Newsletter besser machen würde.
 | 5 | Konkreter Tipp | 3–5 Sätze | Heute in 10 Minuten umsetzbar |
 | 6 | Call-to-Action | 1–2 Sätze | Genau EINE Handlung |
 | 7 | Abschluss | 1–2 Sätze | Warm, persönlich, mit Namen |
+
+### Das Gerüst
+
+```
+[EINSTIEG — eine konkrete Szene aus deinem Alltag, 2–4 Sätze.
+Zeit, Ort, was du gerade getan hast. Keine Verallgemeinerung.]
+
+[WENDEPUNKT — der eine Satz, an dem dir etwas klar wurde.
+Steht allein als eigener Absatz.]
+
+[THEMA — der eine Gedanke, 150–300 Wörter.
+Erst die Einsicht, dann das Warum, dann ein Bild oder Vergleich,
+der es greifbar macht. Kein zweites Thema.]
+
+**Dein Schritt für heute:** [KONKRETER TIPP — was sie heute in
+10 Minuten tun kann. Eine Handlung, kein Programm.]
+
+[CALL-TO-ACTION — als Einladung, 1–2 Sätze.
+Genau EINE Handlung: antworten ODER klicken. Nie beides.]
+
+[SIGNATUR aus "Dein Business"]
+```
+
+### Betreffzeilen sollen variieren
+
+Die 3 Betreffzeilen folgen grob demselben Thema, aber mit **unterschiedlichen
+Angles** — nie drei Varianten desselben Satzes:
+
+| Angle | Ansatz | Beispiel |
+|---|---|---|
+| **Neugier** | Offene Schleife, Widerspruch | „Meine erste Mail ging ohne Website raus" |
+| **Nutzen** | Konkretes Ergebnis, oft mit Zahl | „In 15 Minuten zur ersten Willkommens-Mail" |
+| **Story** | Szene oder Person | „Gestern hat mein Sohn meinen Launch gerettet" |
 
 ---
 
