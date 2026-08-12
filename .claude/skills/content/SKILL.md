@@ -1,6 +1,6 @@
 ---
 name: content
-description: Instagram-Captions, Posts, Karussells und Reel-Hooks in Monikas Stimme. Nutze diesen Skill bei "Post", "Caption", "Karussell", "Instagram", "Reel", "Content", "Story", "was soll ich posten". Immer mit dem Ziel, Menschen auf die E-Mail-Liste zu holen.
+description: Instagram-Captions, Posts, Karussells, Reel-Hooks und die passenden Stories in Monikas Stimme. Nutze diesen Skill bei "Post", "Caption", "Karussell", "Instagram", "Reel", "Content", "Story", "was soll ich posten". Thema und Ziel kommen aus context/aktueller-fokus.md; Stories inklusive CTA unter dem Link gehoeren immer dazu.
 ---
 
 # content — Social Content in Monikas Stimme
@@ -64,10 +64,13 @@ Einer. Passend zum Ziel:
 - Speichern: „Speicher dir das für später"
 
 ### Hashtags
-8–15 Stück, gemischt:
-- 3–4 groß (100k+): `#selbstständigemama` `#onlinebusiness`
-- 4–6 mittel (10–100k): `#emailmarketing` `#businessmama` `#nebenberuflichselbstständig`
-- 2–4 klein/nischig (<10k): `#emailmarketingfürmamas` `#automatisiertverkaufen`
+8–15 Stück, gemischt: 3–4 groß (100k+), 4–6 mittel (10–100k),
+2–4 klein/nischig (<10k). **Passend zum aktuellen Fokus wählen.**
+
+- **Phase 1 (Energie/Mamas):** `#mamaalltag` `#mütter` · `#mentalload`
+  `#selbstfürsorge` `#mamasein` · `#mamaburnout` `#zeitfürmich`
+- **Phase 2 (E-Mail-Marketing):** `#selbstständigemama` `#onlinebusiness` ·
+  `#emailmarketing` `#businessmama` · `#emailmarketingfürmamas`
 
 Ans Ende der Caption oder in den ersten Kommentar.
 
@@ -94,7 +97,74 @@ Ans Ende der Caption oder in den ersten Kommentar.
 
 ---
 
-## 4. Reel-Hooks
+## 4. Stories — gehören IMMER dazu
+
+> ⚠️ **Ein Karussell ohne Stories ist ein halber Post.**
+> Nur ein Bruchteil der Follower sieht den Feed-Beitrag. Die Story holt
+> die anderen ab. Deshalb: Bei jedem Post automatisch die Stories mitliefern,
+> ohne dass Monika danach fragen muss.
+
+### Die drei Story-Momente
+
+| Wann | Zweck | Anzahl |
+|---|---|---|
+| **Vorher** (morgens) | Neugier wecken, Schleife öffnen | 1–2 |
+| **Zum Post** | Beitrag teilen + Link/Sticker | 1 |
+| **Danach** (abends) | Reaktionen aufgreifen, Frage stellen | 1–2 |
+
+### Der CTA unter dem Link — Pflicht
+
+Wenn der Beitrag in die Story geteilt wird und ein Link/Sticker draufkommt,
+steht **darunter immer** ein kurzer Call-to-Action. Ohne den tippt kaum
+jemand — der Sticker sieht sonst aus wie Deko.
+
+**Die Formel:**
+```
+👆 [Imperativ]
+
+[Ein Satz, der eine Schleife offen lässt]
+```
+
+**Beispiele:**
+```
+👆 Da oben tippen
+Slide 8 ist der, den ich am längsten nicht glauben wollte.
+```
+```
+👆 Lies das hier
+Falls dich dieser Satz auch schon mal wütend gemacht hat.
+```
+```
+👆 Für morgen früh
+Nicht 30 Minuten. Sechs.
+```
+
+**Zwei Dinge sind nicht verhandelbar:**
+1. **Pfeil nach oben** (👆) — zeigt, dass da etwas zum Antippen ist
+2. **Verb im Imperativ** — „tippen", „lesen", „schauen", nicht „Link in Bio"
+
+Immer **2–3 Varianten** anbieten, damit Monika wechseln kann.
+
+### Interaktive Sticker
+
+In jede Story-Runde gehört mindestens einer:
+
+| Sticker | Wofür |
+|---|---|
+| **Umfrage** (2 Optionen) | Niedrigste Hürde, pusht Reichweite |
+| **Frage-Box** | Liefert **O-Töne** → `context/zielgruppe-otoene.md` |
+| **Emoji-Slider** | Wenn es um ein Gefühl geht |
+
+> 💬 Antworten aus der Frage-Box sind das wertvollste Nebenprodukt.
+> Echte Sätze der Zielgruppe schlagen jede erfundene Headline.
+
+### Einen guten Post mehrfach zeigen
+Ein Beitrag, der gut läuft, darf 2–3 Tage später nochmal in die Story.
+Das ist kein Spam — höchstens 10 % sehen ihn beim ersten Mal.
+
+---
+
+## 5. Reel-Hooks
 
 Die ersten 2 Sekunden entscheiden. Text-Overlay + gesprochener Satz.
 
@@ -106,7 +176,7 @@ Die ersten 2 Sekunden entscheiden. Text-Overlay + gesprochener Satz.
 
 ---
 
-## 5. Content-Themen
+## 6. Content-Themen
 
 **Themen richten sich nach `context/aktueller-fokus.md`.**
 
@@ -132,7 +202,7 @@ reine Trend-Posts, Ratschläge die einen ungestörten Tag voraussetzen
 
 ---
 
-## 6. Ausgabeformat
+## 7. Ausgabeformat
 
 ```markdown
 ## Post: [Thema]
@@ -153,17 +223,23 @@ reine Trend-Posts, Ratschläge die einen ungestörten Tag voraussetzen
 
 ### Bildidee / Slides
 [konkrete Beschreibung — bei Karussell: Text pro Slide]
+
+### Stories
+**Vorher:** [1–2 Stories + Umfrage-Sticker]
+**Zum Post:** [Post-Share + CTA unter dem Link, 2–3 Varianten]
+**Danach:** [1–2 Stories + Frage-Box]
 ```
 
 Speichern in `outputs/content-[datum]-[thema].md`.
 
 ---
 
-## 7. Check vor der Ausgabe
+## 8. Check vor der Ausgabe
 
 - [ ] Erfüllt der Post eine der drei Aufgaben?
 - [ ] Funktioniert die erste Zeile allein?
 - [ ] Klingt es nach `context/stimme.md`?
 - [ ] Kein Wort aus der Verbotsliste?
 - [ ] Ein CTA, nicht drei?
+- [ ] **Stories mitgeliefert — inkl. CTA unter dem Link?**
 - [ ] Ist es ehrlich — oder nur „engagement-optimiert"?
