@@ -1,144 +1,159 @@
 ---
 name: newsletter-schreiben
-description: Schreibt Newsletter für selbständige Mamas im Stil dieses Business — inklusive 3 Betreffzeilen, Preheader, Aufbau und Call-to-Action. Nutze diesen Skill immer, wenn ein Newsletter, eine E-Mail an die Liste, eine Kampagne, eine Betreffzeile oder ein Preheader geschrieben, überarbeitet oder geplant werden soll.
+description: "Newsletter", "Newsletter schreiben", "E-Mail an meine Liste", "Mail an die Liste", "Kampagne", "Betreffzeile", "Preheader", "Broadcast". Nutze diesen Skill IMMER wenn "Newsletter", "Newsletter schreiben", "Mail an meine Liste" oder "Betreffzeile" gesagt wird. Liefert IMMER 3 Betreffzeilen + 1 Preheader + 1 vollständigen Newsletter passend zum genannten Thema.
 ---
 
 # Newsletter-Skill
 
-## 1. Name
-
-**newsletter-schreiben**
-
----
-
-## 2. Zweck
-
-Dieser Skill liefert auf Zuruf einen fertigen Newsletter in deiner Stimme —
-inklusive **3 Betreffzeilen**, **Preheader**, **Text** und **einem Call-to-Action**.
-
-Er hält die Regeln fest, die sonst bei jedem Newsletter neu erklärt werden müssten:
-Tonalität, Aufbau, Länge, Betreffzeilen-Muster und die No-Gos.
+Generiert fertige Newsletter für deine E-Mail-Liste — in deiner Stimme, sofort
+copy-paste-fähig für dein E-Mail-Tool. Der Skill ist eigenständig: Fülle einmal
+den Abschnitt "Dein Business" aus, dann treffen die Newsletter deine Zielgruppe.
 
 ---
 
-## 3. Zielgruppe
+## So findet der Skill dein Business-Wissen (in dieser Reihenfolge)
 
-**Wer liest die Newsletter?**
-Selbständige Mamas, die ihr Business neben der Familie aufbauen.
-
-**Ihre Situation:**
-- Wenig Zeit, viele parallele Rollen (Business, Kinder, Haushalt)
-- Lesen nebenbei — am Handy, zwischen Tür und Angel
-- Von „Hustle-Culture"-Marketing eher abgeschreckt
-
-**Ihre Pain Points:**
-<!-- HIER AUSFÜLLEN: Was hält deine Leserinnen nachts wach? -->
-- Das Gefühl, technisch abgehängt zu sein
-- Keine Zeit für aufwändige Marketing-Systeme
-- Unsicherheit, ob sich der Aufwand überhaupt lohnt
+1. **Eigene Definition vorhanden?** Prüfe zuerst, ob schon eine eigene Quelle
+   existiert — z.B. `context/business-info.md`, `context/personal-info.md`,
+   `context/strategy.md`, `zielgruppe.md` / `brand-voice.md` / `marke.md`
+   oder ein Abschnitt in einer `CLAUDE.md`. **Falls ja: bevorzugt nutzen.**
+2. **Sonst:** der ausgefüllte Abschnitt "Dein Business" unten.
+3. **Noch nicht ausgefüllt?** Den Nutzer **einmalig** nach Zielgruppe,
+   Schmerzpunkten, Einwänden und Tonalität fragen und die Antworten hier eintragen.
 
 ---
 
-## 4. Dein Business
+## Dein Business — HIER AUSFÜLLEN
 
-<!-- HIER AUSFÜLLEN — alle Platzhalter durch echte Angaben ersetzen.
-     Kein Bock zu tippen? Leer lassen — Claude fragt beim ersten Mal
-     einmal nach und trägt es selbst ein. -->
+> Ersetze jeden Platzhalter `[…]`. Löschen, was nicht passt.
 
-| Angabe | Wert |
-|---|---|
-| Absender-Name | `[Platzhalter]` |
-| Signatur / Abschiedsformel | `[Platzhalter]` |
-| Hauptangebot | `[Platzhalter]` |
-| Link zum Angebot | `[Platzhalter]` |
-| Link zum Kennenlern-Gespräch | `[Platzhalter]` |
-| Branding Burgund | `#800220` |
-| Branding Gold | `#B59156` |
+### Zielgruppe
+- **Wunschkundin (kurz):** [z.B. selbständige Mamas, die ihr Business neben der Familie aufbauen]
+- **Die 3 größten Schmerzpunkte:** [in ihrer eigenen Sprache]
+  1. [Schmerzpunkt 1]
+  2. [Schmerzpunkt 2]
+  3. [Schmerzpunkt 3]
+- **Häufigste Einwände (+ Antwort):**
+  - "[z.B. Ich habe keine Zeit für Newsletter]" → [Entkräftung]
+  - "[z.B. Ich habe niemandem etwas zu sagen]" → [Entkräftung]
+- **Lesesituation:** [z.B. am Handy, zwischen Tür und Angel, abends nach dem Zubettbringen]
 
-**Vorhandene Dateien haben Vorrang:** Wenn im Projekt `context/business-info.md`,
-`context/personal-info.md` oder `context/strategy.md` befüllt sind, nutze diese
-Angaben bevorzugt — sie sind aktueller als diese Tabelle.
+### Stimme
+- **Anrede:** [du / Sie / ihr]
+- **Tonalität in 3–5 Worten:** [z.B. warmherzig, ermutigend, auf Augenhöhe]
+- **Meine No-Gos:** [z.B. Fachjargon, künstliche Verknappung, Hustle-Rhetorik]
+- **Absender-Name:** [Name]
+- **Signatur:** [z.B. "Von Mama zu Mama, [Name]"]
+
+### Angebot & Links
+- **Hauptangebot:** [Kurs / Coaching / Produkt]
+- **Link zum Angebot:** [URL]
+- **Link zum Kennenlern-Gespräch:** [URL]
+- **Branding:** Burgund `#800220`, Gold `#B59156`
 
 ---
 
-## 5. Regeln
+# Standard-Output (IMMER alle drei Blöcke liefern)
 
-### Tonalität — so klingt es
-- Per **Du**, warmherzig, auf Augenhöhe — wie eine Freundin, die es schon geschafft hat
-- Ermutigend statt belehrend
-- Konkret statt schwammig: lieber ein echtes Beispiel als drei Ratschläge
-- Kurze Sätze, Absätze von maximal 3 Zeilen (Handy-Lesbarkeit)
+Bei "Newsletter über [Thema]" → IMMER ohne Nachfragen:
 
-### Tonalität — so klingt es NICHT
-- Kein Fachjargon ohne Erklärung („Funnel", „Lead Magnet", „Conversion")
-- Kein Druck, keine künstliche Verknappung („Nur noch 2 Stunden!!!")
-- Keine Perfektions-Rhetorik
-- Keine Ausrufezeichen-Salven
+### Block 1 — 3 Betreffzeilen
+Je 30–50 Zeichen, jeweils aus einem anderen Muster:
+1. **Neugier** — „Der Fehler, den ich 2 Jahre lang gemacht habe"
+2. **Konkreter Nutzen** — „In 15 Minuten zur ersten Willkommens-Mail"
+3. **Persönlich / Story** — „Gestern hat mein Sohn meinen Launch gerettet"
 
-### Aufbau — 7 Bausteine
+### Block 2 — 1 Preheader
+60–90 Zeichen. Verstärkt die Neugier, wiederholt den Betreff **nicht**.
+
+### Block 3 — 1 vollständiger Newsletter
+Nach dem 7-Bausteine-Aufbau unten, 250–400 Wörter, fertig zum Kopieren.
+
+**Zusätzlich:** Ablegen unter `outputs/newsletter/JJJJ-MM-TT-thema.md`.
+
+Wenn Angaben aus "Dein Business" fehlen: trotzdem liefern, dann am Ende **einen**
+kurzen Hinweis, welche Angabe den Newsletter besser machen würde.
+
+---
+
+## Aufbau — die 7 Bausteine
+
 | # | Baustein | Länge | Zweck |
 |---|---|---|---|
 | 1 | Betreffzeile | 30–50 Zeichen | Öffnen lassen |
-| 2 | Preheader | 60–90 Zeichen | Neugier verstärken, nicht wiederholen |
+| 2 | Preheader | 60–90 Zeichen | Neugier verstärken |
 | 3 | Persönlicher Einstieg | 2–4 Sätze | Andocken: eine Szene, ein Gefühl |
 | 4 | Das Thema | 150–300 Wörter | Ein einziger Gedanke, klar erklärt |
 | 5 | Konkreter Tipp | 3–5 Sätze | Heute in 10 Minuten umsetzbar |
 | 6 | Call-to-Action | 1–2 Sätze | Genau EINE Handlung |
 | 7 | Abschluss | 1–2 Sätze | Warm, persönlich, mit Namen |
 
-### Eiserne Regeln
+---
+
+## Regeln
+
 1. **Ein Newsletter = ein Thema = ein Call-to-Action.** Zwei Themen → zwei Newsletter.
-2. **Gesamtlänge 250–400 Wörter.** Lieber zu kurz als zu lang.
-3. **Immer 3 Betreffzeilen** nach diesen Mustern:
-   - Neugier: „Der Fehler, den ich 2 Jahre lang gemacht habe"
-   - Konkreter Nutzen: „In 15 Minuten zur ersten Willkommens-Mail"
-   - Persönlich/Story: „Gestern hat mein Sohn meinen Launch gerettet"
-4. **Keine Spam-Trigger** im Betreff: „gratis", „garantiert", „100 %", „Jetzt kaufen".
-   Maximal ein Emoji — oft besser gar keins. Kein CAPS LOCK.
-5. **Der Betreff muss halten, was die Mail liefert.** Sonst leidet die Öffnungsrate langfristig.
-6. **CTA als Einladung, nicht als Befehl.** Die Beziehung ist wichtiger als der einzelne Klick.
+2. **250–400 Wörter.** Lieber zu kurz als zu lang.
+3. **Absätze maximal 3 Zeilen** — wird am Handy gelesen.
+4. **Kein Fachjargon ohne Erklärung** („Funnel", „Lead Magnet", „Conversion").
+5. **Keine Spam-Trigger** im Betreff: „gratis", „garantiert", „100 %", „Jetzt kaufen".
+   Maximal ein Emoji, oft besser gar keins. Kein CAPS LOCK.
+6. **Der Betreff muss halten, was die Mail liefert.** Sonst leidet die Öffnungsrate langfristig.
+7. **CTA als Einladung, nicht als Befehl.** Die Beziehung ist wichtiger als der einzelne Klick.
+8. **Kein Druck, keine künstliche Verknappung, keine Perfektions-Rhetorik.**
 
 ---
 
-## 6. Output
+## Stil-Regeln (nicht verhandelbar)
 
-**Format:** Markdown, direkt kopierbar.
+### Erlaubt + erwünscht
+- Längere Sätze mit Haupt- und Nebensätzen — es soll gesprochen klingen
+- Persönliche Story-Hooks („Vor 2 Jahren habe ich…", „Neulich saß ich…")
+- Konkrete Zahlen und echte Beispiele statt vager Versprechen
+- Direkte Ansprache (gemäß deiner Angabe unter „Stimme")
+- Ein klarer Call-to-Action, als Einladung formuliert
+- Emojis sparsam — im Fließtext eines Newsletters eher nicht, im Betreff maximal eins
 
-**Struktur der Ausgabe:**
-1. Drei Betreffzeilen (nummeriert, mit Muster-Kennzeichnung)
-2. Preheader
-3. Newsletter-Text entlang der 7 Bausteine
-4. Kurzer Hinweis, welche Angaben aus Abschnitt 4 noch fehlen
+### Verboten
+- „Hier ist, was…" / „Hier ist die…" (KI-Floskel)
+- „Nicht weil X, sondern weil Y." (KI-Floskel)
+- „Lass uns eintauchen", „In der heutigen schnelllebigen Welt" (KI-Floskeln)
+- „easy peasy", Buzzwords ohne Substanz
+- Übertriebene Versprechen („verdopple dein Einkommen in 7 Tagen")
+- **Stakkato-Sätze. Kurz. Wie. Das.**
+- `ae` / `oe` / `ue` / `ss` im Fließtext — echte Umlaute und ß nutzen
+- **Features oder Konditionen frei erfinden** (z.B. „lebenslanger Zugriff",
+  „jederzeit kündbar", „Geld-zurück-Garantie"), die nicht wirklich existieren.
+  Im Zweifel weglassen oder einmal nachfragen.
+- Preise, Termine, Zahlen oder Teilnehmerzahlen erfinden — dasselbe Prinzip
 
-**Ablage:** Zusätzlich speichern unter `outputs/newsletter/JJJJ-MM-TT-thema.md`
-
-**Checkliste vor der Ausgabe:**
+### Checkliste vor der Ausgabe
 - [ ] Nur ein Thema, nur ein Call-to-Action?
 - [ ] Unter 400 Wörtern?
 - [ ] Alle Absätze maximal 3 Zeilen?
 - [ ] Kein unerklärter Fachjargon?
-- [ ] Kein Druck, keine künstliche Verknappung?
+- [ ] Keine KI-Floskel aus der Verboten-Liste drin?
+- [ ] Keine Zahl, kein Preis, kein Feature erfunden?
 - [ ] Betreff hält, was die Mail liefert?
 - [ ] Klingt es wie ein Mensch, der einer Freundin schreibt?
 
 ---
 
-## 7. Beispiel
+## Beispiel
 
-**Eingabe:**
-> „Schreib mir einen Newsletter darüber, dass man nicht auf die perfekte Website warten muss, um mit E-Mail-Marketing zu starten."
+**Eingabe:** „Schreib mir einen Newsletter darüber, dass man nicht auf die perfekte Website warten muss, um mit E-Mail-Marketing zu starten."
 
 **Ausgabe:**
 
-### Betreffzeilen
+**Betreffzeilen**
 1. *(Neugier)* Meine erste Mail ging ohne Website raus
 2. *(Nutzen)* Starten ohne Website — so geht's
 3. *(Story)* 2 Jahre gewartet. Auf nichts.
 
-### Preheader
+**Preheader**
 Du brauchst weniger, als du denkst — versprochen.
 
----
+**Newsletter**
 
 Neulich saß ich um kurz nach zehn am Küchentisch. Die Kinder endlich im Bett, der Laptop auf, und ich habe wieder an meiner Website herumgeschraubt.
 
@@ -159,13 +174,9 @@ Von Mama zu Mama,
 
 ---
 
-*Hinweis: Absender-Name und Signatur sind noch Platzhalter — trag sie in Abschnitt 4 ein, dann fällt das künftig weg.*
+## Was gut funktioniert hat
 
----
-
-## 8. Was gut funktioniert hat
-
-<!-- Trage hier ein, was messbar gut lief. Der Skill wird dadurch mit jedem
+<!-- Nach jedem Versand eintragen. Der Skill wird dadurch mit jedem
      Newsletter besser — das ist der eigentliche Hebel. -->
 
 | Datum | Betreff | Öffnungsrate | Was war anders? |
