@@ -1,6 +1,12 @@
 ---
 name: newsletter-schreiben
-description: "Newsletter", "Newsletter schreiben", "E-Mail an meine Liste", "Mail an die Liste", "Kampagne", "Betreffzeile", "Preheader", "Broadcast". Nutze diesen Skill IMMER wenn "Newsletter", "Newsletter schreiben", "Mail an meine Liste" oder "Betreffzeile" gesagt wird. Liefert IMMER 3 Betreffzeilen + 1 Preheader + 1 vollständigen Newsletter passend zum genannten Thema.
+description: >-
+  "Newsletter", "Newsletter schreiben", "E-Mail an meine Liste",
+  "Mail an die Liste", "Kampagne", "Betreffzeile", "Preheader", "Broadcast".
+  Nutze diesen Skill IMMER wenn "Newsletter", "Newsletter schreiben",
+  "Mail an meine Liste" oder "Betreffzeile" gesagt wird.
+  Liefert IMMER 3 Betreffzeilen + 1 Preheader + 1 vollständigen Newsletter
+  passend zum genannten Thema.
 ---
 
 # Newsletter-Skill
@@ -112,16 +118,26 @@ Genau EINE Handlung: antworten ODER klicken. Nie beides.]
 [SIGNATUR aus "Dein Business"]
 ```
 
-### Betreffzeilen sollen variieren
+### 3 verschiedene Angles für die 3 Betreffzeilen (immer mischen)
 
-Die 3 Betreffzeilen folgen grob demselben Thema, aber mit **unterschiedlichen
-Angles** — nie drei Varianten desselben Satzes:
+Nie drei Varianten desselben Satzes. Wähle **drei verschiedene** aus dieser Liste —
+Angle 1 (Neugier) ist immer dabei, die beiden anderen passend zum Thema:
 
-| Angle | Ansatz | Beispiel |
-|---|---|---|
-| **Neugier** | Offene Schleife, Widerspruch | „Meine erste Mail ging ohne Website raus" |
-| **Nutzen** | Konkretes Ergebnis, oft mit Zahl | „In 15 Minuten zur ersten Willkommens-Mail" |
-| **Story** | Szene oder Person | „Gestern hat mein Sohn meinen Launch gerettet" |
+1. **Neugier-Angle** — offene Schleife oder Widerspruch
+   „Meine erste Mail ging ohne Website raus"
+2. **Zeit-/Effizienz-Angle** — knappe Zeit als Aufhänger
+   „In 15 Minuten zur ersten Willkommens-Mail"
+3. **Story-Angle** — eine Szene oder Person
+   „Gestern hat mein Sohn meinen Launch gerettet"
+4. **„Ich kann das nicht"-Angle** — hebt den Anfängerinnen-Einwand auf
+   „Du brauchst kein Technik-Talent dafür"
+5. **Fehler-/Umkehr-Angle** — was die meisten falsch machen
+   „Der Fehler, den ich 2 Jahre lang gemacht habe"
+6. **Zahlen-Angle** — ein konkretes Ergebnis
+   „Von 40 auf 300 Subscriber in 90 Tagen"
+
+**Regel:** Die gewählten Angles müssen sich im *Ansatz* unterscheiden, nicht nur
+in der Formulierung. Zwei Betreffzeilen mit demselben Angle sind ein Fehler.
 
 ---
 
