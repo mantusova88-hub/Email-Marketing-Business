@@ -75,8 +75,20 @@ unten rechts    Kreis, halb über den Rand hinaus
 **Folie 1 ist immer ein Hook, nie ein Thema.** Wie die Formeln funktionieren,
 steht in `hooks-deckblatt.md`. Ohne starken Hook wird der Rest nicht gelesen.
 
-**Folie 6 hat immer drei Teile:** Danke · „Abspeichern nicht vergessen!" · Frage
-für die Kommentare. Speicherungen zählen für Instagram mehr als Likes.
+### Sieben Folien, seit 17. August 2026
+
+Vorher waren es sechs. Der neue Aufbau kommt aus Monikas eigenem Dokument
+„Automatisiertes Karussell Erstellen" und gilt ab sofort:
+
+| Folie | Was drauf ist |
+|---|---|
+| 1 | Cover mit dem Hook, Foto im Hintergrund |
+| 2 bis 6 | fünf Mehrwert-Folien |
+| 7 | Abschluss mit „Speicher dir das", Foto im Hintergrund |
+
+**Folie 7 hat immer drei Teile:** Danke · Speicher dir das · Frage für die
+Kommentare. Speicherungen zählen für Instagram mehr als Likes.
+
 
 Der Text sitzt in der **oberen Hälfte** der Folie, nicht unten.
 Unten bleibt Luft — dort liegt der Kreis.

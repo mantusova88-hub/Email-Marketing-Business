@@ -9,8 +9,8 @@
 
 Jeden Tag, sieben Tage die Woche:
 
-1. **Karussell auf Instagram** — sechs Folien
-2. **Karussell auf Facebook** — dieselben sechs Folien, längerer Text
+1. **Karussell auf Instagram** — sieben Folien, höchstens fünf Hashtags
+2. **Karussell auf Facebook** — dieselben sieben Folien, längerer Text, keine Hashtags
 3. **Story auf Instagram** — zwei Folien
 4. **Story auf Facebook** — dieselben zwei Folien
 
