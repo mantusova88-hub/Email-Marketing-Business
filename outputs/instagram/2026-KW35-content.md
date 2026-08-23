@@ -1,740 +1,765 @@
 # Content KW 35 / 2026 — Instagram & Facebook
 
-Sieben Tage, pro Tag zwei Karussells zu je sechs Folien und zwei Story-Folien.
+**Mo 24.08. – So 30.08.2026.** Sieben Tage, pro Tag zwei Karussells zu je sechs Folien und zwei Story-Folien.
 
-Die Texte stammen unverändert aus der KW-34-Planung, die nicht gelaufen ist. Weil auf den Folien kein Wochentag steht, ließ sich der ganze Bogen ohne eine einzige Änderung verschieben. Neu hinzugekommen sind die längeren Facebook-Fassungen und die sieben Vertiefungs-Karussells.
+## Folienaufbau
 
-**Folienregeln:** Kein Wochentag auf der Folie. Das Label oben links trägt das Thema. Die Hook steht nur auf Folie 1 und wird nicht wiederholt. Markenfarben Burgund `#800220`, Gold `#B59156`.
+**Sechs Folien. Folie 1 mit Bild, Folie 6 mit Bild.** Die Folien 2 bis 5 tragen Text.
 
-**Der Bogen der Woche:** Erschöpfung vom Posten (Mo) → Abhängigkeit (Di) → geliehene Reichweite (Mi) → der kleinste Anfang (Do) → der Technik-Einwand (Fr) → das Kernversprechen (Sa) → ein Schritt für die neue Woche (So).
+- Kein Wochentag auf der Folie — der gehört in den Canva-Titel.
+- Das Label oben links trägt das Thema.
+- Die Hook steht auf Folie 1 und wird nicht wiederholt. Jede Folie trägt einen eigenen Gedanken.
+- Markenfarben Burgund `#800220`, Gold `#B59156`.
 
-**Die drei Textsorten, nach dem Muster aus KW 33:**
+## Themenwahl
+
+Die Themen kommen aus derselben Welt wie das Archiv: mentale Last, Grenzen, Erschöpfung, Selbstfürsorge. **Kein E-Mail-Marketing, kein Business, kein Angebot.**
+
+Geprüft gegen 173 veröffentlichte Beiträge vom 11.06. bis 16.08., damit sich nichts wiederholt. Bereits verbraucht und deshalb hier nicht dabei: Nein sagen, Mental Load, Stille, Instagram-Vergleich, abends nicht abschalten, Gefühle anderer, Sonntagabend-Bilanz, nicht faul sondern leer, die innere kritische Stimme, Selbstfürsorge ohne Zeit, drei Dinge liegen lassen, Disziplin am Abend.
+
+| Tag | Label | Worum es geht |
+|---|---|---|
+| Mo 24.08. | GEWISSEN | Ausruhen, während im Kopf die Liste weiterläuft |
+| Di 25.08. | WUT | Warum du wegen einer Kleinigkeit explodierst |
+| Mi 26.08. | KÖRPER | Dein Nacken weiß es früher als du |
+| Do 27.08. | „GUT" | Warum du auf jede Frage „gut" antwortest |
+| Fr 28.08. | HILFE | Warum du lieber alles selbst machst |
+| Sa 29.08. | EINSAM | Nie allein und trotzdem einsam |
+| So 30.08. | VORBILD | Was dein Kind sieht, wenn es dir zuschaut |
+
+## Die Textsorten
 
 | Sorte | Zeit | Kanäle | Machart |
 |---|---|---|---|
 | Karussell A | 21:00 | Instagram | Szene mit Uhrzeit, Wendung, Deutung, kleiner Schritt, Frage, „Monika", fünf Hashtags |
-| Karussell A | 21:00 | Facebook | dieselbe Szene, ausführlicher erzählt, „Dein Schritt für heute:", Frage mit „Erzähl es mir gern", „Monika", **ohne** Hashtags |
+| Karussell A | 21:00 | Facebook | dieselbe Szene, ausführlicher, „Dein Schritt für heute:", Frage mit „Erzähl es mir gern", **ohne** Hashtags |
 | Karussell B | 21:05 | beide identisch | Fließtext mit drei Handlungsschritten, dann 💾 / 📤 / 💬, dann Hashtags |
-| Stories | 21:15 / 21:18 | beide identisch | ein kurzer Satz pro Folie |
+| Stories | 21:15 / 21:18 | beide identisch | ein Satz pro Folie |
 
 ---
 
-# Montag, 24.08. — SICHTBARKEIT
+# Montag, 24.08. — GEWISSEN
 
 ## Karussell A — 21:00
 
-**Folie 1** · Label `SICHTBARKEIT`
-> Zweieinhalb Stunden für einen Beitrag, der nach zwei Tagen verschwunden ist.
+**Folie 1 · Bild** · Label `GEWISSEN`
+> Du sitzt auf dem Sofa und denkst an die Wäsche. Das ist keine Pause.
 
 **Folie 2**
-> Rechne einmal ehrlich zusammen: die Idee, der Text, die Bilder, das Hochladen. Und danach das Nachschauen, ob jemand reagiert hat.
+> Ausruhen heißt nicht, dass der Körper stillsteht. Es heißt, dass der Kopf aufhört zu rechnen.
 
 **Folie 3**
-> Das Nachschauen kostet am meisten, weil es nie aufhört. Es hat keinen Feierabend und keine fertige Aufgabe.
+> Solange im Hintergrund die Liste weiterläuft, erholst du dich nicht. Du wartest nur darauf, wieder anfangen zu dürfen.
 
 **Folie 4**
-> Anstrengung fühlt sich an wie Fortschritt. Der Abend war voll, also muss doch etwas entstanden sein.
+> Das schlechte Gewissen kommt nicht vom Ausruhen. Es kommt davon, dass du dir nicht zutraust, es verdient zu haben.
 
 **Folie 5**
-> Nur folgt dir jemand seit acht Monaten und weiß immer noch nicht, was du eigentlich anbietest.
+> Niemand sonst prüft, ob du heute genug geleistet hast. Diese Frage stellst du dir ganz allein.
 
-**Folie 6**
-> Zähl diese Woche mit: Wie viele Stunden fließen in Beiträge, und wie viele in etwas, das dich auch nächsten Monat noch trägt?
+**Folie 6 · Bild**
+> Setz dich heute zehn Minuten hin und lass die Liste stehen. Sie läuft dir nicht weg.
 
 ### Caption Instagram
 
-Am Sonntagabend habe ich zusammengerechnet, was mich ein einziger Beitrag kostet. Die Idee, den Text, die Bilder, das Hochladen — und danach das Nachschauen, ob jemand reagiert hat. Zweieinhalb Stunden.
+Gestern Nachmittag habe ich mich bewusst aufs Sofa gesetzt, mit Kaffee, und mir vorgenommen, eine Viertelstunde nichts zu tun. Nach vier Minuten stand ich wieder, weil mir eingefallen ist, dass die Wäsche seit morgens in der Maschine liegt.
 
-In derselben Woche hat mir eine Frau geschrieben, sie folge mir seit acht Monaten. Ich hatte sie vorher nie bemerkt.
+Das war keine Pause. Das war eine Unterbrechung.
 
-Sichtbarkeit fühlt sich an wie Fortschritt, weil sie anstrengend ist. Nur zahlt Anstrengung nicht von selbst auf etwas ein, das bleibt. Ein Beitrag ist nach zwei Tagen weg, und die Frau, die dir seit acht Monaten folgt, weiß immer noch nicht, was du anbietest.
+Ausruhen heißt nicht, dass der Körper stillsteht. Es heißt, dass der Kopf aufhört zu rechnen. Solange im Hintergrund die Liste weiterläuft, erholst du dich nicht, du wartest nur darauf, wieder anfangen zu dürfen.
 
-Schau dir diese Woche einmal an, wie viele Stunden in Beiträge geflossen sind und wie viele in etwas, das auch nächsten Monat noch für dich arbeitet.
+Und das schlechte Gewissen kommt nicht vom Ausruhen. Es kommt davon, dass du dir selbst nicht zutraust, es verdient zu haben.
 
-Wie lange brauchst du für einen Beitrag, ganz ehrlich?
+Setz dich heute zehn Minuten hin und lass die Liste stehen.
+
+Wann hast du zuletzt wirklich Pause gemacht?
 
 Monika
 
-#sichtbarkeit #selbständigemamas #mamaalltag #onlinebusiness #erschöpfung
+#mentalload #mamaalltag #selbstfürsorge #erschöpfung #persönlicheentwicklung
 
 ### Caption Facebook
 
-Am Sonntagabend habe ich zusammengerechnet, was mich ein einziger Beitrag kostet. Die Idee, den Text, die Bilder, das Hochladen — und danach das Nachschauen, ob jemand reagiert hat. Zweieinhalb Stunden.
+Gestern Nachmittag habe ich mich bewusst aufs Sofa gesetzt, mit Kaffee, und mir vorgenommen, eine Viertelstunde lang nichts zu tun. Nach vier Minuten stand ich wieder, weil mir eingefallen ist, dass die Wäsche seit morgens in der Maschine liegt.
 
-In derselben Woche hat mir eine Frau geschrieben, sie folge mir seit acht Monaten. Ich hatte sie vorher nie bemerkt.
+Das war keine Pause. Das war eine Unterbrechung mit Kaffee.
 
-Das hat mich länger beschäftigt als die zweieinhalb Stunden. Denn wenn jemand acht Monate lang zuschaut und trotzdem nicht weiß, was du anbietest, dann liegt das nicht daran, dass du zu wenig gepostet hast.
+Ich glaube, wir verwechseln das ziemlich oft. Pause heißt nicht, dass der Körper stillsteht — sitzen kann man auch, während im Kopf alles weiterläuft. Pause heißt, dass der Kopf aufhört zu rechnen. Und genau das passiert bei den meisten von uns eben nicht.
 
-Sichtbarkeit fühlt sich an wie Fortschritt, weil sie anstrengend ist. Der Abend war voll, also muss doch etwas entstanden sein. Nur zahlt Anstrengung nicht von selbst auf etwas ein, das bleibt. Ein Beitrag ist nach zwei Tagen aus dem Feed verschwunden, und was er hinterlässt, ist im besten Fall ein gutes Gefühl bei jemandem, der dich morgen wieder vergisst.
+Solange im Hintergrund die Liste läuft, erholst du dich nicht. Du wartest nur darauf, wieder anfangen zu dürfen, und wartend erholt sich niemand. Deshalb stehst du nach zwanzig Minuten Sofa auf und fühlst dich genauso müde wie vorher, was dich dann zu dem Schluss bringt, dass Pausen bei dir eben nicht funktionieren.
 
-Das Nachschauen ist dabei der teuerste Teil. Es hat keinen Feierabend, keine fertige Aufgabe und kein Ergebnis, das man abhaken könnte. Es zieht sich durch den ganzen Abend, auch wenn du längst etwas anderes tust.
+Sie funktionieren schon. Nur nicht mit laufendem Zähler.
 
-Ich sage nicht, dass du aufhören sollst zu posten. Ich sage, dass Posten allein keine Grundlage ist.
+Das schlechte Gewissen dabei ist die eigentliche Arbeit. Es kommt nicht vom Ausruhen selbst, sondern von der leisen Überzeugung, es noch nicht verdient zu haben. Und dieser Maßstab ist bemerkenswert einseitig: Niemand sonst prüft am Abend, ob du heute genug geleistet hast. Diese Prüfung machst du ganz allein, und sie fällt zuverlässig negativ aus.
 
-Dein Schritt für heute: Zähl einmal ehrlich zusammen, wie viele Stunden diese Woche in Beiträge geflossen sind. Und dann schau, wie viele in etwas geflossen sind, das dich auch nächsten Monat noch trägt.
+Dein Schritt für heute: Setz dich zehn Minuten hin und lass die Liste ausdrücklich stehen. Nicht abarbeiten, nicht vorbereiten, nur stehen lassen. Sie läuft dir nicht weg, das hat sie noch nie getan.
 
-Wie lange brauchst du für einen Beitrag, ganz ehrlich? Erzähl es mir gern.
+Wann hast du zuletzt wirklich Pause gemacht? Erzähl es mir gern.
 
 Monika
 
 ## Karussell B — 21:05
 
-**Folie 1** · Label `SICHTBARKEIT`
-> Was mehr trägt als der nächste Beitrag.
+**Folie 1 · Bild** · Label `GEWISSEN`
+> So wird aus Sitzen eine echte Pause.
 
 **Folie 2**
-> Zähl diese Woche mit, wie viele Stunden wirklich in Instagram fließen. Das Nachschauen gehört dazu.
+> Schreib vorher auf, was offen ist. Aufgeschriebenes muss der Kopf nicht mehr festhalten.
 
 **Folie 3**
-> Schreib in einen einzigen Satz, was du anbietest. Kannst du es nicht, kann es deine Leserin erst recht nicht.
+> Setz dir eine Zeit statt eines Gefühls. Zehn Minuten kann man beenden, „ein bisschen" nicht.
 
 **Folie 4**
-> Nimm dir eine Stunde in der Woche, in der du nicht postest, sondern baust.
+> Leg das Handy in einen anderen Raum. Nicht umdrehen — weglegen.
 
 **Folie 5**
-> Der Unterschied: Ein Beitrag arbeitet zwei Tage. Etwas Gebautes arbeitet weiter, während du schläfst.
+> Und wenn das Gewissen sich meldet, sag ihm die Uhrzeit, zu der du weitermachst.
 
-**Folie 6**
-> Fang mit der Zahl an. Ohne sie bleibt es ein Gefühl, und Gefühle ändert man schlecht.
+**Folie 6 · Bild**
+> Zehn Minuten reichen. Es geht nicht um Länge, es geht darum, dass der Zähler stehen bleibt.
 
 ### Caption (Instagram und Facebook identisch)
 
-Ein Beitrag ist nach zwei Tagen aus dem Feed verschwunden, und die Frau, die dir seit acht Monaten folgt, weiß trotzdem nicht, was du anbietest — daran ändert auch der nächste Beitrag nichts.
+Du kannst zwanzig Minuten auf dem Sofa sitzen und trotzdem keine Sekunde Pause gehabt haben, denn erholt wird nicht der Körper, sondern der Kopf — und der läuft weiter, solange die Liste läuft.
 
-Zähl deshalb diese Woche einmal mit, wie viele Stunden wirklich in Instagram fließen, das Nachschauen eingerechnet, denn ohne Zahl bleibt es ein diffuses Gefühl. Schreib danach in einen einzigen Satz, was du eigentlich anbietest, und häng ihn dir über den Schreibtisch, denn wenn du ihn nicht in einem Satz sagen kannst, kann deine Leserin es erst recht nicht. Und nimm dir eine Stunde in dieser Woche, in der du nichts postest, sondern etwas baust, das nächsten Monat noch da ist.
+Schreib deshalb auf, was offen ist, bevor du dich hinsetzt, denn was aufgeschrieben ist, muss dein Kopf nicht mehr festhalten. Setz dir danach eine feste Zeit statt eines Gefühls, weil zehn Minuten etwas sind, das man beenden kann, „ein bisschen ausruhen" dagegen nicht. Und leg das Handy in einen anderen Raum, nicht nur umgedreht neben dich, denn in Reichweite ist es immer noch eine offene Tür.
 
-💾 Speichere dir diesen Beitrag für den nächsten Abend, an dem du zwei Stunden an einem Post sitzt
-📤 Teile ihn mit einer Freundin, die auch täglich postet und trotzdem das Gefühl hat, es passiert nichts
-💬 Kommentiere: Wie lange brauchst du für einen Beitrag?
+Wenn sich das schlechte Gewissen meldet, dann nenn ihm die Uhrzeit, zu der du weitermachst. Es beruhigt sich erstaunlich zuverlässig, wenn es einen Termin bekommt.
 
-#emailsmitmonika #sichtbarkeit #selbständigemamas #mamaleben #onlinebusiness
+💾 Speichere dir diesen Beitrag für den nächsten Nachmittag, an dem du nach vier Minuten wieder aufstehst
+📤 Teile ihn mit einer Freundin, die auch nie richtig sitzen bleibt
+💬 Kommentiere: Wann hattest du zuletzt zehn Minuten ohne Liste im Kopf?
+
+#emailsmitmonika #mentalload #mamaleben #selbstfürsorge #grenzensetzen
 
 ## Stories
 
 **21:15 — Folie 1**
-> Wie lange brauchst du für einen Beitrag?
+> Sitzen ist noch keine Pause.
 
 **21:18 — Folie 2**
-> Und was bleibt zwei Tage später davon übrig?
+> Woran du merkst, dass der Zähler weiterläuft.
 
 ---
 
-# Dienstag, 25.08. — ABHÄNGIGKEIT
+# Dienstag, 25.08. — WUT
 
 ## Karussell A — 21:00
 
-**Folie 1** · Label `ABHÄNGIGKEIT`
-> Dein Business läuft, solange du läufst. Das ist kein Fleiß, sondern ein Konstruktionsfehler.
+**Folie 1 · Bild** · Label `WUT`
+> Es war nie der umgekippte Becher.
 
 **Folie 2**
-> Der Test dauert zwei Sekunden: Was passiert, wenn du vierzehn Tage nichts tust?
+> Du bist ruhig durch den ganzen Tag gekommen und explodierst dann wegen einer Kleinigkeit.
 
 **Folie 3**
-> Bei den meisten lautet die Antwort: nichts. Keine Anfrage, kein Verkauf, kein neuer Kontakt.
+> Danach schämst du dich, weil die Reaktion so offensichtlich zu groß war für den Anlass.
 
 **Folie 4**
-> Das fühlt sich an wie Unternehmerin sein, ist aber ein Job, in dem du dir selbst die Chefin bist.
+> Nur war der Anlass auch nie der Grund. Der Becher war der letzte Tropfen, nicht der erste.
 
 **Folie 5**
-> Du merkst es an drei Dingen: Urlaub kostet Umsatz, Krankheit macht Angst, und niemand kann dich vertreten.
+> Wut, die plötzlich kommt, ist selten neu. Sie ist alt und hat lange gewartet.
 
-**Folie 6**
-> Ein System ist der Teil deines Business, der weiterarbeitet, während du auf dem Sofa liegst.
+**Folie 6 · Bild**
+> Frag dich nach dem nächsten Ausbruch nicht, was dich wütend gemacht hat, sondern seit wann.
 
 ### Caption Instagram
 
-Letzten Winter lag ich vier Tage mit Fieber flach. Am zweiten Tag habe ich vom Bett aus in den Kalender geschaut und gerechnet, was diese Woche noch kostet.
+Letzte Woche ist meiner Tochter beim Abendessen ein Glas umgefallen. Nichts Besonderes, Wasser, ein Lappen, fertig.
 
-Nicht die Krankheit hat mich fertiggemacht, sondern die Rechnung.
+Ich habe geschrien. Richtig geschrien, wegen eines Glases Wasser.
 
-Dein Business läuft, solange du läufst. Das klingt nach Fleiß, ist aber eine Konstruktion, die dich irgendwann einholt. Urlaub kostet dich Umsatz, Krankheit macht dir Angst, und vertreten kann dich niemand.
+Zehn Minuten später saß ich auf der Treppe und habe mich geschämt, weil die Reaktion so offensichtlich zu groß war für das, was passiert ist.
 
-Mach den Test: Was passiert, wenn du vierzehn Tage nichts tust? Bleibt es still, weißt du, woran du diesen Herbst arbeiten solltest.
+Nur war das Glas auch nie der Grund. Es war der letzte Tropfen von einem Tag, an dem ich seit sieben Uhr morgens funktioniert und nichts davon gesagt habe. Wut, die plötzlich kommt, ist selten neu. Sie ist alt und hat lange gewartet.
 
-Wie lange könnte dein Business ohne dich?
+Frag dich nach dem nächsten Ausbruch nicht, was dich wütend gemacht hat, sondern seit wann.
+
+Wobei ist es bei dir zuletzt übergelaufen?
 
 Monika
 
-#selbständigemamas #onlinebusiness #mamaalltag #selbständigkeit #erschöpfung
+#wut #mamaalltag #mentalload #erschöpfung #persönlicheentwicklung
 
 ### Caption Facebook
 
-Letzten Winter lag ich vier Tage mit Fieber flach. Am zweiten Tag habe ich vom Bett aus in den Kalender geschaut und gerechnet, was diese Woche noch kostet.
+Letzte Woche ist meiner Tochter beim Abendessen ein Glas umgefallen. Nichts Besonderes — Wasser, ein Lappen, fertig.
 
-Nicht die Krankheit hat mich fertiggemacht, sondern die Rechnung.
+Ich habe geschrien. Richtig geschrien, wegen eines Glases Wasser.
 
-Dein Business läuft, solange du läufst. Das klingt erst einmal nach Fleiß, und genau deshalb merkt man so lange nicht, dass etwas nicht stimmt. Fleiß ist ja gut. Nur baust du damit keine Struktur auf, sondern hältst eine am Laufen, die ohne dich sofort stehen bleibt.
+Zehn Minuten später saß ich auf der Treppe und habe mich dafür geschämt, weil die Reaktion so offensichtlich zu groß war für das, was passiert war. Und weil ich das Gesicht gesehen habe, mit dem sie mich angeschaut hat.
 
-Es gibt einen einfachen Test dafür, und er dauert zwei Sekunden: Was passiert, wenn du vierzehn Tage lang nichts tust? Keine Beiträge, keine E-Mails, keine Anrufe. Bei den meisten lautet die ehrliche Antwort: nichts. Keine Anfrage, kein Verkauf, kein neuer Kontakt.
+Was ich lange nicht verstanden habe: Das Glas war nie der Grund. Es war der letzte Tropfen von einem Tag, an dem ich seit sieben Uhr morgens funktioniert habe, ohne ein einziges Mal zu sagen, dass es zu viel ist. Man kann sehr lange sehr ruhig bleiben. Das ist keine Gelassenheit, das ist Aufschub.
 
-Woran du es außerdem merkst: Urlaub kostet dich nicht nur Geld für die Reise, sondern auch Umsatz. Eine Erkältung macht dir mehr Angst, als sie sollte. Und wenn dich jemand fragt, wer dich vertreten könnte, fällt dir niemand ein.
+Wut, die plötzlich kommt, ist deshalb selten neu. Sie ist alt und hat gewartet, bis sich ein Anlass findet, der klein genug ist, um sich davor nicht zu fürchten. Deshalb geht sie fast nie auf die Person los, die sie ausgelöst hat, sondern auf die, die gerade danebensteht. Meistens sind das die Kinder, und das ist der Teil, der so wehtut.
 
-Das ist kein Vorwurf, das ist die Ausgangslage von fast allen, die allein anfangen. Nur bleibt sie eben die Ausgangslage, wenn niemand daran arbeitet.
+Ich sage das nicht, um dich zu entlasten — für den Ton beim Abendessen bleibst du zuständig. Aber Schuldgefühle allein ändern nichts, weil sie an der falschen Stelle ansetzen. Wer sich nur für die Lautstärke schämt, arbeitet weiter an der Ruhe und nicht an dem, was sich dahinter staut.
 
-Ein System ist einfach der Teil deines Business, der weitermacht, während du auf dem Sofa liegst. Mehr steckt nicht hinter dem Wort.
+Dein Schritt für heute: Frag dich nach dem nächsten Ausbruch nicht, was dich wütend gemacht hat, sondern seit wann. Die Antwort liegt fast nie in den letzten fünf Minuten.
 
-Dein Schritt für heute: Mach den Zwei-Wochen-Test im Kopf und schreib auf, was in diesen vierzehn Tagen tatsächlich weiterlaufen würde. Die Lücke, die dabei sichtbar wird, ist dein Thema für diesen Herbst.
-
-Wie lange könnte dein Business ohne dich? Erzähl es mir gern.
+Wobei ist es bei dir zuletzt übergelaufen? Erzähl es mir gern.
 
 Monika
 
 ## Karussell B — 21:05
 
-**Folie 1** · Label `ABHÄNGIGKEIT`
-> Drei Dinge, die weiterlaufen, wenn du aussteigst.
+**Folie 1 · Bild** · Label `WUT`
+> Was hilft, bevor es überläuft.
 
 **Folie 2**
-> Eine Willkommens-E-Mail, die jede neue Leserin begrüßt. Einmal geschrieben, läuft sie jahrelang.
+> Sag früh, dass es viel ist. Nicht erst, wenn du nicht mehr kannst — da hört es niemand mehr.
 
 **Folie 3**
-> Ein Ort, an dem man dir eine E-Mail-Adresse dalassen kann. Auch nachts, auch im Urlaub.
+> Nimm dir mittags drei Minuten und frag dich, wie voll es gerade ist. Nur fragen, nichts lösen.
 
 **Folie 4**
-> Ein Angebot, das man versteht, ohne mit dir gesprochen zu haben.
+> Und geh raus, bevor du laut wirst. Ein Raum weiter reicht, es geht um zwanzig Sekunden.
 
 **Folie 5**
-> Keins davon ist ein großes Projekt. Zusammen sind sie der Unterschied zwischen Job und Business.
+> Danach entschuldige dich für den Ton, nicht für das Gefühl. Das Gefühl war berechtigt.
 
-**Folie 6**
-> Nimm dir eins davon vor. Nicht alle drei, sonst wird es wieder nichts.
+**Folie 6 · Bild**
+> Kinder verkraften einen Ausbruch. Was sie brauchen, ist der Satz danach.
 
 ### Caption (Instagram und Facebook identisch)
 
-Wenn dein Business zwei Wochen ohne dich still steht, dann fehlt dir kein Fleiß, sondern ein Teil, der ohne dich weitermacht — und der ist meist kleiner, als man denkt.
+Der umgekippte Becher ist nie der Grund, sondern der letzte Tropfen von einem Tag, an dem du seit morgens funktioniert und nichts davon gesagt hast — und genau da lässt sich etwas ändern.
 
-Fang mit einer Willkommens-E-Mail an, die jede neue Leserin automatisch begrüßt, denn die schreibst du einmal und sie läuft danach jahrelang für dich. Sorg dafür, dass es überhaupt einen Ort gibt, an dem man dir eine E-Mail-Adresse dalassen kann, auch nachts und auch im Urlaub. Und formulier dein Angebot so, dass man es versteht, ohne vorher mit dir gesprochen zu haben, denn jedes Gespräch, das nötig ist, hängt wieder an dir.
+Sag deshalb früh, dass es gerade viel ist, und nicht erst an dem Punkt, an dem du sowieso nicht mehr kannst, denn dann klingt es wie ein Vorwurf und niemand hört es mehr. Nimm dir mittags drei Minuten und frag dich, wie voll es eigentlich ist, ohne dass du irgendetwas davon lösen musst — das Fragen allein senkt schon den Pegel. Und wenn es doch so weit ist, geh raus, bevor du laut wirst; ein Raum weiter genügt, es geht um zwanzig Sekunden, nicht um eine Auszeit.
 
-💾 Speichere dir diesen Beitrag für den nächsten Tag, an dem du krank im Bett liegst und rechnest
-📤 Teile ihn mit einer Freundin, deren Business auch sofort stillsteht, wenn sie ausfällt
-💬 Kommentiere: Wie lange könnte deins ohne dich?
+Und danach entschuldige dich für den Ton, aber nicht für das Gefühl. Das Gefühl war berechtigt, die Lautstärke war es nicht. Kinder verkraften einen Ausbruch erstaunlich gut. Was sie brauchen, ist der Satz danach.
 
-#emailsmitmonika #selbständigemamas #onlinebusiness #mamaleben #automatisierung
+💾 Speichere dir diesen Beitrag für den nächsten Abend, an dem du dich auf der Treppe schämst
+📤 Teile ihn mit einer Freundin, die auch erst ruhig ist und dann plötzlich laut
+💬 Kommentiere: Wobei ist es bei dir zuletzt übergelaufen?
+
+#emailsmitmonika #wut #mamaleben #mentalload #selbstfürsorge
 
 ## Stories
 
 **21:15 — Folie 1**
-> Was passiert, wenn du vierzehn Tage nichts tust?
+> Es war nie der umgekippte Becher.
 
 **21:18 — Folie 2**
-> Drei Zeichen, dass alles an dir hängt.
+> Frag nicht was, frag seit wann.
 
 ---
 
-# Mittwoch, 26.08. — BESITZ
+# Mittwoch, 26.08. — KÖRPER
 
 ## Karussell A — 21:00
 
-**Folie 1** · Label `BESITZ`
-> Deine Follower gehören dir nicht. Sie sind geliehen, und die Bank kann jederzeit kündigen.
+**Folie 1 · Bild** · Label `KÖRPER`
+> Dein Nacken weiß seit Wochen, was du dir noch nicht eingestanden hast.
 
 **Folie 2**
-> Wer deine Beiträge sieht, entscheidet nicht du. Das entscheidet ein Algorithmus, den niemand von uns kennt.
+> Der Kiefer nachts. Die Schultern an den Ohren. Das Ziehen, das immer da ist und nie schlimm genug.
 
 **Folie 3**
-> Ein gesperrter Account, eine geänderte Regel, ein schlechter Monat — und dreitausend Menschen sind weg.
+> Du gehst nicht zum Arzt, weil du keine Zeit hast — und weil du Angst hast, dass nichts gefunden wird.
 
 **Folie 4**
-> Eine E-Mail-Adresse liegt bei dir. Sie kommt an, ohne dass jemand dazwischen entscheidet.
+> Es wird auch nichts gefunden. Das heißt nicht, dass nichts da ist.
 
 **Folie 5**
-> Deshalb ist eine Liste von zweihundert Frauen mehr wert als dreitausend Follower, die dich nie lesen.
+> Dein Körper meldet sich lange bevor dein Kopf bereit ist zuzugeben, dass es zu viel ist.
 
-**Folie 6**
-> Frag dich heute: Wenn dein Account morgen weg wäre, wie viele deiner Leserinnen könntest du noch erreichen?
+**Folie 6 · Bild**
+> Leg heute Abend eine Hand auf die Stelle, die immer weh tut, und frag dich, seit wann.
 
 ### Caption Instagram
 
-Eine Bekannte hat im Frühjahr ihren Account verloren. Vierzehntausend Follower, aufgebaut über sechs Jahre, an einem Dienstagvormittag gesperrt. Sie hat nie erfahren, warum.
+Beim Zahnarzt hat mir die Ärztin im Frühjahr gesagt, ich würde nachts mit den Zähnen knirschen. Sie hat es an der Abnutzung gesehen, ich hatte davon nichts gemerkt.
 
-Was sie am meisten getroffen hat, war nicht die Zahl. Es war, dass sie keine einzige dieser Frauen mehr erreichen konnte.
+Auf dem Heimweg ist mir klar geworden, dass mein Körper seit Monaten etwas verarbeitet, worüber ich tagsüber nie nachdenke.
 
-Deine Reichweite ist geliehen. Wer deine Beiträge sieht, entscheidest nicht du, und die Regeln ändern sich, ohne dass dich jemand fragt. Eine E-Mail-Adresse dagegen liegt bei dir und kommt an, ohne dass jemand dazwischensteht.
+Der Kiefer nachts, die Schultern an den Ohren, das Ziehen im Nacken, das immer da ist und nie schlimm genug, um etwas zu unternehmen. Du gehst nicht hin, weil du keine Zeit hast — und ein bisschen auch, weil du Angst hast, dass nichts gefunden wird.
 
-Deshalb trägt eine Liste von zweihundert Frauen, die dich wirklich lesen, weiter als dreitausend Follower, die vorbeiscrollen.
+Es wird auch nichts gefunden. Das heißt nur nicht, dass nichts da ist. Dein Körper meldet sich lange, bevor dein Kopf bereit ist zuzugeben, dass es zu viel ist.
 
-Wenn dein Account morgen weg wäre — wen könntest du noch erreichen?
+Leg heute Abend eine Hand auf die Stelle, die immer weh tut, und frag dich, seit wann.
+
+Wo sitzt es bei dir?
 
 Monika
 
-#emailmarketing #selbständigemamas #onlinebusiness #sichtbarkeit #mamaalltag
+#körper #mentalload #mamaalltag #erschöpfung #selbstfürsorge
 
 ### Caption Facebook
 
-Eine Bekannte hat im Frühjahr ihren Account verloren. Vierzehntausend Follower, aufgebaut über sechs Jahre, an einem Dienstagvormittag gesperrt. Sie hat nie erfahren, warum, und sie hat ihn auch nicht zurückbekommen.
+Beim Zahnarzt hat mir die Ärztin im Frühjahr gesagt, ich würde nachts mit den Zähnen knirschen. Sie hat es an der Abnutzung gesehen. Ich hatte davon nichts gemerkt, keine Schmerzen, nichts.
 
-Was sie am meisten getroffen hat, war nicht die Zahl. Es war, dass sie keine einzige dieser Frauen mehr erreichen konnte. Sechs Jahre Gespräche, Nachrichten, Beziehungen — und von einem Vormittag auf den anderen kein Weg mehr dorthin.
+Auf dem Heimweg ist mir klar geworden, dass mein Körper seit Monaten etwas verarbeitet, worüber ich tagsüber nie nachdenke.
 
-Wir reden über Reichweite, als wäre sie Besitz. Sie ist geliehen. Wer deine Beiträge sieht, entscheidest nicht du, sondern ein Algorithmus, den niemand von uns kennt und der sich ändert, ohne dass uns jemand fragt. Das ist kein Grund zur Panik, aber ein Grund, nicht alles auf diese eine Karte zu setzen.
+Es ist immer dieselbe Liste: der Kiefer nachts, die Schultern, die irgendwann auf Ohrhöhe stehen, das Ziehen im Nacken, das eigentlich immer da ist und nie schlimm genug, um etwas zu unternehmen. Dazu die Verdauung, die auf Anspannung reagiert, und der Schlaf, der nicht mehr trägt.
 
-Eine E-Mail-Adresse funktioniert anders. Sie liegt bei dir. Was du schreibst, kommt an, ohne dass jemand dazwischen entscheidet, ob es das darf. Du kannst deine Liste mitnehmen, wenn du die Plattform wechselst, und sie ist morgen noch da, wenn Instagram schlechte Laune hat.
+Wir gehen damit nicht hin, und ich glaube, das hat zwei Gründe. Der offensichtliche ist die Zeit — einen Termin machen, hingehen, warten, das ist ein halber Tag. Der zweite wird seltener ausgesprochen: Du hast Angst, dass nichts gefunden wird. Dass jemand in weißem Kittel sagt, es sei alles in Ordnung, und du danach dastehst mit einem Schmerz, den du dir offenbar einbildest.
 
-Deshalb sage ich meinen Kundinnen: Eine Liste von zweihundert Frauen, die dich wirklich lesen, trägt weiter als dreitausend Follower, die im Vorbeiscrollen ein Herz dalassen. Die zweihundert kennst du. Die dreitausend kennen dich nicht.
+Es wird auch meistens nichts gefunden. Das heißt nur nicht, dass nichts da ist. Anspannung ist nichts Eingebildetes, sie ist bloß nichts, das man auf einem Bild sieht.
 
-Dein Schritt für heute: Stell dir ganz nüchtern vor, dein Account wäre morgen früh weg. Schreib auf, wen du dann noch erreichen könntest — und auf welchem Weg.
+Dein Körper meldet sich lange, bevor dein Kopf bereit ist zuzugeben, dass es zu viel ist. Er ist ehrlicher als du, weil er nicht durchhalten will.
 
-Wie viele wären es bei dir? Erzähl es mir gern.
+Dein Schritt für heute: Leg heute Abend eine Hand auf die Stelle, die immer weh tut, und frag dich, seit wann sie das tut. Nicht was du dagegen unternimmst — nur seit wann.
+
+Wo sitzt es bei dir? Erzähl es mir gern.
 
 Monika
 
 ## Karussell B — 21:05
 
-**Folie 1** · Label `BESITZ`
-> So fängst du eine Liste an, ohne dass es ein Projekt wird.
+**Folie 1 · Bild** · Label `KÖRPER`
+> Drei Dinge, die deinem Nacken mehr helfen als Durchhalten.
 
 **Folie 2**
-> Nimm ein Thema, bei dem dir Frauen ohnehin schon Fragen stellen. Das ist dein Einstieg.
+> Stell dir zweimal am Tag einen Wecker und prüf nur eins: Wo stehen gerade deine Schultern?
 
 **Folie 3**
-> Beantworte es auf einer Seite. Eine Seite reicht, ein E-Book braucht kein Mensch.
+> Atme dabei einmal bis in den Bauch. Nicht in die Schultern — die sind schon oben.
 
 **Folie 4**
-> Häng eine Anmeldung dran und den Link ins Profil. Fertig ist der Anfang.
+> Und geh mit dem Ziehen hin, auch ohne Befund. Ein Termin ist kein Beweis, dass es schlimm ist.
 
 **Folie 5**
-> Die ersten zwanzig Adressen fühlen sich nach wenig an. Sie sind der Unterschied zu null.
+> Was du dabei suchst, ist nicht die Diagnose. Es ist die Erlaubnis, es ernst zu nehmen.
 
-**Folie 6**
-> Nicht schön machen. Erst vorhanden, dann besser.
+**Folie 6 · Bild**
+> Dein Körper hält lange durch. Das ist keine Einladung, es auszureizen.
 
 ### Caption (Instagram und Facebook identisch)
 
-Deine Follower sind geliehen, deine Liste gehört dir — und der Schritt von der einen zur anderen Seite ist kleiner, als er von außen aussieht.
+Der Kiefer nachts, die Schultern auf Ohrhöhe, das Ziehen im Nacken, das nie schlimm genug ist — dein Körper meldet sich lange, bevor dein Kopf bereit ist zuzugeben, dass es zu viel ist.
 
-Nimm ein Thema, zu dem dir Frauen ohnehin schon Fragen stellen, denn das ist der Beweis, dass es jemanden interessiert. Beantworte es auf einer einzigen Seite, nicht auf zwanzig, weil ein E-Book dich Wochen kostet und niemand es zu Ende liest. Häng eine Anmeldung dran, setz den Link ins Profil, und dann lass es so stehen, auch wenn es nicht schön ist.
+Stell dir deshalb zweimal am Tag einen Wecker und prüf nur eine einzige Sache, nämlich wo gerade deine Schultern stehen, denn was du nicht bemerkst, kannst du auch nicht lösen. Atme dabei einmal bis in den Bauch statt in die Schultern, die sind ohnehin schon oben. Und geh mit dem Ziehen zum Arzt, auch wenn du damit rechnest, dass nichts gefunden wird — ein Termin ist kein Beweis, dass es schlimm ist, und was du dort eigentlich suchst, ist nicht die Diagnose, sondern die Erlaubnis, es ernst zu nehmen.
 
-Die ersten zwanzig Adressen fühlen sich nach nichts an. Sie sind trotzdem der ganze Unterschied zu null.
+Dein Körper hält lange durch. Das ist keine Einladung, es auszureizen.
 
-💾 Speichere dir diesen Beitrag für den Tag, an dem du endlich anfängst
-📤 Teile ihn mit einer Freundin, die ihre ganze Reichweite auf einer Plattform hat
-💬 Kommentiere: Zu welchem Thema fragt man dich am häufigsten?
+💾 Speichere dir diesen Beitrag und prüf gleich einmal deine Schultern
+📤 Teile ihn mit einer Freundin, die auch seit Monaten ein Ziehen im Nacken hat
+💬 Kommentiere: Wo sitzt es bei dir?
 
-#emailsmitmonika #emailmarketing #selbständigemamas #mamaleben #onlinebusiness
+#emailsmitmonika #körper #mamaleben #mentalload #selbstfürsorge
 
 ## Stories
 
 **21:15 — Folie 1**
-> Wem gehören deine Follower?
+> Wo stehen gerade deine Schultern?
 
 **21:18 — Folie 2**
-> Wen könntest du morgen noch erreichen?
+> Seit wann tut die Stelle weh?
 
 ---
 
-# Donnerstag, 27.08. — ANFANG
+# Donnerstag, 27.08. — „GUT"
 
 ## Karussell A — 21:00
 
-**Folie 1** · Label `ANFANG`
-> Die erste E-Mail ist nicht die schwerste. Die zweite ist es.
+**Folie 1 · Bild** · Label `„GUT"`
+> „Wie geht's dir?" — „Gut." Und beide wissen, dass das nicht stimmt.
 
 **Folie 2**
-> Beim ersten Mal trägt dich die Aufregung. Beim zweiten Mal steht die Frage im Raum, ob das jemand lesen will.
+> Die Antwort kommt schneller, als du denken kannst. Sie ist keine Lüge, sie ist eine Gewohnheit.
 
 **Folie 3**
-> Genau da hören die meisten auf — nicht am Anfang, sondern in Woche drei.
+> Irgendwann hast du gelernt, dass eine ehrliche Antwort mehr Zeit braucht, als die Frage anbietet.
 
 **Folie 4**
-> Deshalb fängst du nicht mit einem Newsletter an, sondern mit einer einzigen E-Mail, die von allein rausgeht.
+> Also machst du es allen leicht. Auch der Freundin, die tatsächlich zugehört hätte.
 
 **Folie 5**
-> Sie begrüßt jede neue Leserin, erzählt in fünf Sätzen, wer du bist, und läuft, während du schläfst.
+> Und dann wunderst du dich, dass niemand merkt, wie es dir geht.
 
-**Folie 6**
-> Eine Stunde Arbeit, einmal. Danach macht sie das jedes Mal für dich, ohne dass du daran denkst.
+**Folie 6 · Bild**
+> Sag es heute einmal anders. Nicht die ganze Wahrheit — nur nicht „gut".
 
 ### Caption Instagram
 
-Meine erste automatische E-Mail habe ich an einem Sonntagnachmittag eingerichtet, zwischen Wäsche und Abendessen. Sie hatte fünf Sätze und ich fand sie ziemlich mager.
+Neulich hat mich eine Freundin auf dem Parkplatz gefragt, wie es mir geht. Ich habe „gut, alles gut" gesagt, bevor die Frage überhaupt zu Ende war.
 
-Zwei Wochen später hat mir eine Frau darauf geantwortet, ausführlich, und geschrieben, sie habe sich zum ersten Mal seit Langem verstanden gefühlt.
+Sie hatte Zeit. Sie hätte zugehört. Ich bin trotzdem ins Auto gestiegen.
 
-Ich hatte an diesem Tag gar nicht gearbeitet.
+Diese Antwort ist keine Lüge, sie ist eine Gewohnheit. Irgendwann hast du gelernt, dass eine ehrliche Antwort mehr Zeit braucht, als die Frage anbietet, und dass die meisten Leute nur fragen, wie man Guten Tag sagt. Also machst du es allen leicht — auch denen, die es ernst gemeint haben.
 
-Die meisten hören nicht am Anfang auf, sondern in Woche drei, wenn die Aufregung weg ist und die Frage bleibt, ob das jemand lesen will. Deshalb fängst du nicht mit einem Newsletter an, sondern mit einer einzigen E-Mail, die von allein rausgeht.
+Und dann wunderst du dich, dass niemand merkt, wie es dir eigentlich geht.
 
-Eine Stunde einmal, und danach begrüßt sie jede neue Leserin für dich.
+Sag es heute einmal anders. Nicht die ganze Wahrheit, nur nicht „gut".
 
-Was würdest du in diesen fünf Sätzen sagen?
+Wem gegenüber wärst du gern ehrlicher?
 
 Monika
 
-#emailmarketing #automatisierung #selbständigemamas #onlinebusiness #mamaalltag
+#einsamkeit #mamaalltag #mentalload #persönlicheentwicklung #selbstfürsorge
 
 ### Caption Facebook
 
-Meine erste automatische E-Mail habe ich an einem Sonntagnachmittag eingerichtet, zwischen Wäsche und Abendessen. Sie hatte fünf Sätze und ich fand sie ziemlich mager. Ich habe sie trotzdem angeschaltet, weil ich zu müde war, um sie noch besser zu machen.
+Neulich hat mich eine Freundin auf dem Parkplatz vor der Schule gefragt, wie es mir geht. Ich habe „gut, alles gut" gesagt, bevor die Frage überhaupt zu Ende war.
 
-Zwei Wochen später hat mir eine Frau darauf geantwortet, ausführlich, und geschrieben, sie habe sich zum ersten Mal seit Langem verstanden gefühlt.
+Sie hatte Zeit. Sie hätte zugehört. Ich bin trotzdem ins Auto gestiegen und weggefahren.
 
-Ich hatte an diesem Tag gar nicht gearbeitet. Das war der Moment, in dem ich verstanden habe, worum es bei dieser ganzen Sache eigentlich geht.
+Diese Antwort ist keine Lüge. Sie ist eine Gewohnheit, und sie hat sich aus etwas Vernünftigem entwickelt: Irgendwann hast du gemerkt, dass eine ehrliche Antwort mehr Zeit braucht, als die Frage anbietet. Die meisten fragen, wie man Guten Tag sagt, zwischen Tür und Angel, und niemand will an der Kasse hören, dass gerade wenig trägt.
 
-Was mich lange aufgehalten hat, war die Vorstellung von einem Newsletter. Ein Newsletter ist eine Verpflichtung, die jede Woche neu bei dir anklopft. Die erste Ausgabe schreibt sich noch gut, weil die Aufregung trägt. Bei der zweiten steht die Frage im Raum, ob das überhaupt jemand lesen will, und bei der dritten kommt das Leben dazwischen. Deshalb hören die meisten nicht am Anfang auf, sondern in Woche drei.
+Also machst du es allen leicht. Das Problem ist nur, dass du irgendwann nicht mehr unterscheidest. Du sagst es auch zu der Freundin, die wirklich gefragt hat, und zu deiner Mutter, und zu deinem Mann. Die Gewohnheit fragt nicht nach, ob gerade jemand Zeit hätte.
 
-Eine automatische Willkommens-E-Mail funktioniert anders herum. Du schreibst sie einmal, an einem einzigen Nachmittag, und danach begrüßt sie jede neue Leserin, ohne dass du je wieder daran denken musst. Sie fragt nicht nach Disziplin, sie fragt nach einer Stunde.
+Und dann sitzt du abends da und denkst, dass niemand merkt, wie es dir geht. Das stimmt sogar. Nur liegt es dann nicht mehr an den anderen.
 
-Fünf Sätze reichen: wer du bist, für wen du da bist, was die Leserin von dir erwarten kann, was du ihr als Erstes mitgeben willst, und eine ehrliche Einladung zu antworten.
+Ich will nicht, dass du jedem alles erzählst. Das wäre anstrengend und auch nicht ehrlicher, nur lauter. Es geht um eine einzige Person und einen einzigen Satz.
 
-Dein Schritt für heute: Schreib diese fünf Sätze auf. Nur aufschreiben, noch nicht einrichten. Das ist die eigentliche Arbeit, der Rest ist Technik.
+Dein Schritt für heute: Wenn dich heute jemand fragt, wie es dir geht, dann sag einmal etwas anderes als „gut". Nicht die ganze Wahrheit — „ehrlich gesagt, gerade ist ziemlich viel" reicht vollkommen.
 
-Was würdest du in diesen fünf Sätzen sagen? Erzähl es mir gern.
+Wem gegenüber wärst du gern ehrlicher? Erzähl es mir gern.
 
 Monika
 
 ## Karussell B — 21:05
 
-**Folie 1** · Label `ANFANG`
-> Die fünf Sätze deiner ersten E-Mail.
+**Folie 1 · Bild** · Label `„GUT"`
+> Wie du antwortest, ohne dich auszuliefern.
 
 **Folie 2**
-> Wer du bist — in einem Satz, ohne Lebenslauf.
+> Such dir eine einzige Person aus. Nicht alle — eine.
 
 **Folie 3**
-> Für wen du da bist. Je enger, desto eher fühlt sich jemand gemeint.
+> Leg dir einen Satz zurecht: „Ehrlich gesagt, gerade ist ziemlich viel."
 
 **Folie 4**
-> Was sie von dir erwarten darf, und wie oft.
+> Das ist genug. Du musst nicht erklären, nicht begründen, nicht auflisten.
 
 **Folie 5**
-> Eine einzige Sache, die sie sofort mitnehmen kann.
+> Und wenn sie nachfragt, darfst du auch sagen: erzähl ich dir ein andermal.
 
-**Folie 6**
-> Und die Einladung zu antworten. Die meisten trauen sich nur, wenn man es hinschreibt.
+**Folie 6 · Bild**
+> Nähe entsteht nicht durch ganze Geschichten. Sie entsteht durch einen ehrlichen Satz.
 
 ### Caption (Instagram und Facebook identisch)
 
-Die erste automatische E-Mail ist keine große Sache, sobald du aufhörst, sie dir als Newsletter vorzustellen — sie braucht fünf Sätze und eine Stunde, nicht ein Konzept.
+„Gut" ist keine Lüge, sondern eine Gewohnheit — du hast irgendwann gelernt, dass eine ehrliche Antwort mehr Zeit braucht, als die Frage anbietet, und seitdem antwortest du auch denen so, die tatsächlich zugehört hätten.
 
-Schreib zuerst in einem Satz, wer du bist, ohne halben Lebenslauf, denn niemand hat dich nach deinem Werdegang gefragt. Sag dann, für wen du da bist, und mach es dabei ruhig eng, weil sich sonst niemand gemeint fühlt. Nimm den dritten Satz für das, was sie von dir erwarten darf und wie oft, damit sie weiß, worauf sie sich einlässt. Gib ihr im vierten eine einzige Sache mit, die sie heute schon anwenden kann. Und lad sie im fünften ausdrücklich ein zu antworten, denn die meisten trauen sich nur, wenn es dasteht.
+Such dir deshalb eine einzige Person aus, nicht alle, denn es geht nicht darum, offener zu werden, sondern irgendwo überhaupt ehrlich zu sein. Leg dir dafür einen Satz zurecht, zum Beispiel „ehrlich gesagt, gerade ist ziemlich viel", und lass es dabei bewenden — du musst nichts erklären, nichts begründen und nichts auflisten. Und wenn sie nachfragt und du gerade nicht kannst, dann darfst du sagen, dass du ihr das ein andermal erzählst.
 
-💾 Speichere dir diesen Beitrag und schreib die fünf Sätze heute Abend
-📤 Teile ihn mit einer Freundin, die seit Monaten „irgendwann mal einen Newsletter" anfangen will
-💬 Kommentiere: Was wäre dein erster Satz?
+Nähe entsteht selten durch ganze Geschichten. Meistens durch einen einzigen ehrlichen Satz.
 
-#emailsmitmonika #emailmarketing #automatisierung #mamaleben #selbständigemamas
+💾 Speichere dir diesen Beitrag und leg dir deinen Satz zurecht
+📤 Teile ihn mit einer Freundin, von der du auch immer nur „gut" hörst
+💬 Kommentiere: Wem gegenüber wärst du gern ehrlicher?
+
+#emailsmitmonika #einsamkeit #mamaleben #selbstfürsorge #grenzensetzen
 
 ## Stories
 
 **21:15 — Folie 1**
-> Warum die zweite E-Mail schwerer ist als die erste.
+> „Wie geht's dir?" — „Gut."
 
 **21:18 — Folie 2**
-> Fünf Sätze, die für dich arbeiten.
+> Ein Satz, der ehrlicher ist.
 
 ---
 
-# Freitag, 28.08. — TECHNIK
+# Freitag, 28.08. — HILFE
 
 ## Karussell A — 21:00
 
-**Folie 1** · Label `TECHNIK`
-> „Ich bin technisch nicht begabt" ist kein Charakterzug. Es ist die Erinnerung an einen Nachmittag, an dem dir niemand geholfen hat.
+**Folie 1 · Bild** · Label `HILFE`
+> „Lass, ich mach das schon" ist der teuerste Satz in deinem Alltag.
 
 **Folie 2**
-> Irgendwann saßt du vor einem Programm, das dich hat dumm dastehen lassen, und niemand war da.
+> Du sagst ihn, weil Erklären länger dauert als Machen. Das stimmt sogar — einmal.
 
 **Folie 3**
-> Seitdem meidest du diese Aufgaben. Nicht aus Unfähigkeit, sondern weil sich das Gefühl von damals sofort meldet.
+> Beim zwanzigsten Mal hast du nicht Zeit gespart. Du hast dafür gesorgt, dass es niemand kann außer dir.
 
 **Folie 4**
-> Nur hängt inzwischen dein Business daran. Und die Aufgabe wächst, solange du sie schiebst.
+> Und dann bist du diejenige, die alles weiß, und wunderst dich, dass niemand von allein hilft.
 
 **Folie 5**
-> Der Ausweg ist nicht mehr Mut, sondern eine kleinere Aufgabe. Nicht „E-Mail-System aufbauen", sondern „Konto anlegen".
+> Hilfe annehmen heißt aushalten, dass es anders gemacht wird als von dir. Das ist der eigentliche Preis.
 
-**Folie 6**
-> Nimm dir heute zwanzig Minuten und einen einzigen Schritt. Mehr ist nicht dran.
+**Folie 6 · Bild**
+> Gib heute eine Sache ab und schau weg, während sie erledigt wird.
 
 ### Caption Instagram
 
-Vor ein paar Jahren habe ich einen ganzen Samstagvormittag damit verbracht, ein Formular auf meiner Seite einzubauen. Am Ende stand es schief und ich habe geheult, was für ein Formular ziemlich viel ist.
+Am Sonntag wollte mein Mann die Spülmaschine ausräumen. Ich habe „lass, ich mach das schon" gesagt, ohne nachzudenken, weil ich weiß, wo alles hingehört und er es jedes Mal anders einräumt.
 
-Was mich fertiggemacht hat, war nicht die Technik. Es war das Gefühl, dass offenbar alle anderen das können.
+Zehn Minuten später stand ich allein in der Küche und war sauer, dass ich alles allein mache.
 
-„Ich bin technisch nicht begabt" ist kein Charakterzug, sondern die Erinnerung an einen Nachmittag, an dem dir niemand geholfen hat. Seitdem meldet sich dieses Gefühl sofort, sobald es technisch wird, und du schiebst die Aufgabe.
+Der Satz kostet mehr, als er einbringt. Du sagst ihn, weil Erklären länger dauert als Machen, und beim ersten Mal stimmt das auch. Beim zwanzigsten Mal hast du keine Zeit gespart, sondern dafür gesorgt, dass es niemand kann außer dir.
 
-Nur wächst sie dabei. Der Ausweg ist keine größere Portion Mut, sondern eine kleinere Aufgabe: nicht das ganze System, sondern der erste Schritt. Zwanzig Minuten, ein Schritt, dann Schluss für heute.
+Hilfe annehmen heißt aushalten, dass es anders gemacht wird als von dir. Das ist der eigentliche Preis, nicht das Bitten.
 
-Was schiebst du gerade vor dir her?
+Gib heute eine Sache ab und schau weg, während sie erledigt wird.
+
+Was machst du gerade nur deshalb selbst, weil es schneller geht?
 
 Monika
 
-#technikangst #selbständigemamas #onlinebusiness #mamaalltag #erschöpfung
+#mentalload #mamaalltag #grenzensetzen #erschöpfung #persönlicheentwicklung
 
 ### Caption Facebook
 
-Vor ein paar Jahren habe ich einen ganzen Samstagvormittag damit verbracht, ein Formular auf meiner Seite einzubauen. Am Ende stand es schief, ich habe geheult, und für ein Formular ist das ziemlich viel.
+Am Sonntag wollte mein Mann die Spülmaschine ausräumen. Ich habe „lass, ich mach das schon" gesagt, ohne eine Sekunde nachzudenken, weil ich weiß, wo alles hingehört, und er die Schüsseln jedes Mal ins falsche Fach stellt.
 
-Was mich fertiggemacht hat, war nicht die Technik. Es war das Gefühl, dass offenbar alle anderen das können und ich die Einzige bin, die davor sitzt und nicht weiterkommt.
+Zehn Minuten später stand ich allein in der Küche und war sauer, dass ich hier eigentlich alles allein mache.
 
-Ich höre den Satz „ich bin technisch nicht begabt" fast in jedem Gespräch. Und ich glaube inzwischen, dass er selten stimmt. Er ist keine Beschreibung deiner Fähigkeiten, sondern die Erinnerung an einen bestimmten Nachmittag: Du saßt vor einem Programm, das dich hat dumm dastehen lassen, niemand hat geholfen, und du bist mit dem Gefühl aufgestanden, zu blöd dafür zu sein.
+Dieser Satz ist der teuerste in meinem Alltag, und ich sage ihn immer noch mehrmals in der Woche.
 
-Dieses Gefühl meldet sich seitdem sofort, sobald etwas technisch aussieht. Und weil niemand freiwillig dorthin zurückgeht, schiebst du die Aufgabe. Das ist verständlich, und es wäre auch egal, wenn nicht inzwischen dein Business daran hinge.
+Die Rechnung dahinter klingt vernünftig: Erklären dauert länger als Machen. Beim ersten Mal stimmt das sogar. Beim zwanzigsten Mal hast du keine Zeit mehr gespart, sondern eine Zuständigkeit gebaut. Du bist die Einzige, die weiß, wann die Sportsachen gewaschen sein müssen, welches Kind welche Zahnpasta will und wann der Elternabend ist. Nicht weil dich jemand dazu gemacht hat, sondern weil du es jedes Mal schneller selbst erledigt hast.
 
-Das Unangenehme ist: Geschobene Aufgaben werden nicht kleiner. Sie wachsen, weil sich um sie herum noch ein schlechtes Gewissen sammelt.
+Und dann kommt der Teil, der wirklich unfair ist: Du wunderst dich, dass niemand von allein hilft. Aber jemand, der zwanzigmal gehört hat „lass, ich mach das schon", fragt beim einundzwanzigsten Mal nicht mehr.
 
-Was mir geholfen hat, war nicht mehr Mut. Es war eine kleinere Aufgabe. Nicht „ein E-Mail-System aufbauen", sondern „ein Konto anlegen". Nicht „die Willkommensmail einrichten", sondern „den ersten Satz tippen". Kleine Aufgaben lösen das alte Gefühl nicht aus, weil sie zu klein sind, um daran zu scheitern.
+Was mir am schwersten fällt, ist nicht das Bitten. Es ist das Zusehen. Hilfe annehmen heißt aushalten, dass es anders gemacht wird als von dir — langsamer, schlampiger, mit den Schüsseln im falschen Fach. Wer die Aufgabe abgibt und dann danebensteht und korrigiert, hat sie nicht abgegeben.
 
-Dein Schritt für heute: Nimm dir zwanzig Minuten und einen einzigen Schritt von dem, was du seit Wochen schiebst. Wenn die zwanzig Minuten um sind, hörst du auf, auch wenn es gerade läuft.
+Dein Schritt für heute: Gib eine Sache ab und geh dabei aus dem Raum. Nicht kontrollieren, nicht nachbessern, nicht kommentieren. Aus dem Raum.
 
-Was schiebst du gerade vor dir her? Erzähl es mir gern.
+Was machst du gerade nur deshalb selbst, weil es schneller geht? Erzähl es mir gern.
 
 Monika
 
 ## Karussell B — 21:05
 
-**Folie 1** · Label `TECHNIK`
-> Wie du eine Aufgabe klein genug machst, dass du sie anfängst.
+**Folie 1 · Bild** · Label `HILFE`
+> So gibst du etwas ab, ohne es zurückzuholen.
 
 **Folie 2**
-> Schreib auf, was du eigentlich vorhast. Meistens sind es in Wahrheit sechs Aufgaben, nicht eine.
+> Such eine Aufgabe, bei der es egal ist, wie sie gemacht wird. Damit fängt man an, nicht mit dem Wichtigen.
 
 **Folie 3**
-> Nimm die erste davon und halbiere sie noch einmal. „Konto anlegen" statt „System aufbauen".
+> Gib sie ganz ab, samt Entscheidung. Halbe Aufgaben kommen zurück.
 
 **Folie 4**
-> Stell einen Wecker auf zwanzig Minuten. Wenn er klingelt, hörst du auf — auch wenn es läuft.
+> Verlass den Raum. Zusehen ist Kontrolle, auch schweigend.
 
 **Folie 5**
-> Aufhören, während es läuft, ist der Trick. So bleibt der nächste Anfang leicht.
+> Und sag danach nichts. Kein „danke, aber". Das „aber" macht die Übergabe rückgängig.
 
-**Folie 6**
-> Nach vier solchen Vormittagen steht das, wovor du ein halbes Jahr Respekt hattest.
+**Folie 6 · Bild**
+> Beim dritten Mal ist es nicht mehr deine Aufgabe. Vorher gibst du nicht auf.
 
 ### Caption (Instagram und Facebook identisch)
 
-Der Satz „ich bin technisch nicht begabt" beschreibt selten deine Fähigkeiten und fast immer einen Nachmittag, an dem dir niemand geholfen hat — und dagegen hilft keine Motivation, sondern eine kleinere Aufgabe.
+„Lass, ich mach das schon" spart einmal Zeit und baut beim zwanzigsten Mal eine Zuständigkeit, aus der du allein nicht mehr herauskommst — und der schwerste Teil beim Abgeben ist nicht das Bitten, sondern das Zusehen.
 
-Schreib deshalb erst einmal auf, was du eigentlich vorhast, denn was sich wie eine Aufgabe anfühlt, sind meistens sechs. Nimm dann die allererste davon und halbiere sie noch einmal, bis dasteht „Konto anlegen" statt „E-Mail-System aufbauen", weil an einer so kleinen Aufgabe niemand scheitert. Und stell dir einen Wecker auf zwanzig Minuten, nach denen du aufhörst, selbst wenn es gerade gut läuft — gerade dann, denn so bleibt der nächste Anfang leicht.
+Such dir deshalb eine Aufgabe, bei der es wirklich egal ist, wie sie gemacht wird, denn mit dem Wichtigen fängt niemand erfolgreich an. Gib sie dann ganz ab, samt der Entscheidungen, die dazugehören, weil halbe Aufgaben zuverlässig zu dir zurückkommen. Und verlass den Raum, während sie erledigt wird, denn Zusehen ist auch dann Kontrolle, wenn du nichts sagst.
 
-Nach vier solchen Vormittagen steht das, wovor du ein halbes Jahr lang Respekt hattest.
+Sag hinterher nichts weiter dazu. Kein „danke, aber" — das „aber" macht die ganze Übergabe rückgängig. Beim dritten Mal ist es nicht mehr deine Aufgabe, vorher gibst du nicht auf.
 
-💾 Speichere dir diesen Beitrag für den nächsten Vormittag, an dem du es angehen willst
-📤 Teile ihn mit einer Freundin, die auch glaubt, sie sei zu blöd für Technik
-💬 Kommentiere: Was schiebst du gerade vor dir her?
+💾 Speichere dir diesen Beitrag für das nächste Mal, wenn dir „lass, ich mach das" rausrutscht
+📤 Teile ihn mit einer Freundin, die auch alles selbst macht und sich darüber ärgert
+💬 Kommentiere: Was machst du nur deshalb selbst, weil es schneller geht?
 
-#emailsmitmonika #technikangst #selbständigemamas #mamaleben #onlinebusiness
+#emailsmitmonika #mentalload #mamaleben #grenzensetzen #selbstfürsorge
 
 ## Stories
 
 **21:15 — Folie 1**
-> „Ich kann das nicht" kommt selten aus dem Heute.
+> „Lass, ich mach das schon."
 
 **21:18 — Folie 2**
-> Zwanzig Minuten, ein Schritt.
+> Was dieser Satz dich wirklich kostet.
 
 ---
 
-# Samstag, 29.08. — KRANKES KIND
+# Samstag, 29.08. — EINSAM
 
 ## Karussell A — 21:00
 
-**Folie 1** · Label `KRANKES KIND`
-> Der Anruf aus der Schule kommt immer an dem Tag, an dem du am wenigsten Luft hast.
+**Folie 1 · Bild** · Label `EINSAM`
+> Du bist nie allein und trotzdem einsam. Beides gleichzeitig ist möglich.
 
 **Folie 2**
-> Du sagst zu, packst zusammen, fährst los. Und im Auto rechnest du schon, was diese Woche jetzt kostet.
+> Den ganzen Tag redet jemand mit dir. Nur redet niemand mit dir über dich.
 
 **Folie 3**
-> Dieses Rechnen ist das eigentliche Problem. Nicht das kranke Kind.
+> Gebraucht werden und gemeint sein sind zwei verschiedene Dinge.
 
 **Folie 4**
-> Ein Business, das nur mit dir funktioniert, macht jede Krankheit doppelt teuer.
+> Deshalb hilft mehr Gesellschaft nicht. Du hast reichlich davon.
 
 **Folie 5**
-> Es geht nicht darum, mehr zu schaffen. Es geht darum, dass ein Teil weiterläuft, wenn du aussteigst.
+> Was fehlt, ist ein Mensch, dem du nichts erklären musst.
 
-**Folie 6**
-> Genau dafür ist ein E-Mail-System da: Es verkauft weiter, während du auf dem Sofa sitzt und Tee kochst.
+**Folie 6 · Bild**
+> Schreib heute einer Person, an die du oft denkst und der du selten schreibst.
 
 ### Caption Instagram
 
-Im März hat die Schule um zwanzig nach neun angerufen. Ich saß mitten in der Arbeit, habe zugesagt, zusammengepackt und bin los.
+Am Samstag war das Haus voll. Kinder, Besuch, jemand hat Musik angemacht, in der Küche wurde geredet.
 
-Auf der Fahrt habe ich nicht an mein Kind gedacht, sondern gerechnet. Welcher Termin fällt weg, was verschiebe ich, was kostet mich das.
+Abends beim Aufräumen habe ich gemerkt, dass den ganzen Tag niemand mit mir über mich gesprochen hat.
 
-An der Ampel ist mir aufgefallen, wie falsch das ist.
+Das ist der Teil, den ich lange nicht benennen konnte. Du bist nie allein und trotzdem einsam, und beides gleichzeitig ist möglich. Den ganzen Tag redet jemand mit dir — nur geht es dabei um Termine, Essen, Hausaufgaben und darum, wo die blaue Jacke ist.
 
-Das Rechnen ist das eigentliche Problem, nicht das kranke Kind. Ein Business, das ausschließlich mit dir funktioniert, macht jeden Ausfall doppelt teuer — einmal in Zeit und einmal im Kopf.
+Gebraucht werden und gemeint sein sind zwei verschiedene Dinge. Deshalb hilft mehr Gesellschaft nicht, davon hast du reichlich. Was fehlt, ist ein Mensch, dem du nichts erklären musst.
 
-Es geht nicht darum, mehr zu schaffen. Es geht darum, dass ein Teil weiterläuft, wenn du aussteigst. Genau das kann ein E-Mail-System für dich tun.
+Schreib heute einer Person, an die du oft denkst und der du selten schreibst.
 
-Wann hat dich zuletzt ein Anruf aus der Schule erwischt?
+Wann hat dich zuletzt jemand nach dir gefragt?
 
 Monika
 
-#krankeskind #selbständigemamas #mamaalltag #onlinebusiness #automatisierung
+#einsamkeit #mamaalltag #freundschaft #selbstfürsorge #persönlicheentwicklung
 
 ### Caption Facebook
 
-Im März hat die Schule um zwanzig nach neun angerufen. Ich saß mitten in der Arbeit, habe zugesagt, zusammengepackt und bin los.
+Am Samstag war das Haus voll. Kinder, Besuch, jemand hat Musik angemacht, in der Küche wurde durcheinandergeredet. Ein guter Tag.
 
-Auf der Fahrt habe ich nicht an mein Kind gedacht, sondern gerechnet. Welcher Termin fällt weg, was verschiebe ich, wen muss ich absagen, was kostet mich dieser Vormittag.
+Abends beim Aufräumen ist mir aufgefallen, dass den ganzen Tag niemand mit mir über mich gesprochen hat.
 
-An einer roten Ampel ist mir aufgefallen, wie falsch das ist. Nicht falsch von mir — falsch aufgebaut.
+Das ist der Teil, den ich lange nicht benennen konnte, weil er sich falsch anfühlt. Wie kann man einsam sein, wenn ständig jemand da ist? Man kann. Beides gleichzeitig ist möglich, und ich glaube, für viele Mütter ist es sogar der Normalzustand.
 
-Denn dieses Rechnen ist ja keine Charakterschwäche. Es ist die logische Reaktion auf ein Business, in dem jede Stunde, die du nicht arbeitest, sofort fehlt. Wer so aufgestellt ist, rechnet automatisch, auch wenn das Kind neben einem auf dem Beifahrersitz sitzt und Halsschmerzen hat.
+Den ganzen Tag redet jemand mit dir. Nur geht es dabei um Termine, ums Essen, um Hausaufgaben und darum, wo die blaue Jacke ist. Das sind alles echte Gespräche, aber sie handeln von Organisation. Am Ende weißt du über alle Bescheid und niemand über dich.
 
-Ein Business, das ausschließlich mit dir funktioniert, macht jeden Ausfall doppelt teuer. Einmal in Zeit, die du nachholen musst. Und einmal im Kopf, weil du selbst am Krankenbett noch arbeitest, ohne zu arbeiten.
+Gebraucht werden und gemeint sein sind zwei verschiedene Dinge. Deshalb hilft mehr Gesellschaft auch nicht — davon hast du reichlich. Was fehlt, ist ein Mensch, dem du nichts erklären musst, weil er die Vorgeschichte schon kennt.
 
-Ich habe lange gedacht, die Lösung sei bessere Planung. Mehr Puffer, klarere Wochen, früher aufstehen. Das hat nichts gebracht, weil das Problem nicht die Planung war.
+Und der schwierige Teil daran: Solche Verbindungen verschwinden nicht durch Streit, sondern durch Verschieben. Man meldet sich nicht, weil gerade viel ist, und irgendwann ist so viel Zeit vergangen, dass sich das Melden komisch anfühlt. Dabei wartet auf der anderen Seite oft jemand mit genau demselben Gedanken.
 
-Es geht nicht darum, mehr zu schaffen. Es geht darum, dass ein Teil deines Business weiterläuft, wenn du aussteigst. Dass jemand deine Willkommensmail bekommt, während du Tee kochst. Dass jemand dein Angebot findet und versteht, während du im Wartezimmer sitzt. Das ist der ganze Unterschied, und er ist größer, als er klingt.
+Dein Schritt für heute: Schreib einer Person, an die du oft denkst und der du selten schreibst. Zwei Sätze genügen, es muss kein Anlass her.
 
-Dein Schritt für heute: Denk an den letzten Tag, an dem du kurzfristig ausgefallen bist, und schreib auf, was in diesen Stunden trotzdem weitergelaufen ist. Was auf dem Blatt steht, ist dein Fundament. Der leere Platz daneben ist deine nächste Aufgabe.
-
-Wann hat dich zuletzt so ein Anruf erwischt? Erzähl es mir gern.
+Wann hat dich zuletzt jemand nach dir gefragt? Erzähl es mir gern.
 
 Monika
 
 ## Karussell B — 21:05
 
-**Folie 1** · Label `KRANKES KIND`
-> Was an einem Ausfalltag trotzdem weiterlaufen kann.
+**Folie 1 · Bild** · Label `EINSAM`
+> Wie Nähe zurückkommt, ohne dass du Zeit hast.
 
 **Folie 2**
-> Die Willkommensmail begrüßt jede Neue, ohne dass du am Handy bist.
+> Schreib zwei Sätze statt einer langen Nachricht. Lange Nachrichten schreibt man nie.
 
 **Folie 3**
-> Deine Anmeldeseite sammelt weiter Adressen, auch aus dem Wartezimmer heraus.
+> Lass den Anlass weg. „Ich musste an dich denken" ist Anlass genug.
 
 **Folie 4**
-> Ein Angebot, das man ohne Gespräch versteht, verkauft auch ohne dich.
+> Sprich eine Sprachnachricht, wenn Tippen zu lange dauert. Beim Wäscheaufhängen geht das.
 
 **Folie 5**
-> Nichts davon ersetzt dich. Es überbrückt nur die Tage, an denen du nicht kannst.
+> Und verabrede etwas, das du sowieso tust. Zusammen einkaufen zählt auch.
 
-**Folie 6**
-> Schreib auf, was beim letzten Ausfall weiterlief. Der leere Platz daneben ist deine nächste Aufgabe.
+**Folie 6 · Bild**
+> Es fehlt dir keine Zeit für Freundschaft. Es fehlt der Anfang.
 
 ### Caption (Instagram und Facebook identisch)
 
-Der Anruf aus der Schule kommt immer am falschen Tag, und das Schlimme daran ist nicht der Weg zum Kind, sondern das Rechnen im Auto — das hört erst auf, wenn ein Teil deines Business ohne dich weitermacht.
+Man kann nie allein und trotzdem einsam sein, denn den ganzen Tag redet jemand mit dir — nur geht es dabei um Termine, Essen und die blaue Jacke, und am Ende weißt du über alle Bescheid und niemand über dich.
 
-Sorg deshalb dafür, dass deine Willkommensmail jede neue Leserin begrüßt, auch wenn dein Handy den ganzen Vormittag in der Tasche bleibt. Lass deine Anmeldeseite weiter Adressen sammeln, denn die arbeitet auch aus dem Wartezimmer heraus für dich. Und formulier dein Angebot so, dass man es ohne Gespräch versteht, weil jedes nötige Gespräch wieder an deiner Anwesenheit hängt.
+Schreib deshalb zwei Sätze statt der langen Nachricht, die du dir vornimmst, denn lange Nachrichten schreibt man nie und kurze kommen tatsächlich an. Lass den Anlass weg, „ich musste gerade an dich denken" ist vollkommen ausreichend, und warte nicht auf einen Geburtstag. Sprich eine Sprachnachricht, wenn Tippen zu lange dauert, das geht auch beim Wäscheaufhängen. Und verabrede etwas, das du ohnehin tust — zusammen einkaufen zählt genauso wie ein Kaffee, für den ihr beide keine Zeit habt.
 
-Nichts davon ersetzt dich. Es überbrückt die Tage, an denen du nicht kannst, und genau darum geht es.
+Dir fehlt keine Zeit für Freundschaft. Dir fehlt der Anfang.
 
-💾 Speichere dir diesen Beitrag für den nächsten Anruf aus der Schule
-📤 Teile ihn mit einer Freundin, die auch im Auto rechnet statt zu atmen
-💬 Kommentiere: Wann hat dich zuletzt so ein Anruf erwischt?
+💾 Speichere dir diesen Beitrag und schreib gleich diese zwei Sätze
+📤 Teile ihn mit der Person, an die du dabei gedacht hast
+💬 Kommentiere: Wann hat dich zuletzt jemand nach dir gefragt?
 
-#emailsmitmonika #krankeskind #selbständigemamas #mamaleben #automatisierung
+#emailsmitmonika #einsamkeit #freundschaft #mamaleben #selbstfürsorge
 
 ## Stories
 
 **21:15 — Folie 1**
-> Der Anruf kommt immer am falschen Tag.
+> Nie allein und trotzdem einsam.
 
 **21:18 — Folie 2**
-> Was weiterläuft, wenn du aussteigst.
+> Zwei Sätze reichen.
 
 ---
 
-# Sonntag, 30.08. — DER ERSTE SCHRITT
+# Sonntag, 30.08. — VORBILD
 
 ## Karussell A — 21:00
 
-**Folie 1** · Label `DER ERSTE SCHRITT`
-> Sonntagabend brauchst du keinen Plan für die ganze Woche. Du brauchst eine Sache für Montag.
+**Folie 1 · Bild** · Label `VORBILD`
+> Dein Kind hört nicht zu, wie du redest. Es schaut zu, wie du mit dir selbst umgehst.
 
 **Folie 2**
-> Die großen Vorsätze halten bis Dienstag. Danach kommt das Leben und räumt sie ab.
+> Du sagst ihm, es soll auf sich achten. Und isst im Stehen, während du die Brote schmierst.
 
 **Folie 3**
-> Eine einzige Sache dagegen überlebt einen schlechten Tag.
+> Du sagst, Fehler seien in Ordnung. Und ärgerst dich abends noch über deinen eigenen.
 
 **Folie 4**
-> Für diese Woche wäre das: eine Möglichkeit schaffen, dass dir jemand seine E-Mail-Adresse hinterlassen kann.
+> Kinder lernen nicht den Satz. Sie lernen, was die Erwachsene daneben tatsächlich tut.
 
 **Folie 5**
-> Nicht schön, nicht fertig, nicht perfekt. Nur vorhanden.
+> Das ist kein Vorwurf. Es ist der Grund, warum Selbstfürsorge nicht egoistisch ist.
 
-**Folie 6**
-> Alles Weitere kommt danach. Aber ohne diesen ersten Schritt kommt gar nichts.
+**Folie 6 · Bild**
+> Mach heute eine Sache gut zu dir, während jemand zusieht.
 
 ### Caption Instagram
 
-Sonntagabends habe ich jahrelang Pläne für die ganze Woche gemacht. Sie waren gut, ich war stolz, und mittwochs lagen sie unter einem Stapel anderer Dinge.
+Meine Tochter hat neulich gesagt, sie habe keine Zeit für Frühstück. Sie ist zehn.
 
-Irgendwann habe ich angefangen, mir nur noch eine Sache für Montag vorzunehmen. Seitdem passiert tatsächlich etwas.
+Ich wollte gerade etwas erwidern und habe dann gemerkt, dass ich seit Jahren im Stehen esse, während ich die Brote schmiere.
 
-Die großen Vorsätze halten bis Dienstag, dann kommt das Leben. Eine einzige Sache dagegen übersteht einen schlechten Tag, weil sie klein genug ist.
+Kinder hören nicht zu, wie wir reden. Sie schauen zu, wie wir mit uns selbst umgehen. Du sagst ihnen, sie sollen auf sich achten, und lässt dein eigenes Essen stehen. Du sagst, Fehler seien in Ordnung, und ärgerst dich abends noch über deinen.
 
-Für diese Woche wäre meine: eine Möglichkeit schaffen, dass dir jemand seine E-Mail-Adresse dalassen kann. Nicht schön, nicht fertig — nur vorhanden.
+Das ist kein Vorwurf, ich mache es ja genauso. Es ist der Grund, warum Selbstfürsorge nicht egoistisch ist. Was du dir erlaubst, erlaubt sich dein Kind später auch — und was du dir verbietest, eben nicht.
 
-Wenn du dabei nicht weißt, wo du anfangen sollst, habe ich dir einen kostenlosen Starter-Guide geschrieben, der genau diesen ersten Schritt erklärt. Er steht in meinem Profil.
+Mach heute eine Sache gut zu dir, während jemand zusieht.
 
-Was nimmst du dir für morgen vor?
+Was möchtest du, dass dein Kind sich später erlaubt?
 
 Monika
 
-#emailmarketing #selbständigemamas #neuewoche #onlinebusiness #mamaalltag
+#vorbild #mamaalltag #selbstfürsorge #persönlicheentwicklung #mentalload
 
 ### Caption Facebook
 
-Sonntagabends habe ich jahrelang Pläne für die ganze Woche gemacht. Sie waren gut, ich war stolz beim Aufschreiben, und mittwochs lagen sie unter einem Stapel anderer Dinge.
+Meine Tochter hat neulich morgens gesagt, sie habe keine Zeit für Frühstück. Sie ist zehn.
 
-Irgendwann habe ich angefangen, mir nur noch eine Sache für Montag vorzunehmen. Seitdem passiert tatsächlich etwas.
+Ich wollte gerade etwas Vernünftiges erwidern und habe im selben Moment gemerkt, dass ich seit Jahren im Stehen esse, während ich die Brote schmiere. Meistens den Rest von ihrem Brot.
 
-Der Grund ist ziemlich banal: Ein Wochenplan setzt voraus, dass die Woche so läuft, wie du sie dir am Sonntag ausgedacht hast. Das tut sie nie. Es wird jemand krank, ein Termin verschiebt sich, ein Tag geht verloren — und ab da ist der ganze Plan hinfällig, nicht nur der eine Punkt. Deshalb halten die großen Vorsätze bis Dienstag.
+Wir reden viel mit unseren Kindern. Über Pausen, über Grenzen, darüber, dass man nicht alles schaffen muss und dass Fehler dazugehören. Das sind gute Sätze und ich glaube auch, dass sie ankommen. Nur nicht als Anleitung.
 
-Eine einzige Sache übersteht einen schlechten Tag. Sie wandert einfach auf morgen und bleibt dabei ganz.
+Kinder lernen nicht den Satz. Sie lernen, was die Erwachsene daneben tatsächlich tut. Du kannst hundertmal sagen, dass man auf sich achten soll — was hängen bleibt, ist die Mutter, die als Letzte isst, sich selten hinsetzt und sich abends noch über einen Fehler von morgens ärgert.
 
-Wenn du diese Woche in deinem Business eine Sache angehen willst, dann diese: Schaff eine Möglichkeit, dass dir jemand seine E-Mail-Adresse dalassen kann. Nicht die perfekte Seite, nicht das durchdachte Freebie, nicht das fertige Konzept. Nur einen Ort, an dem eine Adresse landen kann.
+Das ist kein Vorwurf, ich mache es genauso, und ich merke es meistens erst hinterher. Aber es ist der Grund, warum ich aufgehört habe, Selbstfürsorge für Egoismus zu halten. Was du dir erlaubst, erlaubt sich dein Kind später auch. Und was du dir konsequent verbietest, verbietet es sich mit ziemlicher Wahrscheinlichkeit ebenfalls.
 
-Denn alles, worüber ich diese Woche geschrieben habe — dass Reichweite geliehen ist, dass dein Business ohne dich stillsteht, dass der Anruf aus der Schule immer am falschen Tag kommt — hängt an diesem einen Schritt. Ohne ihn bleibt jeder weitere theoretisch.
+Das ist beruhigend und unbequem zugleich. Beruhigend, weil du nichts extra machen musst — es reicht, dich selbst anständig zu behandeln. Unbequem, weil es sich nicht delegieren lässt.
 
-Falls du nicht weißt, wo du anfangen sollst: Ich habe einen kostenlosen Starter-Guide geschrieben, der genau diesen ersten Schritt erklärt, Schritt für Schritt und ohne Vorwissen. Du findest ihn in meinem Profil.
+Dein Schritt für heute: Mach eine einzige Sache gut zu dir, während jemand zusieht. Setz dich zum Essen hin. Sag laut, dass du jetzt zehn Minuten Pause machst. Nicht heimlich — sichtbar.
 
-Dein Schritt für heute: Leg fest, wann morgen die zwanzig Minuten dafür sind. Nicht was du machst — wann.
-
-Was nimmst du dir für morgen vor? Erzähl es mir gern.
+Was möchtest du, dass dein Kind sich später erlaubt? Erzähl es mir gern.
 
 Monika
 
 ## Karussell B — 21:05
 
-**Folie 1** · Label `DER ERSTE SCHRITT`
-> Zwanzig Minuten am Montag, und der Anfang steht.
+**Folie 1 · Bild** · Label `VORBILD`
+> Vier Sätze, die dein Kind mitnimmt, wenn es sie von dir hört.
 
 **Folie 2**
-> Leg zuerst die Uhrzeit fest, nicht die Aufgabe. Eine Uhrzeit kann man einhalten.
+> „Ich mache jetzt zehn Minuten Pause." Laut gesagt, nicht heimlich genommen.
 
 **Folie 3**
-> Such ein Thema, zu dem man dich ohnehin schon fragt.
+> „Das war mein Fehler, und das ist in Ordnung." Ohne den Nachsatz, wie ärgerlich es ist.
 
 **Folie 4**
-> Schreib die Antwort auf eine Seite. Eine reicht.
+> „Ich setze mich zum Essen hin." Auch wenn es nur fünf Minuten sind.
 
 **Folie 5**
-> Häng eine Anmeldung dran und setz den Link ins Profil.
+> „Ich schaffe das heute nicht mehr." Kinder dürfen sehen, dass Erwachsene Grenzen haben.
 
-**Folie 6**
-> Danach ist Schluss für heute. Der Rest ist nächste Woche dran.
+**Folie 6 · Bild**
+> Du musst nichts zusätzlich tun. Es reicht, dass es jemand sieht.
 
 ### Caption (Instagram und Facebook identisch)
 
-Am Sonntagabend hilft dir kein Plan für die ganze Woche, sondern eine einzige Sache für Montag — denn die übersteht auch einen Tag, an dem alles dazwischenkommt.
+Kinder hören nicht zu, wie wir reden, sie schauen zu, wie wir mit uns selbst umgehen — und deshalb ist Selbstfürsorge kein Egoismus, sondern das Einzige, was sich in dieser Sache überhaupt weitergeben lässt.
 
-Leg dafür zuerst die Uhrzeit fest und nicht die Aufgabe, weil eine Uhrzeit etwas ist, das man einhalten kann, ein Vorsatz dagegen nicht. Such dir dann ein Thema, zu dem man dich ohnehin schon fragt, und schreib die Antwort auf eine einzige Seite, denn mehr liest niemand und mehr schaffst du am Montag auch nicht. Häng zum Schluss eine Anmeldung dran und setz den Link in dein Profil — danach ist wirklich Schluss, alles Weitere ist nächste Woche dran.
+Sag deshalb laut, wenn du zehn Minuten Pause machst, statt sie dir heimlich zu nehmen, denn nur die ausgesprochene Pause wird zum Beispiel. Sag bei einem Fehler „das war meiner, und das ist in Ordnung", und lass den Nachsatz weg, wie sehr dich das ärgert. Setz dich zum Essen hin, auch wenn es fünf Minuten sind, denn im Stehen essen lernt sich schneller, als man denkt. Und sag ruhig einmal, dass du etwas heute nicht mehr schaffst — Kinder dürfen sehen, dass Erwachsene Grenzen haben.
 
-💾 Speichere dir diesen Beitrag für morgen früh
-📤 Teile ihn mit einer Freundin, deren Sonntagspläne auch nur bis Dienstag halten
-💬 Kommentiere: Wann sind bei dir morgen die zwanzig Minuten?
+Du musst nichts zusätzlich tun. Es reicht, dass es jemand sieht.
 
-#emailsmitmonika #emailmarketing #neuewoche #mamaleben #selbständigemamas
+💾 Speichere dir diesen Beitrag für morgen früh in der Küche
+📤 Teile ihn mit einer Freundin, die auch als Letzte isst
+💬 Kommentiere: Was möchtest du, dass dein Kind sich später erlaubt?
+
+#emailsmitmonika #vorbild #mamaleben #selbstfürsorge #persönlicheentwicklung
 
 ## Stories
 
 **21:15 — Folie 1**
-> Eine Sache für Montag, nicht zehn für die Woche.
+> Dein Kind hört nicht den Satz.
 
 **21:18 — Folie 2**
-> Meine für diese Woche.
-
----
-
-## Hinweis zum Sonntag
-
-Der Sonntag ist der einzige Tag der Woche mit einem Verweis auf den Starter-Guide, und er trägt nur, weil die sechs Tage davor nichts verkauft haben. Wenn du den Guide lieber woanders verlinkst als im Profil, sag Bescheid — das sind zwei Zeilen.
+> Es sieht, was du dir erlaubst.
