@@ -4,7 +4,17 @@
 **Thema der Woche:** Von der Erschöpfung zum System — warum tägliches Posten müde macht und was stattdessen trägt
 **Kanal:** Instagram (Facebook noch offen, siehe „Offene Punkte")
 **Texte:** `2026-KW34-content.md`
-**Zuletzt aktualisiert:** 2026-08-14 22:10
+**Zuletzt aktualisiert:** 2026-08-23 08:05
+
+> ## ⚠️ Diese Woche ist nicht gelaufen
+>
+> Stand 23.08.: `blotato_list_posts` für den 17.–31.08. auf Instagram und Facebook ist **leer**. Kein Beitrag dieser Woche wurde veröffentlicht oder terminiert.
+>
+> Der Grund ist kein Fehler, sondern eine offene Rückfrage: Die drei Punkte unter „Offene Punkte" (Facebook, zweites Karussell, Canva) wurden nie beantwortet, und **ohne Canva-Designs gibt es keine Bild-URLs** — Blotato kann ohne `mediaUrls` nichts einplanen.
+>
+> Die Texte sind unverändert brauchbar. Weil auf den Folien bewusst kein Wochentag steht, lassen sich alle sieben Themen ohne eine einzige Änderung auf KW 35 (Mo 24.08. – So 30.08.) schieben.
+>
+> Letzter veröffentlichter Beitrag: **So 16.08., 21:00**.
 
 ## Beiträge
 
@@ -36,7 +46,19 @@
 
 ## Stand der Prüfung
 
-`blotato_list_posts` für den 17.–23.08.2026 auf Instagram und Facebook: **leer**. Für KW 34 ist bislang nichts terminiert, es kann also nichts doppelt rausgehen.
+- **14.08., vor der Planung:** `blotato_list_posts` für den 17.–23.08. auf Instagram und Facebook — leer. Keine Doppelpost-Gefahr.
+- **23.08., nachträglich:** `blotato_list_posts` für den 17.–31.08. — weiterhin leer. Alle 21 Beiträge stehen unverändert auf `offen`, die Woche ist ohne einen einzigen Beitrag vergangen.
+
+## Erkenntnis aus dem Wochenende KW 33
+
+Sa 15.08. und So 16.08. sind vollständig veröffentlicht. Blotato hat die Beiträge trotz identischer Uhrzeit (21:00:00) sekundenweise gestaffelt, es ist also nichts ausgefallen — **aber auf Instagram sind an beiden Tagen die Story-Folien in umgekehrter Reihenfolge erschienen:**
+
+| Tag | 1. Story | 2. Story |
+|---|---|---|
+| Sa 15.08. | „Was Stille auslöst." (21:00:25) | „Stille macht dich nervös?" (21:00:29) |
+| So 16.08. | „Was heute Abend hilft." (21:00:29) | „Warum es sonntags kippt." (21:00:30) |
+
+In beiden Fällen lief Folie 2 vor Folie 1. Auf Facebook stimmte die Reihenfolge. Das bestätigt die Abstandsregel im Skill: Story-Folien brauchen echte Minuten zwischen sich, nicht Sekunden.
 
 ## Offene Punkte
 
