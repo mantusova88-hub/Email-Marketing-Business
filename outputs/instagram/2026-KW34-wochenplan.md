@@ -15,6 +15,8 @@
 > Die Texte sind unverändert brauchbar. Weil auf den Folien bewusst kein Wochentag steht, lassen sich alle sieben Themen ohne eine einzige Änderung auf KW 35 (Mo 24.08. – So 30.08.) schieben.
 >
 > Letzter veröffentlichter Beitrag: **So 16.08., 21:00**.
+>
+> **Fortsetzung:** Der gesamte Bogen ist unverändert nach `2026-KW35-wochenplan.md` (Mo 24.08. – So 30.08.) übernommen, dort um Facebook und das zweite Karussell pro Abend erweitert. Diese Datei bleibt als Beleg stehen und wird nicht weiter gepflegt.
 
 ## Beiträge
 
