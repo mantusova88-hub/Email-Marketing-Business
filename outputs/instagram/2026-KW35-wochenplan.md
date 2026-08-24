@@ -31,14 +31,15 @@ Kein Wochentag auf der Folie, der gehört in den Canva-Titel. Das Label oben lin
 
 ## Umfang
 
-Pro Tag zwei Karussells und zwei Story-Folien, jeweils auf beiden Kanälen — **56 Beiträge**.
+Pro Tag ein Karussell und zwei Story-Folien, jeweils auf beiden Kanälen — **42 Beiträge**.
 
 | Uhrzeit | Was | Besonderheit |
 |---|---|---|
-| 21:00 | Karussell A | Instagram kurz, Facebook ausführlich und ohne Hashtags |
-| 21:05 | Karussell B | auf beiden Kanälen identisch, mit 💾 / 📤 / 💬 |
-| 21:15 | Story Folie 1 | identisch |
-| 21:18 | Story Folie 2 | identisch |
+| 21:00 | Karussell, 6 Folien | Instagram kurz, Facebook ausführlich und ohne Hashtags |
+| 21:15 | Story Folie 1 | auf beiden Kanälen identisch |
+| 21:18 | Story Folie 2 | auf beiden Kanälen identisch |
+
+**Nicht enthalten:** das zweite Karussell um 21:05 mit den Zeilen „💾 Speichere / 📤 Teile / 💬 Kommentiere", wie es in KW 33 lief. Diese Woche gibt es ein Karussell pro Abend.
 
 Die Abstände von 21:15 und 21:18 stehen bewusst so: Am Wochenende der KW 33 lagen Karussell und Story-Folien auf derselben Sekunde, woraufhin Instagram an beiden Tagen Folie 2 vor Folie 1 veröffentlicht hat.
 
@@ -46,62 +47,48 @@ Die Abstände von 21:15 und 21:18 stehen bewusst so: Am Wochenende der KW 33 lag
 
 | # | Tag | Lokalzeit | scheduledTime (UTC) | Format | Kanal | Thema / Label | Status | Blotato-ID |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Mo 24.08. | 21:00 | `2026-08-24T19:00:00Z` | Karussell A (6 Folien) | Instagram | GEWISSEN | geplant | ✓ |
-| 2 | Mo 24.08. | 21:00 | `2026-08-24T19:00:00Z` | Karussell A (6 Folien) | Facebook | GEWISSEN | geplant | ✓ |
-| 3 | Mo 24.08. | 21:05 | `2026-08-24T19:05:00Z` | Karussell B (6 Folien) | Instagram | GEWISSEN | geplant | ✓ |
-| 4 | Mo 24.08. | 21:05 | `2026-08-24T19:05:00Z` | Karussell B (6 Folien) | Facebook | GEWISSEN | geplant | ✓ |
-| 5 | Mo 24.08. | 21:15 | `2026-08-24T19:15:00Z` | Story Folie 1 | Instagram | GEWISSEN | geplant | ✓ |
-| 6 | Mo 24.08. | 21:15 | `2026-08-24T19:15:00Z` | Story Folie 1 | Facebook | GEWISSEN | geplant | ✓ |
-| 7 | Mo 24.08. | 21:18 | `2026-08-24T19:18:00Z` | Story Folie 2 | Instagram | GEWISSEN | geplant | ✓ |
-| 8 | Mo 24.08. | 21:18 | `2026-08-24T19:18:00Z` | Story Folie 2 | Facebook | GEWISSEN | geplant | ✓ |
-| 9 | Di 25.08. | 21:00 | `2026-08-25T19:00:00Z` | Karussell A (6 Folien) | Instagram | WUT | geplant | ✓ |
-| 10 | Di 25.08. | 21:00 | `2026-08-25T19:00:00Z` | Karussell A (6 Folien) | Facebook | WUT | geplant | ✓ |
-| 11 | Di 25.08. | 21:05 | `2026-08-25T19:05:00Z` | Karussell B (6 Folien) | Instagram | WUT | geplant | ✓ |
-| 12 | Di 25.08. | 21:05 | `2026-08-25T19:05:00Z` | Karussell B (6 Folien) | Facebook | WUT | geplant | ✓ |
-| 13 | Di 25.08. | 21:15 | `2026-08-25T19:15:00Z` | Story Folie 1 | Instagram | WUT | geplant | ✓ |
-| 14 | Di 25.08. | 21:15 | `2026-08-25T19:15:00Z` | Story Folie 1 | Facebook | WUT | geplant | ✓ |
-| 15 | Di 25.08. | 21:18 | `2026-08-25T19:18:00Z` | Story Folie 2 | Instagram | WUT | geplant | ✓ |
-| 16 | Di 25.08. | 21:18 | `2026-08-25T19:18:00Z` | Story Folie 2 | Facebook | WUT | geplant | ✓ |
-| 17 | Mi 26.08. | 21:00 | `2026-08-26T19:00:00Z` | Karussell A (6 Folien) | Instagram | KÖRPER | geplant | ✓ |
-| 18 | Mi 26.08. | 21:00 | `2026-08-26T19:00:00Z` | Karussell A (6 Folien) | Facebook | KÖRPER | geplant | ✓ |
-| 19 | Mi 26.08. | 21:05 | `2026-08-26T19:05:00Z` | Karussell B (6 Folien) | Instagram | KÖRPER | geplant | ✓ |
-| 20 | Mi 26.08. | 21:05 | `2026-08-26T19:05:00Z` | Karussell B (6 Folien) | Facebook | KÖRPER | geplant | ✓ |
-| 21 | Mi 26.08. | 21:15 | `2026-08-26T19:15:00Z` | Story Folie 1 | Instagram | KÖRPER | geplant | ✓ |
-| 22 | Mi 26.08. | 21:15 | `2026-08-26T19:15:00Z` | Story Folie 1 | Facebook | KÖRPER | geplant | ✓ |
-| 23 | Mi 26.08. | 21:18 | `2026-08-26T19:18:00Z` | Story Folie 2 | Instagram | KÖRPER | geplant | ✓ |
-| 24 | Mi 26.08. | 21:18 | `2026-08-26T19:18:00Z` | Story Folie 2 | Facebook | KÖRPER | geplant | ✓ |
-| 25 | Do 27.08. | 21:00 | `2026-08-27T19:00:00Z` | Karussell A (6 Folien) | Instagram | „GUT“ | geplant | ✓ |
-| 26 | Do 27.08. | 21:00 | `2026-08-27T19:00:00Z` | Karussell A (6 Folien) | Facebook | „GUT“ | geplant | ✓ |
-| 27 | Do 27.08. | 21:05 | `2026-08-27T19:05:00Z` | Karussell B (6 Folien) | Instagram | „GUT“ | geplant | ✓ |
-| 28 | Do 27.08. | 21:05 | `2026-08-27T19:05:00Z` | Karussell B (6 Folien) | Facebook | „GUT“ | geplant | ✓ |
-| 29 | Do 27.08. | 21:15 | `2026-08-27T19:15:00Z` | Story Folie 1 | Instagram | „GUT“ | geplant | ✓ |
-| 30 | Do 27.08. | 21:15 | `2026-08-27T19:15:00Z` | Story Folie 1 | Facebook | „GUT“ | geplant | ✓ |
-| 31 | Do 27.08. | 21:18 | `2026-08-27T19:18:00Z` | Story Folie 2 | Instagram | „GUT“ | geplant | ✓ |
-| 32 | Do 27.08. | 21:18 | `2026-08-27T19:18:00Z` | Story Folie 2 | Facebook | „GUT“ | geplant | ✓ |
-| 33 | Fr 28.08. | 21:00 | `2026-08-28T19:00:00Z` | Karussell A (6 Folien) | Instagram | HILFE | geplant | ✓ |
-| 34 | Fr 28.08. | 21:00 | `2026-08-28T19:00:00Z` | Karussell A (6 Folien) | Facebook | HILFE | geplant | ✓ |
-| 35 | Fr 28.08. | 21:05 | `2026-08-28T19:05:00Z` | Karussell B (6 Folien) | Instagram | HILFE | geplant | ✓ |
-| 36 | Fr 28.08. | 21:05 | `2026-08-28T19:05:00Z` | Karussell B (6 Folien) | Facebook | HILFE | geplant | ✓ |
-| 37 | Fr 28.08. | 21:15 | `2026-08-28T19:15:00Z` | Story Folie 1 | Instagram | HILFE | geplant | ✓ |
-| 38 | Fr 28.08. | 21:15 | `2026-08-28T19:15:00Z` | Story Folie 1 | Facebook | HILFE | geplant | ✓ |
-| 39 | Fr 28.08. | 21:18 | `2026-08-28T19:18:00Z` | Story Folie 2 | Instagram | HILFE | geplant | ✓ |
-| 40 | Fr 28.08. | 21:18 | `2026-08-28T19:18:00Z` | Story Folie 2 | Facebook | HILFE | geplant | ✓ |
-| 41 | Sa 29.08. | 21:00 | `2026-08-29T19:00:00Z` | Karussell A (6 Folien) | Instagram | EINSAM | geplant | ✓ |
-| 42 | Sa 29.08. | 21:00 | `2026-08-29T19:00:00Z` | Karussell A (6 Folien) | Facebook | EINSAM | geplant | ✓ |
-| 43 | Sa 29.08. | 21:05 | `2026-08-29T19:05:00Z` | Karussell B (6 Folien) | Instagram | EINSAM | geplant | ✓ |
-| 44 | Sa 29.08. | 21:05 | `2026-08-29T19:05:00Z` | Karussell B (6 Folien) | Facebook | EINSAM | geplant | ✓ |
-| 45 | Sa 29.08. | 21:15 | `2026-08-29T19:15:00Z` | Story Folie 1 | Instagram | EINSAM | geplant | ✓ |
-| 46 | Sa 29.08. | 21:15 | `2026-08-29T19:15:00Z` | Story Folie 1 | Facebook | EINSAM | geplant | ✓ |
-| 47 | Sa 29.08. | 21:18 | `2026-08-29T19:18:00Z` | Story Folie 2 | Instagram | EINSAM | geplant | ✓ |
-| 48 | Sa 29.08. | 21:18 | `2026-08-29T19:18:00Z` | Story Folie 2 | Facebook | EINSAM | geplant | ✓ |
-| 49 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell A (6 Folien) | Instagram | VORBILD | geplant | ✓ |
-| 50 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell A (6 Folien) | Facebook | VORBILD | geplant | ✓ |
-| 51 | So 30.08. | 21:05 | `2026-08-30T19:05:00Z` | Karussell B (6 Folien) | Instagram | VORBILD | geplant | ✓ |
-| 52 | So 30.08. | 21:05 | `2026-08-30T19:05:00Z` | Karussell B (6 Folien) | Facebook | VORBILD | geplant | ✓ |
-| 53 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Instagram | VORBILD | geplant | ✓ |
-| 54 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Facebook | VORBILD | geplant | ✓ |
-| 55 | So 30.08. | 21:18 | `2026-08-30T19:18:00Z` | Story Folie 2 | Instagram | VORBILD | geplant | ✓ |
-| 56 | So 30.08. | 21:18 | `2026-08-30T19:18:00Z` | Story Folie 2 | Facebook | VORBILD | geplant | ✓ |
+| 1 | Mo 24.08. | 21:00 | `2026-08-24T19:00:00Z` | Karussell (6 Folien) | Instagram | GEWISSEN | geplant | ✓ |
+| 2 | Mo 24.08. | 21:00 | `2026-08-24T19:00:00Z` | Karussell (6 Folien) | Facebook | GEWISSEN | geplant | ✓ |
+| 3 | Mo 24.08. | 21:15 | `2026-08-24T19:15:00Z` | Story Folie 1 | Instagram | GEWISSEN | geplant | ✓ |
+| 4 | Mo 24.08. | 21:15 | `2026-08-24T19:15:00Z` | Story Folie 1 | Facebook | GEWISSEN | geplant | ✓ |
+| 5 | Mo 24.08. | 21:18 | `2026-08-24T19:18:00Z` | Story Folie 2 | Instagram | GEWISSEN | geplant | ✓ |
+| 6 | Mo 24.08. | 21:18 | `2026-08-24T19:18:00Z` | Story Folie 2 | Facebook | GEWISSEN | geplant | ✓ |
+| 7 | Di 25.08. | 21:00 | `2026-08-25T19:00:00Z` | Karussell (6 Folien) | Instagram | WUT | geplant | ✓ |
+| 8 | Di 25.08. | 21:00 | `2026-08-25T19:00:00Z` | Karussell (6 Folien) | Facebook | WUT | geplant | ✓ |
+| 9 | Di 25.08. | 21:15 | `2026-08-25T19:15:00Z` | Story Folie 1 | Instagram | WUT | geplant | ✓ |
+| 10 | Di 25.08. | 21:15 | `2026-08-25T19:15:00Z` | Story Folie 1 | Facebook | WUT | geplant | ✓ |
+| 11 | Di 25.08. | 21:18 | `2026-08-25T19:18:00Z` | Story Folie 2 | Instagram | WUT | geplant | ✓ |
+| 12 | Di 25.08. | 21:18 | `2026-08-25T19:18:00Z` | Story Folie 2 | Facebook | WUT | geplant | ✓ |
+| 13 | Mi 26.08. | 21:00 | `2026-08-26T19:00:00Z` | Karussell (6 Folien) | Instagram | KÖRPER | geplant | ✓ |
+| 14 | Mi 26.08. | 21:00 | `2026-08-26T19:00:00Z` | Karussell (6 Folien) | Facebook | KÖRPER | geplant | ✓ |
+| 15 | Mi 26.08. | 21:15 | `2026-08-26T19:15:00Z` | Story Folie 1 | Instagram | KÖRPER | geplant | ✓ |
+| 16 | Mi 26.08. | 21:15 | `2026-08-26T19:15:00Z` | Story Folie 1 | Facebook | KÖRPER | geplant | ✓ |
+| 17 | Mi 26.08. | 21:18 | `2026-08-26T19:18:00Z` | Story Folie 2 | Instagram | KÖRPER | geplant | ✓ |
+| 18 | Mi 26.08. | 21:18 | `2026-08-26T19:18:00Z` | Story Folie 2 | Facebook | KÖRPER | geplant | ✓ |
+| 19 | Do 27.08. | 21:00 | `2026-08-27T19:00:00Z` | Karussell (6 Folien) | Instagram | „GUT“ | geplant | ✓ |
+| 20 | Do 27.08. | 21:00 | `2026-08-27T19:00:00Z` | Karussell (6 Folien) | Facebook | „GUT“ | geplant | ✓ |
+| 21 | Do 27.08. | 21:15 | `2026-08-27T19:15:00Z` | Story Folie 1 | Instagram | „GUT“ | geplant | ✓ |
+| 22 | Do 27.08. | 21:15 | `2026-08-27T19:15:00Z` | Story Folie 1 | Facebook | „GUT“ | geplant | ✓ |
+| 23 | Do 27.08. | 21:18 | `2026-08-27T19:18:00Z` | Story Folie 2 | Instagram | „GUT“ | geplant | ✓ |
+| 24 | Do 27.08. | 21:18 | `2026-08-27T19:18:00Z` | Story Folie 2 | Facebook | „GUT“ | geplant | ✓ |
+| 25 | Fr 28.08. | 21:00 | `2026-08-28T19:00:00Z` | Karussell (6 Folien) | Instagram | HILFE | geplant | ✓ |
+| 26 | Fr 28.08. | 21:00 | `2026-08-28T19:00:00Z` | Karussell (6 Folien) | Facebook | HILFE | geplant | ✓ |
+| 27 | Fr 28.08. | 21:15 | `2026-08-28T19:15:00Z` | Story Folie 1 | Instagram | HILFE | geplant | ✓ |
+| 28 | Fr 28.08. | 21:15 | `2026-08-28T19:15:00Z` | Story Folie 1 | Facebook | HILFE | geplant | ✓ |
+| 29 | Fr 28.08. | 21:18 | `2026-08-28T19:18:00Z` | Story Folie 2 | Instagram | HILFE | geplant | ✓ |
+| 30 | Fr 28.08. | 21:18 | `2026-08-28T19:18:00Z` | Story Folie 2 | Facebook | HILFE | geplant | ✓ |
+| 31 | Sa 29.08. | 21:00 | `2026-08-29T19:00:00Z` | Karussell (6 Folien) | Instagram | EINSAM | geplant | ✓ |
+| 32 | Sa 29.08. | 21:00 | `2026-08-29T19:00:00Z` | Karussell (6 Folien) | Facebook | EINSAM | geplant | ✓ |
+| 33 | Sa 29.08. | 21:15 | `2026-08-29T19:15:00Z` | Story Folie 1 | Instagram | EINSAM | geplant | ✓ |
+| 34 | Sa 29.08. | 21:15 | `2026-08-29T19:15:00Z` | Story Folie 1 | Facebook | EINSAM | geplant | ✓ |
+| 35 | Sa 29.08. | 21:18 | `2026-08-29T19:18:00Z` | Story Folie 2 | Instagram | EINSAM | geplant | ✓ |
+| 36 | Sa 29.08. | 21:18 | `2026-08-29T19:18:00Z` | Story Folie 2 | Facebook | EINSAM | geplant | ✓ |
+| 37 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell (6 Folien) | Instagram | VORBILD | geplant | ✓ |
+| 38 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell (6 Folien) | Facebook | VORBILD | geplant | ✓ |
+| 39 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Instagram | VORBILD | geplant | ✓ |
+| 40 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Facebook | VORBILD | geplant | ✓ |
+| 41 | So 30.08. | 21:18 | `2026-08-30T19:18:00Z` | Story Folie 2 | Instagram | VORBILD | geplant | ✓ |
+| 42 | So 30.08. | 21:18 | `2026-08-30T19:18:00Z` | Story Folie 2 | Facebook | VORBILD | geplant | ✓ |
 
 **Status-Werte:** `offen` · `geplant` · `veröffentlicht` · `abgelehnt` · `fehlgeschlagen`
 
