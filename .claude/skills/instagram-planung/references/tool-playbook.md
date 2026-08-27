@@ -129,3 +129,52 @@ export-design({
 `as_single_image: true` niemals für Karussells setzen — das klebt alle Folien zu einem Bild zusammen.
 
 Die zurückgegebenen Download-URLs sind das, was in `mediaUrls` gehört. **Diese URLs laufen ab** — deshalb gehören Export und Einplanung in denselben Durchgang und nicht auf zwei Tage verteilt.
+
+---
+
+## ⛔ Die Story-Falle — hier ist schon alles schiefgegangen
+
+**Story gehört in die Story. Karussell gehört in den Feed. Auf beiden Kanälen.** Diese Trennung ist nicht verhandelbar, und Blotato hält sie nicht von allein ein.
+
+### Was passiert ist (KW 35, Mo–Mi)
+
+`blotato_create_post` hat das mitgeschickte `mediaType: "story"` **stillschweigend verworfen**. Im gespeicherten Entwurf stand danach nur:
+
+```
+"content": { "text": "…", "platform": "instagram", "mediaUrls": [...] }
+```
+
+Kein `mediaType`. Folge: Alle Story-Folien sind drei Tage lang als **normale Feed-Beiträge** auf Instagram gelandet und haben das Raster zugemüllt. Zusätzlich hat Blotato alle Uhrzeiten auf seinen eigenen Queue-Slot (18:00 UTC) gezogen, wodurch die Abstände 21:00 / 21:15 / 21:18 verschwunden sind.
+
+### Die Regel
+
+**Nach dem Anlegen jedes Story-Beitrags mit `blotato_get_schedule` prüfen, ob `mediaType: "story"` im Entwurf steht.** Fehlt es, mit `blotato_update_schedule` nachziehen — dort wird es zuverlässig gespeichert.
+
+Ein korrekter Story-Entwurf sieht so aus:
+
+```
+"target":  { "mediaType": "story", "targetType": "instagram" }
+"content": { "text": "", "platform": "instagram", "mediaUrls": ["…eine URL…"] }
+```
+
+Drei Dinge daran sind wichtig:
+
+- **`mediaType: "story"` muss im `target` stehen.** Ohne das Feld wird es ein Feed-Beitrag.
+- **`text` bleibt leer.** Die funktionierenden Stories im Konto haben alle leeren Text. Eine Bildunterschrift erhöht das Risiko, dass Blotato den Beitrag als Feed-Post behandelt.
+- **Eine Bild-URL pro Story-Folie.** Mehrere Bilder machen daraus ein Karussell.
+
+### Auch die Uhrzeit prüfen
+
+`blotato_create_post` bestätigt zwar die gewünschte `scheduledTime`, verschiebt sie aber danach auf den Queue-Slot des Kontos. Nach dem Anlegen die tatsächliche `scheduledAt` gegenprüfen und bei Bedarf mit `blotato_update_schedule` korrigieren.
+
+### Kontrolle am Tag danach
+
+Am Morgen nach dem ersten Posting-Abend `blotato_list_posts` mit `status: ["published"]` abfragen und die `postUrl` ansehen:
+
+| URL enthält | Bedeutung |
+|---|---|
+| `instagram.com/stories/…` | Story ✓ |
+| `facebook.com/stories/…` | Story ✓ |
+| `instagram.com/p/…` | **Feed-Beitrag** — bei einer Story ist das ein Fehler |
+
+Steht bei einer Story `/p/`, sofort alle noch geplanten Story-Beiträge korrigieren, bevor der nächste Abend kommt.
