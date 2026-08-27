@@ -157,7 +157,7 @@ Die zurückgegebenen Download-URLs sind das, was in `mediaUrls` gehört. **Diese
 "content": { "text": "…", "platform": "instagram", "mediaUrls": [...] }
 ```
 
-Kein `mediaType`. Folge: Alle Story-Folien sind drei Tage lang als **normale Feed-Beiträge** auf Instagram gelandet und haben das Raster zugemüllt. Zusätzlich hat Blotato alle Uhrzeiten auf seinen eigenen Queue-Slot (18:00 UTC) gezogen, wodurch die Abstände 21:00 / 21:15 / 21:18 verschwunden sind.
+Kein `mediaType`. Folge: Alle Story-Folien sind drei Tage lang als **normale Feed-Beiträge** auf Instagram gelandet und haben das Raster zugemüllt. Zusätzlich waren sie auf zwei Beiträge um 21:15 und 21:18 aufgeteilt — auch das war falsch, eine Story gehört in einen Beitrag. Zusätzlich hat Blotato alle Uhrzeiten auf seinen eigenen Queue-Slot (18:00 UTC) gezogen, wodurch die Abstände 21:00 / 21:15 / 21:18 verschwunden sind.
 
 ### Die Regel
 
@@ -167,14 +167,14 @@ Ein korrekter Story-Entwurf sieht so aus:
 
 ```
 "target":  { "mediaType": "story", "targetType": "instagram" }
-"content": { "text": "", "platform": "instagram", "mediaUrls": ["…eine URL…"] }
+"content": { "text": "", "platform": "instagram", "mediaUrls": ["…Folie 1…", "…Folie 2…"] }
 ```
 
 Drei Dinge daran sind wichtig:
 
 - **`mediaType: "story"` muss im `target` stehen.** Ohne das Feld wird es ein Feed-Beitrag.
 - **`text` bleibt leer.** Die funktionierenden Stories im Konto haben alle leeren Text. Eine Bildunterschrift erhöht das Risiko, dass Blotato den Beitrag als Feed-Post behandelt.
-- **Eine Bild-URL pro Story-Folie.** Mehrere Bilder machen daraus ein Karussell.
+- **Alle Folien der Story in dieses eine `mediaUrls` hinein.** Nicht auf mehrere Beiträge aufteilen.
 
 ### Auch die Uhrzeit prüfen
 
