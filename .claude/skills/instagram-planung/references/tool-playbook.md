@@ -4,6 +4,19 @@ Die konkreten Aufrufe. Alles hier ist an den echten Tool-Schemas geprüft, nicht
 
 ---
 
+## Die Grundordnung — gilt vor allem anderen
+
+| Format | Alle Folien in | Landet in |
+|---|---|---|
+| **Karussell** | **einem** Beitrag | Instagram Feed **und** Facebook Beiträge |
+| **Story** | **einem** Beitrag | Instagram Story **und** Facebook Story |
+
+**Zusammengehörende Folien werden nie getrennt** — weder auf mehrere Beiträge noch auf mehrere Uhrzeiten. Ein Karussell mit sechs Folien ist ein Aufruf mit sechs Bild-URLs. Eine Story mit zwei Folien ist ein Aufruf mit zwei Bild-URLs.
+
+**Pro Tag gibt es genau ein Zeitfenster.** Aktuell: Karussell 21:00, Story 21:15. Niemals dieselben Inhalte zu zwei verschiedenen Uhrzeiten.
+
+---
+
 ## Zeitzone — die häufigste stille Fehlerquelle
 
 Blotato erwartet `scheduledTime` als ISO-8601-Zeitstempel und rechnet in UTC. Deutsche Ortszeit ist **nicht** UTC:
@@ -67,26 +80,26 @@ Für den Link zum Starter-Guide eignet sich `firstComment` — er wird direkt na
 
 ## Blotato: Stories einplanen
 
-Eine Story ist **ein Aufruf pro Folie**, mit `mediaType: "story"`:
+**Eine Story ist EIN Beitrag mit ALLEN Folien.** Genau wie ein Karussell. Die zwei Folien einer Story gehören zusammen und werden **niemals** auf zwei Beiträge oder zwei Uhrzeiten aufgeteilt.
 
 ```
 blotato_create_post({
-  accountId:     "<Instagram-Account-ID>",
+  accountId:     "<Account-ID>",
   platform:      "instagram",
   mediaType:     "story",
-  text:          "<Story-Text>",
-  mediaUrls:     ["<URL dieser Folie>"],
-  scheduledTime: "2026-08-12T19:15:00Z"
+  text:          "",
+  mediaUrls:     ["<URL Folie 1>", "<URL Folie 2>"],
+  scheduledTime: "2026-08-27T19:15:00Z"
 })
 ```
 
+Facebook genauso, zusätzlich mit `pageId`.
+
 Stolperfallen:
 
+- **Nicht aufteilen.** Zwei Aufrufe für zwei Folien ergeben zwei getrennte Stories zu zwei Uhrzeiten. Das ist falsch und war schon einmal ein Fehler.
 - **`firstComment` funktioniert bei Stories nicht.** Nicht mitschicken.
-- Folien brauchen **Abstand** — 3 Minuten haben sich bewährt (21:15, 21:18, 21:21 …). Gleichzeitig eingeplante Stories kommen nicht zuverlässig in der gedachten Reihenfolge an.
-- Facebook-Stories brauchen zusätzlich zu `mediaType: "story"` weiterhin die `pageId`.
-
----
+- **`text` bleibt leer.** Eine Bildunterschrift erhöht das Risiko, dass Blotato den Beitrag als Feed-Post behandelt.
 
 ## Blotato: Rückgabe richtig lesen
 
