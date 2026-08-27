@@ -21,7 +21,7 @@ Die Datei entsteht **vollständig, bevor der erste Beitrag eingeplant wird** —
 | 2 | Mi | 21:00 | Karussell | Facebook | <Titel> | offen | — |
 | 3 | Mi | 21:15 | Story Folie 1 | Instagram | <Titel> | offen | — |
 | 4 | Mi | 21:15 | Story Folie 1 | Facebook | <Titel> | offen | — |
-| 5 | Mi | 21:18 | Story Folie 2 | Instagram | <Titel> | offen | — |
+| 5 | Mi | 21:17 | Story Folie 2 | Instagram | <Titel> | offen | — |
 
 **Status-Werte:** `offen` · `geplant` · `veröffentlicht` · `abgelehnt` · `fehlgeschlagen`
 

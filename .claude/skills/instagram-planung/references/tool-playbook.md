@@ -6,14 +6,21 @@ Die konkreten Aufrufe. Alles hier ist an den echten Tool-Schemas geprüft, nicht
 
 ## Die Grundordnung — gilt vor allem anderen
 
-| Format | Alle Folien in | Landet in |
+| Format | Landet in | Bilder pro Aufruf |
 |---|---|---|
-| **Karussell** | **einem** Beitrag | Instagram Feed **und** Facebook Beiträge |
-| **Story** | **einem** Beitrag | Instagram Story **und** Facebook Story |
+| **Karussell** | Instagram Feed **und** Facebook Beiträge | alle sechs Folien in **einem** Aufruf |
+| **Story** | Instagram Story **und** Facebook Story | **genau ein** Bild pro Aufruf |
 
-**Zusammengehörende Folien werden nie getrennt** — weder auf mehrere Beiträge noch auf mehrere Uhrzeiten. Ein Karussell mit sechs Folien ist ein Aufruf mit sechs Bild-URLs. Eine Story mit zwei Folien ist ein Aufruf mit zwei Bild-URLs.
+**Das Ziel ist immer dasselbe:** Monika sieht in ihrem Konto ein vollständiges Karussell mit allen Folien und eine vollständige Story mit allen Folien. Nichts fehlt, nichts ist zerrissen.
 
-**Pro Tag gibt es genau ein Zeitfenster.** Aktuell: Karussell 21:00, Story 21:15. Niemals dieselben Inhalte zu zwei verschiedenen Uhrzeiten.
+**Der Weg dorthin ist bei den beiden Formaten verschieden** — und genau das war schon zweimal die Fehlerquelle:
+
+- Ein **Karussell** entsteht aus einem Aufruf mit mehreren Bild-URLs. Mehrere Aufrufe ergeben mehrere Beiträge — falsch.
+- Eine **Story** entsteht aus mehreren Aufrufen mit je einer Bild-URL. Mehrere Bild-URLs in einem Aufruf ergeben ein Karussell — und Karussells landen im Feed, nicht in der Story. Ebenfalls falsch.
+
+Instagram und Facebook zeigen aufeinanderfolgende Story-Beiträge desselben Kontos als **einen Story-Ring mit mehreren Folien**. Für Monika ist das eine Story mit zwei Folien — genau wie gewünscht. Die zwei Übermittlungen sind reine Technik und für sie unsichtbar.
+
+**Pro Tag gibt es genau ein Zeitfenster.** Aktuell: Karussell 21:00, Story-Folie 1 um 21:15, Story-Folie 2 um 21:17. Niemals dieselben Inhalte zu zwei verschiedenen Uhrzeiten.
 
 ---
 
@@ -80,7 +87,9 @@ Für den Link zum Starter-Guide eignet sich `firstComment` — er wird direkt na
 
 ## Blotato: Stories einplanen
 
-**Eine Story ist EIN Beitrag mit ALLEN Folien.** Genau wie ein Karussell. Die zwei Folien einer Story gehören zusammen und werden **niemals** auf zwei Beiträge oder zwei Uhrzeiten aufgeteilt.
+**Ein Story-Beitrag enthält genau EIN Bild.** Instagram und Facebook lassen pro Story-Beitrag nur ein Bild zu. Zwei Bilder in einem Story-Aufruf werden als Karussell gewertet — und ein Karussell landet im Feed, nicht in der Story.
+
+Eine Story mit zwei Folien besteht deshalb aus **zwei Aufrufen im Abstand von zwei Minuten**, Folie 1 zuerst:
 
 ```
 blotato_create_post({
@@ -88,16 +97,28 @@ blotato_create_post({
   platform:      "instagram",
   mediaType:     "story",
   text:          "",
-  mediaUrls:     ["<URL Folie 1>", "<URL Folie 2>"],
-  scheduledTime: "2026-08-27T19:15:00Z"
+  mediaUrls:     ["<URL Folie 1>"],
+  scheduledTime: "2026-08-28T19:15:00Z"
+})
+
+blotato_create_post({
+  accountId:     "<Account-ID>",
+  platform:      "instagram",
+  mediaType:     "story",
+  text:          "",
+  mediaUrls:     ["<URL Folie 2>"],
+  scheduledTime: "2026-08-28T19:17:00Z"
 })
 ```
 
 Facebook genauso, zusätzlich mit `pageId`.
 
+Im Konto erscheinen beide Folien danach als **ein** Story-Ring mit zwei Segmenten. Die Trennung ist nur technisch und für Monika nicht sichtbar.
+
 Stolperfallen:
 
-- **Nicht aufteilen.** Zwei Aufrufe für zwei Folien ergeben zwei getrennte Stories zu zwei Uhrzeiten. Das ist falsch und war schon einmal ein Fehler.
+- **Niemals zwei Bild-URLs in einen Story-Aufruf.** Genau das ist am 27.08. passiert: auf Instagram wurde daraus ein Feed-Beitrag (`/p/…`), auf Facebook hat die Plattform die zweite Folie kommentarlos weggeworfen.
+- **Mindestens zwei Minuten Abstand.** Bei Sekundenabstand hat Instagram die Folien schon einmal in umgekehrter Reihenfolge veröffentlicht (KW 33, Sa und So).
 - **`firstComment` funktioniert bei Stories nicht.** Nicht mitschicken.
 - **`text` bleibt leer.** Eine Bildunterschrift erhöht das Risiko, dass Blotato den Beitrag als Feed-Post behandelt.
 
@@ -157,7 +178,7 @@ Die zurückgegebenen Download-URLs sind das, was in `mediaUrls` gehört. **Diese
 "content": { "text": "…", "platform": "instagram", "mediaUrls": [...] }
 ```
 
-Kein `mediaType`. Folge: Alle Story-Folien sind drei Tage lang als **normale Feed-Beiträge** auf Instagram gelandet und haben das Raster zugemüllt. Zusätzlich waren sie auf zwei Beiträge um 21:15 und 21:18 aufgeteilt — auch das war falsch, eine Story gehört in einen Beitrag. Zusätzlich hat Blotato alle Uhrzeiten auf seinen eigenen Queue-Slot (18:00 UTC) gezogen, wodurch die Abstände 21:00 / 21:15 / 21:18 verschwunden sind.
+Kein `mediaType`. Folge: Alle Story-Folien sind drei Tage lang als **normale Feed-Beiträge** auf Instagram gelandet und haben das Raster zugemüllt. Zusätzlich hat Blotato alle Uhrzeiten auf seinen eigenen Queue-Slot (18:00 UTC) gezogen, wodurch die Abstände zwischen Karussell und Story verschwunden sind.
 
 ### Die Regel
 
@@ -167,14 +188,25 @@ Ein korrekter Story-Entwurf sieht so aus:
 
 ```
 "target":  { "mediaType": "story", "targetType": "instagram" }
-"content": { "text": "", "platform": "instagram", "mediaUrls": ["…Folie 1…", "…Folie 2…"] }
+"content": { "text": "", "platform": "instagram", "mediaUrls": ["…genau eine URL…"] }
 ```
 
 Drei Dinge daran sind wichtig:
 
 - **`mediaType: "story"` muss im `target` stehen.** Ohne das Feld wird es ein Feed-Beitrag.
 - **`text` bleibt leer.** Die funktionierenden Stories im Konto haben alle leeren Text. Eine Bildunterschrift erhöht das Risiko, dass Blotato den Beitrag als Feed-Post behandelt.
-- **Alle Folien der Story in dieses eine `mediaUrls` hinein.** Nicht auf mehrere Beiträge aufteilen.
+- **`mediaUrls` enthält genau eine URL.** Pro Folie ein eigener Beitrag, zwei Minuten Abstand.
+
+### Der zweite Anlauf war auch falsch (Do 27.08.)
+
+Nach der Korrektur oben standen beide Folien in **einem** Story-Beitrag. Das Ergebnis:
+
+| Kanal | veröffentlichte URL | Ergebnis |
+|---|---|---|
+| Instagram | `instagram.com/p/Dcjg9wRiQJ3/` | Feed-Beitrag — zwei Bilder wurden als Karussell gewertet |
+| Facebook | `facebook.com/stories/982899911438347` | Story, aber nur Folie 1 — Folie 2 verworfen |
+
+Der Gegenbeweis stand in derselben Abfrage: Story-Beiträge mit **einer** Bild-URL sind sauber unter `instagram.com/stories/…` gelandet. Damit ist die Regel eindeutig — ein Bild pro Story-Beitrag.
 
 ### Auch die Uhrzeit prüfen
 
