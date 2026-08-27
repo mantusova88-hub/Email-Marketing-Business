@@ -96,7 +96,7 @@ blotato_create_post({
   accountId:     "<Account-ID>",
   platform:      "instagram",
   mediaType:     "story",
-  text:          "",
+  text:          "<Zeile von Folie 1>",
   mediaUrls:     ["<URL Folie 1>"],
   scheduledTime: "2026-08-28T19:15:00Z"
 })
@@ -105,7 +105,7 @@ blotato_create_post({
   accountId:     "<Account-ID>",
   platform:      "instagram",
   mediaType:     "story",
-  text:          "",
+  text:          "<Zeile von Folie 2>",
   mediaUrls:     ["<URL Folie 2>"],
   scheduledTime: "2026-08-28T19:17:00Z"
 })
@@ -120,7 +120,7 @@ Stolperfallen:
 - **Niemals zwei Bild-URLs in einen Story-Aufruf.** Genau das ist am 27.08. passiert: auf Instagram wurde daraus ein Feed-Beitrag (`/p/…`), auf Facebook hat die Plattform die zweite Folie kommentarlos weggeworfen.
 - **Mindestens zwei Minuten Abstand.** Bei Sekundenabstand hat Instagram die Folien schon einmal in umgekehrter Reihenfolge veröffentlicht (KW 33, Sa und So).
 - **`firstComment` funktioniert bei Stories nicht.** Nicht mitschicken.
-- **`text` bleibt leer.** Eine Bildunterschrift erhöht das Risiko, dass Blotato den Beitrag als Feed-Post behandelt.
+- **`text` gehört dazu.** Jede Story-Folie trägt ihre Zeile aus der Content-Datei — so lief es immer. Die Behauptung, ein leerer Text sei sicherer, war falsch: Am Mo 24.08. sind beide Folien **mit** Text sauber unter `instagram.com/stories/…` gelandet. Entscheidend ist allein die Anzahl der Bilder.
 
 ## Blotato: Rückgabe richtig lesen
 
@@ -194,8 +194,8 @@ Ein korrekter Story-Entwurf sieht so aus:
 Drei Dinge daran sind wichtig:
 
 - **`mediaType: "story"` muss im `target` stehen.** Ohne das Feld wird es ein Feed-Beitrag.
-- **`text` bleibt leer.** Die funktionierenden Stories im Konto haben alle leeren Text. Eine Bildunterschrift erhöht das Risiko, dass Blotato den Beitrag als Feed-Post behandelt.
 - **`mediaUrls` enthält genau eine URL.** Pro Folie ein eigener Beitrag, zwei Minuten Abstand.
+- **`text` trägt die Zeile der Folie.** Kein Grund, ihn leer zu lassen.
 
 ### Der zweite Anlauf war auch falsch (Do 27.08.)
 
