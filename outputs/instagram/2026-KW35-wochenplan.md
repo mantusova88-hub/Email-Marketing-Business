@@ -51,21 +51,21 @@ Die zwei Minuten Abstand stehen bewusst so: Am Wochenende der KW 33 lagen Karuss
 |---|---|---|---|---|---|---|---|---|
 | 1 | Mo 24.08. | 21:00 | `2026-08-24T19:00:00Z` | Karussell (6 Folien) | Instagram | GEWISSEN | veröffentlicht | ✓ |
 | 2 | Mo 24.08. | 21:00 | `2026-08-24T19:00:00Z` | Karussell (6 Folien) | Facebook | GEWISSEN | veröffentlicht | ✓ |
-| 3 | Mo 24.08. | 21:15 | `2026-08-24T19:15:00Z` | Story Folie 1 | Instagram | GEWISSEN | fehlgeschlagen (im Feed) | ✓ |
+| 3 | Mo 24.08. | 21:15 | `2026-08-24T19:15:00Z` | Story Folie 1 | Instagram | GEWISSEN | veröffentlicht | `6422824` |
 | 4 | Mo 24.08. | 21:15 | `2026-08-24T19:15:00Z` | Story Folie 1 | Facebook | GEWISSEN | veröffentlicht | ✓ |
-| 5 | Mo 24.08. | 21:18 | `2026-08-24T19:18:00Z` | Story Folie 2 | Instagram | GEWISSEN | fehlgeschlagen (im Feed) | ✓ |
+| 5 | Mo 24.08. | 21:18 | `2026-08-24T19:18:00Z` | Story Folie 2 | Instagram | GEWISSEN | veröffentlicht | `6422892` |
 | 6 | Mo 24.08. | 21:18 | `2026-08-24T19:18:00Z` | Story Folie 2 | Facebook | GEWISSEN | veröffentlicht | ✓ |
 | 7 | Di 25.08. | 21:00 | `2026-08-25T19:00:00Z` | Karussell (6 Folien) | Instagram | WUT | veröffentlicht | ✓ |
 | 8 | Di 25.08. | 21:00 | `2026-08-25T19:00:00Z` | Karussell (6 Folien) | Facebook | WUT | veröffentlicht | ✓ |
-| 9 | Di 25.08. | 21:15 | `2026-08-25T19:15:00Z` | Story Folie 1 | Instagram | WUT | fehlgeschlagen (im Feed) | ✓ |
+| 9 | Di 25.08. | 21:15 | `2026-08-25T19:15:00Z` | Story Folie 1 | Instagram | WUT | fehlgeschlagen (im Feed) | `6450912` |
 | 10 | Di 25.08. | 21:15 | `2026-08-25T19:15:00Z` | Story Folie 1 | Facebook | WUT | veröffentlicht | ✓ |
-| 11 | Di 25.08. | 21:18 | `2026-08-25T19:18:00Z` | Story Folie 2 | Instagram | WUT | fehlgeschlagen (im Feed) | ✓ |
+| 11 | Di 25.08. | 21:18 | `2026-08-25T19:18:00Z` | Story Folie 2 | Instagram | WUT | fehlgeschlagen (im Feed) | `6450985` |
 | 12 | Di 25.08. | 21:18 | `2026-08-25T19:18:00Z` | Story Folie 2 | Facebook | WUT | veröffentlicht | ✓ |
 | 13 | Mi 26.08. | 21:00 | `2026-08-26T19:00:00Z` | Karussell (6 Folien) | Instagram | KÖRPER | veröffentlicht | ✓ |
 | 14 | Mi 26.08. | 21:00 | `2026-08-26T19:00:00Z` | Karussell (6 Folien) | Facebook | KÖRPER | veröffentlicht | ✓ |
-| 15 | Mi 26.08. | 21:15 | `2026-08-26T19:15:00Z` | Story Folie 1 | Instagram | KÖRPER | fehlgeschlagen (im Feed) | ✓ |
+| 15 | Mi 26.08. | 21:15 | `2026-08-26T19:15:00Z` | Story Folie 1 | Instagram | KÖRPER | fehlgeschlagen (im Feed) | `6480834` |
 | 16 | Mi 26.08. | 21:15 | `2026-08-26T19:15:00Z` | Story Folie 1 | Facebook | KÖRPER | veröffentlicht | ✓ |
-| 17 | Mi 26.08. | 21:18 | `2026-08-26T19:18:00Z` | Story Folie 2 | Instagram | KÖRPER | fehlgeschlagen (im Feed) | ✓ |
+| 17 | Mi 26.08. | 21:18 | `2026-08-26T19:18:00Z` | Story Folie 2 | Instagram | KÖRPER | fehlgeschlagen (im Feed) | `6480836` |
 | 18 | Mi 26.08. | 21:18 | `2026-08-26T19:18:00Z` | Story Folie 2 | Facebook | KÖRPER | veröffentlicht | ✓ |
 | 19 | Do 27.08. | 21:00 | `2026-08-27T19:00:00Z` | Karussell (6 Folien) | Instagram | „GUT“ | veröffentlicht | `6513457` |
 | 20 | Do 27.08. | 21:00 | `2026-08-27T19:00:00Z` | Karussell (6 Folien) | Facebook | „GUT“ | veröffentlicht | `6513204` |
@@ -98,7 +98,19 @@ Die IDs der Zeilen 19–24 sind Beitrags-IDs aus `blotato_list_posts`, die der Z
 
 ## Was an den Stories schiefgelaufen ist
 
-**Mo bis Mi:** `blotato_create_post` hat das mitgegebene `mediaType: "story"` verworfen. Alle Instagram-Story-Folien sind als Feed-Beiträge erschienen. Auf Facebook stimmte es.
+**Mo 24.08.: korrekt.** Beide Story-Folien liegen unter `instagram.com/stories/…`, um 21:15 und 21:18, jede als eigener Beitrag mit einem Bild und mit Bildunterschrift. Das ist der Beleg, dass der Text nicht das Problem ist — die Anzahl der Bilder ist es.
+
+**Di und Mi:** `blotato_create_post` hat das mitgegebene `mediaType: "story"` verworfen und die Uhrzeiten auf den Queue-Slot 18:00 UTC gezogen. Vier Story-Folien sind als Feed-Beiträge erschienen. Auf Facebook stimmte es.
+
+Diese fünf Feed-Beiträge stehen weiterhin im Instagram-Raster und lassen sich über Blotato **nicht** entfernen:
+
+| Tag | URL | Folientext |
+|---|---|---|
+| Di 25.08. | `instagram.com/p/DceOxe_GMvc/` | „Es war nie der umgekippte Becher." |
+| Di 25.08. | `instagram.com/p/DceOxjmIDKe/` | „Was hilft, bevor es überläuft." |
+| Mi 26.08. | `instagram.com/p/DcgzkZ1G1SF/` | „Wo stehen gerade deine Schultern?" |
+| Mi 26.08. | `instagram.com/p/DcgzkjQm7Gi/` | „Was heute hilft." |
+| Do 27.08. | `instagram.com/p/Dcjg9wRiQJ3/` | beide Folien als Karussell |
 
 **Do 27.08.:** Nach der Korrektur standen beide Folien in **einem** Story-Beitrag. Das war der zweite Fehler — pro Story-Beitrag ist nur ein Bild erlaubt:
 
