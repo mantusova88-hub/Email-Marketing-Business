@@ -29,12 +29,22 @@ Bricht die Verbindung ab, sagt der nächste Blick in diese Datei auf die Sekunde
 > Steht hier noch ein `[Platzhalter]`, wird der Wert **einmal** zur Laufzeit ermittelt (siehe Klammer) und direkt hier eingetragen.
 
 - **Zeitzone:** Europe/Berlin — Sommerzeit (Ende März bis Ende Oktober) = UTC+2, Winterzeit = UTC+1
-- **Instagram-Account-ID (Blotato):** [einmal über `blotato_list_accounts` holen und hier eintragen]
-- **Facebook-Account-ID (Blotato):** [einmal über `blotato_list_accounts` holen]
-- **Facebook-Page-ID (Blotato-Subaccount):** [einmal über `blotato_list_accounts` holen — Facebook-Posts scheitern ohne diesen Wert]
-- **Canva-Ordner für Social Content:** [Ordnername oder Ordner-ID]
-- **Feste Posting-Zeiten:** Karussell 21:00, Stories ab 21:15 in 3-Minuten-Abständen
+- **Instagram-Account-ID (Blotato):** `52837` — `@emailsmitmonika_`
+- **Facebook-Account-ID (Blotato):** `36536`
+- **Facebook-Page-ID (Blotato-Subaccount):** `1142132035656393` — Seite „e-mails mit Monika". Ohne diesen Wert scheitert jeder Facebook-Beitrag.
+- **Canva-Ordner:** KW-Karussells `FAHTNsWd1Rs` · KW-Stories `FAHTNup_p-o`
+- **Feste Posting-Zeiten:** Karussell 21:00, Story Folie 1 um 21:15, Folie 2 um 21:17
 - **Kanäle:** jeder Beitrag geht auf Instagram **und** Facebook
+
+### Es gibt genau zwei Ziele — geprüft am 28.08.2026
+
+`blotato_list_accounts` liefert **nur** diese beiden. Ein zweites Facebook-Ziel existiert nicht.
+
+Der Facebook-Account trägt den Namen **„Monika Chancegeberin"**, weil dieses Profil die Seite besitzt. Das ist **kein** eigenes Ziel — es ist der Besitzername derselben Verbindung. Facebook zeigt ihn in manchen Ansichten neben der Seite an, was schon zweimal zu der Vermutung geführt hat, ein Beitrag sei auf dem falschen Konto gelandet. Ist er nicht: Auf Facebook gibt es genau ein Ziel, also kann von hier aus auch nichts doppelt erscheinen.
+
+Ein weiteres Facebook-Profil lässt sich von hier aus **nicht** hinzufügen — dafür braucht Blotato eine Facebook-Anmeldung durch Monika. Außerdem erlaubt Facebook automatisches Posten nur auf **Seiten**, nicht auf persönliche Profile.
+
+Erscheint ein Beitrag trotzdem doppelt, liegt es nicht an einem zweiten Konto, sondern an der fremden Quelle gegen 20:05 (siehe `outputs/instagram/2026-KW35-wochenplan.md`).
 
 ---
 
