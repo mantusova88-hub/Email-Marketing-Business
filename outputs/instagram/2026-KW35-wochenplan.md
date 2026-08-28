@@ -73,12 +73,12 @@ Die zwei Minuten Abstand stehen bewusst so: Am Wochenende der KW 33 lagen Karuss
 | 22 | Do 27.08. | 21:15 | `2026-08-27T19:15:00Z` | Story Folie 1 | Facebook | „GUT“ | veröffentlicht | `6513844` |
 | 23 | Do 27.08. | 21:15 | `2026-08-27T19:15:00Z` | Story Folie 2 | Instagram | „GUT“ | fehlgeschlagen (im Feed) | `6513858` |
 | 24 | Do 27.08. | 21:15 | `2026-08-27T19:15:00Z` | Story Folie 2 | Facebook | „GUT“ | fehlgeschlagen (verworfen) | `6513844` |
-| 25 | Fr 28.08. | 21:00 | `2026-08-28T19:00:00Z` | Karussell (6 Folien) | Instagram | HILFE | geplant | `3764898` |
-| 26 | Fr 28.08. | 21:00 | `2026-08-28T19:00:00Z` | Karussell (6 Folien) | Facebook | HILFE | geplant | `3764926` |
-| 27 | Fr 28.08. | 21:15 | `2026-08-28T19:15:00Z` | Story Folie 1 | Instagram | HILFE | geplant | `3764948` |
-| 28 | Fr 28.08. | 21:15 | `2026-08-28T19:15:00Z` | Story Folie 1 | Facebook | HILFE | geplant | `3764961` |
-| 29 | Fr 28.08. | 21:17 | `2026-08-28T19:17:00Z` | Story Folie 2 | Instagram | HILFE | geplant | `3869515` |
-| 30 | Fr 28.08. | 21:17 | `2026-08-28T19:17:00Z` | Story Folie 2 | Facebook | HILFE | geplant | `3869517` |
+| 25 | Fr 28.08. | 20:00 statt 21:00 | `2026-08-28T18:00:55Z` | Karussell (6 Folien) | Instagram | HILFE | veröffentlicht | `6542130` |
+| 26 | Fr 28.08. | 20:00 statt 21:00 | `2026-08-28T18:00:19Z` | Karussell (6 Folien) | Facebook | HILFE | veröffentlicht | `6541941` |
+| 27 | Fr 28.08. | 20:00 statt 21:15 | `2026-08-28T18:00:28Z` | Story Folie 1 | Instagram | HILFE | veröffentlicht ✓ Story | `6541981` |
+| 28 | Fr 28.08. | 20:00 statt 21:15 | `2026-08-28T18:00:09Z` | Story Folie 1 | Facebook | HILFE | veröffentlicht ✓ Story | `6541885` |
+| 29 | Fr 28.08. | 20:00 statt 21:17 | `2026-08-28T18:00:28Z` | Story Folie 2 | Instagram | HILFE | veröffentlicht ✓ Story | `6541985` |
+| 30 | Fr 28.08. | 20:00 statt 21:17 | `2026-08-28T18:00:09Z` | Story Folie 2 | Facebook | HILFE | veröffentlicht ✓ Story | `6541881` |
 | 31 | Sa 29.08. | 21:00 | `2026-08-29T19:00:00Z` | Karussell (6 Folien) | Instagram | EINSAM | geplant | `3765009` |
 | 32 | Sa 29.08. | 21:00 | `2026-08-29T19:00:00Z` | Karussell (6 Folien) | Facebook | EINSAM | geplant | `3765017` |
 | 33 | Sa 29.08. | 21:15 | `2026-08-29T19:15:00Z` | Story Folie 1 | Instagram | EINSAM | geplant | `3765020` |
@@ -119,7 +119,24 @@ Diese fünf Feed-Beiträge stehen weiterhin im Instagram-Raster und lassen sich 
 | Instagram | `6513858` | `instagram.com/p/Dcjg9wRiQJ3/` | zwei Bilder → als Karussell im Feed gelandet |
 | Facebook | `6513844` | `facebook.com/stories/982899911438347` | Story, aber nur Folie 1 — Folie 2 verworfen |
 
-**Ab Fr 28.08. behoben:** je Folie ein eigener Story-Beitrag mit einem Bild, 21:15 und 21:17, `mediaType: "story"` in allen zwölf Entwürfen mit `blotato_list_schedules` gegengeprüft.
+**Fr 28.08.: die Story hat funktioniert.** Alle vier Story-Beiträge sind als echte Stories erschienen, zwei Folien pro Kanal:
+
+| Kanal | Folie 1 | Folie 2 |
+|---|---|---|
+| Instagram | `/stories/emailsmitmonika_/3973851222789432069` | `/stories/emailsmitmonika_/3973851222411949258` |
+| Facebook | `facebook.com/stories/1665694855205279` | `facebook.com/stories/947463630983229` |
+
+Damit ist die Regel bestätigt: **ein Bild pro Story-Beitrag, ein eigener Beitrag pro Folie.** Text auf der Folie stört nicht.
+
+## ⏰ Warum die Uhrzeiten am Freitag verrutscht sind
+
+Alle sechs Beiträge sind um **20:00 Ortszeit** erschienen statt um 21:00 / 21:15 / 21:17. Der Abstand zwischen den Story-Folien lag bei Bruchteilen einer Sekunde — auf Facebook kam Folie 2 dadurch sogar vor Folie 1 heraus (`18:00:09.313` vor `18:00:09.670`).
+
+**Die Ursache liegt in `blotato_update_schedule`:** Wird der Aufruf **ohne** `scheduledTime` geschickt, zieht Blotato den Beitrag auf den Warteschlangen-Slot des Kontos (18:00 UTC) — auch dann, wenn nur der Text geändert wurde. Am Donnerstag hatte ich `scheduledTime` mitgeschickt und die Zeiten hielten; am Freitag habe ich es weggelassen, um die Zeiten „nicht anzufassen", und genau dadurch verloren.
+
+**Die Regel:** `blotato_update_schedule` **immer** mit `scheduledTime` aufrufen, auch wenn sich die Zeit nicht ändern soll. Danach mit `blotato_get_schedule` gegenprüfen.
+
+Am 28.08. um 21:35 für Sa und So korrigiert — alle zwölf Termine stehen wieder auf 19:00 / 19:15 / 19:17 UTC und sind einzeln gegengeprüft.
 
 ## Die doppelten Karussells um 20:05
 

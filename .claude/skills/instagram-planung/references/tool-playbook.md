@@ -212,6 +212,14 @@ Der Gegenbeweis stand in derselben Abfrage: Story-Beiträge mit **einer** Bild-U
 
 `blotato_create_post` bestätigt zwar die gewünschte `scheduledTime`, verschiebt sie aber danach auf den Queue-Slot des Kontos. Nach dem Anlegen die tatsächliche `scheduledAt` gegenprüfen und bei Bedarf mit `blotato_update_schedule` korrigieren.
 
+### ⛔ `blotato_update_schedule` immer mit `scheduledTime` aufrufen
+
+Auch dann, wenn sich nur der Text ändert. **Fehlt `scheduledTime`, zieht Blotato den Beitrag auf den Queue-Slot des Kontos** (18:00 UTC = 20:00 Ortszeit) und wirft die eingestellte Zeit weg.
+
+Genau das ist am Fr 28.08. passiert: Ich hatte den Folientext nachgetragen und `scheduledTime` bewusst weggelassen, um die Zeiten „nicht anzufassen". Ergebnis: alle sechs Beiträge um 20:00 statt 21:00 / 21:15 / 21:17, und die zwei Story-Folien im Abstand von Sekundenbruchteilen — auf Facebook kam Folie 2 dadurch **vor** Folie 1 heraus.
+
+Nach jeder Änderung mit `blotato_get_schedule` prüfen, ob `scheduledAt` noch stimmt.
+
 ### Kontrolle am Tag danach
 
 Am Morgen nach dem ersten Posting-Abend `blotato_list_posts` mit `status: ["published"]` abfragen und die `postUrl` ansehen:
