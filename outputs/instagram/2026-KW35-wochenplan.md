@@ -79,12 +79,12 @@ Die zwei Minuten Abstand stehen bewusst so: Am Wochenende der KW 33 lagen Karuss
 | 28 | Fr 28.08. | 20:00 statt 21:15 | `2026-08-28T18:00:09Z` | Story Folie 1 | Facebook | HILFE | veröffentlicht ✓ Story | `6541885` |
 | 29 | Fr 28.08. | 20:00 statt 21:17 | `2026-08-28T18:00:28Z` | Story Folie 2 | Instagram | HILFE | veröffentlicht ✓ Story | `6541985` |
 | 30 | Fr 28.08. | 20:00 statt 21:17 | `2026-08-28T18:00:09Z` | Story Folie 2 | Facebook | HILFE | veröffentlicht ✓ Story | `6541881` |
-| 31 | Sa 29.08. | 21:00 | `2026-08-29T19:00:00Z` | Karussell (6 Folien) | Instagram | EINSAM | geplant | `3765009` |
-| 32 | Sa 29.08. | 21:00 | `2026-08-29T19:00:00Z` | Karussell (6 Folien) | Facebook | EINSAM | geplant | `3765017` |
-| 33 | Sa 29.08. | 21:15 | `2026-08-29T19:15:00Z` | Story Folie 1 | Instagram | EINSAM | geplant | `3765020` |
-| 34 | Sa 29.08. | 21:15 | `2026-08-29T19:15:00Z` | Story Folie 1 | Facebook | EINSAM | geplant | `3765029` |
-| 35 | Sa 29.08. | 21:17 | `2026-08-29T19:17:00Z` | Story Folie 2 | Instagram | EINSAM | geplant | `3869519` |
-| 36 | Sa 29.08. | 21:17 | `2026-08-29T19:17:00Z` | Story Folie 2 | Facebook | EINSAM | geplant | `3869522` |
+| 31 | Sa 29.08. | 21:00 ✓ | `2026-08-29T19:00:58Z` | Karussell (6 Folien) | Instagram | EINSAM | veröffentlicht | `6570943` |
+| 32 | Sa 29.08. | 21:00 ✓ | `2026-08-29T19:00:13Z` | Karussell (6 Folien) | Facebook | EINSAM | veröffentlicht | `6570692` |
+| 33 | Sa 29.08. | 21:15 ✓ | `2026-08-29T19:15:27Z` | Story Folie 1 | Instagram | EINSAM | veröffentlicht ✓ Story | `6571264` |
+| 34 | Sa 29.08. | 21:15 ✓ | `2026-08-29T19:15:07Z` | Story Folie 1 | Facebook | EINSAM | veröffentlicht ✓ Story | `6571252` |
+| 35 | Sa 29.08. | 21:17 ✓ | `2026-08-29T19:17:27Z` | Story Folie 2 | Instagram | EINSAM | veröffentlicht ✓ Story | `6571315` |
+| 36 | Sa 29.08. | 21:17 ✓ | `2026-08-29T19:17:07Z` | Story Folie 2 | Facebook | EINSAM | veröffentlicht ✓ Story | `6571312` |
 | 37 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell (6 Folien) | Instagram | VORBILD | geplant | `3765075` |
 | 38 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell (6 Folien) | Facebook | VORBILD | geplant | `3765085` |
 | 39 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Instagram | VORBILD | geplant | `3765090` |
@@ -137,6 +137,8 @@ Alle sechs Beiträge sind um **20:00 Ortszeit** erschienen statt um 21:00 / 21:1
 **Die Regel:** `blotato_update_schedule` **immer** mit `scheduledTime` aufrufen, auch wenn sich die Zeit nicht ändern soll. Danach mit `blotato_get_schedule` gegenprüfen.
 
 Am 28.08. um 21:35 für Sa und So korrigiert — alle zwölf Termine stehen wieder auf 19:00 / 19:15 / 19:17 UTC und sind einzeln gegengeprüft.
+
+**Sa 29.08.: bestätigt.** Alle sechs Beiträge sind zur richtigen Zeit erschienen — Karussell 21:00, Story Folie 1 um 21:15, Folie 2 um 21:17, auf beiden Kanälen, Folie 1 jeweils vor Folie 2, alle vier Story-URLs unter `/stories/`. Damit ist auch die Ursache belegt: mit mitgeschickter `scheduledTime` halten die Zeiten.
 
 ## Die doppelten Karussells um 20:05
 
