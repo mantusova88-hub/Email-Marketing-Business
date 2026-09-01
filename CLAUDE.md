@@ -55,19 +55,20 @@ Email-Marketing-Business/
 
 ## 4. Verfügbare Commands
 
-### Tages-Workflow (täglich nutzen)
+### Tages-Workflow
 | Command | Beschreibung |
 |---|---|
-| `/start` | Morgen-Routine: KPIs laden, Tag ausrichten, 3 Fokus-Aufgaben setzen |
-| `/capture` | Idee, Aufgabe oder Erkenntnis blitzschnell festhalten |
+| `/start` | Morgen-Routine: KPIs laden, Tag ausrichten, 3 Fokus-Aufgaben |
+| `/capture` | Idee oder Aufgabe blitzschnell festhalten |
 | `/plan` | Wochenplan erstellen (montags) |
-| `/shutdown` | Tag abschließen, Wins feiern, morgen vorbereiten |
+| `/shutdown` | Tag abschließen, Wins feiern |
 | `/review` | Wochenrückblick: KPIs, Wins, Lernmomente (freitags) |
 
 ### Content & Copy
 | Command | Beschreibung |
 |---|---|
 | `/content` | Caption, Karussell oder Reels-Skript in Simones Stimme |
+| `/karussell` | Vollständiges Karussell mit Kommentar-Trigger für Blotato-Automation |
 | `/emails` | Einzelne E-Mail schreiben (Newsletter, Story, Ankündigung) |
 | `/instagram-plan` | Wöchentlichen Instagram-Content-Plan mit starken Hooks |
 | `/newsletter-plan` | Wöchentlichen E-Mail-Newsletter-Plan mit Betreffzeilen |
