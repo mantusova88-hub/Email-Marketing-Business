@@ -85,12 +85,12 @@ Die zwei Minuten Abstand stehen bewusst so: Am Wochenende der KW 33 lagen Karuss
 | 34 | Sa 29.08. | 21:15 ✓ | `2026-08-29T19:15:07Z` | Story Folie 1 | Facebook | EINSAM | veröffentlicht ✓ Story | `6571252` |
 | 35 | Sa 29.08. | 21:17 ✓ | `2026-08-29T19:17:27Z` | Story Folie 2 | Instagram | EINSAM | veröffentlicht ✓ Story | `6571315` |
 | 36 | Sa 29.08. | 21:17 ✓ | `2026-08-29T19:17:07Z` | Story Folie 2 | Facebook | EINSAM | veröffentlicht ✓ Story | `6571312` |
-| 37 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell (6 Folien) | Instagram | VORBILD | geplant | `3765075` |
-| 38 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell (6 Folien) | Facebook | VORBILD | geplant | `3765085` |
-| 39 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Instagram | VORBILD | geplant | `3765090` |
-| 40 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Facebook | VORBILD | geplant | `3765091` |
-| 41 | So 30.08. | 21:17 | `2026-08-30T19:17:00Z` | Story Folie 2 | Instagram | VORBILD | geplant | `3869524` |
-| 42 | So 30.08. | 21:17 | `2026-08-30T19:17:00Z` | Story Folie 2 | Facebook | VORBILD | geplant | `3869527` |
+| 37 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell (6 Folien) | Instagram | VORBILD | **spurlos verschwunden** | `3765075` |
+| 38 | So 30.08. | 21:00 | `2026-08-30T19:00:00Z` | Karussell (6 Folien) | Facebook | VORBILD | **spurlos verschwunden** | `3765085` |
+| 39 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Instagram | VORBILD | **spurlos verschwunden** | `3765090` |
+| 40 | So 30.08. | 21:15 | `2026-08-30T19:15:00Z` | Story Folie 1 | Facebook | VORBILD | **spurlos verschwunden** | `3765091` |
+| 41 | So 30.08. | 21:17 | `2026-08-30T19:17:00Z` | Story Folie 2 | Instagram | VORBILD | **spurlos verschwunden** | `3869524` |
+| 42 | So 30.08. | 21:17 | `2026-08-30T19:17:00Z` | Story Folie 2 | Facebook | VORBILD | **spurlos verschwunden** | `3869527` |
 
 **Status-Werte:** `offen` · `geplant` · `veröffentlicht` · `abgelehnt` · `fehlgeschlagen`
 
@@ -139,6 +139,26 @@ Alle sechs Beiträge sind um **20:00 Ortszeit** erschienen statt um 21:00 / 21:1
 Am 28.08. um 21:35 für Sa und So korrigiert — alle zwölf Termine stehen wieder auf 19:00 / 19:15 / 19:17 UTC und sind einzeln gegengeprüft.
 
 **Sa 29.08.: bestätigt.** Alle sechs Beiträge sind zur richtigen Zeit erschienen — Karussell 21:00, Story Folie 1 um 21:15, Folie 2 um 21:17, auf beiden Kanälen, Folie 1 jeweils vor Folie 2, alle vier Story-URLs unter `/stories/`. Damit ist auch die Ursache belegt: mit mitgeschickter `scheduledTime` halten die Zeiten.
+
+## ⛔ Der Sonntag ist verschwunden — und danach kam nichts mehr
+
+Stand 01.09., 19:15 Ortszeit. `blotato_list_posts` für den **30.08. bis 01.09.** auf Instagram und Facebook, ohne Status-Filter: **leer.** Kein veröffentlichter Beitrag, kein `failed`, kein Eintrag. `blotato_list_schedules` liefert `count: 0` — die sechs Sonntags-Termine sind auch nicht mehr geplant.
+
+Dieselbe Abfrage für den 29.08. liefert weiterhin alle zehn Beiträge. Die Schnittstelle funktioniert also; der Sonntag fehlt tatsächlich.
+
+**Auch die fremde Quelle um 20:05 hat aufgehört.** Sie lief seit Wochen jeden Abend und ist ab dem 30.08. ebenfalls verschwunden. Das spricht dafür, dass die Ursache nicht bei den eigenen Beiträgen liegt, sondern beim Konto oder bei der Verbindung zu den Plattformen.
+
+Was **nicht** die Ursache ist — am 01.09. geprüft:
+
+| Geprüft | Ergebnis |
+|---|---|
+| `blotato_get_user` | `subscriptionStatus: active`, Plan `starter` |
+| `blotato_get_credits` | 5.250 Credits übrig, Konto `mantusova88@gmail.com` |
+| `blotato_list_accounts` | Instagram `52837` und Facebook-Seite `1142132035656393` weiterhin verbunden |
+
+Es liegt also weder an der Bezahlung noch an fehlenden Credits noch an einer abgemeldeten Seite. Warum die sechs Termine ohne Fehlermeldung verschwunden sind, lässt sich über die vorhandenen Aufrufe nicht klären — es gibt keinen Aufruf, der gelöschte oder verworfene Termine anzeigt.
+
+**Bilanz der Woche:** Mo bis Sa gelaufen (36 von 42 Beiträgen), Sonntag ausgefallen. Seit Sa 29.08. 21:17 ist nichts mehr veröffentlicht worden — drei leere Abende.
 
 ## Die doppelten Karussells um 20:05
 
