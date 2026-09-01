@@ -2,6 +2,12 @@
 
 Erstelle ein vollständiges Karussell inkl. Caption mit eingebautem Kommentar-Trigger für die Blotato-Automation.
 
+## WICHTIGSTE REGEL (niemals brechen)
+Ein Karussell = **EIN Beitrag** mit allen Folien zusammen — niemals als Einzelfolien trennen.
+- Posting-Zeit: **21:00 Uhr**
+- Alle 6 Folien gemeinsam in einem einzigen Beitrag
+- Die Story (2 Folien) kommt danach um **21:15 Uhr** als eigener Beitrag
+
 ## Strategie dahinter
 
 Jedes Karussell endet mit einem CTA: "Kommentiere MEHR und ich schicke dir [Freebie/Link] direkt ins Postfach!" → Blotato Automation feuert automatisch → DM mit Link geht raus → mehr Leads ohne manuellen Aufwand.
