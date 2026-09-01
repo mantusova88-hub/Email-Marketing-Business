@@ -64,6 +64,7 @@ Email-Marketing-Business/
 | `/implement` | Plan Schritt für Schritt umsetzen |
 | `/task-audit` | Aufgaben-Interview + Automatisierungs-Scoring |
 | `/instagram-woche` | Social-Media-Woche für Instagram & Facebook planen und terminieren |
+| `/tagespost` | Einen einzelnen Tag: Karussell und Story für Instagram & Facebook |
 
 ---
 
