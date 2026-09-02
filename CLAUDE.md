@@ -74,6 +74,7 @@ Email-Marketing-Business/
 | `/newsletter-plan` | Wöchentlichen E-Mail-Newsletter-Plan mit Betreffzeilen |
 | `/tony-robbins` | Texte in Tony-Robbins-Energie — mit Simones Stimme & echten Zahlen |
 | `/werbeanzeigentext` | 5 Meta-Ads-Texte + Headlines + Descriptions |
+| `/überschrift` | 5 Headline-Varianten mit Transformation, Zahl & Spannung — für Checkout, Betreffzeile oder Hook |
 
 ### Business-Strategie
 | Command | Beschreibung |
