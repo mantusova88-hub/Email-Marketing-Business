@@ -75,6 +75,8 @@ Email-Marketing-Business/
 | `/tony-robbins` | Texte in Tony-Robbins-Energie — mit Simones Stimme & echten Zahlen |
 | `/werbeanzeigentext` | 5 Meta-Ads-Texte + Headlines + Descriptions |
 | `/überschrift` | 5 Headline-Varianten mit Transformation, Zahl & Spannung — für Checkout, Betreffzeile oder Hook |
+| `/reel-skript` | Fertiges Reels-Skript mit Hook, Körper & CTA — in 30 Sekunden |
+| `/willkommensserie` | 5-E-Mail Welcome-Sequenz für neue Subscriber — einmal aufgesetzt, läuft automatisch |
 
 ### Business-Strategie
 | Command | Beschreibung |
