@@ -55,13 +55,45 @@ Email-Marketing-Business/
 
 ## 4. Verfügbare Commands
 
+### Tages-Workflow
 | Command | Beschreibung |
 |---|---|
-| `/prime` | Session-Start: Claude scannt alle Kontext-Dateien |
-| `/install` | Neue Schicht installieren |
+| `/start` | Morgen-Routine: KPIs laden, Tag ausrichten, 3 Fokus-Aufgaben |
+| `/capture` | Idee oder Aufgabe blitzschnell festhalten |
+| `/plan` | Wochenplan erstellen (montags) |
+| `/shutdown` | Tag abschließen, Wins feiern |
+| `/review` | Wochenrückblick: KPIs, Wins, Lernmomente (freitags) |
+
+### Content & Copy
+| Command | Beschreibung |
+|---|---|
+| `/content` | Caption, Karussell oder Reels-Skript in Simones Stimme |
+| `/karussell` | Vollständiges Karussell mit Kommentar-Trigger für Blotato-Automation |
+| `/emails` | Einzelne E-Mail schreiben (Newsletter, Story, Ankündigung) |
+| `/instagram-plan` | Wöchentlichen Instagram-Content-Plan mit starken Hooks |
+| `/newsletter-plan` | Wöchentlichen E-Mail-Newsletter-Plan mit Betreffzeilen |
+| `/tony-robbins` | Texte in Tony-Robbins-Energie — mit Simones Stimme & echten Zahlen |
+| `/werbeanzeigentext` | 5 Meta-Ads-Texte + Headlines + Descriptions |
+| `/überschrift` | 5 Headline-Varianten mit Transformation, Zahl & Spannung — für Checkout, Betreffzeile oder Hook |
+| `/reel-skript` | Fertiges Reels-Skript mit Hook, Körper & CTA — in 30 Sekunden |
+| `/willkommensserie` | 5-E-Mail Welcome-Sequenz für neue Subscriber — einmal aufgesetzt, läuft automatisch |
+
+### Business-Strategie
+| Command | Beschreibung |
+|---|---|
+| `/funnel` | Funnel-Architektur planen (Lead Magnet → Liste → Verkauf) |
+| `/landingpage` | Vollständige Landingpage- oder Salespage-Texte |
+| `/webinar` | Webinar-Skript mit 3-Phasen-Architektur |
+| `/zielgruppe` | Sprache, Schmerzpunkte & Trigger der Mama-Zielgruppe |
+
+### System & Planung
+| Command | Beschreibung |
+|---|---|
+| `/prime` | Session-Start: alle Kontext-Dateien laden |
 | `/create-plan` | Durchdachten Implementierungsplan erstellen |
 | `/implement` | Plan Schritt für Schritt umsetzen |
 | `/task-audit` | Aufgaben-Interview + Automatisierungs-Scoring |
+| `/install` | Neue Schicht installieren |
 
 ---
 
