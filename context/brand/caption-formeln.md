@@ -52,13 +52,15 @@ Drei Ausrufezeichen, ein Fragezeichen, zwei Bindestriche, ein Ton, der drückt s
 ## Link-CTA für den Story-Repost
 
 Wenn Monika den Link zu einem Karussell-Beitrag per Link-Sticker in ihre Story teilt, kommt darunter
-dieser Satz (immer derselbe, unabhängig vom Tagesthema):
+einer dieser Sätze. Mehrere Varianten, damit es nicht jedes Mal gleich klingt — nie zweimal
+hintereinander denselben nutzen:
 
 ```
-Der ganze Beitrag wartet oben auf dich.
+Mehr dazu im Beitrag oben.
+Der Rest steht im Beitrag.
+Ganzer Gedanke oben verlinkt.
+Alles dazu im Beitrag.
 ```
-
-Kurz, ohne Satzzeichen-Verstoß, führt zum Klick auf den Link, ohne zu drängen.
 
 ## ⚠️ Widerspruch in den Quellen (bitte Monika klären lassen)
 
