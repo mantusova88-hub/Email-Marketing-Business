@@ -28,6 +28,24 @@ danach kleiner."
 Hook (ein bis zwei Sätze, der ertappende Moment) → ein bis zwei Zeilen Subtext, die andeuten,
 worum es geht → Hinweis zum Weiterwischen.
 
+## Weitere echte Hook-Beispiele (aus `reference/hooks.md`)
+
+```
+Ich hab meiner besten Freundin erzählt, dass ich mich schuldig fühle, wenn ich mir eine Stunde
+für mich nehme. Ihre Antwort: Du bist die Einzige, die das von dir erwartet. Das hat mich
+wachgerüttelt.
+
+Mein Business lief, aber ich lag abends im Bett und hab mich gefragt, warum sich Erfolg anfühlt
+wie Erschöpfung. Weil ich das Gefühl hatte, ich darf nicht aufhören, sonst bricht alles zusammen.
+
+Letzte Woche bin ich morgens aufgewacht und hab gemerkt, ich kann mich nicht mehr an den letzten
+Tag erinnern, an dem ich NICHT für alle anderen da war. Nicht für mein Kind, nicht für Kunden,
+nicht für den Haushalt, nur für mich.
+```
+
+Diese drei sind persönliche Anekdoten von Monika selbst und zeigen eine weitere gute Hook-Form:
+die eigene, konkrete Situation mit Wendepunkt am Ende, in der ersten Person erzählt.
+
 ## ⚠️ Offen: die vollständige Hook-Typologie
 
 Der Skill hat ursprünglich mit **fünf benannten Hook-Arten** gearbeitet. Diese Liste selbst war in

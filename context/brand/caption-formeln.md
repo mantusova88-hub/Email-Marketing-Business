@@ -49,6 +49,15 @@ Dein Business-Alltag als Teilzeit-Mama ist heraus-fordernd, aber...
 ```
 Drei Ausrufezeichen, ein Fragezeichen, zwei Bindestriche, ein Ton, der drückt statt zu tragen.
 
+## ⚠️ Widerspruch in den Quellen (bitte Monika klären lassen)
+
+In `outputs/karussell-captions-woche-20-26-07.md` (Woche 20. bis 26.07., älter) liegen 7 echte,
+tatsächlich gepostete Captions. Die nutzen aber Emojis, Fragezeichen und teils 8 Hashtags — das
+widerspricht der oben stehenden, neueren Regel aus `caption-stil.md` (Stand 02.09.2026, dort als
+„nicht verhandelbar" markiert). Vermutlich hat sich der Stil seitdem hin zu ruhiger, ohne Emojis
+und Satzzeichen entwickelt, passend zu Burgund und Gold. Diese Datei folgt deshalb der neueren,
+strengeren Regel. Falls das nicht stimmt, bitte kurz Bescheid geben.
+
 ## ⚠️ Offen: vier weitere Formeln
 
 Der Skill sollte ursprünglich mit **fünf** Caption-Formeln arbeiten. Nur eine davon (oben) war in
