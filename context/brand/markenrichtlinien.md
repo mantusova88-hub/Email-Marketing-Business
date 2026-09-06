@@ -1,11 +1,11 @@
 # MARKENRICHTLINIEN — Farben und Schriften
 
-> Aus `context/business-info.md` (bereits von Monika bestätigt).
+> Von Monika am 06.09.2026 bestätigt.
 
 ## Farben
 
-- **Burgund:** `#800220`
-- **Gold:** `#B59156`
+- **Burgund:** `#800020`
+- **Gold:** `#b59156`
 
 ## Schriften
 
