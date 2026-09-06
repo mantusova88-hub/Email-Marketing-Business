@@ -49,6 +49,17 @@ Dein Business-Alltag als Teilzeit-Mama ist heraus-fordernd, aber...
 ```
 Drei Ausrufezeichen, ein Fragezeichen, zwei Bindestriche, ein Ton, der drückt statt zu tragen.
 
+## Link-CTA für den Story-Repost
+
+Wenn Monika den Link zu einem Karussell-Beitrag per Link-Sticker in ihre Story teilt, kommt darunter
+dieser Satz (immer derselbe, unabhängig vom Tagesthema):
+
+```
+Der ganze Beitrag wartet oben auf dich.
+```
+
+Kurz, ohne Satzzeichen-Verstoß, führt zum Klick auf den Link, ohne zu drängen.
+
 ## ⚠️ Widerspruch in den Quellen (bitte Monika klären lassen)
 
 In `outputs/karussell-captions-woche-20-26-07.md` (Woche 20. bis 26.07., älter) liegen 7 echte,
