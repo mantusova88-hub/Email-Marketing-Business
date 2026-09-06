@@ -60,6 +60,10 @@ Mehr dazu im Beitrag oben.
 Der Rest steht im Beitrag.
 Ganzer Gedanke oben verlinkt.
 Alles dazu im Beitrag.
+Weiterlesen im Beitrag oben.
+Ganzer Text steht oben.
+Dazu mehr im Beitrag.
+Den Beitrag findest du oben.
 ```
 
 ## ⚠️ Widerspruch in den Quellen (bitte Monika klären lassen)
