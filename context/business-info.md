@@ -9,7 +9,11 @@
 
 ## Zielgruppe
 
-<!-- Wer sind deine idealen Kunden? (z.B. selbständige Mamas, die E-Mail-Marketing nutzen wollen) -->
+- **Alter:** 30–45 Jahre
+- **Situation:** Mamas mit kleinen Kindern, oft mit eigenem Business/Selbständigkeit nebenbei
+- **Probleme:** Erschöpfung, schwierige Grenzen setzen, Schuldgefühle
+- **Wünsche:** Mehr innere Ruhe, eigenes Business aufbauen, sich selbst wieder wichtig nehmen
+- **Zentrale Transformation:** Von einer erschöpften Mama, die sich in ihrem Business und Alltag ständig verausgabt und schlecht abgrenzt, zu einer Frau, die klare Grenzen setzt, sich selbst wieder wichtig nimmt und ihr E-Mail-Marketing/Business mit innerer Ruhe statt Überforderung führt.
 
 ## Angebote & Services
 
@@ -39,8 +43,11 @@
 
 ## Branding
 
-- **Burgund:** `#800220`
+- **Burgund:** `#800020`
 - **Gold:** `#B59156`
+- **Titelbild-Schrift (Überschriften/Kicker):** Fontref YAEqenDlk44 (Canva-Schriftname noch zu bestätigen)
+- **Fließtext-Schrift (Body/CTA/Handle):** Fontref YAGyDvJ_4Ts, fett — vermutlich Arial
+- **Branding-Handle:** @emailsmitmonika_ — immer auf der letzten Seite, unten zentriert
 
 ## Wichtige Links
 
