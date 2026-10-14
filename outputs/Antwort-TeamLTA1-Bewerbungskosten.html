@@ -4,35 +4,39 @@
 <meta charset="UTF-8">
 <title>Antwort an Team LTA 1 – Bewerbungskosten</title>
 <style>
-  @page { margin: 2.5cm; }
+  @page { margin: 2.5cm 2.5cm 2cm 2.5cm; }
   body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    line-height: 1.5;
+    font-size: 11.5pt;
+    line-height: 1.45;
     color: #000;
     max-width: 17cm;
-    margin: 2cm auto;
+    margin: 1.5cm auto;
     padding: 0 1cm;
   }
-  .kopf div { line-height: 1.4; }
-  .empfaenger { margin: 1.4em 0; }
-  .datum { text-align: right; }
-  .betreff { font-weight: bold; margin: 1.4em 0 1em 0; }
-  p { margin: 0.7em 0; }
+  .absender {
+    font-size: 8pt;
+    color: #000;
+    border-bottom: 0.6pt solid #000;
+    padding-bottom: 2px;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.2px;
+  }
+  .empfaenger { margin-bottom: 1.6em; line-height: 1.4; }
+  .datum { text-align: right; margin-bottom: 1.4em; }
+  .betreff { font-weight: bold; margin: 0 0 1.1em 0; }
+  p { margin: 0.7em 0; text-align: justify; }
   ul { margin: 0.4em 0; padding-left: 1.3em; }
   li { margin: 0.3em 0; }
-  .gruss { margin-top: 1.8em; }
-  .unterschrift { margin-top: 2.2em; }
+  .gruss { margin-top: 1.6em; }
+  .unterschrift { margin-top: 2em; }
+  .anlagen { margin-top: 1.4em; font-size: 10.5pt; }
   @media print { body { margin: 0; } }
 </style>
 </head>
 <body>
 
-<div class="kopf">
-  <div>Monika Antušová</div>
-  <div>Hasselbrookstraße 74</div>
-  <div>22089 Hamburg</div>
-</div>
+<div class="absender">Monika Antušová · Hasselbrookstraße 74 · 22089 Hamburg</div>
 
 <div class="empfaenger">
   Deutsche Rentenversicherung Nord<br>
@@ -40,7 +44,7 @@
   23544 Lübeck
 </div>
 
-<p class="datum">Hamburg, den ____________</p>
+<div class="datum">Hamburg, den ____________</div>
 
 <div class="betreff">
   Ihr Schreiben vom 30.09.2026 – Antrag auf Erstattung von Bewerbungskosten<br>
@@ -72,10 +76,10 @@
 
 <p class="unterschrift">Monika Antušová</p>
 
-<p style="margin-top:1.5em; font-size:11pt;">Anlagen:<br>
+<div class="anlagen">Anlagen:<br>
 – Fahrtkosten-Bescheinigung der pebb zwei GmbH vom 10.07.2026 (Kopie)<br>
 – Bewerbungsnachweis (Kopie)<br>
-– Einlieferungsbeleg Einschreiben vom 11.07.2026 (Sendungsnummer RT 3641 2876 2DE) (Kopie)</p>
+– Einlieferungsbeleg Einschreiben vom 11.07.2026 (Sendungsnummer RT 3641 2876 2DE) (Kopie)</div>
 
 </body>
 </html>
