@@ -5,11 +5,15 @@
 
 ## Was macht mein Business?
 
-<!-- Beschreibe hier kurz, womit dein Business Geld verdient -->
+E-Mail-Marketing für selbständige Mamas. Monika hilft ihrer Zielgruppe dabei,
+Business, Familie, Kind und Haushalt zu schaffen und dabei auch Zeit für sich
+selbst zu finden.
 
 ## Zielgruppe
 
-<!-- Wer sind deine idealen Kunden? (z.B. selbständige Mamas, die E-Mail-Marketing nutzen wollen) -->
+Selbständige Mamas mit Teilzeitjob und zweitem Standbein, die ihr
+E-Mail-Marketing aufbauen wollen und gleichzeitig Business, Familie, Kind,
+Haushalt und sich selbst unter einen Hut bringen müssen.
 
 ## Angebote & Services
 
