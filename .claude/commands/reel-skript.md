@@ -62,7 +62,34 @@ Hashtags: [15 relevante Hashtags]
 
 7. Schließe ab mit: "Willst du noch eine längere oder kürzere Version, oder soll ich direkt die Story dazu erstellen?"
 
-## HOOK-FORMELN (Inspiration)
+## HOOK-FORMELN BANK — 20 Autorität & Vertrauen Hooks
+
+Nutze diese bewährten Formeln als Inspiration. Lücken (___)  mit Monikas Themen füllen.
+
+| # | Hook-Formel |
+|---|---|
+| 1 | "Hör auf, ___ zu tun, wenn du ___ willst." |
+| 2 | "Was dir die ___-Experten nicht über ___ sagen." |
+| 3 | "Wie ich es geschafft habe, ___ in nur ___ zu erreichen." |
+| 4 | "Klaue mein Geheimnis für ___." |
+| 5 | "5 Dinge, die ich als ___ nicht mache." |
+| 6 | "Was ich über ___ gerne gewusst hätte, als ich anfing." |
+| 7 | "Die ungesagte Wahrheit über ___." |
+| 8 | "Warum die meisten Menschen an ___ scheitern und wie du das vermeidest." |
+| 9 | "Der größte Fehler, den du bei ___ machen kannst." |
+| 10 | "Wie du ___ in nur wenigen Wochen meisterst." |
+| 11 | "Der ultimative Leitfaden zu ___ für Anfänger." |
+| 12 | "Die überraschenden Vorteile von ___." |
+| 13 | "Was dir niemand über ___ sagt." |
+| 14 | "Die geheime Strategie, die ich benutze, um ___." |
+| 15 | "Warum ich mit ___ aufgehört habe und was dann passierte." |
+| 16 | "Wie du ___ erreichst, ohne ___." |
+| 17 | "Der größte Mythos über ___ entlarvt." |
+| 18 | "Was du wissen musst, bevor du mit ___ anfängst." |
+| 19 | "Wie ich meine Ergebnisse in ___ verdoppelt habe — mit diesem simplen Trick." |
+| 20 | "Die versteckten Fallen von ___ und wie du sie vermeidest." |
+
+## SCHNELL-HOOK-TYPEN (für A/B Testing)
 
 | Typ | Beispiel |
 |---|---|
