@@ -64,5 +64,54 @@ Zusätzlich bereits als Wochenthema gebaut und gepostet:
 - KW35: EINSAM (Samstag), VORBILD (Sonntag), HILFE (Freitag)
 - KW36: GRENZEN (Montag), VERGLEICH (Dienstag), WARTEN (Mittwoch), FEHLER (Donnerstag),
   ZEIT (Freitag), STOLZ (Samstag), ANFANG (Sonntag)
+- KW40: MORGENROUTINE (Dienstag, gepostet), KRANKENTAG (Mittwoch, gepostet), STOLZ erneut
+  aufgegriffen (Donnerstag, gebaut), ZEIT FÜR DICH (Freitag, gebaut, nie freigegeben)
+- KW44 (ab 26.10.26, gebaut aus den „20 Hooks"/„7 Reel Ideen"-Vorlagen vom 25.10.): RUHE (Montag),
+  KLARHEIT (Dienstag), DANKBARKEIT (Mittwoch), LOSLASSEN (Donnerstag), FOKUS (Freitag),
+  ZUFRIEDENHEIT (Samstag), ERLAUBNIS (Sonntag) — voller Text in `outputs/content-kw44.md`
 
 Diese Liste bei jedem neuen Thema weiterführen, damit sich nichts wiederholt.
+
+## Externe Hook-Formeln als Gerüst (nicht Monikas eigene Stimme, nur Struktur)
+
+Am 25.10.2026 von Monika geschickt: zwei generische Vorlagen-Grafiken („20 Hooks um Autorität und
+Vertrauen aufzubauen", „7 Reel Ideen für die ganze Woche"), nicht aus ihrer eigenen Marke, sondern
+Fill-in-the-blank-Formeln von einem fremden Account. Sie dienen nur als **Satzgerüst**, der
+tatsächliche Inhalt in den Lücken muss immer durch Monikas Stimme (brand-voice.md) ersetzt werden,
+nie wörtlich übernommen.
+
+**Die Wochenformel (Mo–So), für KW44 bereits verwendet:**
+```
+Mo — Sag mal, seit wann bist du eigentlich ___
+Di — 3 Dinge, die ich NICHT gemacht habe, um ___
+Mi — Diese Dinge erzählt dir niemand über ___
+Do — Glaub mir, ___ wird dir nichts bringen. Welche 3 Dinge du hingegen tun solltest
+Fr — Seit ich nicht mehr regelmässig ___ mache, hat sich ___ radikal verändert
+Sa — Schau mal, meine Kundin hat ___ umgesetzt, und das ist passiert
+So — Mit dieser simplen Strategie kannst du ___ ohne ___
+```
+
+**Die 20-Hooks-Liste** (für künftige Cover-Hooks, noch nicht verwendet, bei Bedarf einzeln auf ein
+Thema anwenden und in Monikas Ton umschreiben, Fragezeichen immer als Aussage formulieren):
+```
+1. Hör auf, ___ zu tun, wenn du ___ willst.
+2. Was dir die ___-Expertinnen nicht über ___ sagen.
+3. Wie ich es geschafft habe, ___ in nur ___ Zeit zu erreichen.
+4. Klaue mein Geheimnis für ___.
+5. 5 Dinge, die ich als ___ nicht mache.
+6. Was ich über ___ gerne gewusst hätte, als ich anfing.
+7. Die ungesagte Wahrheit über ___.
+8. Warum die meisten Mamas an ___ scheitern und wie du das vermeidest.
+9. Der größte Fehler, den du bei ___ machen kannst.
+10. Wie du ___ in nur wenigen Wochen meisterst.
+11. Der Leitfaden zu ___ für Anfängerinnen.
+12. Die überraschenden Vorteile von ___.
+13. Was dir niemand über ___ sagt.
+14. Die Strategie, die ich benutze, um ___.
+15. Warum ich mit ___ aufgehört habe und was dann passierte.
+16. Wie du ___ erreichst, ohne ___.
+17. Der größte Mythos über ___ entlarvt.
+18. Was du wissen musst, bevor du mit ___ anfängst.
+19. Wie ich meine Ergebnisse bei ___ verdoppelt habe, mit diesem einfachen Trick.
+20. Die versteckten Fallen von ___ und wie du sie vermeidest.
+```
