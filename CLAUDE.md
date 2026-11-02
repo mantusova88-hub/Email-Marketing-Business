@@ -62,6 +62,13 @@ Email-Marketing-Business/
 | `/create-plan` | Durchdachten Implementierungsplan erstellen |
 | `/implement` | Plan Schritt für Schritt umsetzen |
 | `/task-audit` | Aufgaben-Interview + Automatisierungs-Scoring |
+| `/wochenreels` | Komplette Content-Woche aus den 7 Tages-Hook-Formeln |
+| `/reel-skript` | Einzelnes Reel-Skript aus der 20-Hook-Bibliothek |
+| `/willkommensserie` | Willkommens-E-Mail-Serie für neue Subscriber |
+| `/betreffzeilen` | 10 Betreffzeilen-Varianten zu einem Thema |
+| `/story` | Einzelne Instagram Story (2 Folien) mit CTA |
+| `/testimonial` | Kundenstimme für Salespage/Ads aufbereiten |
+| `/ueberschrift` | Überschrift für Checkout-Seite, Betreffzeile oder Hook |
 
 ---
 
