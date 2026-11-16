@@ -68,7 +68,13 @@ Zusätzlich bereits als Wochenthema gebaut und gepostet:
   aufgegriffen (Donnerstag, gebaut), ZEIT FÜR DICH (Freitag, gebaut, nie freigegeben)
 - KW44 (ab 26.10.26, gebaut aus den „20 Hooks"/„7 Reel Ideen"-Vorlagen vom 25.10.): RUHE (Montag),
   KLARHEIT (Dienstag), DANKBARKEIT (Mittwoch), LOSLASSEN (Donnerstag), FOKUS (Freitag),
-  ZUFRIEDENHEIT (Samstag), ERLAUBNIS (Sonntag) — voller Text in `outputs/content-kw44.md`
+  ZUFRIEDENHEIT (Samstag), ERLAUBNIS (Sonntag) — voller Text in `outputs/content-kw44.md`.
+  KW44 wurde nach Montag nicht fortgesetzt, Canva-Design-Stil sollte neu werden.
+- Neue Woche im Video-Skript-Format (ab 16.11.26, HeyGen-Avatar-Videos statt Karussell zuerst):
+  VERGLEICH (Thema 1, von Monika selbst geliefert, Wiederholung aus KW36, ihre eigene Wahl),
+  ZEIT FÜR DICH (Thema 2, von Monika selbst geliefert, Wiederholung von KW36 ZEIT, ihre eigene
+  Wahl), SCHULDGEFÜHLE (Thema 3), PERFEKTIONISMUS (Thema 4), KLEINE SCHRITTE (Thema 5), MUT
+  (Thema 6), SICHTBARKEIT (Thema 7) — voller Text in `outputs/content-woche-video-format.md`
 
 Diese Liste bei jedem neuen Thema weiterführen, damit sich nichts wiederholt.
 
